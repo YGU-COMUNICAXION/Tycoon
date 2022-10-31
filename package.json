@@ -1,0 +1,28 @@
+{
+  "name": "tycoon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "tycoon",
+  "author": "Adriano Ortiz Garda",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "gatsby": "^4.24.5",
+    "gatsby-plugin-google-analytics": "^4.24.0",
+    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-sitemap": "^5.24.0",
+    "gatsby-plugin-styled-components": "^5.24.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.6"
+  }
+}
