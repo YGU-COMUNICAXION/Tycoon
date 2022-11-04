@@ -1,0 +1,21 @@
+.switchLeng {
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .switchLeng__LngList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .switchLeng__LngList__LngItem {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+  
+  .switchLeng__LngList__LngItem__LngLink {
+    text-decoration: none;
+    color: black;
+  }
+  
