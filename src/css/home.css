@@ -1,0 +1,12 @@
+.homeFirstSection {
+    background-image: url("../images/mobile/home/banner-home-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.homeFourthSection {
+    background-image: url('../images/mobile/home/oficina.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}

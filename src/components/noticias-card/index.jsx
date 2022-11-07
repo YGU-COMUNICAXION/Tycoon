@@ -1,14 +1,17 @@
 import React from 'react'
+import "./styles.css"
+import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
-const NoticiasCard = () => {
+const NoticiasCard = ({image, title, date}) => {
   return (
     <div className='noticiaMainDiv'>
         <div className='noticiaUpperDiv'>
-            <img/>
-            <p className='noticiaTitle'></p>
+            <img src={image}/>
+            <p className='noticiaTitle'>{title}</p>
         </div>
         <div className='noticiaUnderDiv'>
-            <p className='noticiaDate'></p>
+            <p className='noticiaDate'>{date}</p>
+            <img src={Mas} className="mas"/>
         </div>
     </div>
   )

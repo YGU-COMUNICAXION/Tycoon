@@ -1,0 +1,5 @@
+.noticiasRecientesDiv {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}

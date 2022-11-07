@@ -1,0 +1,24 @@
+.noticiaMainDiv {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    margin: 2%;
+}
+.noticiaUpperDiv img {
+    width: 100%;
+}
+.noticiaTitle {
+    font-family: "B Medium";
+}
+.noticiaUpperDiv {
+    height: 55%;
+    margin-bottom: 25%;
+}
+.noticiaDate {
+    font-family: "B SemiBold";
+    color: #0093D7;
+    
+}
+.mas {
+    width: 25%;
+}
