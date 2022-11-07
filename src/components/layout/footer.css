@@ -1,0 +1,52 @@
+.footerNav {
+    display: flex;
+    flex-direction: column;
+}
+.footerTitle {
+    font-family: "B Bold";
+}
+.teInteresa {
+    font-family: "B SemiBold";
+}
+.escribenos {
+    font-family: "B SemiLight";
+}
+.escribenos span {
+    font-family: "B SemiBold";
+    color: #0093D7;
+}
+.footerNav a  {
+    font-family: "B SemiLight";
+    text-decoration: none;
+    color: black;
+}
+.underFooterDiv {
+    background-color: #051C2C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.underFooterDiv p {
+    font-family: "B SemiLight";
+    color: #0081C3;
+}
+.underPgroup {
+    text-align: center;
+}
+@font-face {
+    font-family: "B Bold";
+    src: url("../../static/fonts/Branding\ Bold.otf");
+}
+@font-face {
+    font-family: "B SemiBold";
+    src: url("../../static/fonts/Branding\ Semibold.otf");
+}
+@font-face {
+    font-family: "B Medium";
+    src: url("../../static/fonts/Branding\ Medium.otf");
+}
+@font-face {
+    font-family: "B SemiLight";
+    src: url("../../static/fonts/Branding\ Semilight.otf");
+}

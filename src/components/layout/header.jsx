@@ -193,7 +193,7 @@ const MobileNav = styled.nav`
   a {
     text-decoration: none;
     color: Black;
-    font-family: "M SemiBold";
+    font-family: "B Medium";
     font-size: 18px;
     margin-bottom: 16px;
   }
@@ -213,13 +213,11 @@ const Header = () => {
         </Link>
       </div>
       <nav>
-        <Link to="inicio">{t("home")}</Link>
-        <Link to="sobre">{t("about")}</Link>
-        <Link to="servicios">{t("services")}</Link>
-        <Link to="instalaciones">{t("instalations")}</Link>
-        <Link to="cita">{t("appointment")}</Link>
-        <Link to="testimonios">{t("testimonials")}</Link>
-        <Link to="contacto">{t("contact")}</Link>
+        <Link to="/">{t("home")}</Link>
+        <Link to="/about-us">{t("us")}</Link>
+        <Link to="/brands">{t("brands")}</Link>
+        <Link to="/news">{t("news")}</Link>
+        <Link to="/contact">{t("contact")}</Link>
       </nav>
       <SwitchLeng />
     </HeaderTag>
@@ -240,11 +238,11 @@ const Header = () => {
       </HeaderTag>
       {nav ? (
         <MobileNav>
-          <Link to="inicio">{t("home")}</Link>
-          <Link to="sobre">{t("us")}</Link>
-          <Link to="servicios">{t("brands")}</Link>
-          <Link to="instalaciones">{t("news")}</Link>
-          <Link to="cita">{t("contact")}</Link>
+            <Link to="/">{t("home")}</Link>
+            <Link to="/about-us">{t("us")}</Link>
+            <Link to="/brands">{t("brands")}</Link>
+            <Link to="/news">{t("news")}</Link>
+            <Link to="/contact">{t("contact")}</Link>
         </MobileNav>
       ) : null}
     </div>

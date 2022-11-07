@@ -1,0 +1,14 @@
+.redesCardDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.redLogo {
+    width: 10%;
+    margin-right: 3%;
+}
+.redName{
+    font-family: "B SemiLight";
+    font-size: 110%;
+}
