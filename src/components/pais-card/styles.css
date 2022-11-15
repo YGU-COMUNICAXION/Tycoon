@@ -1,6 +1,14 @@
 .paisCardDiv {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 25%;
+}
+.paisImage {
+    width: 80%;
+}
+.paisName {
+    font-family: "B Semilight";
+    /* font-size: 14px; */
 }

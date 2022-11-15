@@ -1,5 +1,5 @@
 import React from "react"
-import { useI18next, useTranslation } from "gatsby-plugin-react-i18next";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 import renderStringHMTLtoJSX from "../utils/renderStringHTMLtoJSX";
 import Layout from "../components/layout"
 import "../css/home.css"
@@ -11,6 +11,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
+      <div className="MainDiv">
         <div className="homeFirstSection"></div>
         <div className="homeSecondSection">
             <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
@@ -27,7 +28,8 @@ const IndexPage = () => {
               <Button buttonText={t("contact")}/>
             </div>
         </div> 
-        <div className="homeFourthSection"/>      
+        <div className="homeFourthSection"/>    
+      </div>
     </Layout>
   )
 }

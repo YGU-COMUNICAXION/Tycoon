@@ -5,12 +5,15 @@ body {
     padding: 0 ;
     overflow-x: hidden;
 }
+.MainDiv {
+    margin-top: 18%;
+}
 .homeFirstSection {
     background-image: url("../images/mobile/home/banner-home-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 700px;
+    height: 750px;
 }
 .sectionTitle {
     font-family: "B Bold";
@@ -46,8 +49,8 @@ body {
 }
 .homeFourthSection {
     background-image: url("../images/mobile/home/oficina.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 200px;
+    height: 175px;
 }

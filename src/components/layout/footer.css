@@ -1,9 +1,18 @@
+.upperFooterDiv {
+    background-color: #F0F0F0;
+    padding: 7% 4% ;
+}
 .footerNav {
     display: flex;
     flex-direction: column;
 }
 .footerTitle {
     font-family: "B Bold";
+}
+.paisesRow {
+    display: flex;
+    flex-direction: row;
+    
 }
 .teInteresa {
     font-family: "B SemiBold";
