@@ -1,0 +1,12 @@
+.newsFirstSection {
+    background-image: url("../images/mobile/noticias/PORTADANOTICIAS.png");
+    background-size: cover;
+    height: 128px;
+}
+.newsSecondSection {
+    padding: 10% 0% 1% 4%;
+}
+.newsThirdSection {
+    padding: 10% 4% 1% 4%;
+
+}

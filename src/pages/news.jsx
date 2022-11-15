@@ -1,28 +1,13 @@
-import React from "react"
-import { useTranslation } from "gatsby-plugin-react-i18next";
-import renderStringHMTLtoJSX from "../utils/renderStringHTMLtoJSX";
-import Layout from "../components/layout"
-import "../css/news.css"
-import NoticiasRecientes from "../components/noticias-recientes"
+import React from "react";
+import { graphql } from "gatsby";
+import NewsPage from "./newsPage";
 
+const Index = () => {
+  return <NewsPage />;
+};
 
-const NewsPage = () => {
-    const { t } = useTranslation("news");
+export default Index;
 
-    return (
-        <Layout>
-            <div className="MainDiv">
-                <div className="newsFirstSection"/>
-                <div className="newsSecondSection">
-                    <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
-                </div>
-                <div className="newsThirdSection"></div>
-            </div>
-        </Layout>
-    )
-}
-
-export default NewsPage
 export const query = graphql`
   query ($language: String!) {
     locales: allLocale(filter: { language: { eq: $language } }) {

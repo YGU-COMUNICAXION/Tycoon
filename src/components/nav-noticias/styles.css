@@ -1,0 +1,28 @@
+.nav{
+    display: flex ;
+    flex-direction: row ;
+    overflow-x: auto ;
+    flex-wrap: nowrap;
+}
+.nav-link {
+    color: #222222;
+    font-size: 110%;
+    font-family: "B SemiBold";
+    text-decoration: none;
+}
+.nav-item {
+    display: flex;
+    justify-content: center;
+    min-width: 25%;
+}
+ .nav-link:hover {
+    color: #137E97;
+  
+}
+.noticiasRow {
+    display: flex;
+    flex-direction: row;
+}
+.noticiasGrid {
+    margin-top: 15%;
+}
