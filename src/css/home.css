@@ -1,12 +1,53 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 ;
+    overflow-x: hidden;
+}
 .homeFirstSection {
     background-image: url("../images/mobile/home/banner-home-mobile.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    height: 700px;
+}
+.sectionTitle {
+    font-family: "B Bold";
+    margin-bottom: 10%;
+}
+.sectionTitle span {
+    font-family: "B SemiLight";
+}
+.regularP {
+    font-family: "B SemiLight";
+    font-size: 20px;
+}
+.regularP span {
+    font-family: "B Bold";
+}
+.homeSecondSection {
+    padding: 10% 0% 1% 4%;
+}
+.secondSectionButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondSectionButton {
+    width: 30%;
+}
+.homeThirdSection {
+    padding: 10% 4% 8% 4%;
+}
+.thirdSectionButton {
+    width: 50%;
+    margin-top: 15%;
 }
 .homeFourthSection {
-    background-image: url('../images/mobile/home/oficina.png');
+    background-image: url("../images/mobile/home/oficina.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
+    height: 200px;
 }
