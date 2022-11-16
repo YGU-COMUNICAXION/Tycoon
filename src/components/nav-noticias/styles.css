@@ -1,7 +1,6 @@
 .nav{
     display: flex ;
     flex-direction: row ;
-    overflow-x: auto ;
     flex-wrap: nowrap;
 }
 .nav-link {
@@ -25,4 +24,7 @@
 }
 .noticiasGrid {
     margin-top: 15%;
+}
+.navDivisor {
+    border: solid .5px black
 }

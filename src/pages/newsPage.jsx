@@ -17,7 +17,7 @@ const NewsPage = () => {
                     <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
                 </div>
                 <div className="newsThirdSection">
-                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("news"))}</h2>
+                    <h2 className="sectionTitle">{t("newstitle")}</h2>
                     <NoticiasNav/>
                 </div>
             </div>

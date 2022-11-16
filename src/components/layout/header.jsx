@@ -208,13 +208,13 @@ const Header = () => {
   return windowSize > 752 ? (
     <HeaderTag>
       <div>
-        <Link to="inicio">
+        <Link to="/">
           <img src={Logo} alt="logo" />
         </Link>
       </div>
       <nav>
         <Link to="/">{t("home")}</Link>
-        <Link to="/about-us">{t("us")}</Link>
+        <Link to="/aboutUs">{t("us")}</Link>
         <Link to="/brands">{t("brands")}</Link>
         <Link to="/news">{t("news")}</Link>
         <Link to="/contact">{t("contact")}</Link>
@@ -228,7 +228,7 @@ const Header = () => {
           <img src={Menu} nav={nav} onClick={() => setNav(!nav)} />
         </div>
         <div>
-          <Link to="inicio">
+          <Link to="/">
             <img src={Logo} alt="logo" />
           </Link>
         </div>
@@ -239,7 +239,7 @@ const Header = () => {
       {nav ? (
         <MobileNav>
             <Link to="/">{t("home")}</Link>
-            <Link to="/about-us">{t("us")}</Link>
+            <Link to="/aboutUs">{t("us")}</Link>
             <Link to="/brands">{t("brands")}</Link>
             <Link to="/news">{t("news")}</Link>
             <Link to="/contact">{t("contact")}</Link>
