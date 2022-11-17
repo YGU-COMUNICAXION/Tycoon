@@ -14,6 +14,10 @@ import Merch from "../images/mobile/reconocimientos/merch.png"
 import Retail from "../images/mobile/premios/best-retail.png"
 import Agent from "../images/mobile/premios/best-agent.png"
 import Mk from "../images/mobile/premios/best-mkt.png"
+import InstitucionesCard from "../components/institucionesCard"
+import Museo from "../images/mobile/instituciones/museo.png"
+import Cadena from "../images/mobile/instituciones/cadena.png"
+import Vivienda from "../images/mobile/instituciones/vivienda.png"
 
 
 const AboutUsPage = () => {
@@ -79,7 +83,9 @@ const AboutUsPage = () => {
                 <div className="contactSeventhSection">
                     <img/>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("contactResposability"))}</h2>
-                    {/* institucionesCards */}
+                    <InstitucionesCard image={Museo} institucionName={t("museoName")} info={t("museoInfo")}/>
+                    <InstitucionesCard image={Cadena} institucionName={t("cadenaName")} info={t("cadenaInfo")}/>
+                    <InstitucionesCard image={Vivienda} institucionName={t("viviendaName")} info={t("viviendaInfo")}/>
                 </div>
             </div>
         </Layout>
