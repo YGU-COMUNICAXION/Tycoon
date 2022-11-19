@@ -18,6 +18,8 @@ body {
 .sectionTitle {
     font-family: "B Bold";
     margin-bottom: 10%;
+    font-size: 28px;
+    line-height: 32px;
 }
 .sectionTitle span {
     font-family: "B SemiLight";
@@ -25,8 +27,17 @@ body {
 .regularP {
     font-family: "B SemiLight";
     font-size: 20px;
+    line-height: 28px;
 }
 .regularP span {
+    font-family: "B Bold";
+}
+.smallP {
+    font-family: "B SemiLight";
+    font-size: 16px;
+    line-height: 24px;
+}
+.smallP span {
     font-family: "B Bold";
 }
 .homeSecondSection {

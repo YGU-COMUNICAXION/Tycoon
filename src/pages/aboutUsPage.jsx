@@ -18,6 +18,8 @@ import InstitucionesCard from "../components/institucionesCard"
 import Museo from "../images/mobile/instituciones/museo.png"
 import Cadena from "../images/mobile/instituciones/cadena.png"
 import Vivienda from "../images/mobile/instituciones/vivienda.png"
+import Que from "../images/mobile/nosotros/que.png"
+import Como from "../images/mobile/nosotros/como.png"
 
 
 const AboutUsPage = () => {
@@ -26,36 +28,36 @@ const AboutUsPage = () => {
     return (
         <Layout>
             <div className="MainDiv">
-                <div className="contactFirstSection"/>
-                <div className="contactSecondSection">
-                    <p className="regularP">{renderStringHMTLtoJSX(t("contactFirstP"))}</p>
-                    <p className="regularP">{t("contactSecondP")}</p>
-                    <p className="regularP">{renderStringHMTLtoJSX(t("contactThirdP"))}</p>
-                    <p className="regularP">{t("contactFourthP")}</p>
+                <div className="aboutFirstSection"/>
+                <div className="aboutSecondSection">
+                    <p className="smallP">{renderStringHMTLtoJSX(t("aboutFirstP"))}</p>
+                    <p className="smallP">{t("aboutSecondP")}</p>
+                    <p className="smallP">{renderStringHMTLtoJSX(t("aboutThirdP"))}</p>
+                    <p className="smallP">{t("aboutFourthP")}</p>
                 </div>
-                <div className="contactThirdSection">
-                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("contactWhat"))}</h2>
-                    <p className="regularP">{renderStringHMTLtoJSX(t("contactFifthP"))}</p>
+                <div className="aboutThirdSection">
+                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutWhat"))}</h2>
+                    <p className="regularP">{renderStringHMTLtoJSX(t("aboutFifthP"))}</p>
+                    <img src={Que} className="como"/>
+                </div>
+                <div className="aboutFourthSection">
+                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutHow"))}</h2>
+                    <p className="regularP">{t("aboutSixthP")}</p>
+                    <p className="regularP">{t("aboutSeventhP")}</p>
+                    <p className="regularP">{t("aboutEighthP")}</p>
+                    <p className="regularP">{t("aboutNinethP")}</p>
+                    <img src={Como} className="como"/>
+                </div>
+                <div className="aboutFifhtSection">
+                    <img/>
+                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutDoYou"))}</h2>
+                    <p className="regularP">{t("aboutTenthP")}</p>
+                    <p className="smallP">{renderStringHMTLtoJSX(t("aboutEleventhP"))}</p>
+                    <p className="smallP">{renderStringHMTLtoJSX(t("aboutTwelfthP"))}</p>
                     <img/>
                 </div>
-                <div className="contactFourthSection">
-                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("contactHow"))}</h2>
-                    <p className="regularP">{t("contactSixthP")}</p>
-                    <p className="regularP">{t("contactSeventhP")}</p>
-                    <p className="regularP">{t("contactEighthP")}</p>
-                    <p className="regularP">{t("contactNinethP")}</p>
-                    <img/>
-                </div>
-                <div className="contactFifhtSection">
-                    <img/>
-                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("contactDoYou"))}</h2>
-                    <p className="regularP">{t("contactTenthP")}</p>
-                    <p className="regularP">{renderStringHMTLtoJSX(t("contactEleventhP"))}</p>
-                    <p className="regularP">{renderStringHMTLtoJSX(t("contactTwelfthP"))}</p>
-                    <img/>
-                </div>
-                <div className="contactSixthSection">
-                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("contactAcknowledgments"))}</h2>
+                <div className="aboutSixthSection">
+                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAcknowledgments"))}</h2>
                     <div className="reconocimientosRow">
                         <ReconocimientoCard image={Top} firstP={t("global")} secondP={t("agent")}/>
                         <ReconocimientoCard image={Promarca} firstP={t("awards")} secondP={t("promarca")}/>
@@ -71,7 +73,7 @@ const AboutUsPage = () => {
                     <div className="reconocimientosRow">
                         <ReconocimientoCard image={Merch} firstP={t("team")} secondP={t("globalMerch")}/>
                     </div>
-                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("contactAwards2022"))}</h2>
+                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAwards2022"))}</h2>
                     <div className="reconocimientosRow">
                         <ReconocimientoCard image={Retail} firstP={t("rovio")} secondP={t("angry")}/>
                         <ReconocimientoCard image={Agent} firstP={t("elias")} secondP={t("salon")}/>
@@ -80,9 +82,9 @@ const AboutUsPage = () => {
                         <ReconocimientoCard image={Mk} firstP={t("team")} secondP={t("globalMerch")}/>
                     </div>
                 </div>
-                <div className="contactSeventhSection">
+                <div className="aboutSeventhSection">
                     <img/>
-                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("contactResposability"))}</h2>
+                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutResposability"))}</h2>
                     <InstitucionesCard image={Museo} institucionName={t("museoName")} info={t("museoInfo")}/>
                     <InstitucionesCard image={Cadena} institucionName={t("cadenaName")} info={t("cadenaInfo")}/>
                     <InstitucionesCard image={Vivienda} institucionName={t("viviendaName")} info={t("viviendaInfo")}/>
