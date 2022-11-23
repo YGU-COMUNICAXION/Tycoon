@@ -1,0 +1,31 @@
+.paisContactoDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10%;
+}
+.cardInfoDiv {
+    width: 50%;
+}
+.paisContactoDiv img {
+    width: 38%;
+}
+.paisContactName {
+    font-family: "B semiBold";
+    font-size: 24px;
+}
+.contactP {
+    font-family: "B semiBold";
+    font-size: 15px;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    line-height: 15px;
+}
+.contactSubtitle {
+    font-family: "B semiBold";
+    font-size: 17px;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    line-height: 15px;
+}

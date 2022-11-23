@@ -1,45 +1,128 @@
 import React from 'react'
 import Layout from '../components/layout'
-import "../css/aboutUs.css"
+import "../css/contact.css"
+import { useTranslation } from "gatsby-plugin-react-i18next";
+import renderStringHMTLtoJSX from "../utils/renderStringHTMLtoJSX";
+import Enviar from "../components/button"
+import Tycoon360 from "../images/mobile/contacto/tycoon360.png"
+import PaisContacto from "../components/pais-contacto"
+import Argentina from "../images/mobile/layout/footer/paises/argentina.png"
+import Brasil from "../images/mobile/layout/footer/paises/brasil.png"
+import Cam from "../images/mobile/layout/footer/paises/cam.png"
+import Chile from "../images/mobile/layout/footer/paises/chile.png"
+import Colombia from "../images/mobile/layout/footer/paises/colombia.png"
+import Ecuador from "../images/mobile/layout/footer/paises/Ecuador.png"
+import Mexico from "../images/mobile/layout/footer/paises/mexico.png"
+import Peru from "../images/mobile/layout/footer/paises/peru.png"
 
 const ContactPage = () => {
+    const { t } = useTranslation("contact");
+
   return (
     <Layout>
-        <div className='contactFirstSection'/>
-        <div className='contactSecondSection'>
-            <h2 className='blueTitle'></h2>
-            <div>
-                <h2></h2>
-                <div>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+        <div className='MainDiv'>
+            <div className='contactFirstSection'/>
+            <div className='contactSecondSection'>
+                <h2 className='blueTitle'>{t("contactTitle")}</h2>
+                <div className='contactInfoDiv'>
+                    <h2 className='adquirir'>{t("acquisition")}</h2>
+                    <div className='contactRightDiv'>
+                        <p className='responde'>{t("answer")}</p>
+                        <p className='mail'>{t("contactMail")}</p>
+                        <p className='teResponderemos'>{t("willAnswer")}</p>
+                    </div>
                 </div>
+                <div className='contactFormDiv'>
+                    <form>
+                        <input type="text" name='' placeholder={t("fullName")}></input>
+                        <input type="text" name='' placeholder={t("charge")}></input>
+                        <input type="text" name='' placeholder={t("company")}></input>
+                        <input type="text" name='' placeholder={t("brandOfInterest")}></input>
+                        <input type="text" name='' placeholder={t("product")}></input>
+                        <input type="text" name='' placeholder={t("industry")}></input>
+                        <input type="text" name='' placeholder={t("email")}></input>
+                        <input type="text" name='' placeholder={t("phone")}></input>
+                        <select type="text" name='' >
+                            <option value="">{t("territory")}</option>
+                            <option value="item1">{t("argentina")}</option>
+                            <option value="item2">{t("brazil")}</option>
+                            <option value="item3">{t("cam")}</option>
+                            <option value="item4">{t("chile")}</option>
+                            <option value="item5">{t("colombia")}</option>
+                            <option value="item6">{t("ecuador")}</option>
+                            <option value="item7">{t("mexico")}</option>
+                            <option value="item8">{t("peru")}</option>
+                        </select>
+                        <textarea type="text" name='' placeholder={t("message")}/>
+                        <div className='formButtonDiv'>
+                            <Enviar buttonText={t("send")}/>
+                        </div>
+                    </form>
+                </div>
+                <div className='interestBZDiv'>
+                    <p className='smallP'>{t("interestBZ")}</p>
+                </div>
+                <img src={Tycoon360} className="tycoon360"/>
             </div>
-            <div>
-                <form>
-                    <input type="text" name='' placeholder=""></input>
-                    <input type="text" name='' placeholder=""></input>
-                    <input type="text" name='' placeholder=""></input>
-                    <input type="text" name='' placeholder=""></input>
-                    <input type="text" name='' placeholder=""></input>
-                    <input type="text" name='' placeholder=""></input>
-                    <input type="text" name='' placeholder=""></input>
-                    <input type="text" name='' placeholder=""></input>
-                    <select>
-                        <option value=""></option>
-                    </select>
-                    <textarea type="text" name='' placeholder=""/>
-                </form>
-            </div>
-            <p></p>
+            <div className='contactThirdSection'>
+                <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
+                <PaisContacto pais={t("argentina")} image={Argentina}>
+                    <p className='contactP'>+(54) 91165341346</p>
+                    <p className='contactSubtitle'>{t("contact")}</p>
+                    <p className='contactP'>Eleonora Parodi</p>
+                    <p className='contactP'>eleonora.parodi@tycoon.mx</p>
 
+                </PaisContacto>
+                <PaisContacto pais={t("brasil")} image={Brasil}>
+                    <p className='contactP'>+55 11 3090 4244</p>
+                    <p className='contactSubtitle'>{t("contact")}</p>
+                    <p className='contactP'>Erica Giacomelli</p>
+                    <p className='contactP'>contato@tycoon360.com.br</p>
+                    <p className='contactP'>{t("webSite")}</p>
+                    <p className='contactP'>http://www.tycoon360.com.br/</p>
+                </PaisContacto>
+                <PaisContacto pais={t("cam")} image={Cam}>
+                    <p className='contactP'>+ (506) 8820 4733</p>
+                    <p className='contactP'>+ (506) 4001 7397</p>
+                    <p className='contactSubtitle'>{t("contact")}</p>
+                    <p className='contactP'>Dinnia Madriz</p>
+                    <p className='contactP'>dinnia.madriz@tycoon.mx</p>
+                </PaisContacto>
+                <PaisContacto pais={t("chile")} image={Chile}>
+                    <p className='contactP'>+56 2 2761-8685</p>
+                    <p className='contactSubtitle'>{t("contact")}</p>
+                    <p className='contactP'>Alejandra Pinto</p>
+                    <p className='contactP'>alejandra.pinto@tycoon.mx</p>
+                </PaisContacto>
+                <PaisContacto pais={t("colombia")} image={Colombia}>
+                    <p className='contactP'>+571 7431650</p>
+                    <p className='contactSubtitle'>{t("contact")}</p>
+                    <p className='contactP'>José Fernando Córdoba</p>
+                    <p className='contactP'>jose.cordoba@tycoon.mx</p>
+                </PaisContacto>
+                <PaisContacto pais={t("ecuador")} image={Ecuador}>
+                    <p className='contactP'>+571 7431650</p>
+                    <p className='contactSubtitle'>{t("contact")}</p>
+                    <p className='contactP'>Verónica Sandoval</p>
+                    <p className='contactP'>veronica.sandoval@tycoon.mx</p>
+                </PaisContacto>
+                <PaisContacto pais={t("mexico")} image={Mexico}>
+                    <p className='contactP'>+5255 5395 4111</p>
+                    <p className='contactP'>+5255 5395 7833</p>
+                    <p className='contactSubtitle'>{t("contact")}</p>
+                    <p className='contactP'>Dalia Benbassat</p>
+                    <p className='contactP'>dalia@tycoon.mx</p>
+                </PaisContacto>
+                <PaisContacto pais={t("peru")} image={Peru}>
+                    <p className='contactP'>+511 421 3498</p>
+                    <p className='contactSubtitle'>{t("contact")}</p>
+                    <p className='contactP'>María Angela Morales</p>
+                    <p className='contactP'>mariaangela.morales@tycoon.mx</p>
+                </PaisContacto>
+            </div>
+            <div className='contact'></div>
+            <div className='contact'></div>
         </div>
-        <div className='contactThirdSection'>
-            <h2></h2>
-        </div>
-        <div className='contact'></div>
-        <div className='contact'></div>
     </Layout>
     
   )

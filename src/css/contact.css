@@ -1,0 +1,117 @@
+.contactFirstSection {
+    background-image: url("../images/mobile/contacto/PORTADA\ CONTACTO-02.png");
+    background-size: cover;
+    height: 128px;
+}
+.contactSecondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 4%;
+}
+.blueTitle {
+    font-family: "B semiBold";
+    color: #0093D7;
+    font-size: 28px;
+    text-align: center;
+}
+.contactInfoDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.adquirir {
+    font-family: "B semiBold";
+    font-size: 20px;
+    width: 47%;
+    text-align: right;
+}
+.contactRightDiv{
+    width: 47%;
+} 
+.responde{
+    font-family: "B semiLight";
+    font-size: 16px;
+    margin-bottom: 4%;
+    margin-top: 0%;
+}
+.mail {
+    font-family: "B semiBold";
+    font-size: 14px;
+    margin-bottom: 4%;
+    margin-top: 0%;
+
+}
+.teResponderemos {
+    font-family: "B semiBold";
+    color: #0093D7;
+    font-size: 14px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.contactFormDiv {
+    width: 100%;
+    margin-top: 15%;
+}
+.contactFormDiv form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contactFormDiv input {
+    width: 95%;
+    background-color: #CCE9F7;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 5%;
+    height: 45px;
+    padding: 0% 3%;
+    font-family: "B semiBold";
+}
+
+.contactFormDiv select {
+    width: 101%;
+    background-color: #CCE9F7;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 5%;
+    height: 45px;
+    padding: 0% 2%;
+    font-family: "B semiBold";
+    font-size: 16px;
+}
+.contactFormDiv textarea {
+    width: 95%;
+    background-color: #CCE9F7;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 15%;
+    height: 105px;
+    padding: 4% 3%;
+    font-family: "B semiBold";
+}
+.contactFormDiv ::placeholder {
+    color: black;
+    font-family: "B semiBold";
+    font-size: 16PX;
+}
+.formButtonDiv {
+    width: 40%;
+    margin-bottom: 10%;
+}
+.contactThirdSection {
+   padding: 4% 4%;
+    
+}
+.interestBZDiv {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.tycoon360 {
+    width: 64%;
+}
