@@ -93,20 +93,30 @@
     padding: 6% 4% 1% 4%;
 
 }
+.reconodimientosGroupDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
 .premiosRowDesk {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 3%;
 }
 .aboutSeventhSectionDesk {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6% 4% 1% 4%;
+    padding: 2% 4% 1% 4%;
 
 }
 .institucionesDivDesk {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
 }

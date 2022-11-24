@@ -141,16 +141,18 @@ const AboutUsPage = () => {
                 </div>
                 <div className="aboutSixthSectionDesk">
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAcknowledgments"))}</h2>
-                    <div className="premiosRowDesk">
-                        <ReconocimientoCard image={Top} firstP={t("global")} secondP={t("agent")}/>
-                        <ReconocimientoCard image={Promarca} firstP={t("awards")} secondP={t("promarca")}/>
-                        <ReconocimientoCard image={Universal} firstP={t("universal")} secondP={t("consumer")}/>
-                        <ReconocimientoCard image={Homey} firstP={t("fox")} secondP={t("homey")}/>
-                    </div>
-                    <div className="premiosRowDesk">
-                        <ReconocimientoCard image={Rovio} firstP={t("rovio")} secondP={t("angry")}/>
-                        <ReconocimientoCard image={Hall} firstP={t("elias")} secondP={t("salon")}/>
-                        <ReconocimientoCard image={Merch} firstP={t("team")} secondP={t("globalMerch")}/>
+                    <div className="reconodimientosGroupDesk">
+                        <div className="premiosRowDesk">
+                            <ReconocimientoCard image={Top} firstP={t("global")} secondP={t("agent")}/>
+                            <ReconocimientoCard image={Promarca} firstP={t("awards")} secondP={t("promarca")}/>
+                            <ReconocimientoCard image={Universal} firstP={t("universal")} secondP={t("consumer")}/>
+                            <ReconocimientoCard image={Homey} firstP={t("fox")} secondP={t("homey")}/>
+                        </div>
+                        <div className="premiosRowDesk">
+                            <ReconocimientoCard image={Rovio} firstP={t("rovio")} secondP={t("angry")}/>
+                            <ReconocimientoCard image={Hall} firstP={t("elias")} secondP={t("salon")}/>
+                            <ReconocimientoCard image={Merch} firstP={t("team")} secondP={t("globalMerch")}/>
+                        </div>
                     </div>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAwards2022"))}</h2>
                     <div className="premiosRowDesk">
