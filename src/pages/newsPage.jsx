@@ -5,22 +5,38 @@ import Layout from "../components/layout"
 import "../css/news.css"
 import NoticiasRecientes from "../components/noticias-recientes"
 import NoticiasNav from "../components/nav-noticias"
+import useWindowSize from "../hooks/useWindowSize";
 
 const NewsPage = () => {
     const { t } = useTranslation("news");
+    const windowSize = useWindowSize();
 
     return (
         <Layout>
-            <div className="MainDiv">
-                <div className="newsFirstSection"/>
-                <div className="newsSecondSection">
-                    <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
-                </div>
-                <div className="newsThirdSection">
-                    <h2 className="sectionTitle">{t("newstitle")}</h2>
-                    <NoticiasNav/>
-                </div>
-            </div>
+                {windowSize < 752 ? (
+                    <div className="MainDiv">
+                        <div className="newsFirstSection"/>
+                        <div className="newsSecondSection">
+                            <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
+                        </div>
+                        <div className="newsThirdSection">
+                            <h2 className="sectionTitle">{t("newstitle")}</h2>
+                            <NoticiasNav/>
+                        </div>
+                    </div>
+                ):(
+                    <div className="MainDivDesk">
+                        <div className="newsFirstSectionDesk"/>
+                        <div className="newsSecondSection">
+                            <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
+                        </div>
+                        <div className="newsThirdSection">
+                            <h2 className="sectionTitle">{t("newstitle")}</h2>
+                            <NoticiasNav/>
+                        </div>
+                    </div>
+                )}
+
         </Layout>
     )
 }

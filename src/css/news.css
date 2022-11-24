@@ -10,3 +10,17 @@
     padding: 10% 4% 1% 4%;
 
 }
+.newsFirstSectionDesk {
+    background-image: url("../images/desktop/noticias/PORTADA-NOTICIAS-DESK.png");
+    background-size: cover;
+    height: 268px;
+}
+@media only screen and (min-width: 752px) {
+
+    .newsSecondSection {
+        padding: 7% 4% 1% 4%;
+    }
+    .newsThirdSection {
+        padding: 5% 4% 1% 4%;
+    }
+}

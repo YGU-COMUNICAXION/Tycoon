@@ -28,3 +28,16 @@
 .navDivisor {
     border: solid .5px black
 }
+
+@media only screen and (min-width: 752px) {
+    .nav{
+        width: 30%;
+
+    }
+    .nav-link {
+        font-size: 13px;
+    }
+    .noticiasGrid {
+        margin-top: 5%;
+    }
+}
