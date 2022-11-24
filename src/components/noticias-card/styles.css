@@ -17,8 +17,30 @@
 .noticiaDate {
     font-family: "B SemiBold";
     color: #0093D7;
-    
 }
 .mas {
     width: 25%;
+}
+
+@media only screen and (min-width: 752px) {
+    .noticiaMainDiv {
+        width: 33%;
+        margin: 1% 1% 5% 1%;
+    }
+    .noticiaTitle {
+        font-family: "B SemiBold";
+        font-size: 13px;
+        margin-bottom: 0%
+    }
+    .noticiaUpperDiv {
+        height: 74%;
+        margin-bottom: 0%;
+    }
+    .noticiaDate {
+        font-family: "B SemiBold";
+        font-size: 13px;
+    }
+    .mas {
+        width: 13%;
+    }
 }

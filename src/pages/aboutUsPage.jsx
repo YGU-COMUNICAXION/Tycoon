@@ -20,13 +20,15 @@ import Cadena from "../images/mobile/instituciones/cadena.png"
 import Vivienda from "../images/mobile/instituciones/vivienda.png"
 import Que from "../images/mobile/nosotros/que.png"
 import Como from "../images/mobile/nosotros/como.png"
-
+import useWindowSize from "../hooks/useWindowSize";
 
 const AboutUsPage = () => {
     const { t } = useTranslation("aboutus");
+    const windowSize = useWindowSize();
 
     return (
         <Layout>
+        {windowSize < 752 ? (
             <div className="MainDiv">
                 <div className="aboutFirstSection"/>
                 <div className="aboutSecondSection">
@@ -90,6 +92,35 @@ const AboutUsPage = () => {
                     <InstitucionesCard image={Vivienda} institucionName={t("viviendaName")} info={t("viviendaInfo")}/>
                 </div>
             </div>
+        ):(
+            <div className="MainDivDesk">
+                <div className="aboutFirstSectionDesk"></div>
+                <div className="aboutSectionDesk">
+                    <div className="aboutLeftDiv">
+                        <p className="smallP">{renderStringHMTLtoJSX(t("aboutFirstP"))}</p>
+                        <p className="smallP">{t("aboutSecondP")}</p>
+                    </div>
+                    <div className="aboutRightDiv">
+                        <p className="smallP">{renderStringHMTLtoJSX(t("aboutThirdP"))}</p>
+                        <p className="smallP">{t("aboutFourthP")}</p>
+                    </div>
+                </div>
+                <div className="aboutSectionDesk">
+                    <div className="aboutLeftDiv"></div>
+                    <div className="aboutRightDiv"></div>
+                </div>
+                <div className="aboutSectionDesk">
+                    <div className="aboutLeftDiv"></div>
+                    <div className="aboutRightDiv"></div>
+                </div>
+                <div className="aboutSectionDesk">
+                    <div className="aboutLeftDiv"></div>
+                    <div className="aboutRightDiv"></div>
+                </div>
+
+            </div>
+        )}
+
         </Layout>
     )
 }

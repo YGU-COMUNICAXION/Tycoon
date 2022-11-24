@@ -40,3 +40,15 @@
     align-items: center;
     padding: 10% 4% 15% 4%;
 }
+/* CLASES DESKTOP */
+.aboutSectionDesk {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.aboutLeftDiv {
+    width: 46%;
+}
+.aboutRightDiv {
+    width: 46%;
+}

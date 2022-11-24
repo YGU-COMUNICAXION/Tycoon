@@ -65,3 +65,56 @@ body {
     width: 100%;
     height: 175px;
 }
+/* CLASES DESKTOP */
+.homeFirstSectionDesk {
+    background-image: url("../images/desktop/home/banner-home-desk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.homeSecondSectionDesk {
+    padding: 6% 4% 1% 4%;
+
+}
+.secondSectionButtonDesk {
+    width: 25%;
+}
+.homeThridSectionDesk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10% 3% 8% 3%;
+
+}
+.homeContactDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+}
+.oficinaDesk {
+    width: 45%;
+}
+
+
+@media only screen and (min-width: 752px){
+    .sectionTitle {
+        margin-top: 0%;
+        margin-bottom: 4%;
+        font-size: 23px;
+    }
+    .regularP {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .smallP {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .thirdSectionButton {
+        margin-top: 2%;
+    }
+}

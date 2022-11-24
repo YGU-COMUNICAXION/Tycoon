@@ -4,3 +4,9 @@
     overflow-x: scroll;
 
 }
+.noticiasRecientesDivDesk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
