@@ -41,14 +41,72 @@
     padding: 10% 4% 15% 4%;
 }
 /* CLASES DESKTOP */
+.MainDivDesk {
+    margin-top: 10%;
+}
+.aboutFirstSectionDesk {
+    background-image: url("../images/desktop/nosotros/PORTADA\ NOSOTROS_Mesa\ de\ trabajo\ 1\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 267px;
+}
+.aboutLeftDiv {
+    width: 48%;
+}
+.aboutRightDiv {
+    width: 48%;
+}
 .aboutSectionDesk {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    padding: 6% 4% 1% 4%;
+    justify-content: space-between;
+    margin-bottom: 2%;
 }
-.aboutLeftDiv {
-    width: 46%;
+.aboutCenteredSectionDesk {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6% 4% 1% 4%;
+    justify-content: space-between;
+    padding: 6% 4% 1% 4%;
+    margin-bottom: 5%;
 }
-.aboutRightDiv {
-    width: 46%;
+.queDesk {
+    width: 100%;
+}
+.aboutFifhtSectionDesk {
+    display: flex;
+    flex-direction: row;
+    background-color: #E5F4FB;
+    align-items: flex-starts;
+    padding: 6% 4% 1% 4%;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.aboutSixthSectionDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 4% 1% 4%;
+
+}
+.premiosRowDesk {
+    display: flex;
+    flex-direction: row;
+}
+.aboutSeventhSectionDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 4% 1% 4%;
+
+}
+.institucionesDivDesk {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }

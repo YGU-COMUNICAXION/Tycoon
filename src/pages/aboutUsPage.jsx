@@ -21,6 +21,9 @@ import Vivienda from "../images/mobile/instituciones/vivienda.png"
 import Que from "../images/mobile/nosotros/que.png"
 import Como from "../images/mobile/nosotros/como.png"
 import useWindowSize from "../hooks/useWindowSize";
+import QueDesk from "../images/desktop/nosotros/que.png"
+import ComoDesk from "../images/desktop/nosotros/como.png"
+
 
 const AboutUsPage = () => {
     const { t } = useTranslation("aboutus");
@@ -105,19 +108,65 @@ const AboutUsPage = () => {
                         <p className="smallP">{t("aboutFourthP")}</p>
                     </div>
                 </div>
-                <div className="aboutSectionDesk">
-                    <div className="aboutLeftDiv"></div>
-                    <div className="aboutRightDiv"></div>
+                <div className="aboutCenteredSectionDesk">
+                    <div className="aboutLeftDiv">
+                        <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutWhat"))}</h2>
+                        <p className="regularP">{renderStringHMTLtoJSX(t("aboutFifthP"))}</p>
+                    </div>
+                    <div className="aboutRightDiv">
+                        <img src={QueDesk} className="queDesk"/>
+                    </div>
                 </div>
                 <div className="aboutSectionDesk">
-                    <div className="aboutLeftDiv"></div>
-                    <div className="aboutRightDiv"></div>
+                    <div className="aboutLeftDiv">
+                        <img src={ComoDesk} className="queDesk"/>
+                    </div>
+                    <div className="aboutRightDiv">
+                        <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutHow"))}</h2>
+                        <p className="regularP">{t("aboutSixthP")}</p>
+                        <p className="regularP">{t("aboutSeventhP")}</p>
+                        <p className="regularP">{t("aboutEighthP")}</p>
+                        <p className="regularP">{t("aboutNinethP")}</p>
+                    </div>
                 </div>
-                <div className="aboutSectionDesk">
-                    <div className="aboutLeftDiv"></div>
-                    <div className="aboutRightDiv"></div>
+                <div className="aboutFifhtSectionDesk">
+                    <div className="aboutLeftDiv">
+                        <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutDoYou"))}</h2>
+                        <p className="regularP">{t("aboutTenthP")}</p>
+                    </div>
+                    <div className="aboutRightDiv">
+                        <p className="smallP">{renderStringHMTLtoJSX(t("aboutEleventhP"))}</p>
+                        <p className="smallP">{renderStringHMTLtoJSX(t("aboutTwelfthP"))}</p>
+                    </div>
                 </div>
-
+                <div className="aboutSixthSectionDesk">
+                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAcknowledgments"))}</h2>
+                    <div className="premiosRowDesk">
+                        <ReconocimientoCard image={Top} firstP={t("global")} secondP={t("agent")}/>
+                        <ReconocimientoCard image={Promarca} firstP={t("awards")} secondP={t("promarca")}/>
+                        <ReconocimientoCard image={Universal} firstP={t("universal")} secondP={t("consumer")}/>
+                        <ReconocimientoCard image={Homey} firstP={t("fox")} secondP={t("homey")}/>
+                    </div>
+                    <div className="premiosRowDesk">
+                        <ReconocimientoCard image={Rovio} firstP={t("rovio")} secondP={t("angry")}/>
+                        <ReconocimientoCard image={Hall} firstP={t("elias")} secondP={t("salon")}/>
+                        <ReconocimientoCard image={Merch} firstP={t("team")} secondP={t("globalMerch")}/>
+                    </div>
+                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAwards2022"))}</h2>
+                    <div className="premiosRowDesk">
+                        <ReconocimientoCard image={Retail} firstP={t("rovio")} secondP={t("angry")}/>
+                        <ReconocimientoCard image={Agent} firstP={t("elias")} secondP={t("salon")}/>
+                        <ReconocimientoCard image={Mk} firstP={t("team")} secondP={t("globalMerch")}/>
+                    </div>
+                </div>
+                <div className="aboutSeventhSectionDesk">
+                    <img/>
+                    <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutResposability"))}</h2>
+                    <div className="institucionesDivDesk">
+                        <InstitucionesCard image={Museo} institucionName={t("museoName")} info={t("museoInfo")}/>
+                        <InstitucionesCard image={Cadena} institucionName={t("cadenaName")} info={t("cadenaInfo")}/>
+                        <InstitucionesCard image={Vivienda} institucionName={t("viviendaName")} info={t("viviendaInfo")}/></div>
+                    </div>
             </div>
         )}
 
