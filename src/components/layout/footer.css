@@ -43,6 +43,87 @@
 .underPgroup {
     text-align: center;
 }
+.upperDeskDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    padding: 0% 0% 2% 0%;
+
+}
+.upperMainDesk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 93%;
+    padding: 2% 2% 0% 2%;
+}
+.footerLogoDesk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+.footerLogoDesk img {
+    margin-top: 20%;
+    width: 100%;
+}
+.pagsDiv {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin: 0% 0% 0% 3%;
+
+}
+.pagsDiv a {
+    font-size: 10px;
+}
+.paisesDivDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 0% 2% 0% 1%;
+
+}
+.pagsDiv a {
+    font-family: "B SemiLight";
+    text-decoration: none;
+    color: black;
+}
+.redesDeskDiv {
+    width: 15%;
+    margin: 0% 2%;
+
+}
+.underDeskDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #051C2C;
+    padding: 1% 2%;
+
+}
+.underDeskDiv p {
+    font-family: "B SemiLight";
+    color: #0081C3;
+    font-size: 9px;
+}
+@media only screen and (min-width: 752px){
+    .footerTitle {
+        font-size: 14px;
+    }
+    .teInteresa {
+        font-size: 14px;
+
+    }
+    .escribenos {
+        font-size: 14px;
+
+    }
+}
 @font-face {
     font-family: "B Bold";
     src: url("../../static/fonts/Branding\ Bold.otf");
