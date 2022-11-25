@@ -6,6 +6,10 @@ import { useI18next, useTranslation } from "gatsby-plugin-react-i18next";
 import SwitchLeng from "./SwitchLeng";
 import Logo from "../../images/mobile/layout/header/logo-header.png"
 import Menu from "../../images/mobile/layout/header/menú.png"
+import Facebook from "../../images/desktop/layout/header/icon-facebook.png"
+import Instagram from "../../images/desktop/layout/header/icon-instagram.png"
+import LinkedIn from "../../images/desktop/layout/header/icon-linkedin.png"
+
 
 const HeaderTag = styled.header`
   display: flex;
@@ -23,15 +27,14 @@ const HeaderTag = styled.header`
     padding: 3% 10% 2% 10%;
   }
   nav a {
-    font-family: "M Regular";
+    font-family: "B Medium";
     color: black;
     text-decoration: none;
     font-size: 20px;
   }
   a:hover {
-    color: #77d0d1 !important;
-    text-decoration: underline !important;
-    font-family: "M SemiBold";
+    color:  #0081C3!important;
+    text-decoration: none !important;
   }
   > div:nth-child(1) img {
     width: 40%;
@@ -153,7 +156,7 @@ const HeaderTag = styled.header`
       justify-content: space-between;
       width: 70%;
       padding: 3% 2% 2% 2%;
-      margin-left: 9%;
+      margin-left: 3%;
     }
     nav a {
       font-size: 10px;
@@ -211,15 +214,20 @@ const Header = () => {
         <Link to="/">
           <img src={Logo} alt="logo" />
         </Link>
+        <nav>
+          <Link to="/">{t("home")}</Link>
+          <Link to="/aboutUs">{t("us")}</Link>
+          <Link to="/brands">{t("brands")}</Link>
+          <Link to="/news">{t("news")}</Link>
+          <Link to="/contact">{t("contact")}</Link>
+        </nav>
       </div>
-      <nav>
-        <Link to="/">{t("home")}</Link>
-        <Link to="/aboutUs">{t("us")}</Link>
-        <Link to="/brands">{t("brands")}</Link>
-        <Link to="/news">{t("news")}</Link>
-        <Link to="/contact">{t("contact")}</Link>
-      </nav>
-      <SwitchLeng />
+      <div>
+        <img src={Facebook}/>
+        <img src={Instagram}/>
+        <img src={LinkedIn}/>
+        <SwitchLeng />
+      </div>
     </HeaderTag>
   ) : (
     <div>
