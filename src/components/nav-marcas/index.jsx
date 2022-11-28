@@ -132,11 +132,9 @@ export default function NavMarcas() {
             })}
           </>
         ) : null}
-      </div>
 
       {/* MEXICO SECTIONS */}
 
-      <div className="order_image">
         {show === 1 && info === "corporativas" ? (
           <>
             {Catalogo[1].mexico.corporativas.map((e, idx) => {
@@ -162,11 +160,9 @@ export default function NavMarcas() {
             })}
           </>
         ) : null}
-      </div>
 
-        {/* BRASIL SECTIONS */}
+          {/* BRASIL SECTIONS */}
 
-        <div className="order_image">
         {show === 8 && info === "corporativas" ? (
           <>
             {Catalogo[2].brasil.corporativas.map((e, idx) => {
@@ -192,7 +188,65 @@ export default function NavMarcas() {
             })}
           </>
         ) : null}
+
+        {/* CHILE SECTIONS */}
+
+        {show === 5 && info === "corporativas" ? (
+          <>
+            {Catalogo[3].chile.corporativas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 5 && info === "entretenimiento" ? (
+          <>
+            {Catalogo[3].chile.entretenimiento.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 5 && info === "estilo" ? (
+          <>
+            {Catalogo[3].chile.estilo.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 5 && info === "deportivas" ? (
+          <>
+            {Catalogo[3].chile.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : null}
+
+          {/* PERÚ SECTIONS */}
+
+          {show === 6 && info === "corporativas" ? (
+          <>
+            {Catalogo[4].peru.corporativas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 6 && info === "entretenimiento" ? (
+          <>
+            {Catalogo[4].peru.entretenimiento.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 6 && info === "estilo" ? (
+          <>
+            {Catalogo[4].peru.estilo.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 6 && info === "deportivas" ? (
+          <>
+            {Catalogo[4].peru.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : null}
       </div>
+
+    
     </StyledNavMarcas>
   );
 }
