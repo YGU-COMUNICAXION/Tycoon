@@ -85,6 +85,47 @@ const CatalogoBrands = [
       ],
     },
   },
+
+    //BRASIL
+
+    {
+        brasil: {
+          corporativas: [
+            {image: require("./src/images/brands/mexico/corporativas/acer.webp")},
+            {image: require("./src/images/brands/mexico/corporativas/fifa.webp")},
+            {image: require("./src/images/brands/mexico/corporativas/hersheys.webp")},
+            {image: require("./src/images/brands/mexico/corporativas/pepsico.webp")},
+          ],
+          entretenimiento: [
+            {image: require("./src/images/brands/brasil/entretenimiento/activision.png")},
+            {image: require("./src/images/brands/mexico/entretenimiento/among.webp")},
+            {image: require("./src/images/brands/brasil/entretenimiento/authentic.png")},
+            {image: require("./src/images/brands/mexico/entretenimiento/dino_ranch.png")},
+            {image: require("./src/images/brands/brasil/entretenimiento/hasbro.png")},
+            {image: require("./src/images/brands/mexico/entretenimiento/kodak.webp")},
+            {image: require("./src/images/brands/argentina/entretenimiento/mgm.webp")},
+            {image: require("./src/images/brands/brasil/entretenimiento/mundobita.png")},
+            {image: require("./src/images/brands/brasil/entretenimiento/pkxd.png")},
+            {image: require("./src/images/brands/brasil/entretenimiento/pubg.png")},
+            {image: require("./src/images/brands/argentina/entretenimiento/fall_guys.webp")},
+            {image: require("./src/images/brands/argentina/entretenimiento/pusheen.webp")},
+    
+          ],
+          estilo: [
+            {image: require("./src/images/brands/mexico/estilo/apex.png")},
+            {image: require("./src/images/brands/mexico/estilo/frida.png")},
+            {image: require("./src/images/brands/mexico/estilo/head.png")},
+            {image: require("./src/images/brands/mexico/estilo/panam.png")},
+    
+          ],
+          deportivas: [
+            {image: require("./src/images/brands/mexico/deportivos/barcelona.webp")},
+            {image: require("./src/images/brands/mexico/deportivos/fifa.webp")},
+            {image: require("./src/images/brands/mexico/deportivos/paris.webp")},
+            {image: require("./src/images/brands/mexico/deportivos/head.png")},
+          ],
+        },
+      },
 ];
 
 

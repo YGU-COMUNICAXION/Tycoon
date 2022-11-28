@@ -163,6 +163,36 @@ export default function NavMarcas() {
           </>
         ) : null}
       </div>
+
+        {/* BRASIL SECTIONS */}
+
+        <div className="order_image">
+        {show === 8 && info === "corporativas" ? (
+          <>
+            {Catalogo[2].brasil.corporativas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 8 && info === "entretenimiento" ? (
+          <>
+            {Catalogo[2].brasil.entretenimiento.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 8 && info === "estilo" ? (
+          <>
+            {Catalogo[2].brasil.estilo.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 8 && info === "deportivas" ? (
+          <>
+            {Catalogo[2].brasil.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : null}
+      </div>
     </StyledNavMarcas>
   );
 }
