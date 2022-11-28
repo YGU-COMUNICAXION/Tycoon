@@ -1,20 +1,25 @@
 import React, { useState } from "react";
+import Catalogo from "../../../CatalogoBrands";
 import styled from "styled-components";
+import { Nav } from "react-bootstrap";
+import "./styles_marcas.css";
 
 const StyledNavMarcas = styled.div`
   .wrapper__buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 20px;
+    padding: 0 10px;
+    margin-top: 60px;
     button {
       border: 0.5px solid black;
       font-family: "B SemiBold";
       font-style: normal;
       font-size: 14px;
       letter-spacing: 0.02em;
-      color: #051C2C;
+      color: #051c2c;
       cursor: pointer;
+      background-color: white;
       :active {
         background-color: #0093d7;
         color: white;
@@ -52,10 +57,21 @@ const StyledNavMarcas = styled.div`
       }
     }
   }
+  .order_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    img {
+      width: 156px;
+      padding: 10px;
+    }
+  }
 `;
 export default function NavMarcas() {
   const [show, setShow] = useState(1);
   const [info, setInfo] = useState("corporativas");
+  console.log(show, "show", info, "info");
   return (
     <StyledNavMarcas>
       <div className="wrapper__buttons">
@@ -72,18 +88,81 @@ export default function NavMarcas() {
           <button onClick={() => setShow(8)}>Brasil</button>
         </div>
       </div>
-
-      <div style={{marginTop: "10px"}}>
-        <button onClick={() => setInfo("corporativas")}>Corporativas</button>
-        <button onClick={() => setInfo("entretenimiento")}>Entretenimiento</button>
-        <button onClick={() => setInfo("estilo")}>Estilo de vida</button>
-        <button onClick={() => setInfo("deportivas")}>Deportivas</button>
+      <Nav fill variant="tabs">
+        <Nav.Item onClick={() => setInfo("corporativas")}>
+          <Nav.Link eventKey="link-1">Corporativas</Nav.Link>
+        </Nav.Item>
+        <div className="navDivisor" />
+        <Nav.Item onClick={() => setInfo("entretenimiento")}>
+          <Nav.Link eventKey="link-2">Entretenimiento</Nav.Link>
+        </Nav.Item>
+        <div className="navDivisor" />
+        <Nav.Item onClick={() => setInfo("estilo")}>
+          <Nav.Link eventKey="link-3">Estilo de vida</Nav.Link>
+        </Nav.Item>
+        <div className="navDivisor" />
+        <Nav.Item onClick={() => setInfo("deportivas")}>
+          <Nav.Link eventKey="link-4">Deportivas</Nav.Link>
+        </Nav.Item>
+      </Nav>
+      {/* ARGENTINA SECTIONS */}
+      <div className="order_image">
+        {show === 4 && info === "corporativas" ? (
+          <>
+            {Catalogo[0].argentina.corporativas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 4 && info === "entretenimiento" ? (
+          <>
+            {Catalogo[0].argentina.entretenimiento.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 4 && info === "estilo" ? (
+          <>
+            {Catalogo[0].argentina.estilo.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 4 && info === "deportivas" ? (
+          <>
+            {Catalogo[0].argentina.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : null}
       </div>
 
-      <div>{show === 1 && info === "corporativas" ? "corporativas" : null}</div>
-      <div>{show === 1 && info === "entretenimiento" ? "entretenimiento" : null}</div>
-      <div>{show === 1 && info === "estilo" ? "estilo" : null}</div>
-      <div>{show === 1 && info === "deportivas" ? "deportivas" : null}</div>
+      {/* MEXICO SECTIONS */}
+
+      <div className="order_image">
+        {show === 1 && info === "corporativas" ? (
+          <>
+            {Catalogo[1].mexico.corporativas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 1 && info === "entretenimiento" ? (
+          <>
+            {Catalogo[1].mexico.entretenimiento.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 1 && info === "estilo" ? (
+          <>
+            {Catalogo[1].mexico.estilo.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 1 && info === "deportivas" ? (
+          <>
+            {Catalogo[1].mexico.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : null}
+      </div>
     </StyledNavMarcas>
   );
 }
