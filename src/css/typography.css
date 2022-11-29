@@ -14,3 +14,7 @@
     font-family: "B SemiLight";
     src: url("../static/fonts/Branding\ Semilight.otf");
 }
+@font-face {
+    font-family: "Gobold";
+    src: url("../static/fonts/Gobold\ Regular.otf")
+} 

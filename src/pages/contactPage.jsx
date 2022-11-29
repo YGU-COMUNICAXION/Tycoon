@@ -14,14 +14,18 @@ import Colombia from "../images/mobile/layout/footer/paises/colombia.png"
 import Ecuador from "../images/mobile/layout/footer/paises/Ecuador.png"
 import Mexico from "../images/mobile/layout/footer/paises/mexico.png"
 import Peru from "../images/mobile/layout/footer/paises/peru.png"
+import useWindowSize from '../hooks/useWindowSize';
+
 
 const ContactPage = () => {
     const { t } = useTranslation("contact");
+    const windowSize = useWindowSize();
 
   return (
     <Layout>
+       {windowSize < 752 ? (
         <div className='MainDiv'>
-            <div className='contactFirstSection'/>
+            <div className='contactFirstSection'></div>
             <div className='contactSecondSection'>
                 <h2 className='blueTitle'>{t("contactTitle")}</h2>
                 <div className='contactInfoDiv'>
@@ -123,8 +127,61 @@ const ContactPage = () => {
             <div className='contact'></div>
             <div className='contact'></div>
         </div>
+       ):(
+        <div className='MainDivDesk'>
+            <div className='contactFirstSectionDesk'/>
+            <div className='contactSecondSection'>
+                <h2 className='blueTitle'>{t("contactTitle")}</h2>
+                <div className='contactInfoDiv'>
+                    <h2 className='adquirir'>{t("acquisition")}</h2>
+                    <div className='contactRightDiv'>
+                        <p className='responde'>{t("answer")}</p>
+                        <p className='mail'>{t("contactMail")}</p>
+                        <p className='teResponderemos'>{t("willAnswer")}</p>
+                    </div>
+                </div>
+                <div className='contactFormDiv'>
+                    <form>
+                            <div className='inputsDeskDiv'>
+                                <div className='formLeftDeskDiv'>
+                                    <input type="text" name='' placeholder={t("fullName")}></input>
+                                    <input type="text" name='' placeholder={t("company")}></input>
+                                    <input type="text" name='' placeholder={t("product")}></input>
+                                    <input type="text" name='' placeholder={t("email")}></input>
+                                    <select type="text" name='' >
+                                        <option value="">{t("territory")}</option>
+                                        <option value="item1">{t("argentina")}</option>
+                                        <option value="item2">{t("brazil")}</option>
+                                        <option value="item3">{t("cam")}</option>
+                                        <option value="item4">{t("chile")}</option>
+                                        <option value="item5">{t("colombia")}</option>
+                                        <option value="item6">{t("ecuador")}</option>
+                                        <option value="item7">{t("mexico")}</option>
+                                        <option value="item8">{t("peru")}</option>
+                                    </select>
+                                </div>
+                                <div className='formRightDeskDiv'>
+                                    <input type="text" name='' placeholder={t("charge")}></input>
+                                    <input type="text" name='' placeholder={t("brandOfInterest")}></input>
+                                    <input type="text" name='' placeholder={t("industry")}></input>
+                                    <input type="text" name='' placeholder={t("phone")}></input>
+                                    <textarea type="text" name='' placeholder={t("message")}/>
+                                </div>
+                            </div>
+                            <div className='formButtonDiv'>
+                                <Enviar buttonText={t("send")}/>
+                            </div>
+                    </form>
+                </div>
+                <div className='interestBZDiv'>
+                    <p className='regularP'>{t("interestBZ")}</p>
+                </div>
+                <img src={Tycoon360} className="tycoon360"/>
+            </div> 
+            <div className='contactThirdSectiondesk'></div> 
+        </div>
+       )}
     </Layout>
-    
   )
 }
 

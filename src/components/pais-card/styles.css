@@ -12,3 +12,15 @@
     font-family: "B Semilight";
     /* font-size: 14px; */
 }
+@media only screen and (min-width: 752px) {
+    .paisCardDiv {
+        margin: 1%;
+    }
+    .paisImage {
+        width: 38px;
+        height: 38px;
+    }
+    .paisName {
+        font-size: 8px;
+    }
+}

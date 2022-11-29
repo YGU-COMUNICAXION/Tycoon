@@ -16,7 +16,11 @@ const IndexPage = () => {
     <Layout>
     {windowSize < 752 ? (
       <div className="MainDiv">
-        <div className="homeFirstSection"></div>
+        <div className="homeFirstSection">
+          <div className="bannerTextHome">
+            <h1>{t("homeBanner")}</h1>
+          </div>
+        </div>
         <div className="homeSecondSection">
             <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
             <div className="secondSectionButtonDiv">
@@ -36,7 +40,11 @@ const IndexPage = () => {
       </div>
     ):(
       <div className="MainDivDesk">
-        <div className="homeFirstSectionDesk"></div>
+        <div className="homeFirstSectionDesk">
+          <div className="bannerTextHome">
+            <h1>{t("homeBanner")}</h1>
+          </div>
+        </div>
         <div className="homeSecondSectionDesk">
             <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
             <div className="secondSectionButtonDiv">

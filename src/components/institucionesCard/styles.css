@@ -19,3 +19,24 @@
     text-align: center;
     line-height: 24px;
 }
+@media only screen and (min-width: 752px) {
+    .institucionMainDiv {
+        width: 30%;
+        height: 350px;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .institucionMainDiv img {
+      /* height: 50%; */
+    }
+    .instName {
+        font-family: "B SemiLight";
+        font-size:6px;
+    }
+    .instInfo {
+        font-family: "B SemiLight";
+        font-size: 10px;
+        line-height: 16px;
+        text-align: left;
+    }
+}

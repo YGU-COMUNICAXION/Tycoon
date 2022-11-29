@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
 }
 .MainDiv {
-    margin-top: 18%;
+    margin-top: 22%;
 }
 .homeFirstSection {
     background-image: url("../images/mobile/home/banner-home-mobile.png");
@@ -14,6 +14,21 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 750px;
+    position: relative;
+    z-index: 1;
+}
+.bannerTextHome {
+    position: absolute;
+    z-index: 2;
+    width: 55%;
+    /* top: 520px;
+    left: 120px; */
+    top: 70%;
+    left: 33%;
+}
+.bannerTextHome h1 {
+    font-family: "B Medium";
+    font-size: 26px;
 }
 .sectionTitle {
     font-family: "B Bold";
@@ -66,12 +81,18 @@ body {
     height: 175px;
 }
 /* CLASES DESKTOP */
+
 .homeFirstSectionDesk {
     background-image: url("../images/desktop/home/banner-home-desk.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.MainDivDesk {
+    margin-top: 7%;
 }
 .homeSecondSectionDesk {
     padding: 6% 4% 1% 4%;
@@ -98,13 +119,24 @@ body {
 .oficinaDesk {
     width: 45%;
 }
-
+@font-face {
+    font-family: "Gobold";
+    src: url("../static/fonts/Gobold\ Regular.otf")
+} 
 
 @media only screen and (min-width: 752px){
     .sectionTitle {
         margin-top: 0%;
         margin-bottom: 4%;
         font-size: 21px;
+    }
+    .bannerTextHome {
+        top: 50%;
+        left: 54%;
+        width: 30%;
+    }
+    .bannerTextHome h1 {
+        font-size: 23px;
     }
     .regularP {
         font-size: 15px;
@@ -117,4 +149,7 @@ body {
     .thirdSectionButton {
         margin-top: 2%;
     }
+}
+@media only screen and (min-width: 1000px) {
+    
 }

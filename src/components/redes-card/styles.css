@@ -12,3 +12,11 @@
     font-family: "B SemiLight";
     font-size: 110%;
 }
+@media only screen and (min-width: 752px) {
+    .redLogo {
+        width: 15%;
+    }
+    .redName{
+        font-size: 10px;
+    }
+}

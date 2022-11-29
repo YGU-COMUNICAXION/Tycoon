@@ -21,10 +21,29 @@
 .noticiasRow {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .noticiasGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 15%;
 }
 .navDivisor {
     border: solid .5px black
+}
+.verMasButtonDiv {
+    width: 25%;
+}
+@media only screen and (min-width: 752px) {
+    .nav{
+        width: 30%;
+    }
+    .nav-link {
+        font-size: 13px;
+    }
+    .noticiasGrid {
+        margin-top: 5%;
+    }
 }

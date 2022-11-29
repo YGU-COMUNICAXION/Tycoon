@@ -115,3 +115,96 @@
 .tycoon360 {
     width: 64%;
 }
+.contactFirstSectionDesk {
+    background-image: url("../images/desktop/contacto/PORTADA-CONTACTO.png");
+    background-size: cover;
+    height: 268px;
+}
+.inputsDeskDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+}
+.formLeftDeskDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin-right: 2%;
+}
+.formRightDeskDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin-left: 2%;
+
+}
+@media only screen and (min-width: 752px){
+    .contactInfoDiv {
+        width: 70%;
+    }
+    .blueTitle {
+        width: 60%;
+        font-size: 33px;
+    }
+    .adquirir {
+        font-size: 30px;
+    }
+    .responde {
+        font-size: 20px;
+        margin-bottom: 7%;
+    }
+    .mail {
+        font-size: 18px;
+        margin-bottom: 7%;
+
+    }
+    .teResponderemos {
+        font-size: 20px;
+
+    }
+
+    .contactFormDiv {
+        margin-top: 5%;
+    }
+    .contactFormDiv form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .inputsDeskDiv input {
+        height: 35px;
+        width: 97%;
+    }
+    .inputsDeskDiv select {
+        width: 103%;
+        font-size: 12PX;
+        height: 35px;
+
+    }
+    .inputsDeskDiv textarea {
+        width: 97%;
+        height: 85px;
+    }
+    .contactFormDiv ::placeholder {
+        font-size: 12PX;
+    }
+    .formButtonDiv {
+        width: 14%;
+        margin-bottom: 3%;
+    }
+    .interestBZDiv {
+        margin-bottom: 1%;
+    }
+    .tycoon360 {
+        width: 23%;
+    }
+
+}

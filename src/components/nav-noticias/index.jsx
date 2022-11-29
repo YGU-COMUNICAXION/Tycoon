@@ -5,11 +5,14 @@ import Nav from 'react-bootstrap/Nav';
 import NoticiasCard from '../noticias-card';
 import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
 import Nuevo from "../../images/mobile/noticias/noticiasRecientes/nuevo.png"
-
+import useWindowSize from '../../hooks/useWindowSize';
+import Button from '../button';
 
 function NewsNav() {
     const [active, setActive] = useState(1)
     const { t } = useTranslation("news");
+    const windowSize = useWindowSize();
+    const [page, setPage] = useState("nada");
 
     return (
         <>
@@ -31,19 +34,84 @@ function NewsNav() {
             </Nav.Item>
         </Nav>
         <div className='noticiasGrid'>
+        {windowSize < 752? (
+            <>
+                {active === 1 && (
+                    <>
+                        <div className='noticiasRow'>
+                            <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        </div>
+                        <div className='noticiasRow'>
+                            <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        </div>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                    </>
+                )}
+                {active === 2 && (
+                    <>
+                        <div className='noticiasRow'>
+                            <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        </div>
+                        <div className='noticiasRow'>
+                            <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        </div>                    
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                    </>
+                )}
+                {active === 3 && (
+                    <>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                    </>
+                )}
+                {active === 4 && (
+                    <>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                        <div className='noticiasRow'></div>
+                    </>
+                )}
+            </>
+
+        ):(
+            <>
             {active === 1 && (
                 <>
                     <div className='noticiasRow'>
                         <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
                         <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
                     </div>
                     <div className='noticiasRow'>
                         <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
                         <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+
                     </div>
-                    <div className='noticiasRow'></div>
-                    <div className='noticiasRow'></div>
-                    <div className='noticiasRow'></div>
+                    <div className='noticiasRow'>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+
+                    </div>
+                    <div className='noticiasRow'>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                    </div>
                 </>
             )}
             {active === 2 && (
@@ -51,8 +119,10 @@ function NewsNav() {
                     <div className='noticiasRow'>
                         <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
                         <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
                     </div>
                     <div className='noticiasRow'>
+                        <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
                         <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
                         <NoticiasCard image={Nuevo} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
                     </div>                    
@@ -79,6 +149,40 @@ function NewsNav() {
                     <div className='noticiasRow'></div>
                 </>
             )}
+            {page === "unodos" && (
+                <>
+                    <div className='noticiasRow'>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                    </div>
+                    <div className='noticiasRow'>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+
+                    </div>
+                    <div className='noticiasRow'>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+
+                    </div>
+                    <div className='noticiasRow'>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                        <NoticiasCard image={Cobra} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                    </div> 
+                </>
+            )}
+            {page === "nada" && (
+                <div className='verMasButtonDiv' onClick={()=> setPage("unodos")}>
+                    <Button buttonText={t("seeMore")} />
+                </div>
+            )}
+            </>
+        )}
+
         </div>
         </>
     )
