@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 0% 1% 0% 1%;
+    max-width: 500px;
 }
 .institucionMainDiv img {
     width: 100%;
@@ -23,8 +24,8 @@
     .institucionMainDiv {
         width: 30%;
         height: 350px;
-        align-items: baseline;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
     .institucionMainDiv img {
       /* height: 50%; */
@@ -38,5 +39,53 @@
         font-size: 10px;
         line-height: 16px;
         text-align: left;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .institucionMainDiv {
+        height: 650px;
+    }
+    .instName {
+        font-size: 15px;
+    }
+    .instInfo {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .institucionMainDiv {
+        height: 670px;
+    }
+    .instName {
+        font-size: 19px;
+    }
+    .instInfo {
+        font-size: 23px;
+        line-height: 25px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .institucionMainDiv {
+        height: 880px;
+    }
+    .instName {
+        font-size: 19px;
+    }
+    .instInfo {
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .institucionMainDiv {
+        height: 1050px;
+    }
+    .instName {
+        font-size: 25px;
+    }
+    .instInfo {
+        font-size: 32px;
+        line-height: 42px;
     }
 }

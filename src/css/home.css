@@ -149,6 +149,7 @@ body {
     .thirdSectionButton {
         margin-top: 2%;
     }
+
 }
 @media only screen and (min-width: 1000px) {
     .homeFirstSectionDesk {
@@ -160,10 +161,10 @@ body {
     .regularP {
         font-size: 22px;
     }
-    /* .smallP {
-        font-size: 12px;
+    .smallP {
+        font-size: 18px;
         line-height: 24px;
-    } */
+    }
     .homeSecondSectionDesk {
         padding: 6% 4% 1% 4%;
     }
@@ -181,9 +182,16 @@ body {
     }
     .sectionTitle {
         font-size: 39px;
+        line-height: 47px;
+
     }
     .regularP {
         font-size: 30px;
+        line-height: 44px;
+    }
+    .smallP {
+        font-size: 23px;
+        line-height: 34px;
     }
 }
 @media only screen and (min-width: 1500px) {
@@ -192,11 +200,17 @@ body {
     }
     .sectionTitle {
         font-size: 43px;
+        margin-bottom: 6%;
     }
     .regularP {
-        font-size: 38px;
+        font-size: 34px;
         line-height: 54px;
     }
+    .smallP {
+        font-size: 28px;
+        line-height: 54px;
+    }
+
 }
 @media only screen and (min-width: 2000px) {
     .homeFirstSectionDesk {
@@ -206,7 +220,11 @@ body {
         font-size: 46px;
     }
     .regularP {
-        line-height: 64px;
+        line-height: 54px;
+    }
+    .smallP {
+        font-size: 32px;
+        line-height: 58px;
     }
     .secondSectionButtonDesk {
         width: 18%;
