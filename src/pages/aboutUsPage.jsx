@@ -23,6 +23,9 @@ import Como from "../images/mobile/nosotros/como.png"
 import useWindowSize from "../hooks/useWindowSize";
 import QueDesk from "../images/desktop/nosotros/que.png"
 import ComoDesk from "../images/desktop/nosotros/como.png"
+import Responsabilidad from "../images/mobile/nosotros/responsabilidad.png"
+import Okey from "../images/mobile/nosotros/ok.png"
+import Like from "../images/mobile/nosotros/like.png"
 
 
 const AboutUsPage = () => {
@@ -33,7 +36,12 @@ const AboutUsPage = () => {
         <Layout>
         {windowSize < 752 ? (
             <div className="MainDiv">
-                <div className="aboutFirstSection"/>
+                <div className="aboutFirstSection">
+                    <div className="aboutBannerText">
+                        <h1>{t("us")}</h1>
+                        <p>{t("numbreOne")}</p>
+                    </div>
+                </div>
                 <div className="aboutSecondSection">
                     <p className="smallP">{renderStringHMTLtoJSX(t("aboutFirstP"))}</p>
                     <p className="smallP">{t("aboutSecondP")}</p>
@@ -54,12 +62,12 @@ const AboutUsPage = () => {
                     <img src={Como} className="como"/>
                 </div>
                 <div className="aboutFifhtSection">
-                    <img/>
+                    <img src={Like} className="LikeMobile"/>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutDoYou"))}</h2>
                     <p className="regularP">{t("aboutTenthP")}</p>
                     <p className="smallP">{renderStringHMTLtoJSX(t("aboutEleventhP"))}</p>
                     <p className="smallP">{renderStringHMTLtoJSX(t("aboutTwelfthP"))}</p>
-                    <img/>
+                    <img src={Okey} className="OkeyMobile"/>
                 </div>
                 <div className="aboutSixthSection">
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAcknowledgments"))}</h2>
@@ -88,7 +96,7 @@ const AboutUsPage = () => {
                     </div>
                 </div>
                 <div className="aboutSeventhSection">
-                    <img/>
+                    <img src={Responsabilidad}/>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutResposability"))}</h2>
                     <InstitucionesCard image={Museo} institucionName={t("museoName")} info={t("museoInfo")}/>
                     <InstitucionesCard image={Cadena} institucionName={t("cadenaName")} info={t("cadenaInfo")}/>
@@ -130,9 +138,11 @@ const AboutUsPage = () => {
                     </div>
                 </div>
                 <div className="aboutFifhtSectionDesk">
+                    <img src={Like} className="likeDesk"/>
                     <div className="aboutLeftDiv">
                         <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutDoYou"))}</h2>
                         <p className="regularP">{t("aboutTenthP")}</p>
+                        <img src={Okey} className="okeydesk"/>
                     </div>
                     <div className="aboutRightDiv">
                         <p className="smallP">{renderStringHMTLtoJSX(t("aboutEleventhP"))}</p>
@@ -162,7 +172,7 @@ const AboutUsPage = () => {
                     </div>
                 </div>
                 <div className="aboutSeventhSectionDesk">
-                    <img/>
+                    <img src={Responsabilidad}/>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutResposability"))}</h2>
                     <div className="institucionesDivDesk">
                         <InstitucionesCard image={Museo} institucionName={t("museoName")} info={t("museoInfo")}/>

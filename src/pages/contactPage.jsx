@@ -25,7 +25,7 @@ const ContactPage = () => {
     <Layout>
        {windowSize < 752 ? (
         <div className='MainDiv'>
-            <div className='contactFirstSection'/>
+            <div className='contactFirstSection'></div>
             <div className='contactSecondSection'>
                 <h2 className='blueTitle'>{t("contactTitle")}</h2>
                 <div className='contactInfoDiv'>

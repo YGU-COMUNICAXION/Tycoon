@@ -15,7 +15,7 @@ const NewsPage = () => {
         <Layout>
                 {windowSize < 752 ? (
                     <div className="MainDiv">
-                        <div className="newsFirstSection"/>
+                        <div className="newsFirstSection"></div>
                         <div className="newsSecondSection">
                             <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
                         </div>
