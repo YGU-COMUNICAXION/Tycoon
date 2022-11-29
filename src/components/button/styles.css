@@ -10,3 +10,8 @@
 .buttonDiv P {
     font-family: "B SemiBold";
 }
+@media only screen and (min-width: 1500px) {
+    .buttonDiv P {
+        font-size: 20px;
+    }
+}

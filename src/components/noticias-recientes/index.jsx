@@ -31,7 +31,6 @@ const NoticiasRecientes = ({title}) => {
             <NoticiasCard image={AmongDesk} title={t("among")} date={t("amongDate")}/>
           </div>
         )}
-
     </div>
   )
 }

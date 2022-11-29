@@ -3,6 +3,7 @@
     flex-direction: column;
     min-width: 150px;
     margin: 2%;
+    max-width: 450px;
 }
 .noticiaUpperDiv img {
     width: 100%;
@@ -50,5 +51,22 @@
     }
     .noticiaDate {
         font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .noticiaTitle {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .noticiaDate {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .noticiaTitle {
+        font-size: 28px;
+    }
+    .noticiaDate {
+        font-size: 25px;
     }
 }
