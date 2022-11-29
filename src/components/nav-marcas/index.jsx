@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Catalogo from "../../../CatalogoBrands";
+import Catalogo from "../../../CatalogoBrandsDesktop";
 import styled from "styled-components";
 import { Nav } from "react-bootstrap";
 import "./styles_marcas.css";
@@ -67,6 +67,52 @@ const StyledNavMarcas = styled.div`
       padding: 10px;
     }
   }
+  @media (min-width: 1200px) {
+    .wrapper__buttons {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      .level_one {
+        display: flex;
+        align-items: center;
+        button {
+          width: 100%;
+          padding: 10px;
+          font-size: 24px;
+          :first-child {
+            border-radius: 4px 0 0 4px;
+          }
+          :last-child {
+            border-radius: 0 0px 0 0px;
+          }
+        }
+      }
+      .level_two {
+        display: flex;
+        align-items: center;
+        button {
+          padding: 10px;
+          width: 15%;
+          font-size: 24px;
+          :first-child {
+            border-radius: 0px 0px 0px 0px;
+          }
+          :last-child {
+            border-radius: 0px 4px 4px 0px;
+          }
+          :nth-child(3) {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .order_image {
+    img {
+      width: 300px;
+      padding: 10px;
+    }
+  }
+  }
 `;
 export default function NavMarcas() {
   const [show, setShow] = useState(1);
@@ -133,7 +179,7 @@ export default function NavMarcas() {
           </>
         ) : null}
 
-      {/* MEXICO SECTIONS */}
+        {/* MEXICO SECTIONS */}
 
         {show === 1 && info === "corporativas" ? (
           <>
@@ -161,7 +207,7 @@ export default function NavMarcas() {
           </>
         ) : null}
 
-          {/* BRASIL SECTIONS */}
+        {/* BRASIL SECTIONS */}
 
         {show === 8 && info === "corporativas" ? (
           <>
@@ -217,9 +263,9 @@ export default function NavMarcas() {
           </>
         ) : null}
 
-          {/* PERÚ SECTIONS */}
+        {/* PERÚ SECTIONS */}
 
-          {show === 6 && info === "corporativas" ? (
+        {show === 6 && info === "corporativas" ? (
           <>
             {Catalogo[4].peru.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
@@ -272,9 +318,9 @@ export default function NavMarcas() {
             })}
           </>
         ) : null}
-         {/* COLOMBIA SECTIONS */}
+        {/* COLOMBIA SECTIONS */}
 
-         {show === 2 && info === "corporativas" ? (
+        {show === 2 && info === "corporativas" ? (
           <>
             {Catalogo[6].colombia.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
@@ -300,9 +346,9 @@ export default function NavMarcas() {
           </>
         ) : null}
 
-         {/* ECUADOR SECTIONS */}
+        {/* ECUADOR SECTIONS */}
 
-         {show === 3 && info === "corporativas" ? (
+        {show === 3 && info === "corporativas" ? (
           <>
             {Catalogo[7].ecuador.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
@@ -328,8 +374,6 @@ export default function NavMarcas() {
           </>
         ) : null}
       </div>
-
-    
     </StyledNavMarcas>
   );
 }
