@@ -44,3 +44,11 @@
         width: 13%;
     }
 }
+@media only screen and (min-width: 1000px) {
+    .noticiaTitle {
+        font-size: 18px;
+    }
+    .noticiaDate {
+        font-size: 16px;
+    }
+}

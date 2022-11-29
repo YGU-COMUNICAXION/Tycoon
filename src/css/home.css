@@ -151,5 +151,27 @@ body {
     }
 }
 @media only screen and (min-width: 1000px) {
-    
+    .homeFirstSectionDesk {
+        height: 650px;
+    }
+    .sectionTitle {
+        font-size: 27px;
+    }
+    .regularP {
+        font-size: 22px;
+    }
+    /* .smallP {
+        font-size: 12px;
+        line-height: 24px;
+    } */
+    .homeSecondSectionDesk {
+        padding: 6% 4% 1% 4%;
+    }
+    .homeThridSectionDesk {
+        justify-content: space-between;
+        padding: 10% 4% 8% 4%;
+    }
+    .oficinaDesk {
+        width: 50%;
+    }
 }
