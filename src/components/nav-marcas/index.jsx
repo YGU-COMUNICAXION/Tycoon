@@ -244,6 +244,89 @@ export default function NavMarcas() {
             })}
           </>
         ) : null}
+
+        {/* Centroamerica SECTIONS */}
+
+        {show === 7 && info === "corporativas" ? (
+          <>
+            {Catalogo[5].centroAmerica.corporativas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 7 && info === "entretenimiento" ? (
+          <>
+            {Catalogo[5].centroAmerica.entretenimiento.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 7 && info === "estilo" ? (
+          <>
+            {Catalogo[5].centroAmerica.estilo.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 7 && info === "deportivas" ? (
+          <>
+            {Catalogo[5].centroAmerica.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : null}
+         {/* COLOMBIA SECTIONS */}
+
+         {show === 2 && info === "corporativas" ? (
+          <>
+            {Catalogo[6].colombia.corporativas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 2 && info === "entretenimiento" ? (
+          <>
+            {Catalogo[6].colombia.entretenimiento.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 2 && info === "estilo" ? (
+          <>
+            {Catalogo[6].colombia.estilo.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 2 && info === "deportivas" ? (
+          <>
+            {Catalogo[6].colombia.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : null}
+
+         {/* ECUADOR SECTIONS */}
+
+         {show === 3 && info === "corporativas" ? (
+          <>
+            {Catalogo[7].ecuador.corporativas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 3 && info === "entretenimiento" ? (
+          <>
+            {Catalogo[7].ecuador.entretenimiento.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 3 && info === "estilo" ? (
+          <>
+            {Catalogo[7].ecuador.estilo.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : show === 3 && info === "deportivas" ? (
+          <>
+            {Catalogo[7].ecuador.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </>
+        ) : null}
       </div>
 
     
