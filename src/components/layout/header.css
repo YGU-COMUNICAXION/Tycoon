@@ -91,3 +91,52 @@
     font-size: 10px;
 
 }
+
+@media only screen and (min-width: 1000px) {
+    .HeaderTag {
+        /* background-color: antiquewhite; */
+        height: 90px;
+    }
+    .deskLeftDiv img {
+        width: 80%;
+    }
+    .deskNav a {
+        font-size: 16px;
+    }
+    .deskRightDiv img{
+        width: 13%;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .deskLeftDiv img {
+        width: 90%;
+    }
+    .deskNav a {
+        font-size: 23px;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .HeaderTag {
+        /* background-color: antiquewhite; */
+        height: 120px;
+    }
+    .deskLeftDiv img {
+        width: 90%;
+    }
+    .deskNav a {
+        font-size: 23px;
+    }
+    .deskRightDiv img{
+        width: 8%;
+    }
+    .switchLeng {
+        width: 15%;
+    }
+    .switchLeng select {
+        width: 100%;
+        height: 30px;
+        font-size: 19px;
+        border-radius: 8px;
+        border: solid 2px black;
+    }
+}
