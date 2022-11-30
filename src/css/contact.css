@@ -145,6 +145,7 @@
 
 }
 @media only screen and (min-width: 752px){
+
     .contactInfoDiv {
         width: 70%;
     }
@@ -166,11 +167,16 @@
     }
     .teResponderemos {
         font-size: 20px;
-
     }
 
     .contactFormDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 5%;
+    }
+    .contactInfoDiv {
+        max-width: 1000px;
     }
     .contactFormDiv form {
         display: flex;
@@ -178,6 +184,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        max-width: 1500px;
     }
     .inputsDeskDiv input {
         height: 35px;
@@ -185,7 +192,7 @@
     }
     .inputsDeskDiv select {
         width: 103%;
-        font-size: 12PX;
+        font-size: 12px;
         height: 35px;
 
     }
@@ -194,7 +201,7 @@
         height: 85px;
     }
     .contactFormDiv ::placeholder {
-        font-size: 12PX;
+        font-size: 12px;
     }
     .formButtonDiv {
         width: 14%;
@@ -206,5 +213,94 @@
     .tycoon360 {
         width: 23%;
     }
+
+}
+@media only screen and (min-width: 1000px){
+    .blueTitle {
+        font-size: 36px;
+    }
+    .contactInfoDiv {
+        width: 57%;
+    }
+    .adquirir {
+       font-size: 32px; 
+    }
+
+    .responde {
+        font-size: 23px;
+    }
+    .mail {
+        font-size: 22px;
+
+    }
+    .teResponderemos {
+        font-size: 23px;
+    }
+    .inputsDeskDiv input {
+        height: 37px;
+        width: 97%;
+        font-size: 16px;
+    }
+    .inputsDeskDiv select {
+        width: 103%;
+        font-size: 14px;
+        height: 37px;
+    }
+    .inputsDeskDiv textarea {
+        width: 97%;
+        height: 85px;
+    }
+    .contactFormDiv ::placeholder {
+        font-size: 14px;
+    }
+    .tycoon360 {
+        width: 17%;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .blueTitle {
+        font-size: 43px;
+        width: 43%;
+    }
+    .contactInfoDiv {
+        width: 57%;
+    }
+    .adquirir {
+       font-size: 35px; 
+    }
+
+    .responde {
+        font-size: 26px;
+    }
+    .mail {
+        font-size: 25px;
+
+    }
+    .teResponderemos {
+        font-size: 26px;
+    }
+    .inputsDeskDiv input {
+        height: 40px;
+        width: 97%;
+        margin-bottom: 3%;
+        font-size: 20px;
+    }
+    .inputsDeskDiv select {
+        width: 103%;
+        font-size: 20px;
+        height: 40px;
+    }
+    .inputsDeskDiv textarea {
+        width: 97%;
+        height: 105px;
+    }
+    .contactFormDiv ::placeholder {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1500px){
+
+}
+@media only screen and (min-width: 2000px){
 
 }

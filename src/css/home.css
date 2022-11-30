@@ -203,28 +203,17 @@ body {
         margin-bottom: 6%;
     }
     .regularP {
-        font-size: 34px;
+        font-size: 31px;
         line-height: 54px;
     }
     .smallP {
-        font-size: 28px;
+        font-size: 25px;
         line-height: 54px;
     }
-
 }
 @media only screen and (min-width: 2000px) {
     .homeFirstSectionDesk {
         height: 1300px;
-    }
-    .sectionTitle {
-        font-size: 46px;
-    }
-    .regularP {
-        line-height: 54px;
-    }
-    .smallP {
-        font-size: 32px;
-        line-height: 58px;
     }
     .secondSectionButtonDesk {
         width: 18%;
