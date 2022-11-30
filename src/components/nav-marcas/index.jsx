@@ -10,7 +10,9 @@ const StyledNavMarcas = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 0 10px;
+    margin: 0 auto;
     margin-top: 60px;
+    max-width: 700px;
     button {
       border: 0.5px solid black;
       font-family: "B SemiBold";
@@ -59,19 +61,22 @@ const StyledNavMarcas = styled.div`
   }
   .order_image {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
-    img {
-      width: 156px;
-      padding: 10px;
-    }
+    padding: 0 10px;
+    margin: 0 auto;
   }
+  img {
+    width: 156px;
+    padding: 5px;
+  }
+
   @media (min-width: 1200px) {
     .wrapper__buttons {
       display: flex;
       flex-direction: row;
-      width: 100%;
+      max-width: 100%;
       .level_one {
         display: flex;
         align-items: center;
@@ -107,11 +112,17 @@ const StyledNavMarcas = styled.div`
       }
     }
     .order_image {
-    img {
-      width: 300px;
-      padding: 10px;
+      img {
+        width: 300px;
+        padding: 10px;
+      }
     }
   }
+  @media (min-width: 1600px) {
+    .order_image {
+      margin: 0 auto;
+      max-width: 1400px;
+    }
   }
 `;
 export default function NavMarcas() {
@@ -151,8 +162,9 @@ export default function NavMarcas() {
           <Nav.Link eventKey="link-4">Deportivas</Nav.Link>
         </Nav.Item>
       </Nav>
-      {/* ARGENTINA SECTIONS */}
+
       <div className="order_image">
+        {/* ARGENTINA SECTIONS */}
         {show === 4 && info === "corporativas" ? (
           <>
             {Catalogo[0].argentina.corporativas.map((e, idx) => {
