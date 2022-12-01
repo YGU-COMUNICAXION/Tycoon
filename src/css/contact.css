@@ -216,8 +216,11 @@
 
 }
 @media only screen and (min-width: 1000px){
+    .contactSecondSection {
+        padding: 4% 4%;    }
     .blueTitle {
         font-size: 36px;
+        margin-top: 0%;
     }
     .contactInfoDiv {
         width: 57%;
@@ -279,6 +282,9 @@
     .teResponderemos {
         font-size: 26px;
     }
+    .contactFormDiv {
+        margin-top: 4%;
+    }
     .inputsDeskDiv input {
         height: 40px;
         width: 97%;
@@ -299,8 +305,55 @@
     }
 }
 @media only screen and (min-width: 1500px){
+    .blueTitle {
+        font-size: 45px;
+        width: 38%;
+    }
+    .contactInfoDiv {
+        width: 57%;
+    }
+    .adquirir {
+       font-size: 38px; 
+    }
+    .responde {
+        font-size: 28px;
+        margin-bottom: 3%;
+    }
+    .mail {
+        font-size: 26px;
+        margin-bottom: 3%;
+    }
+    .teResponderemos {
+        font-size: 28px;
+    }
+    .inputsDeskDiv input {
+        height: 48px;
+        font-size: 23px;
+    }
+    .inputsDeskDiv select {
+        width: 103%;
+        font-size: 23px;
+        height: 48px;
+    }
+    .inputsDeskDiv textarea {
+        width: 97%;
+        height: 135px;
+        font-size: 23px;
 
+    }
+    .contactFormDiv ::placeholder {
+        font-size: 23px;
+    }
+}
+@media only screen and (min-width: 1700px){
+    .blueTitle {
+        font-size: 45px;
+        width: 34%;
+    }
 }
 @media only screen and (min-width: 2000px){
-
+    .blueTitle {
+        font-size: 45px;
+        width: 25%;
+    }
 }
