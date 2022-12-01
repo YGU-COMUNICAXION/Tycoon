@@ -17,11 +17,44 @@
     margin-bottom: 8%;
 }
 @media only screen and (min-width: 752px) {
-    
     .reconocimientoMainDiv {
         width: 170px;
     }
     .reconocimientoMainDiv p {
         font-size: 12px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .reconocimientoMainDiv {
+        width: 200px;
+    }
+    .reconocimientoMainDiv p {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .reconocimientoMainDiv {
+        width: 250px;
+    }
+    .reconocimientoMainDiv p {
+        font-size: 23px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .reconocimientoMainDiv {
+        width: 300px;
+    }
+    .reconocimientoMainDiv p {
+        font-size: 28px;
+        line-height: 39px;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .reconocimientoMainDiv {
+        width: 340px;
+    }
+    .reconocimientoMainDiv p {
+        font-size: 34px;
+        line-height: 43px;
     }
 }

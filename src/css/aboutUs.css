@@ -2,6 +2,7 @@
 .aboutFirstSection {
     background-image: url("../images/mobile/nosotros/PORTADA\ NOSOTROS-02.png");
     background-size: cover;
+    width: 100%;
     height: 133px;
     display: flex;
     flex-direction: column;
@@ -82,13 +83,17 @@
     background-image: url("../images/desktop/nosotros/PORTADANOSOTROS.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 267px;
+    width: 100%;
+    padding-bottom: 35%;
 }
 .aboutLeftDiv {
     width: 48%;
+    max-width: 750px;
 }
 .aboutRightDiv {
     width: 48%;
+    max-width: 750px;
+
 }
 .aboutSectionDesk {
     display: flex;
@@ -104,7 +109,6 @@
     align-items: center;
     padding: 6% 4% 1% 4%;
     justify-content: space-between;
-    padding: 6% 4% 1% 4%;
     margin-bottom: 5%;
 }
 .queDesk {
@@ -162,7 +166,7 @@
     padding: 2% 4% 1% 4%;
 }
 .aboutSeventhSectionDesk img {
-    width: 25%;
+    width: 20%;
     margin-bottom: 3%;
 }
 .institucionesDivDesk {
@@ -170,4 +174,67 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+}
+@media only screen and (min-width: 752px) {
+    .aboutSeventhSectionDesk h2 {
+        width: 30%;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .aboutSeventhSectionDesk img {
+        width: 15%;
+    }
+
+}
+@media only screen and (min-width: 1500px) {
+    .aboutSeventhSectionDesk img {
+        width: 20%;
+    }
+    .aboutCenteredSectionDesk {
+        justify-content: center;
+        padding: 2% 4% 4% 4%;
+        margin-bottom: 0%;
+    }
+    .aboutFifhtSectionDesk {
+        padding: 6% 4% 4% 4%;
+        margin-bottom: 0%;
+    }
+    .aboutSixthSectionDesk {
+        padding: 6% 4% 4% 4%;
+    }
+    .reconodimientosGroupDesk {
+        margin-bottom: 5%;
+    }
+    .aboutSeventhSectionDesk img {
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .aboutRightDiv {
+        margin-left: 2%;
+    }
+    .aboutLeftDiv {
+        margin-right: 2%;
+    }
+    .aboutSectionDesk {
+        justify-content: center;
+    }
+    .aboutCenteredSectionDesk {
+        justify-content: center;
+        padding: 1% 4% 1% 4%;
+    }
+    .queDesk {
+        width: 100%;
+    }
+    .aboutFifhtSectionDesk {
+        justify-content: center;
+        padding: 6% 4% 4% 4%;
+    }
+    .aboutSixthSectionDesk {
+        padding: 6% 4% 2% 4%;
+    }
+    .aboutSeventhSectionDesk img {
+        width: 13%;
+    }
 }

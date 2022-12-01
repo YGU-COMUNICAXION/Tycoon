@@ -87,9 +87,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     position: relative;
     z-index: 1;
+    padding-bottom: 65%;
 }
 .MainDivDesk {
     margin-top: 7%;
@@ -149,21 +150,22 @@ body {
     .thirdSectionButton {
         margin-top: 2%;
     }
+
 }
 @media only screen and (min-width: 1000px) {
-    .homeFirstSectionDesk {
+    /* .homeFirstSectionDesk {
         height: 650px;
-    }
+    } */
     .sectionTitle {
         font-size: 27px;
     }
     .regularP {
         font-size: 22px;
     }
-    /* .smallP {
-        font-size: 12px;
+    .smallP {
+        font-size: 18px;
         line-height: 24px;
-    } */
+    }
     .homeSecondSectionDesk {
         padding: 6% 4% 1% 4%;
     }
@@ -175,3 +177,58 @@ body {
         width: 50%;
     }
 }
+@media only screen and (min-width: 1300px) {
+    /* .homeFirstSectionDesk {
+        height: 850px;
+    } */
+    .sectionTitle {
+        font-size: 39px;
+        line-height: 47px;
+
+    }
+    .regularP {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .smallP {
+        font-size: 23px;
+        line-height: 34px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    /* .homeFirstSectionDesk {
+        height: 1000px;
+    } */
+    .sectionTitle {
+        font-size: 43px;
+        margin-bottom: 6%;
+    }
+    .regularP {
+        font-size: 31px;
+        line-height: 54px;
+    }
+    .smallP {
+        font-size: 25px;
+        line-height: 54px;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    /* .homeFirstSectionDesk {
+        height: 1300px;
+    } */
+    .secondSectionButtonDesk {
+        width: 18%;
+    }
+}
+@media only screen and (min-width: 2500px) {
+    /* .homeFirstSectionDesk {
+        height: 1640px;
+    } */
+    .homeThridSectionDesk {
+        padding: 5% 18% 5% 18% ;
+    }
+    .secondSectionButtonDesk {
+        width: 14%;
+    }
+}
+@media only screen and (min-width: 3000px) {}

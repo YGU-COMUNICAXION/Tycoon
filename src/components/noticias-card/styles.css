@@ -3,6 +3,7 @@
     flex-direction: column;
     min-width: 150px;
     margin: 2%;
+    max-width: 450px;
 }
 .noticiaUpperDiv img {
     width: 100%;
@@ -26,11 +27,13 @@
     .noticiaMainDiv {
         width: 33%;
         margin: 1% 1% 5% 1%;
+        height: 373px;
     }
     .noticiaTitle {
         font-family: "B SemiBold";
         font-size: 13px;
-        margin-bottom: 0%
+        margin-bottom: 0%;
+        line-height: 23px;
     }
     .noticiaUpperDiv {
         height: 74%;
@@ -45,10 +48,37 @@
     }
 }
 @media only screen and (min-width: 1000px) {
+    .noticiaMainDiv {
+        height: 473px;
+    }
     .noticiaTitle {
         font-size: 18px;
+        line-height: 25px;
     }
     .noticiaDate {
         font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .noticiaMainDiv {
+        height: 643px;
+    }
+    .noticiaTitle {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .noticiaDate {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .noticiaMainDiv {
+        height: 743px;
+    }
+    .noticiaTitle {
+        font-size: 28px;
+    }
+    .noticiaDate {
+        font-size: 25px;
     }
 }

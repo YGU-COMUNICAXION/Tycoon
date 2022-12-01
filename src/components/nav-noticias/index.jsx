@@ -15,7 +15,7 @@ function NewsNav() {
     const [page, setPage] = useState("nada");
 
     return (
-        <>
+        <div className='noticiasPageMainDiv'>
         <Nav fill variant="tabs" activeKey={active}>
             <Nav.Item onClick={()=> setActive(1)}>
                 <Nav.Link eventKey="link-1">2022</Nav.Link>
@@ -184,7 +184,7 @@ function NewsNav() {
         )}
 
         </div>
-        </>
+        </div>
     )
 }
 

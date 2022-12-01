@@ -13,7 +13,10 @@
 .newsFirstSectionDesk {
     background-image: url("../images/desktop/noticias/PORTADA-NOTICIAS-DESK.png");
     background-size: cover;
-    height: 268px;
+    /* height: 268px; */
+    width: 100%;
+    padding-bottom: 35%;
+
 }
 @media only screen and (min-width: 752px) {
 
@@ -24,3 +27,28 @@
         padding: 5% 4% 1% 4%;
     }
 }
+/* @media only screen and (min-width: 1000px) {
+    .newsFirstSectionDesk {
+        height: 350px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .newsFirstSectionDesk {
+        height: 460px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .newsFirstSectionDesk {
+        height: 530px;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .newsFirstSectionDesk {
+        height: 700px;
+    }
+}
+@media only screen and (min-width: 2500px) {
+    .newsThirdSection h2 {
+        padding: 0% 16% 0% 16% ;
+    }
+} */

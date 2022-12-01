@@ -11,7 +11,6 @@ import Instagram from "../../images/desktop/layout/header/icon-instagram.png"
 import LinkedIn from "../../images/desktop/layout/header/icon-linkedin.png"
 import "./header.css"
 
-
 // const HeaderTag = styled.header`
 //   display: flex;
 //   justify-content: space-between;
