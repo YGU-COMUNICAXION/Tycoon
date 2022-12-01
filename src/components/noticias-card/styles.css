@@ -4,6 +4,7 @@
     min-width: 150px;
     margin: 2%;
     max-width: 450px;
+    width: 50%;
 }
 .noticiaUpperDiv img {
     width: 100%;
@@ -25,8 +26,9 @@
 
 @media only screen and (min-width: 752px) {
     .noticiaMainDiv {
-        width: 33%;
-        margin: 1% 1% 5% 1%;
+        /* width: 33%; */
+        width: 224px;
+        margin: 1% 3% 5% 3%;
         height: 373px;
     }
     .noticiaTitle {
@@ -50,6 +52,9 @@
 @media only screen and (min-width: 1000px) {
     .noticiaMainDiv {
         height: 473px;
+        width: 264px;
+        margin: 1% 1% 5% 1%;
+
     }
     .noticiaTitle {
         font-size: 18px;
@@ -62,6 +67,8 @@
 @media only screen and (min-width: 1300px) {
     .noticiaMainDiv {
         height: 643px;
+        width: 354px;
+        margin: 1% 2% 5% 2%;
     }
     .noticiaTitle {
         font-size: 23px;
@@ -74,6 +81,7 @@
 @media only screen and (min-width: 1500px) {
     .noticiaMainDiv {
         height: 743px;
+        width: 404px;
     }
     .noticiaTitle {
         font-size: 28px;
