@@ -118,7 +118,9 @@
 .contactFirstSectionDesk {
     background-image: url("../images/desktop/contacto/PORTADA-CONTACTO.png");
     background-size: cover;
-    height: 268px;
+    /* height: 268px; */
+    width: 100%;
+    padding-bottom: 35%;
 }
 .inputsDeskDiv {
     display: flex;
