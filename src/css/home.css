@@ -8,6 +8,7 @@ body {
 .MainDiv {
     margin-top: 22%;
 }
+
 .homeFirstSection {
     background-image: url("../images/mobile/home/bannerHomeEsp.png");
     background-size: cover;
@@ -126,6 +127,9 @@ body {
 } 
 
 @media only screen and (min-width: 752px){
+    .nomargin{
+        margin-top: 5%;
+    }
     .sectionTitle {
         margin-top: 0%;
         margin-bottom: 4%;
