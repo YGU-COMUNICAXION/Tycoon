@@ -37,10 +37,10 @@ const AboutUsPage = () => {
         {windowSize < 752 ? (
             <div className="MainDiv">
                 <div className="aboutFirstSection">
-                    <div className="aboutBannerText">
+                    {/* <div className="aboutBannerText">
                         <h1>{t("us")}</h1>
                         <p>{t("numbreOne")}</p>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="aboutSecondSection">
                     <p className="smallP">{renderStringHMTLtoJSX(t("aboutFirstP"))}</p>

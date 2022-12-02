@@ -1,5 +1,5 @@
 .contactFirstSection {
-    background-image: url("../images/mobile/contacto/PORTADA\ CONTACTO-02.png");
+    background-image: url("../images/mobile/contacto/bannerContactoEsp.png");
     background-size: cover;
     height: 128px;
 }
@@ -116,7 +116,7 @@
     width: 64%;
 }
 .contactFirstSectionDesk {
-    background-image: url("../images/desktop/contacto/PORTADA-CONTACTO.png");
+    background-image: url("../images/desktop/contacto/banerContactoDeskEsp.png");
     background-size: cover;
     /* height: 268px; */
     width: 100%;

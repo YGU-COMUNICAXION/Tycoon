@@ -1,5 +1,5 @@
 .newsFirstSection {
-    background-image: url("../images/mobile/noticias/PORTADA-NOTICIAS.png");
+    background-image: url("../images/mobile/noticias/bannerNoticiasEsp.png");
     background-size: cover;
     height: 128px;
 }
@@ -11,7 +11,7 @@
 
 }
 .newsFirstSectionDesk {
-    background-image: url("../images/desktop/noticias/PORTADA-NOTICIAS-DESK.png");
+    background-image: url("../images/desktop/noticias/portadaNoticiasDeskEsp.png");
     background-size: cover;
     /* height: 268px; */
     width: 100%;
