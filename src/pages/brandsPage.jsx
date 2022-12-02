@@ -8,7 +8,7 @@ const brandsPage = () => {
     <Layout>
       <div className="MainDiv nomargin">
         <div className='brandsFirstSection'></div>
-        <img src={BackMobile} alt="back_image" />
+        <img className="image_top" src={BackMobile} alt="back_image" />
         <div className="brandsSecondSection">
           <NavMarcas />
         </div>
