@@ -3,7 +3,7 @@ import Catalogo from "../../../CatalogoBrandsDesktop";
 import styled from "styled-components";
 import { Nav } from "react-bootstrap";
 import "./styles_marcas.css";
-
+import { useTranslation } from "gatsby-plugin-react-i18next";
 const StyledNavMarcas = styled.div`
   .wrapper__buttons {
     display: flex;
@@ -161,13 +161,15 @@ const StyledNavMarcas = styled.div`
   }
   @media (min-width: 1600px) {
     .order_image {
-      margin: 0 auto;
+      margin: 0 auto 200px;
       max-width: 1400px;
     }
   }
 `;
 
 export default function NavMarcas() {
+
+  const { t } = useTranslation("brands");
   let prevButton = null;
 
   const wrapper = document.getElementById("wrapper");
@@ -195,33 +197,33 @@ export default function NavMarcas() {
     <StyledNavMarcas>
       <div className="wrapper__buttons" id="wrapper">
         <div className="level_one">
-          <button onclick={() => setShow(1)}>México</button>
-          <button onClick={() => setShow(2)}>Colombia</button>
-          <button onClick={() => setShow(3)}>Ecuador</button>
-          <button onClick={() => setShow(4)}>Argentina</button>
+          <button onclick={() => setShow(1)}>{t("mex")}</button>
+          <button onClick={() => setShow(2)}>{t("col")}</button>
+          <button onClick={() => setShow(3)}>{t("ecu")}</button>
+          <button onClick={() => setShow(4)}>{t("arg")}</button>
         </div>
         <div className="level_two">
-          <button onClick={() => setShow(5)}>Chile</button>
-          <button onClick={() => setShow(6)}>Perú</button>
-          <button onClick={() => setShow(7)}>Centroamérica y Caribe</button>
-          <button onClick={() => setShow(8)}>Brasil</button>
+          <button onClick={() => setShow(5)}>{t("chi")}</button>
+          <button onClick={() => setShow(6)}>{t("peru")}</button>
+          <button onClick={() => setShow(7)}>{t("centro")}</button>
+          <button onClick={() => setShow(8)}>{t("bra")}</button>
         </div>
       </div>
       <Nav fill variant="tabs" id="wrapper">
         <Nav.Item onClick={() => setInfo("corporativas")}>
-          <Nav.Link eventKey="link-1">Corporativas</Nav.Link>
+          <Nav.Link eventKey="link-1">{t("corp")}</Nav.Link>
         </Nav.Item>
         <div className="navDivisor" />
         <Nav.Item onClick={() => setInfo("entretenimiento")}>
-          <Nav.Link eventKey="link-2">Entretenimiento</Nav.Link>
+          <Nav.Link eventKey="link-2">{t("entretenimiento")}</Nav.Link>
         </Nav.Item>
         <div className="navDivisor" />
         <Nav.Item onClick={() => setInfo("estilo")}>
-          <Nav.Link eventKey="link-3">Estilo de vida</Nav.Link>
+          <Nav.Link eventKey="link-3">{t("estilo")}</Nav.Link>
         </Nav.Item>
         <div className="navDivisor" />
         <Nav.Item onClick={() => setInfo("deportivas")}>
-          <Nav.Link eventKey="link-4">Deportivas</Nav.Link>
+          <Nav.Link eventKey="link-4">{t("depor")}</Nav.Link>
         </Nav.Item>
       </Nav>
 
