@@ -97,11 +97,6 @@ const StyledNavMarcas = styled.div`
     }
   }
   @media (min-width: 1200px) {
-    .nav {
-      width: 100% !important;
-      display: flex !important;
-      margin: 56px 0 104px 30px;
-    }
     .wrapper__buttons {
       display: flex;
       flex-direction: row;
@@ -161,34 +156,10 @@ const StyledNavMarcas = styled.div`
       }
     }
   }
-  @media (min-width: 1500px) {
-    .nav {
-      margin: 56px 0 104px 80px;
-    }
-  }
   @media (min-width: 1600px) {
-    .nav {
-
-      margin: 56px 0 104px 120px;
-    }
     .order_image {
       margin: 0 auto 200px;
       max-width: 1400px;
-    }
-  }
-  @media (min-width: 1700px) {
-    .nav {
-      margin: 56px 0 104px 200px;
-    }
-  }
-  @media (min-width: 1900px) {
-    .nav {
-      margin: 56px 0 104px 300px;
-    }
-  }
-  @media (min-width: 2100px) {
-    .nav {
-      margin: 56px 0 104px 550px;
     }
   }
 `;
