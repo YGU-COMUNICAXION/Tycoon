@@ -75,7 +75,7 @@
     width: 25%;
 }
 .deskRightDiv img{
-    width: 10%;
+    width: 40%;
 }
 .deskNav {
     display: flex;
@@ -104,7 +104,7 @@
         font-size: 16px;
     }
     .deskRightDiv img{
-        width: 13%;
+        width: 40%;
     }
 }
 @media only screen and (min-width: 1500px) {
@@ -113,6 +113,9 @@
     }
     .deskNav a {
         font-size: 23px;
+    }
+    .deskRightDiv img{
+        width: 50%;
     }
 }
 @media only screen and (min-width: 2000px) {
@@ -127,7 +130,7 @@
         font-size: 23px;
     }
     .deskRightDiv img{
-        width: 8%;
+        width: 55%;
     }
     .switchLeng {
         width: 15%;

@@ -8,7 +8,10 @@ body {
 .MainDiv {
     margin-top: 22%;
 }
-
+.Button a {
+    text-decoration: none;
+    cursor: pointer;
+}
 .homeFirstSection {
     background-image: url("../images/mobile/home/bannerHomeEsp.png");
     background-size: cover;
@@ -36,6 +39,7 @@ body {
     margin-bottom: 10%;
     font-size: 28px;
     line-height: 32px;
+    cursor: pointer;
 }
 .sectionTitle span {
     font-family: "B SemiLight";

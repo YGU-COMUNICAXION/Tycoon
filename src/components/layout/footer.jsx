@@ -58,11 +58,11 @@ const Footer = () => {
             </div>
             <div>
                 <h2 className='footerTitle'>{t("footerFourthTitle")}</h2>
-                <RedesCard logoRed={Facebook} nombreRed={"Facebook"}/>
+                <RedesCard logoRed={Facebook} nombreRed={"Facebook"} to={"https://www.facebook.com/TycoonEnterprises/"}/>
                 <div className='footerDivider'></div>
-                <RedesCard logoRed={Instagram} nombreRed={"Instagram"}/>
+                <RedesCard logoRed={Instagram} nombreRed={"Instagram"} to={"https://www.instagram.com/tycoon.enterprises/"}/>
                 <div className='footerDivider'></div>
-                <RedesCard logoRed={LinkedIn} nombreRed={"Linkedin"}/>
+                <RedesCard logoRed={LinkedIn} nombreRed={"Linkedin"} to={"https://www.linkedin.com/company/tycoon-enterprises/"}/>
             </div>
         </div>
         <div className='underFooterDiv'>
@@ -101,11 +101,11 @@ const Footer = () => {
                     </div>
                     <div className='redesDeskDiv'>
                         <h2 className='footerTitle'>{t("footerFourthTitle")}</h2>
-                        <RedesCard logoRed={Facebook} nombreRed={"Facebook"}/>
+                        <RedesCard logoRed={Facebook} nombreRed={"Facebook"} to={"https://www.facebook.com/TycoonEnterprises/"}/>
                         <div className='footerDivider'></div>
-                        <RedesCard logoRed={Instagram} nombreRed={"Instagram"}/>
+                        <RedesCard logoRed={Instagram} nombreRed={"Instagram"} to={"https://www.instagram.com/tycoon.enterprises/"}/>
                         <div className='footerDivider'></div>
-                        <RedesCard logoRed={LinkedIn} nombreRed={"Linkedin"}/>
+                        <RedesCard logoRed={LinkedIn} nombreRed={"Linkedin"} to={"https://www.linkedin.com/company/tycoon-enterprises/"}/>
                     </div>
                 </div>
                 <div className='upperContact'>

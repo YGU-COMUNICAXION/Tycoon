@@ -29,3 +29,45 @@
     margin-bottom: 4%;
     line-height: 15px;
 }
+@media only screen and (min-width: 752px) {
+    .paisContactoDiv {
+        margin-top: 0%;
+    }
+
+    .contactP {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .contactSubtitle {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .paisContactName {
+        font-family: "B semiBold";
+        font-size: 26px;
+    }
+    .contactP {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .contactSubtitle {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .paisContactName {
+        font-family: "B semiBold";
+        font-size: 35px;
+    }
+    .contactP {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .contactSubtitle {
+        font-size: 25px;
+        line-height: 25px;
+    }
+}

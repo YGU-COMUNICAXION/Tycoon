@@ -25,6 +25,10 @@
     font-size: 28px;
     text-align: center;
 }
+.contactRightDiv a {
+    text-decoration: none;
+    color: black;
+}
 .contactInfoDiv {
     display: flex;
     flex-direction: row;
@@ -153,7 +157,24 @@
     align-items: flex-start;
     width: 50%;
     margin-left: 2%;
-
+}
+.contactThirdSectiondesk {
+    padding: 5% 4%;
+}
+.contacitoPaisCardsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contactoPaisRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2% 0%;
+    max-width: 1400px;
 }
 @media only screen and (min-width: 752px){
     .contactSecondSection {
@@ -277,6 +298,10 @@
     .tycoon360 {
         width: 17%;
     }
+    .contactThirdSectiondesk {
+        padding: 10% 4% 8% 4%;
+
+    }
 }
 @media only screen and (min-width: 1300px){
     .buscandote {
@@ -388,5 +413,9 @@
         width: 15%;
         top: -3%;
         left: 9%;
+    }
+    .contactThirdSectiondesk {
+        padding: 5% 18% 5% 18% ;
+
     }
 }

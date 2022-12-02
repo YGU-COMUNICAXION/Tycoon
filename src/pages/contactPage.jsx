@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby';
 import Layout from '../components/layout'
 import "../css/contact.css"
 import { useTranslation } from "gatsby-plugin-react-i18next";
@@ -27,13 +28,13 @@ const ContactPage = () => {
         <div className='MainDiv'>
             <div className='contactFirstSection'></div>
             <div className='contactSecondSection'>
-                <img src={Buscando} className="buscandote"/>
+                    <img src={Buscando} className="buscandote"/>
                 <h2 className='blueTitle'>{t("contactTitle")}</h2>
                 <div className='contactInfoDiv'>
                     <h2 className='adquirir'>{t("acquisition")}</h2>
                     <div className='contactRightDiv'>
                         <p className='responde'>{t("answer")}</p>
-                        <p className='mail'>{t("contactMail")}</p>
+                        <p className='mail' href="mailto:contacto@tycoon.mx">{t("contactMail")}</p>
                         <p className='teResponderemos'>{t("willAnswer")}</p>
                     </div>
                 </div>
@@ -138,7 +139,9 @@ const ContactPage = () => {
                     <h2 className='adquirir'>{t("acquisition")}</h2>
                     <div className='contactRightDiv'>
                         <p className='responde'>{t("answer")}</p>
-                        <p className='mail'>{t("contactMail")}</p>
+                        <a href="mailto:contacto@tycoon.mx">
+                            <p className='mail'>{t("contactMail")}</p>
+                        </a>
                         <p className='teResponderemos'>{t("willAnswer")}</p>
                     </div>
                 </div>
@@ -180,7 +183,69 @@ const ContactPage = () => {
                 </div>
                 <img src={Tycoon360} className="tycoon360"/>
             </div> 
-            <div className='contactThirdSectiondesk'></div> 
+            <div className='contactThirdSectiondesk'>
+                <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
+                <div className='contacitoPaisCardsWrapper'>
+                    <div className='contactoPaisRow'>
+                        <PaisContacto pais={t("argentina")} image={Argentina}>
+                            <p className='contactP'>+(54) 91165341346</p>
+                            <p className='contactSubtitle'>{t("contact")}</p>
+                            <p className='contactP'>Eleonora Parodi</p>
+                            <p className='contactP'>eleonora.parodi@tycoon.mx</p>
+
+                        </PaisContacto>
+                        <PaisContacto pais={t("brasil")} image={Brasil}>
+                            <p className='contactP'>+55 11 3090 4244</p>
+                            <p className='contactSubtitle'>{t("contact")}</p>
+                            <p className='contactP'>Erica Giacomelli</p>
+                            <p className='contactP'>contato@tycoon360.com.br</p>
+                            <p className='contactP'>{t("webSite")}</p>
+                            <p className='contactP'>http://www.tycoon360.com.br/</p>
+                        </PaisContacto>
+                        <PaisContacto pais={t("cam")} image={Cam}>
+                            <p className='contactP'>+ (506) 8820 4733</p>
+                            <p className='contactP'>+ (506) 4001 7397</p>
+                            <p className='contactSubtitle'>{t("contact")}</p>
+                            <p className='contactP'>Dinnia Madriz</p>
+                            <p className='contactP'>dinnia.madriz@tycoon.mx</p>
+                        </PaisContacto>
+                        <PaisContacto pais={t("chile")} image={Chile}>
+                            <p className='contactP'>+56 2 2761-8685</p>
+                            <p className='contactSubtitle'>{t("contact")}</p>
+                            <p className='contactP'>Alejandra Pinto</p>
+                            <p className='contactP'>alejandra.pinto@tycoon.mx</p>
+                        </PaisContacto>
+                    </div>
+                    <div className='contactoPaisRow'>
+                        <PaisContacto pais={t("colombia")} image={Colombia}>
+                            <p className='contactP'>+571 7431650</p>
+                            <p className='contactSubtitle'>{t("contact")}</p>
+                            <p className='contactP'>José Fernando Córdoba</p>
+                            <p className='contactP'>jose.cordoba@tycoon.mx</p>
+                        </PaisContacto>
+                        <PaisContacto pais={t("ecuador")} image={Ecuador}>
+                            <p className='contactP'>+571 7431650</p>
+                            <p className='contactSubtitle'>{t("contact")}</p>
+                            <p className='contactP'>Verónica Sandoval</p>
+                            <p className='contactP'>veronica.sandoval@tycoon.mx</p>
+                        </PaisContacto>
+                        <PaisContacto pais={t("mexico")} image={Mexico}>
+                            <p className='contactP'>+5255 5395 4111</p>
+                            <p className='contactP'>+5255 5395 7833</p>
+                            <p className='contactSubtitle'>{t("contact")}</p>
+                            <p className='contactP'>Dalia Benbassat</p>
+                            <p className='contactP'>dalia@tycoon.mx</p>
+                        </PaisContacto>
+                        <PaisContacto pais={t("peru")} image={Peru}>
+                            <p className='contactP'>+511 421 3498</p>
+                            <p className='contactSubtitle'>{t("contact")}</p>
+                            <p className='contactP'>María Angela Morales</p>
+                            <p className='contactP'>mariaangela.morales@tycoon.mx</p>
+                        </PaisContacto>
+                    </div>
+                </div>
+
+            </div> 
         </div>
        )}
     </Layout>

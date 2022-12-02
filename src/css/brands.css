@@ -1,11 +1,11 @@
-/* .brandsFirstSection {
-    background-image: url("../images/mobile/marcas/brands_back_mobile.webp");
+.brandsFirstSection {
+    background-image: url("../images/mobile/marcas/bannerMarcasEsp.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 128px;
-    height: 100%;
-} */
+    padding-bottom: 35%;
+
+}
 .image_top{
     width: 100%;
 }

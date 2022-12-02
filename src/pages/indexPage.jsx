@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import renderStringHMTLtoJSX from "../utils/renderStringHTMLtoJSX";
 import Layout from "../components/layout"
@@ -25,7 +26,7 @@ const IndexPage = () => {
             <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
             <div className="secondSectionButtonDiv">
               <div className="secondSectionButton">
-                <Button buttonText={t("more")}/>
+                <Button buttonText={t("more")} href={"/news"}/>
               </div>
             </div>
         </div>
@@ -33,7 +34,7 @@ const IndexPage = () => {
             <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("newBussiness"))}</h2>
             <p className="regularP">{t("areyouinterested")}</p>
             <div className="thirdSectionButton">
-              <Button buttonText={t("contact")}/>
+              <Button buttonText={t("contact")} href={"/contact"}/>
             </div>
         </div> 
         <div className="homeFourthSection"/>    
@@ -49,7 +50,7 @@ const IndexPage = () => {
             <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
             <div className="secondSectionButtonDiv">
               <div className="secondSectionButtonDesk">
-                <Button buttonText={t("more")}/>
+                <Button buttonText={t("more")} href={"/news"}/>
               </div>
             </div>
         </div>
@@ -58,7 +59,7 @@ const IndexPage = () => {
             <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("newBussiness"))}</h2>
             <p className="regularP">{t("areyouinterested")}</p>
             <div className="thirdSectionButton">
-              <Button buttonText={t("contact")}/>
+              <Button buttonText={t("contact")} href={"/contact"}/>
             </div>
           </div>
           <img src={Oficinadesk} className="oficinaDesk"/>
