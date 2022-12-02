@@ -20,6 +20,11 @@
     font-family: "B SemiBold";
     color: #0093D7;
 }
+.noticiaIconsRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 .mas {
     width: 25%;
 }

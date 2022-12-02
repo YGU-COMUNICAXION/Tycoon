@@ -3,6 +3,7 @@ import "./styles.css"
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import Nav from 'react-bootstrap/Nav';
 import NoticiasCard from '../noticias-card';
+import NoticiasRedes from "../noticias-redes-card"
 import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
 import Nuevo from "../../images/mobile/noticias/noticiasRecientes/nuevo.png"
 import useWindowSize from '../../hooks/useWindowSize';
@@ -29,6 +30,7 @@ import TycoonDia from "../../images/desktop/noticias/2020/TYCOON-ENTERPRISES.png
 import Endemol from "../../images/desktop/noticias/2020/MASTERCHEF.png"
 import ColDistroller from "../../images/desktop/noticias/2020/DISTROLLER.png"
 import Balleys from "../../images/desktop/noticias/2020/UPS.png"
+
 
 
 function NewsNav() {
@@ -59,7 +61,7 @@ function NewsNav() {
                     {active === 1 && (
                         <>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={HelloKitty22} title={t("HelloKitty22")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasRedes image={HelloKitty22} title={t("HelloKitty22")} date={"07 de Mayo  ·  2021"}/>
                                 <NoticiasCard image={PinkPantherLanza} title={t("PinkPantherLanza")} date={"07 de Mayo  ·  2021"}/>
                             </div>
                             <div className='noticiasRow'>
