@@ -15,7 +15,7 @@ import Ecuador from "../images/mobile/layout/footer/paises/Ecuador.png"
 import Mexico from "../images/mobile/layout/footer/paises/mexico.png"
 import Peru from "../images/mobile/layout/footer/paises/peru.png"
 import useWindowSize from '../hooks/useWindowSize';
-
+import Buscando from "../images/desktop/contacto/teEstamosbuscando.png"
 
 const ContactPage = () => {
     const { t } = useTranslation("contact");
@@ -27,6 +27,7 @@ const ContactPage = () => {
         <div className='MainDiv'>
             <div className='contactFirstSection'></div>
             <div className='contactSecondSection'>
+                <img src={Buscando} className="buscandote"/>
                 <h2 className='blueTitle'>{t("contactTitle")}</h2>
                 <div className='contactInfoDiv'>
                     <h2 className='adquirir'>{t("acquisition")}</h2>
@@ -131,6 +132,7 @@ const ContactPage = () => {
         <div className='MainDivDesk'>
             <div className='contactFirstSectionDesk'/>
             <div className='contactSecondSection'>
+                <img src={Buscando} className="buscandote"/>
                 <h2 className='blueTitle'>{t("contactTitle")}</h2>
                 <div className='contactInfoDiv'>
                     <h2 className='adquirir'>{t("acquisition")}</h2>

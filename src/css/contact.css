@@ -8,7 +8,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4% 4%;
+    padding: 17% 4%;
+    position: relative;
+    z-index: 1;
+}
+.buscandote {
+    width: 26%;
+    position: absolute;
+    z-index: 2;
+    top: -1%;
+    left: 7%;
 }
 .blueTitle {
     font-family: "B semiBold";
@@ -147,7 +156,14 @@
 
 }
 @media only screen and (min-width: 752px){
-
+    .contactSecondSection {
+        padding: 5% 4%;
+    }
+    .buscandote {
+        width: 22%;
+        top: -3%;
+        left: 4%;
+    }
     .contactInfoDiv {
         width: 70%;
     }
@@ -263,6 +279,11 @@
     }
 }
 @media only screen and (min-width: 1300px){
+    .buscandote {
+        width: 20%;
+        top: -3%;
+        left: 4%;
+    }
     .blueTitle {
         font-size: 43px;
         width: 43%;
@@ -307,6 +328,11 @@
     }
 }
 @media only screen and (min-width: 1500px){
+    .buscandote {
+        width: 17%;
+        top: -3%;
+        left: 5%;
+    }
     .blueTitle {
         font-size: 45px;
         width: 38%;
@@ -357,5 +383,10 @@
     .blueTitle {
         font-size: 45px;
         width: 25%;
+    }
+    .buscandote {
+        width: 15%;
+        top: -3%;
+        left: 9%;
     }
 }

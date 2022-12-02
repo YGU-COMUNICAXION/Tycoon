@@ -10,6 +10,7 @@ import useWindowSize from '../../hooks/useWindowSize';
 import NuevoDesk from "../../images/desktop/noticias/noticiasRecientes/nuevo.png"
 import CobraDesk from "../../images/desktop/noticias/noticiasRecientes/cobra.png"
 import AmongDesk from "../../images/desktop/noticias/noticiasRecientes/among.png"
+import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
 const NoticiasRecientes = ({title}) => {
   const { t } = useTranslation("news");
@@ -20,15 +21,27 @@ const NoticiasRecientes = ({title}) => {
         <h2 className='sectionTitle'>{title}</h2>
         {windowSize < 752 ? (
           <div className='noticiasRecientesDiv'>
-            <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}/>
-            <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}/>
-            <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}/>
+            <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+              <img src={Mas} className="mas"/>
+            </NoticiasCard>
+            <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+              <img src={Mas} className="mas"/>
+            </NoticiasCard>
+            <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+              <img src={Mas} className="mas"/>
+            </NoticiasCard>
           </div>
         ):(
           <div className='noticiasRecientesDivDesk'>
-            <NoticiasCard image={NuevoDesk} title={t("new")} date={t("newDate")}/>
-            <NoticiasCard image={CobraDesk} title={t("cobra")} date={t("cobraDate")}/>
-            <NoticiasCard image={AmongDesk} title={t("among")} date={t("amongDate")}/>
+          <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+              <img src={Mas} className="mas"/>
+            </NoticiasCard>
+            <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+              <img src={Mas} className="mas"/>
+            </NoticiasCard>
+            <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+              <img src={Mas} className="mas"/>
+            </NoticiasCard>
           </div>
         )}
     </div>
