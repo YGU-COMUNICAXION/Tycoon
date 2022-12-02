@@ -3,7 +3,6 @@ import "./styles.css"
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import Nav from 'react-bootstrap/Nav';
 import NoticiasCard from '../noticias-card';
-import NoticiasRedes from "../noticias-redes-card"
 import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
 import Nuevo from "../../images/mobile/noticias/noticiasRecientes/nuevo.png"
 import useWindowSize from '../../hooks/useWindowSize';
@@ -30,7 +29,8 @@ import TycoonDia from "../../images/desktop/noticias/2020/TYCOON-ENTERPRISES.png
 import Endemol from "../../images/desktop/noticias/2020/MASTERCHEF.png"
 import ColDistroller from "../../images/desktop/noticias/2020/DISTROLLER.png"
 import Balleys from "../../images/desktop/noticias/2020/UPS.png"
-
+import Facebook from "../../images/mobile/noticiasCard/icon-facebook.png"
+import Instagram from "../../images/mobile/noticiasCard/icon-instagram.png"
 
 
 function NewsNav() {
@@ -61,32 +61,68 @@ function NewsNav() {
                     {active === 1 && (
                         <>
                             <div className='noticiasRow'>
-                                <NoticiasRedes image={HelloKitty22} title={t("HelloKitty22")} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={PinkPantherLanza} title={t("PinkPantherLanza")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={HelloKitty22} title={t("HelloKitty22")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={PinkPantherLanza} title={t("PinkPantherLanza")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={PlayerasHoodies} title={t("PlayerasHoodies")} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={PonteRosa} title={t("PonteRosa")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={PlayerasHoodies} title={t("PlayerasHoodies")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={PonteRosa} title={t("PonteRosa")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={ColeccionXbox} title={t("ColeccionXbox")} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={AutoExploracion} title={t("AutoExploracion")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={ColeccionXbox} title={t("ColeccionXbox")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={AutoExploracion} title={t("AutoExploracion")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                         </>
                     )}
                     {page === "unodos" && (
                         <>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={CausaRosa} title={t("CausaRosa")} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={Koaj2022} title={t("Koaj2022")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={CausaRosa} title={t("CausaRosa")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={Koaj2022} title={t("Koaj2022")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={VianneyXbox} title={t("VianneyXbox")} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={PopeyeKOAJ} title={t("PopeyeKOAJ")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={VianneyXbox} title={t("VianneyXbox")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={PopeyeKOAJ} title={t("PopeyeKOAJ")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div> 
                             <div className='noticiasRow'>
-                                <NoticiasCard image={ArgentinaAmong} title={t("ArgentinaAmong")} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={KaratePeru} title={t("KaratePeru")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={ArgentinaAmong} title={t("ArgentinaAmong")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={KaratePeru} title={t("KaratePeru")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                         </>
                     )}
@@ -98,15 +134,30 @@ function NewsNav() {
                     {active === 2 && (
                         <>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={Nuevo} title={t("Nuevo")} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={Cobra} title={t("Cobra")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={Nuevo} title={t("Nuevo")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={Cobra} title={t("Cobra")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={AmongLLega} title={t("AmongLLega")} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={Warner} title={t("Warner")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={AmongLLega} title={t("AmongLLega")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={Warner} title={t("Warner")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>                    
                             <div className='noticiasRow'>
-                                <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                             <div className='noticiasRow'></div>
                             <div className='noticiasRow'></div>
@@ -115,19 +166,40 @@ function NewsNav() {
                     {active === 3 && (
                         <>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={ColeccionPantera} title={t("ColeccionPantera")} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={Crayola} title={t("Crayola")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={ColeccionPantera} title={t("ColeccionPantera")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>   
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={Crayola} title={t("Crayola")} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={MasterChef} title={t("MasterChef")}  date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={TycoonDia} title={t("TycoonDia")}  date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={MasterChef} title={t("MasterChef")}  date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={TycoonDia} title={t("TycoonDia")}  date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>       
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={Endemol} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={ColDistroller} title={t("ColDistroller")}  date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={Endemol} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
+                                <NoticiasCard image={ColDistroller} title={t("ColDistroller")}  date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={Balleys} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={Balleys} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}>
+                                    <img src={Facebook} className="mas"/>
+                                    <img src={Instagram} className="mas"/>
+                                </NoticiasCard>
                             </div>
                         </>
                     )}
@@ -138,14 +210,32 @@ function NewsNav() {
                 {active === 1 && (
                     <>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={HelloKitty22} title={t("HelloKitty22")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={PinkPantherLanza} title={t("PinkPantherLanza")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={PlayerasHoodies} title={t("PlayerasHoodies")} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={HelloKitty22} title={t("HelloKitty22")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={PinkPantherLanza} title={t("PinkPantherLanza")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={PlayerasHoodies} title={t("PlayerasHoodies")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={PonteRosa} title={t("PonteRosa")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={ColeccionXbox} title={t("ColeccionXbox")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={AutoExploracion} title={t("AutoExploracion")} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={PonteRosa} title={t("PonteRosa")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>       
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={ColeccionXbox} title={t("ColeccionXbox")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={AutoExploracion} title={t("AutoExploracion")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>   
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
                         </div>
 
                     </>
@@ -153,14 +243,32 @@ function NewsNav() {
                 {page === "unodos" && (
                     <>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={CausaRosa} title={t("CausaRosa")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={Koaj2022} title={t("Koaj2022")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={VianneyXbox} title={t("VianneyXbox")} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={CausaRosa} title={t("CausaRosa")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={Koaj2022} title={t("Koaj2022")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={VianneyXbox} title={t("VianneyXbox")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={PopeyeKOAJ} title={t("PopeyeKOAJ")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={ArgentinaAmong} title={t("ArgentinaAmong")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={KaratePeru} title={t("KaratePeru")} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={PopeyeKOAJ} title={t("PopeyeKOAJ")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={ArgentinaAmong} title={t("ArgentinaAmong")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={KaratePeru} title={t("KaratePeru")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
                         </div> 
                     </>
                 )}
@@ -172,30 +280,66 @@ function NewsNav() {
                 {active === 2 && (
                     <>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={Nuevo} title={t("Nuevo")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={Cobra} title={t("Cobra")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={AmongLLega} title={t("AmongLLega")} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Nuevo} title={t("Nuevo")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={Cobra} title={t("Cobra")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={AmongLLega} title={t("AmongLLega")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>   
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
                         </div>
                         <div className='noticiasRowSingle'>
-                            <NoticiasCard image={Warner} title={t("Warner")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Warner} title={t("Warner")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
                         </div>                    
                     </>
                 )}
                 {active === 3 && (
                     <>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={ColeccionPantera} title={t("ColeccionPantera")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={Crayola} title={t("Crayola")} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={MasterChef} title={t("MasterChef")}  date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={ColeccionPantera} title={t("ColeccionPantera")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>   
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={Crayola} title={t("Crayola")} date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>   
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={MasterChef} title={t("MasterChef")}  date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={TycoonDia} title={t("TycoonDia")}  date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={Endemol} title={t("Endemol")}  date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={ColDistroller} title={t("ColDistroller")}  date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={TycoonDia} title={t("TycoonDia")}  date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={Endemol} title={t("Endemol")}  date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={ColDistroller} title={t("ColDistroller")}  date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>   
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
                         </div>
                         <div className='noticiasRowSingle'>
-                            <NoticiasCard image={Balleys} title={t("Balleys")}  date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Balleys} title={t("Balleys")}  date={"07 de Mayo  ·  2021"}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                            </NoticiasCard>
                         </div>
                     </>
                 )}

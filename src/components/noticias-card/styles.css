@@ -26,7 +26,8 @@
     width: 100%;
 }
 .mas {
-    width: 25%;
+    width: 23%;
+    margin: 3%;
 }
 
 @media only screen and (min-width: 752px) {
