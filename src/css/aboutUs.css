@@ -131,7 +131,6 @@
     top: -25%;
     left: 70%;
     z-index: 2;
-
 }
 .okeydesk {
     width: 30%;
@@ -181,11 +180,29 @@
         text-align: center;
     }
 }
+@media only screen and (min-width: 880px) {
+    .likeDesk {
+        top: -35%;
+        left: 70%;
+    }
+}
 @media only screen and (min-width: 1000px) {
     .aboutSeventhSectionDesk img {
         width: 15%;
     }
 
+}
+@media only screen and (min-width: 1200px) {
+    .likeDesk {
+        top: -40%;
+        left: 70%;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .likeDesk {
+        top: -28%;
+        left: 70%;
+    }
 }
 @media only screen and (min-width: 1500px) {
     .aboutSeventhSectionDesk img {
@@ -208,6 +225,13 @@
     }
     .aboutSeventhSectionDesk img {
         margin-bottom: 5%;
+    }
+}
+@media only screen and (min-width: 1750px) {
+    .likeDesk {
+        top: -25%;
+        left: 70%;
+        width: 20%
     }
 }
 @media only screen and (min-width: 2000px) {
@@ -236,5 +260,12 @@
     }
     .aboutSeventhSectionDesk img {
         width: 13%;
+    }
+}
+@media only screen and (min-width: 2300px) {
+    .likeDesk {
+        top: -25%;
+        left: 70%;
+        width: 17%
     }
 }

@@ -96,6 +96,17 @@ const StyledNavMarcas = styled.div`
       max-width: 500px;
     }
   }
+  @media (min-width: 752px) {
+    .order_image {
+      .images_per_row {
+        width: 772px;
+        img {
+          width: 178px;
+          padding: 5px;
+        }
+      }
+    }
+  }
   @media (min-width: 1200px) {
     .wrapper__buttons {
       display: flex;

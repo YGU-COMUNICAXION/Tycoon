@@ -33,7 +33,12 @@
 .body {
   margin: 0 10px;
 }
+/* @media (min-width: 1000px) {
+  .nav {
 
+    margin: 42px 22px 66px 198px !important;
+  }
+} */
 @media (min-width: 1200px) {
   .nav {
     margin: 50px 0 100px;
