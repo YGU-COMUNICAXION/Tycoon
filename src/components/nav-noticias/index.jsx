@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import "./styles.css"
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import Nav from 'react-bootstrap/Nav';
@@ -36,6 +36,7 @@ function NewsNav() {
     const { t } = useTranslation("news");
     const windowSize = useWindowSize();
     const [page, setPage] = useState("nada");
+
 
     return (
         <div className='noticiasPageMainDiv'>
@@ -112,17 +113,16 @@ function NewsNav() {
                     {active === 3 && (
                         <>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={ColeccionPantera} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={Crayola} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={ColeccionPantera} title={t("ColeccionPantera")} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={Crayola} title={t("Crayola")} date={"07 de Mayo  ·  2021"}/>
                             </div>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={MasterChef} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={TycoonDia} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
-
+                                <NoticiasCard image={MasterChef} title={t("MasterChef")}  date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={TycoonDia} title={t("TycoonDia")}  date={"07 de Mayo  ·  2021"}/>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={Endemol} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
-                                <NoticiasCard image={ColDistroller} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                                <NoticiasCard image={ColDistroller} title={t("ColDistroller")}  date={"07 de Mayo  ·  2021"}/>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={Balleys} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
@@ -183,17 +183,17 @@ function NewsNav() {
                 {active === 3 && (
                     <>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={ColeccionPantera} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={Crayola} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={MasterChef} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={ColeccionPantera} title={t("ColeccionPantera")} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Crayola} title={t("Crayola")} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={MasterChef} title={t("MasterChef")}  date={"07 de Mayo  ·  2021"}/>
                         </div>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={TycoonDia} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={Endemol} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
-                            <NoticiasCard image={ColDistroller} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={TycoonDia} title={t("TycoonDia")}  date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Endemol} title={t("Endemol")}  date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={ColDistroller} title={t("ColDistroller")}  date={"07 de Mayo  ·  2021"}/>
                         </div>
                         <div className='noticiasRowSingle'>
-                            <NoticiasCard image={Balleys} title={"Cobra Kai tiene su primera Fashion Collab de la mano de Prima Volta."} date={"07 de Mayo  ·  2021"}/>
+                            <NoticiasCard image={Balleys} title={t("Balleys")}  date={"07 de Mayo  ·  2021"}/>
                         </div>
                     </>
                 )}
