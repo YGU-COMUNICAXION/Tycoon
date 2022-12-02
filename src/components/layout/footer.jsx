@@ -52,9 +52,11 @@ const Footer = () => {
                     <PaisCard image={Peru} pais={t("peru")}/>
                 </div>
             </div>
-            <div>
+            <div className='teInteresaDiv'>
                 <h2 className='teInteresa'>{t("footerThirdTitle")}</h2>
-                <p className='escribenos'>{renderStringHMTLtoJSX(t("textus"))}</p>
+                <a href="mailto:info@tycoon.mx" className='escribenosLink'>
+                    <p className='escribenos'>{renderStringHMTLtoJSX(t("textus"))}</p>
+                </a>
             </div>
             <div>
                 <h2 className='footerTitle'>{t("footerFourthTitle")}</h2>

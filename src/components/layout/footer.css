@@ -14,6 +14,10 @@
     flex-direction: row;
     
 }
+.teInteresaDiv a {
+    text-decoration: none;
+    color: black;
+}
 .teInteresa {
     font-family: "B SemiBold";
 }
