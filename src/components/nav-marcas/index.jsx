@@ -5,6 +5,11 @@ import { Nav } from "react-bootstrap";
 import "./styles_marcas.css";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 const StyledNavMarcas = styled.div`
+  .nav {
+    width: 100% !important;
+    display: flex !important;
+    margin: 42px auto 66px;
+  }
   .wrapper__buttons {
     display: flex;
     flex-direction: column;
@@ -22,17 +27,9 @@ const StyledNavMarcas = styled.div`
       color: #051c2c;
       cursor: pointer;
       background-color: white;
-      /* background-color: red; */
-      /* background-color: ${(props) => (props.back ? "12px" : "15px")}; */
       :active {
         background-color: #0093d7;
         color: white;
-      }
-      .focus:focus {
-        color: red;
-      }
-      :target {
-        color: red;
       }
       :hover {
         background-color: #0093d7;
@@ -100,6 +97,11 @@ const StyledNavMarcas = styled.div`
     }
   }
   @media (min-width: 1200px) {
+    .nav {
+      width: 100% !important;
+      display: flex !important;
+      margin: 56px 0 104px 30px;
+    }
     .wrapper__buttons {
       display: flex;
       flex-direction: row;
@@ -159,16 +161,39 @@ const StyledNavMarcas = styled.div`
       }
     }
   }
+  @media (min-width: 1500px) {
+    .nav {
+      margin: 56px 0 104px 80px;
+    }
+  }
   @media (min-width: 1600px) {
+    .nav {
+
+      margin: 56px 0 104px 120px;
+    }
     .order_image {
       margin: 0 auto 200px;
       max-width: 1400px;
     }
   }
+  @media (min-width: 1700px) {
+    .nav {
+      margin: 56px 0 104px 200px;
+    }
+  }
+  @media (min-width: 1900px) {
+    .nav {
+      margin: 56px 0 104px 300px;
+    }
+  }
+  @media (min-width: 2100px) {
+    .nav {
+      margin: 56px 0 104px 550px;
+    }
+  }
 `;
 
 export default function NavMarcas() {
-
   const { t } = useTranslation("brands");
   let prevButton = null;
 

@@ -6,7 +6,7 @@ import "../css/brands.css";
 const brandsPage = () => {
   return (
     <Layout>
-      <div className="MainDiv">
+      <div className="MainDiv nomargin">
         <div className='brandsFirstSection'></div>
         <img src={BackMobile} alt="back_image" />
         <div className="brandsSecondSection">
