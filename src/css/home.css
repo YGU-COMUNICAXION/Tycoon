@@ -9,7 +9,7 @@ body {
     margin-top: 22%;
 }
 .homeFirstSection {
-    background-image: url("../images/mobile/home/banner-home-mobile.png");
+    background-image: url("../images/mobile/home/bannerHomeEsp.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -83,7 +83,7 @@ body {
 /* CLASES DESKTOP */
 
 .homeFirstSectionDesk {
-    background-image: url("../images/desktop/home/banner-home-desk.png");
+    background-image: url("../images/desktop/home/bannerHomeEsp.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -133,11 +133,11 @@ body {
     }
     .bannerTextHome {
         top: 50%;
-        left: 54%;
-        width: 30%;
+        left: 55%;
+        width: 27%;
     }
     .bannerTextHome h1 {
-        font-size: 23px;
+        font-size: 25px;
     }
     .regularP {
         font-size: 15px;
@@ -150,7 +150,13 @@ body {
     .thirdSectionButton {
         margin-top: 2%;
     }
-
+}
+@media only screen and (min-width: 900px) {
+    .bannerTextHome {
+        top: 50%;
+        left: 55%;
+        width: 27%;
+    }
 }
 @media only screen and (min-width: 1000px) {
     /* .homeFirstSectionDesk {
