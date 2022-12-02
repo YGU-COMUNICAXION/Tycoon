@@ -27,28 +27,8 @@
         padding: 5% 4% 1% 4%;
     }
 }
-/* @media only screen and (min-width: 1000px) {
-    .newsFirstSectionDesk {
-        height: 350px;
-    }
-}
-@media only screen and (min-width: 1300px) {
-    .newsFirstSectionDesk {
-        height: 460px;
-    }
-}
-@media only screen and (min-width: 1500px) {
-    .newsFirstSectionDesk {
-        height: 530px;
-    }
-}
-@media only screen and (min-width: 2000px) {
-    .newsFirstSectionDesk {
-        height: 700px;
-    }
-}
 @media only screen and (min-width: 2500px) {
     .newsThirdSection h2 {
         padding: 0% 16% 0% 16% ;
     }
-} */
+}

@@ -134,17 +134,17 @@ function NewsNav() {
                     {active === 2 && (
                         <>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={Nuevo} title={t("Nuevo")} date={t("newDateDATE")}>
+                                <NoticiasCard image={Nuevo} title={t("Nuevo")} date={t("newDate")}>
                                     <img src={Facebook} className="mas"/>
                                     <img src={Instagram} className="mas"/>
                                 </NoticiasCard>
-                                <NoticiasCard image={Cobra} title={t("Cobra")} date={t("cobraDateDATE")}>
+                                <NoticiasCard image={Cobra} title={t("Cobra")} date={t("cobraDate")}>
                                     <img src={Facebook} className="mas"/>
                                     <img src={Instagram} className="mas"/>
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
-                                <NoticiasCard image={AmongLLega} title={t("AmongLLega")} date={t("amongDateDATE")}>
+                                <NoticiasCard image={AmongLLega} title={t("AmongLLega")} date={t("amongDate")}>
                                     <img src={Facebook} className="mas"/>
                                     <img src={Instagram} className="mas"/>
                                 </NoticiasCard>
@@ -278,15 +278,15 @@ function NewsNav() {
                 {active === 2 && (
                     <>
                         <div className='noticiasRow'>
-                            <NoticiasCard image={Nuevo} title={t("Nuevo")} date={t("NuevoDATE")}>
+                            <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
                                 <img src={Facebook} className="mas"/>
                                 <img src={Instagram} className="mas"/>
                             </NoticiasCard>
-                            <NoticiasCard image={Cobra} title={t("Cobra")} date={t("CobraDATE")}>
+                            <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
                                 <img src={Facebook} className="mas"/>
                                 <img src={Instagram} className="mas"/>
                             </NoticiasCard>
-                            <NoticiasCard image={AmongLLega} title={t("AmongLLega")} date={t("AmongLLegaDATE")}>
+                            <NoticiasCard image={AmongLLega} title={t("among")} date={t("amongDate")}>
                                 <img src={Facebook} className="mas"/>   
                                 <img src={Instagram} className="mas"/>
                             </NoticiasCard>
