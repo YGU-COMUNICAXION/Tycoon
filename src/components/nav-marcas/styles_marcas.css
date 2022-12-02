@@ -14,6 +14,9 @@
   justify-content: center;
   min-width: 25%;
 }
+.nav-item .active{
+  color: #137e97;
+}
 .nav-link:hover {
   color: #137e97;
 }

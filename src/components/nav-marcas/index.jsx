@@ -22,9 +22,17 @@ const StyledNavMarcas = styled.div`
       color: #051c2c;
       cursor: pointer;
       background-color: white;
+      /* background-color: red; */
+      /* background-color: ${(props) => (props.back ? "12px" : "15px")}; */
       :active {
         background-color: #0093d7;
         color: white;
+      }
+      .focus:focus {
+        color: red;
+      }
+      :target {
+        color: red;
       }
       :hover {
         background-color: #0093d7;
@@ -39,12 +47,20 @@ const StyledNavMarcas = styled.div`
     }
     .level_one {
       display: flex;
+      .active {
+        background: #0093d7;
+        color: white;
+      }
       button {
         width: 25%;
       }
     }
     .level_two {
       display: flex;
+      .active {
+        background: #0093d7;
+        color: white;
+      }
       button {
         width: 15%;
         :first-child {
@@ -61,17 +77,28 @@ const StyledNavMarcas = styled.div`
   }
   .order_image {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 0 10px;
-    margin: 0 auto;
-  }
-  img {
-    width: 156px;
-    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 100px;
+    .images_per_row {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      width: 332px;
+      img {
+        width: 156px;
+        padding: 5px;
+      }
+    }
   }
 
+  @media (min-width: 600px) {
+    .wrapper__buttons {
+      max-width: 500px;
+    }
+  }
   @media (min-width: 1200px) {
     .wrapper__buttons {
       display: flex;
@@ -112,9 +139,23 @@ const StyledNavMarcas = styled.div`
       }
     }
     .order_image {
-      img {
-        width: 300px;
-        padding: 10px;
+      .images_per_row {
+        width: 1070px;
+        img {
+          width: 256px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+  @media (min-width: 1400px) {
+    .order_image {
+      .images_per_row {
+        width: 1310px;
+        img {
+          width: 316px;
+          padding: 5px;
+        }
       }
     }
   }
@@ -125,15 +166,36 @@ const StyledNavMarcas = styled.div`
     }
   }
 `;
+
 export default function NavMarcas() {
+  let prevButton = null;
+
+  const wrapper = document.getElementById("wrapper");
+  if (wrapper) {
+    wrapper.addEventListener("click", (e) => {
+      const isButton = e.target.nodeName === "BUTTON";
+
+      if (!isButton) {
+        return;
+      }
+
+      e.target.classList.add("active"); // Add .active CSS Class
+
+      if (prevButton !== null) {
+        prevButton.classList.remove("active"); // Remove .active CSS Class
+      }
+
+      prevButton = e.target;
+    });
+  }
+
   const [show, setShow] = useState(1);
   const [info, setInfo] = useState("corporativas");
-  console.log(show, "show", info, "info");
   return (
     <StyledNavMarcas>
-      <div className="wrapper__buttons">
+      <div className="wrapper__buttons" id="wrapper">
         <div className="level_one">
-          <button onClick={() => setShow(1)}>México</button>
+          <button onclick={() => setShow(1)}>México</button>
           <button onClick={() => setShow(2)}>Colombia</button>
           <button onClick={() => setShow(3)}>Ecuador</button>
           <button onClick={() => setShow(4)}>Argentina</button>
@@ -145,7 +207,7 @@ export default function NavMarcas() {
           <button onClick={() => setShow(8)}>Brasil</button>
         </div>
       </div>
-      <Nav fill variant="tabs">
+      <Nav fill variant="tabs" id="wrapper">
         <Nav.Item onClick={() => setInfo("corporativas")}>
           <Nav.Link eventKey="link-1">Corporativas</Nav.Link>
         </Nav.Item>
@@ -166,224 +228,224 @@ export default function NavMarcas() {
       <div className="order_image">
         {/* ARGENTINA SECTIONS */}
         {show === 4 && info === "corporativas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[0].argentina.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 4 && info === "entretenimiento" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[0].argentina.entretenimiento.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 4 && info === "estilo" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[0].argentina.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 4 && info === "deportivas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[0].argentina.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : null}
 
         {/* MEXICO SECTIONS */}
 
         {show === 1 && info === "corporativas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[1].mexico.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 1 && info === "entretenimiento" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[1].mexico.entretenimiento.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 1 && info === "estilo" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[1].mexico.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 1 && info === "deportivas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[1].mexico.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : null}
 
         {/* BRASIL SECTIONS */}
 
         {show === 8 && info === "corporativas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[2].brasil.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 8 && info === "entretenimiento" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[2].brasil.entretenimiento.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 8 && info === "estilo" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[2].brasil.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 8 && info === "deportivas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[2].brasil.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : null}
 
         {/* CHILE SECTIONS */}
 
         {show === 5 && info === "corporativas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[3].chile.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 5 && info === "entretenimiento" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[3].chile.entretenimiento.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 5 && info === "estilo" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[3].chile.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 5 && info === "deportivas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[3].chile.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : null}
 
         {/* PERÚ SECTIONS */}
 
         {show === 6 && info === "corporativas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[4].peru.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 6 && info === "entretenimiento" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[4].peru.entretenimiento.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 6 && info === "estilo" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[4].peru.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 6 && info === "deportivas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[4].peru.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : null}
 
         {/* Centroamerica SECTIONS */}
 
         {show === 7 && info === "corporativas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[5].centroAmerica.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 7 && info === "entretenimiento" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[5].centroAmerica.entretenimiento.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 7 && info === "estilo" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[5].centroAmerica.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 7 && info === "deportivas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[5].centroAmerica.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : null}
         {/* COLOMBIA SECTIONS */}
 
         {show === 2 && info === "corporativas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[6].colombia.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 2 && info === "entretenimiento" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[6].colombia.entretenimiento.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 2 && info === "estilo" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[6].colombia.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 2 && info === "deportivas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[6].colombia.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : null}
 
         {/* ECUADOR SECTIONS */}
 
         {show === 3 && info === "corporativas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[7].ecuador.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 3 && info === "entretenimiento" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[7].ecuador.entretenimiento.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 3 && info === "estilo" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[7].ecuador.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : show === 3 && info === "deportivas" ? (
-          <>
+          <div className="images_per_row">
             {Catalogo[7].ecuador.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
-          </>
+          </div>
         ) : null}
       </div>
     </StyledNavMarcas>
