@@ -33,13 +33,13 @@ const StyledNavMarcas = styled.div`
       }
       :hover {
         background-color: #0093d7;
-        color: white;
+        color: #0093d7;
       }
       :first-child {
-        border-radius: 4px 0 0 0;
+        border-radius: 0px 0 0 4px;
       }
       :last-child {
-        border-radius: 0 4px 0 0;
+        border-radius: 0 0 4px 0;
       }
     }
     .level_one {
@@ -50,6 +50,16 @@ const StyledNavMarcas = styled.div`
       }
       button {
         width: 25%;
+        :first-child {
+          border-radius: 4px 0 0 0;
+        }
+        :last-child {
+          border-radius: 0 4px 0 0;
+        }
+
+        :nth-child(4) {
+          width: 55%;
+        }
       }
     }
     .level_two {
@@ -59,16 +69,7 @@ const StyledNavMarcas = styled.div`
         color: white;
       }
       button {
-        width: 15%;
-        :first-child {
-          border-radius: 0px 0 0 4px;
-        }
-        :last-child {
-          border-radius: 0 0 4px 0;
-        }
-        :nth-child(3) {
-          width: 55%;
-        }
+        width: 25%;
       }
     }
   }
@@ -111,19 +112,23 @@ const StyledNavMarcas = styled.div`
     .wrapper__buttons {
       display: flex;
       flex-direction: row;
-      max-width: 100%;
+      width: 100%;
       .level_one {
         display: flex;
         align-items: center;
+
         button {
-          width: 100%;
+          width: 17%;
           padding: 10px;
           font-size: 24px;
-          :first-child {
+          :nth-child(4) {
+            width: 400px;
+          }
+          :first-child{
             border-radius: 4px 0 0 4px;
           }
-          :last-child {
-            border-radius: 0 0px 0 0px;
+          :last-child{
+            border-radius: 0px;
           }
         }
       }
@@ -132,16 +137,13 @@ const StyledNavMarcas = styled.div`
         align-items: center;
         button {
           padding: 10px;
-          width: 15%;
+          width: 30%;
           font-size: 24px;
-          :first-child {
+          :first-child{
             border-radius: 0px 0px 0px 0px;
           }
-          :last-child {
+          :last-child{
             border-radius: 0px 4px 4px 0px;
-          }
-          :nth-child(3) {
-            width: 100%;
           }
         }
       }
@@ -198,22 +200,23 @@ export default function NavMarcas() {
     });
   }
 
-  const [show, setShow] = useState(1);
+  const [show, setShow] = useState(0);
   const [info, setInfo] = useState("corporativas");
   return (
     <StyledNavMarcas>
       <div className="wrapper__buttons" id="wrapper">
         <div className="level_one">
-          <button onclick={() => setShow(1)}>{t("mex")}</button>
-          <button onClick={() => setShow(2)}>{t("col")}</button>
-          <button onClick={() => setShow(3)}>{t("ecu")}</button>
-          <button onClick={() => setShow(4)}>{t("arg")}</button>
+          <button style={{background: show === 0 ? "#0093d7" : "white"}} onClick={() => setShow(0)}>{t("All")}</button>
+          <button style={{background: show === 4 ? "#0093d7" : "white"}} onClick={() => setShow(4)}>{t("arg")}</button>
+          <button style={{background: show === 8 ? "#0093d7" : "white"}} onClick={() => setShow(8)}>{t("bra")}</button>
+          <button  style={{background: show === 7 ? "#0093d7" : "white"}}onClick={() => setShow(7)}>{t("centro")}</button>
+          <button style={{background: show === 5 ? "#0093d7" : "white"}} onClick={() => setShow(5)}>{t("chi")}</button>
         </div>
         <div className="level_two">
-          <button onClick={() => setShow(5)}>{t("chi")}</button>
-          <button onClick={() => setShow(6)}>{t("peru")}</button>
-          <button onClick={() => setShow(7)}>{t("centro")}</button>
-          <button onClick={() => setShow(8)}>{t("bra")}</button>
+          <button style={{background: show === 2 ? "#0093d7" : "white"}} onClick={() => setShow(2)}>{t("col")}</button>
+          <button style={{background: show === 3 ? "#0093d7" : "white"}} onClick={() => setShow(3)}>{t("ecu")}</button>
+          <button style={{background: show === 1 ? "#0093d7" : "white"}} onclick={() => setShow(1)}>{t("mex")}</button>
+          <button style={{background: show === 6 ? "#0093d7" : "white"}} onClick={() => setShow(6)}>{t("peru")}</button>
         </div>
       </div>
       <Nav fill variant="tabs" id="wrapper">
@@ -235,7 +238,14 @@ export default function NavMarcas() {
       </Nav>
 
       <div className="order_image">
+      {show === 0 ? 
+          <div className="images_per_row">
+            {Catalogo[0].all.allImages.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </div> : null}
         {/* ARGENTINA SECTIONS */}
+        
         {show === 4 && info === "corporativas" ? (
           <div className="images_per_row">
             {Catalogo[0].argentina.corporativas.map((e, idx) => {
