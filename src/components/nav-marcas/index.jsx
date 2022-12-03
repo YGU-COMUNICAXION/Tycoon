@@ -33,7 +33,7 @@ const StyledNavMarcas = styled.div`
       }
       :hover {
         background-color: #0093d7;
-        color: #0093d7;
+        color: black;
       }
       :first-child {
         border-radius: 0px 0 0 4px;
@@ -137,6 +137,7 @@ const StyledNavMarcas = styled.div`
         align-items: center;
         button {
           padding: 10px;
+          background-color: red;
           width: 30%;
           font-size: 24px;
           :first-child{
@@ -179,32 +180,32 @@ const StyledNavMarcas = styled.div`
 
 export default function NavMarcas() {
   const { t } = useTranslation("brands");
-  let prevButton = null;
+  // let prevButton = null;
 
-  const wrapper = document.getElementById("wrapper");
-  if (wrapper) {
-    wrapper.addEventListener("click", (e) => {
-      const isButton = e.target.nodeName === "BUTTON";
+  // const wrapper = document.getElementById("wrapper");
+  // if (wrapper) {
+  //   wrapper.addEventListener("click", (e) => {
+  //     const isButton = e.target.nodeName === "BUTTON";
 
-      if (!isButton) {
-        return;
-      }
+  //     if (!isButton) {
+  //       return;
+  //     }
 
-      e.target.classList.add("active"); // Add .active CSS Class
+  //     e.target.classList.add("active"); // Add .active CSS Class
 
-      if (prevButton !== null) {
-        prevButton.classList.remove("active"); // Remove .active CSS Class
-      }
+  //     if (prevButton !== null) {
+  //       prevButton.classList.remove("active"); // Remove .active CSS Class
+  //     }
 
-      prevButton = e.target;
-    });
-  }
+  //     prevButton = e.target;
+  //   });
+  // }
 
   const [show, setShow] = useState(0);
   const [info, setInfo] = useState("corporativas");
   return (
     <StyledNavMarcas>
-      <div className="wrapper__buttons" id="wrapper">
+      <div className="wrapper__buttons">
         <div className="level_one">
           <button style={{background: show === 0 ? "#0093d7" : "white"}} onClick={() => setShow(0)}>{t("All")}</button>
           <button style={{background: show === 4 ? "#0093d7" : "white"}} onClick={() => setShow(4)}>{t("arg")}</button>
@@ -215,11 +216,11 @@ export default function NavMarcas() {
         <div className="level_two">
           <button style={{background: show === 2 ? "#0093d7" : "white"}} onClick={() => setShow(2)}>{t("col")}</button>
           <button style={{background: show === 3 ? "#0093d7" : "white"}} onClick={() => setShow(3)}>{t("ecu")}</button>
-          <button style={{background: show === 1 ? "#0093d7" : "white"}} onclick={() => setShow(1)}>{t("mex")}</button>
+          <button style={{background: show === 1 ? "#0093d7" : "white"}} onClick={() => setShow(1)}>{t("mex")}</button>
           <button style={{background: show === 6 ? "#0093d7" : "white"}} onClick={() => setShow(6)}>{t("peru")}</button>
         </div>
       </div>
-      <Nav fill variant="tabs" id="wrapper">
+      <Nav fill variant="tabs">
         <Nav.Item onClick={() => setInfo("corporativas")}>
           <Nav.Link eventKey="link-1">{t("corp")}</Nav.Link>
         </Nav.Item>
