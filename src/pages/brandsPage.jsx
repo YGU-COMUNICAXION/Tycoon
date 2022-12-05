@@ -1,14 +1,20 @@
 import React from "react";
 import Layout from "../components/layout";
 import NavMarcas from "../components/nav-marcas";
-import BackMobile from "../images/mobile/marcas/brands_back_mobile.png";
 import "../css/brands.css";
-const brandsPage = () => {
+import useWindowSize from "../hooks/useWindowSize";
+
+const BrandsPage = () => {
+  const windowSize = useWindowSize();
+
   return (
     <Layout>
       <div className="MainDiv nomargin">
+      {windowSize < 752 ? (
         <div className='brandsFirstSection'></div>
-        {/* <img className="image_top" src={BackMobile} alt="back_image" /> */}
+      ):(
+        <div className='brandsFirstSectionDesk'></div>
+      )}
         <div className="brandsSecondSection">
           <NavMarcas />
         </div>
@@ -17,4 +23,4 @@ const brandsPage = () => {
   );
 };
 
-export default brandsPage;
+export default BrandsPage;
