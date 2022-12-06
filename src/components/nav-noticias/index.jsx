@@ -33,6 +33,45 @@ import Facebook from "../../images/mobile/noticiasCard/icon-facebook.png"
 import Instagram from "../../images/mobile/noticiasCard/icon-instagram.png"
 import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 import LinkedIn from "../../images/desktop/layout/header/icon-linkedin.png"
+import AnaEmilia from "../../images/desktop/noticias/2022/anaEmilia.png"
+import Amarillo from "../../images/desktop/noticias/2022/pintarondeamarillo.png"
+import CampañaChile from "../../images/desktop/noticias/2022/campaña360.png"
+import DunkinMinions from "../../images/desktop/noticias/2022/dunkinMinion.png"
+import Minione from "../../images/desktop/noticias/2022/minionsEcuador.png"
+import Narutomx from "../../images/desktop/noticias/2022/coleccionNaruto.png"
+import atunMinion from "../../images/desktop/noticias/2022/tunaminion.png"
+import LolyColeccion from "../../images/desktop/noticias/2022/lolyintheSky.png"
+import SaborHer from "../../images/desktop/noticias/2022/hersheysSabor.png"
+import BebidaJurasic from "../../images/desktop/noticias/2022/bebidaRaptos.png"
+import HarryWal from "../../images/desktop/noticias/2022/harryWalmart.png"
+import Olive from "../../images/desktop/noticias/2022/oliveOyl.png"
+import CrayolaMayo from "../../images/desktop/noticias/2022/mccromickCrayola.png"
+import Tycum from "../../images/desktop/noticias/2022/tycoon32.png"
+import Unwind from "../../images/desktop/noticias/2022/unwind.png"
+import HaloChamp from "../../images/desktop/noticias/2022/haloChampionship.png"
+import JurasicLatam from "../../images/desktop/noticias/2022/jurasicLATAM.png"
+import PumaFrida from "../../images/desktop/noticias/2022/PUMAFRIDA.png"
+import Fridacien from "../../images/desktop/noticias/2022/FRIDA115.png"
+import AlpinaMinion from "../../images/desktop/noticias/2022/alpinaMinions.png"
+import BleachPeru from "../../images/desktop/noticias/2022/BleachPeru.png"
+import JurasicLanza from "../../images/desktop/noticias/2022/jurasiclanzamientos.png"
+import FelicidadesCo from "../../images/desktop/noticias/2022/felicidadesCocoMelon.png"
+import HelloCo from "../../images/desktop/noticias/2022/helloKittiColombia.png"
+import FelicidadesGhost from "../../images/desktop/noticias/2022/felicidadesGhost.png"
+import CerealHer from "../../images/desktop/noticias/2022/cerealHersheys.png"
+import AnaEmiliaHBO from "../../images/desktop/noticias/2022/anaEmiliaHBO.png"
+import CarreraHello from "../../images/desktop/noticias/2022/CARRERAHELLOKITTY.png"
+import MagiaHarry from "../../images/desktop/noticias/2022/laMagiaHarry.png"
+import HalloPara from "../../images/desktop/noticias/2022/halloParamount.png"
+import BalleysMont from "../../images/desktop/noticias/2022/belleysMont.png"
+import ChupaShampoo from "../../images/desktop/noticias/2022/chupachupsShampoo.png"
+import TodosPodemos from "../../images/desktop/noticias/2022/todosChefs.png"
+import SerieHalo from "../../images/desktop/noticias/2022/haloSerie.png"
+import deathNote from "../../images/desktop/noticias/2022/deathNote.png"
+import VansCrayola from "../../images/desktop/noticias/2022/vansCrayola.png"
+import Vikings from "../../images/desktop/noticias/2022/vikingsValhalla.png"
+import DulzuraHello from "../../images/desktop/noticias/2022/dulzuraHello.png"
+import HelloCafe from "../../images/desktop/noticias/2022/helloCafe.png"
 
 function NewsNav() {
     const [active, setActive] = useState(1)
@@ -283,8 +322,94 @@ function NewsNav() {
                         </div> 
                     </>
                 )}
+                {page === "unotres" && (
+                    <>
+                        <div className='noticiasRow'>
+                            <NoticiasCard image={AnaEmilia} title={t("CausaRosa")} date={t("CausaRosaDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={Amarillo} title={t("Koaj2022")} date={t("Koaj2022DATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={CampañaChile} title={t("VianneyXbox")} date={t("VianneyXboxDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                        </div>
+                        <div className='noticiasRow'>
+                            <NoticiasCard image={DunkinMinions} title={t("PopeyeKOAJ")} date={t("PopeyeKOAJDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={Minione} title={t("ArgentinaAmong")} date={t("ArgentinaAmongDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={Narutomx} title={t("KaratePeru")} date={t("KaratePeruDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                        </div> 
+                    </>
+                )}
+                {page === "unocuatro" && (
+                    <>
+                        <div className='noticiasRow'>
+                            <NoticiasCard image={atunMinion} title={t("CausaRosa")} date={t("CausaRosaDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={LolyColeccion} title={t("Koaj2022")} date={t("Koaj2022DATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={SaborHer} title={t("VianneyXbox")} date={t("VianneyXboxDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                        </div>
+                        <div className='noticiasRow'>
+                            <NoticiasCard image={BebidaJurasic} title={t("PopeyeKOAJ")} date={t("PopeyeKOAJDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={HarryWal} title={t("ArgentinaAmong")} date={t("ArgentinaAmongDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                            <NoticiasCard image={Olive} title={t("KaratePeru")} date={t("KaratePeruDATE")}>
+                                <img src={Facebook} className="mas"/>
+                                <img src={Instagram} className="mas"/>
+                                <img src={LinkedIn} className="mas"/>
+                            </NoticiasCard>
+                        </div> 
+                    </>
+                )}
                 {page === "nada" && active === 1 ? (
                     <div className='verMasButtonDiv' onClick={()=> setPage("unodos")}>
+                        <Button buttonText={t("seeMore")} />
+                    </div>
+                ):null}
+                {page === "unodos" && active === 1 ? (
+                    <div className='verMasButtonDiv' onClick={()=> setPage("unotres")}>
+                        <Button buttonText={t("seeMore")} />
+                    </div>
+                ):null}
+                {page === "unotres" && active === 1 ? (
+                    <div className='verMasButtonDiv' onClick={()=> setPage("unocuatro")}>
                         <Button buttonText={t("seeMore")} />
                     </div>
                 ):null}
