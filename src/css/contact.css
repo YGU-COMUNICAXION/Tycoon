@@ -188,6 +188,10 @@
     padding: 2% 0%;
     max-width: 1400px;
 }
+.tycoon360Link { 
+    display: flex;
+    justify-content: center;
+}
 @media only screen and (min-width: 752px){
     .contactSecondSection {
         padding: 5% 4%;
@@ -262,7 +266,7 @@
         margin-bottom: 1%;
     }
     .tycoon360 {
-        width: 23%;
+        width: 40%;
     }
 
 }
@@ -308,7 +312,7 @@
         font-size: 14px;
     }
     .tycoon360 {
-        width: 17%;
+        width: 53%;
     }
     .contactThirdSectiondesk {
         padding: 10% 4% 8% 4%;
@@ -363,6 +367,9 @@
     .contactFormDiv ::placeholder {
         font-size: 20px;
     }
+    .tycoon360 {
+        width: 57%;
+    }
 }
 @media only screen and (min-width: 1500px){
     .buscandote {
@@ -410,6 +417,9 @@
     }
     .contactThirdSectiondesk {
         padding: 4% 4% 8% 4%;
+    }
+    .tycoon360 {
+        width: 60%;
     }
 }
 @media only screen and (min-width: 1700px){

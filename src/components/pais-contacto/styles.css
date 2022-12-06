@@ -15,6 +15,7 @@
 .paisContactName {
     font-family: "B semiBold";
     font-size: 24px;
+    color: #051C2C;
 }
 .contactP {
     font-family: "B semiBold";
@@ -22,6 +23,7 @@
     margin-top: 0%;
     margin-bottom: 4%;
     line-height: 15px;
+    color: #051C2C;
 }
 .contactSubtitle {
     font-family: "B semiBold";
@@ -29,6 +31,8 @@
     margin-top: 0%;
     margin-bottom: 4%;
     line-height: 15px;
+    color: #051C2C;
+
 }
 @media only screen and (min-width: 752px) {
     .paisContactoDiv {
