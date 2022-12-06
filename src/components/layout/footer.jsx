@@ -2,7 +2,7 @@ import React from 'react'
 import "./footer.css"
 import { Link } from "gatsby";
 import useWindowSize from "../../hooks/useWindowSize";
-import { useI18next, useTranslation } from "gatsby-plugin-react-i18next";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 import "./footer.css"
 import renderStringHMTLtoJSX from "../../utils/renderStringHTMLtoJSX";
 import RedesCard from '../redes-card';

@@ -40,6 +40,8 @@ body {
     font-size: 28px;
     line-height: 32px;
     cursor: pointer;
+    color: #051C2C;
+
 }
 .sectionTitle span {
     font-family: "B SemiLight";
@@ -48,14 +50,20 @@ body {
     font-family: "B SemiLight";
     font-size: 20px;
     line-height: 28px;
+    color: #051C2C;
+
 }
 .regularP span {
     font-family: "B Bold";
+    color: #051C2C;
+
 }
 .smallP {
     font-family: "B SemiLight";
     font-size: 16px;
     line-height: 24px;
+    color: #093b5e;
+
 }
 .smallP span {
     font-family: "B Bold";

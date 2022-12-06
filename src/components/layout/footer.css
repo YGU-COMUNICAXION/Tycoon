@@ -8,6 +8,8 @@
 }
 .footerTitle {
     font-family: "B Bold";
+    color: #051C2C;
+
 }
 .paisesRow {
     display: flex;
@@ -16,17 +18,19 @@
 }
 .teInteresaDiv a {
     text-decoration: none;
-    color: black;
+    color: #051C2C;
 }
 .teInteresa {
     font-family: "B SemiBold";
 }
 .escribenos {
     font-family: "B SemiLight";
+    color: #051C2C;
+
 }
 .escribenos span {
     font-family: "B SemiBold";
-    color: #0093D7;
+    color: #051C2C;
 }
 .footerNav a  {
     font-family: "B SemiLight";
@@ -84,6 +88,8 @@
 }
 .pagsDiv a {
     font-size: 10px;
+    color: #051C2C;
+
 }
 .paisesDivDesk {
     display: flex;
@@ -96,7 +102,7 @@
 .pagsDiv a {
     font-family: "B SemiLight";
     text-decoration: none;
-    color: black;
+    color: #051C2C;
 }
 .redesDeskDiv {
     width: 15%;

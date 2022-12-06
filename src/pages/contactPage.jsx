@@ -48,11 +48,11 @@ const ContactPage = () => {
                         <input type="text" name='' placeholder={t("industry")}></input>
                         <input type="text" name='' placeholder={t("email")}></input>
                         <input type="text" name='' placeholder={t("phone")}></input>
-                        <select type="text" name='' >
-                            <option value="">{t("territory")}</option>
+                        <select type="text" name=''>
+                            <option value="" className='opcion'>{t("territory")}</option>
                             <option value="item1">{t("argentina")}</option>
                             <option value="item2">{t("brazil")}</option>
-                            <option value="item3">{t("cam")}</option>
+                            <option value="item3">{t("centroam")}</option>
                             <option value="item4">{t("chile")}</option>
                             <option value="item5">{t("colombia")}</option>
                             <option value="item6">{t("ecuador")}</option>
@@ -120,10 +120,10 @@ const ContactPage = () => {
                     <p className='contactP'>dalia@tycoon.mx</p>
                 </PaisContacto>
                 <PaisContacto pais={t("peru")} image={Peru}>
-                    <p className='contactP'>+511 421 3498</p>
+                    <p className='contactP'>+51 994 102 984</p>
                     <p className='contactSubtitle'>{t("contact")}</p>
-                    <p className='contactP'>María Angela Morales</p>
-                    <p className='contactP'>mariaangela.morales@tycoon.mx</p>
+                    <p className='contactP'>Milka Miletich</p>
+                    <p className='contactP'>milka.miletich@tycoon.mx</p>
                 </PaisContacto>
             </div>
             <div className='contact'></div>
@@ -153,16 +153,16 @@ const ContactPage = () => {
                                     <input type="text" name='' placeholder={t("company")}></input>
                                     <input type="text" name='' placeholder={t("product")}></input>
                                     <input type="text" name='' placeholder={t("email")}></input>
-                                    <select type="text" name='' >
+                                    <select type="text" name=''>
                                         <option value="">{t("territory")}</option>
-                                        <option value="item1">{t("argentina")}</option>
-                                        <option value="item2">{t("brazil")}</option>
-                                        <option value="item3">{t("cam")}</option>
-                                        <option value="item4">{t("chile")}</option>
-                                        <option value="item5">{t("colombia")}</option>
-                                        <option value="item6">{t("ecuador")}</option>
-                                        <option value="item7">{t("mexico")}</option>
-                                        <option value="item8">{t("peru")}</option>
+                                        <option value="item1" className='opcion'>{t("argentina")}</option>
+                                        <option value="item2" className='opcion'>{t("brazil")}</option>
+                                        <option value="item3" className='opcion'>{t("centroam")}</option>
+                                        <option value="item4" className='opcion'>{t("chile")}</option>
+                                        <option value="item5" className='opcion'>{t("colombia")}</option>
+                                        <option value="item6" className='opcion'>{t("ecuador")}</option>
+                                        <option value="item7" className='opcion'>{t("mexico")}</option>
+                                        <option value="item8" className='opcion'>{t("peru")}</option>
                                     </select>
                                 </div>
                                 <div className='formRightDeskDiv'>
@@ -237,10 +237,10 @@ const ContactPage = () => {
                             <p className='contactP'>dalia@tycoon.mx</p>
                         </PaisContacto>
                         <PaisContacto pais={t("peru")} image={Peru}>
-                            <p className='contactP'>+511 421 3498</p>
+                            <p className='contactP'>+51 994 102 984</p>
                             <p className='contactSubtitle'>{t("contact")}</p>
-                            <p className='contactP'>María Angela Morales</p>
-                            <p className='contactP'>mariaangela.morales@tycoon.mx</p>
+                            <p className='contactP'>Milka Miletich</p>
+                            <p className='contactP'>milka.miletich@tycoon.mx</p>
                         </PaisContacto>
                     </div>
                 </div>

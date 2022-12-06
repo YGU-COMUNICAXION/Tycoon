@@ -11,6 +11,8 @@
 }
 .noticiaTitle {
     font-family: "B Medium";
+    color: #051C2C;
+
 }
 .noticiaUpperDiv {
     height: 55%;
@@ -27,7 +29,7 @@
 }
 .mas {
     width: 23%;
-    margin: 3%;
+    margin:  3% 3% 3% 0%;
 }
 
 @media only screen and (min-width: 752px) {

@@ -27,7 +27,7 @@
 }
 .contactRightDiv a {
     text-decoration: none;
-    color: black;
+    color: #051C2C;
 }
 .contactInfoDiv {
     display: flex;
@@ -40,6 +40,8 @@
     font-size: 20px;
     width: 47%;
     text-align: right;
+    color: #051C2C;
+
 }
 .contactRightDiv{
     width: 47%;
@@ -49,6 +51,8 @@
     font-size: 16px;
     margin-bottom: 4%;
     margin-top: 0%;
+    color: #051C2C;
+
 }
 .mail {
     font-family: "B semiBold";
@@ -97,6 +101,18 @@
     font-family: "B semiBold";
     font-size: 16px;
 }
+.opcion:hover {background: blue;}
+/* .contactFormDiv select:hover {
+    color: #444645;
+    background: #ddd;
+} */
+/* .contactFormDiv select.decorated option:checked {
+    box-shadow: 0 0 10px 100px red inset;
+} */
+/* .contactFormDiv option:checked {
+    background-color: yellow;
+    font-size: 80px;
+  } */
 .contactFormDiv textarea {
     width: 95%;
     background-color: #CCE9F7;
@@ -124,6 +140,8 @@
     width: 60%;
     text-align: center;
     margin-bottom: 4%;
+    color: #051C2C;
+
 }
 .tycoon360 {
     width: 64%;

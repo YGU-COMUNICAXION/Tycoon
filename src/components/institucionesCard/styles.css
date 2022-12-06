@@ -30,6 +30,9 @@
     .institucionMainDiv img {
       /* height: 50%; */
     }
+    .deskTextDiv {
+        height: 200px;
+    }
     .instName {
         font-family: "B SemiLight";
         font-size:6px;
