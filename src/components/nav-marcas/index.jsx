@@ -103,7 +103,9 @@ const StyledNavMarcas = styled.div`
     hr {
       height: 20px;
       border: 0.5px solid black;
-      background-color: blue;
+    }
+    p{
+      cursor: pointer;
     }
   }
   @media (min-width: 330px) {
@@ -129,7 +131,7 @@ const StyledNavMarcas = styled.div`
   }
   @media (min-width: 1200px) {
     .select_category {
-      font-size: 14px;
+      font-size: 15px;
     }
     .wrapper__buttons {
       display: flex;
@@ -138,9 +140,8 @@ const StyledNavMarcas = styled.div`
       .level_one {
         display: flex;
         align-items: center;
-
         button {
-          width: 17%;
+          width: 20%;
           padding: 10px;
           font-size: 24px;
           :nth-child(3) {
@@ -181,6 +182,10 @@ const StyledNavMarcas = styled.div`
     }
   }
   @media (min-width: 1400px) {
+    .select_category {
+      font-size: 22px;
+      max-width: 800px;
+    }
     .order_image {
       .images_per_row {
         width: 1310px;
