@@ -404,10 +404,12 @@
         width: 97%;
         height: 135px;
         font-size: 23px;
-
     }
     .contactFormDiv ::placeholder {
         font-size: 23px;
+    }
+    .contactThirdSectiondesk {
+        padding: 4% 4% 8% 4%;
     }
 }
 @media only screen and (min-width: 1700px){

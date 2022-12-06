@@ -4,10 +4,10 @@ import "./styles.css"
 
 export default function Button({buttonText, href}) {
   return (
-    <div className='buttonDiv'>
-      <Link to={href}>
-        <p>{buttonText}</p>
-      </Link>
-    </div>
+    <Link to={href}>
+      <div className='buttonDiv'>
+          <p>{buttonText}</p>
+      </div>
+    </Link>
   )
 }
