@@ -17,6 +17,11 @@ import Mexico from "../images/mobile/layout/footer/paises/mexico.png"
 import Peru from "../images/mobile/layout/footer/paises/peru.png"
 import useWindowSize from '../hooks/useWindowSize';
 import Buscando from "../images/desktop/contacto/teEstamosbuscando.png"
+import styled from 'styled-components';
+
+const formLeftDeskDiv = styled.div`
+
+`
 
 const ContactPage = () => {
     const { t } = useTranslation("contact");

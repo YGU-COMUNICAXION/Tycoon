@@ -101,18 +101,12 @@
     font-family: "B semiBold";
     font-size: 16px;
 }
-.opcion:hover {background: blue;}
-/* .contactFormDiv select:hover {
-    color: #444645;
-    background: #ddd;
+/* option:checked {
+    background-color: #0093D7;
 } */
-/* .contactFormDiv select.decorated option:checked {
-    box-shadow: 0 0 10px 100px red inset;
+/* select.decorated option:hover {
+    box-shadow: 0 0 10px 100px #0093D7 inset;
 } */
-/* .contactFormDiv option:checked {
-    background-color: yellow;
-    font-size: 80px;
-  } */
 .contactFormDiv textarea {
     width: 95%;
     background-color: #CCE9F7;
