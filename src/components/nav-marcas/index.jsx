@@ -57,7 +57,7 @@ const StyledNavMarcas = styled.div`
           border-radius: 0 4px 0 0;
         }
 
-        :nth-child(4) {
+        :nth-child(3) {
           width: 55%;
         }
       }
@@ -91,8 +91,29 @@ const StyledNavMarcas = styled.div`
       }
     }
   }
-
-  @media (min-width: 600px) {
+  .select_category {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "B SemiBold";
+    margin: 42px auto 66px;
+    font-size: 12px;
+    max-width: 500px;
+    hr {
+      height: 20px;
+      border: 0.5px solid black;
+    }
+    p{
+      cursor: pointer;
+    }
+  }
+  @media (min-width: 330px) {
+    .wrapper__buttons {
+      max-width: 330px;
+    }
+  }
+  @media (min-width: 360px) {
     .wrapper__buttons {
       max-width: 500px;
     }
@@ -109,6 +130,9 @@ const StyledNavMarcas = styled.div`
     }
   }
   @media (min-width: 1200px) {
+    .select_category {
+      font-size: 15px;
+    }
     .wrapper__buttons {
       display: flex;
       flex-direction: row;
@@ -116,18 +140,17 @@ const StyledNavMarcas = styled.div`
       .level_one {
         display: flex;
         align-items: center;
-
         button {
-          width: 17%;
+          width: 20%;
           padding: 10px;
           font-size: 24px;
-          :nth-child(4) {
+          :nth-child(3) {
             width: 400px;
           }
-          :first-child{
+          :first-child {
             border-radius: 4px 0 0 4px;
           }
-          :last-child{
+          :last-child {
             border-radius: 0px;
           }
         }
@@ -137,13 +160,12 @@ const StyledNavMarcas = styled.div`
         align-items: center;
         button {
           padding: 10px;
-          background-color: red;
           width: 30%;
           font-size: 24px;
-          :first-child{
+          :first-child {
             border-radius: 0px 0px 0px 0px;
           }
-          :last-child{
+          :last-child {
             border-radius: 0px 4px 4px 0px;
           }
         }
@@ -160,6 +182,10 @@ const StyledNavMarcas = styled.div`
     }
   }
   @media (min-width: 1400px) {
+    .select_category {
+      font-size: 22px;
+      max-width: 800px;
+    }
     .order_image {
       .images_per_row {
         width: 1310px;
@@ -180,73 +206,106 @@ const StyledNavMarcas = styled.div`
 
 export default function NavMarcas() {
   const { t } = useTranslation("brands");
-  // let prevButton = null;
 
-  // const wrapper = document.getElementById("wrapper");
-  // if (wrapper) {
-  //   wrapper.addEventListener("click", (e) => {
-  //     const isButton = e.target.nodeName === "BUTTON";
-
-  //     if (!isButton) {
-  //       return;
-  //     }
-
-  //     e.target.classList.add("active"); // Add .active CSS Class
-
-  //     if (prevButton !== null) {
-  //       prevButton.classList.remove("active"); // Remove .active CSS Class
-  //     }
-
-  //     prevButton = e.target;
-  //   });
-  // }
-
-  const [show, setShow] = useState(0);
-  const [info, setInfo] = useState("corporativas");
+  const [show, setShow] = useState(1);
+  const [info, setInfo] = useState("all");
   return (
     <StyledNavMarcas>
       <div className="wrapper__buttons">
         <div className="level_one">
-          <button style={{background: show === 0 ? "#0093d7" : "white"}} onClick={() => setShow(0)}>{t("All")}</button>
-          <button style={{background: show === 4 ? "#0093d7" : "white"}} onClick={() => setShow(4)}>{t("arg")}</button>
-          <button style={{background: show === 8 ? "#0093d7" : "white"}} onClick={() => setShow(8)}>{t("bra")}</button>
-          <button  style={{background: show === 7 ? "#0093d7" : "white"}}onClick={() => setShow(7)}>{t("centro")}</button>
-          <button style={{background: show === 5 ? "#0093d7" : "white"}} onClick={() => setShow(5)}>{t("chi")}</button>
+          <button
+            style={{ background: show === 4 ? "#0093d7" : "white" }}
+            onClick={() => setShow(4)}
+          >
+            {t("arg")}
+          </button>
+          <button
+            style={{ background: show === 8 ? "#0093d7" : "white" }}
+            onClick={() => setShow(8)}
+          >
+            {t("bra")}
+          </button>
+          <button
+            style={{ background: show === 7 ? "#0093d7" : "white" }}
+            onClick={() => setShow(7)}
+          >
+            {t("centro")}
+          </button>
+          <button
+            style={{ background: show === 5 ? "#0093d7" : "white" }}
+            onClick={() => setShow(5)}
+          >
+            {t("chi")}
+          </button>
         </div>
         <div className="level_two">
-          <button style={{background: show === 2 ? "#0093d7" : "white"}} onClick={() => setShow(2)}>{t("col")}</button>
-          <button style={{background: show === 3 ? "#0093d7" : "white"}} onClick={() => setShow(3)}>{t("ecu")}</button>
-          <button style={{background: show === 1 ? "#0093d7" : "white"}} onClick={() => setShow(1)}>{t("mex")}</button>
-          <button style={{background: show === 6 ? "#0093d7" : "white"}} onClick={() => setShow(6)}>{t("peru")}</button>
+          <button
+            style={{ background: show === 2 ? "#0093d7" : "white" }}
+            onClick={() => setShow(2)}
+          >
+            {t("col")}
+          </button>
+          <button
+            style={{ background: show === 3 ? "#0093d7" : "white" }}
+            onClick={() => setShow(3)}
+          >
+            {t("ecu")}
+          </button>
+          <button
+            style={{ background: show === 1 ? "#0093d7" : "white" }}
+            onClick={() => setShow(1)}
+          >
+            {t("mex")}
+          </button>
+          <button
+            style={{ background: show === 6 ? "#0093d7" : "white" }}
+            onClick={() => setShow(6)}
+          >
+            {t("peru")}
+          </button>
         </div>
       </div>
-      <Nav fill variant="tabs">
-        <Nav.Item onClick={() => setInfo("corporativas")}>
-          <Nav.Link eventKey="link-1">{t("corp")}</Nav.Link>
-        </Nav.Item>
-        <div className="navDivisor" />
-        <Nav.Item onClick={() => setInfo("entretenimiento")}>
-          <Nav.Link eventKey="link-2">{t("entretenimiento")}</Nav.Link>
-        </Nav.Item>
-        <div className="navDivisor" />
-        <Nav.Item onClick={() => setInfo("estilo")}>
-          <Nav.Link eventKey="link-3">{t("estilo")}</Nav.Link>
-        </Nav.Item>
-        <div className="navDivisor" />
-        <Nav.Item onClick={() => setInfo("deportivas")}>
-          <Nav.Link eventKey="link-4">{t("depor")}</Nav.Link>
-        </Nav.Item>
-      </Nav>
+
+      <div className="select_category">
+        <p
+          style={{ color: info === "all" ? "#0081C3" : "black" }}
+          onClick={() => setInfo("all")}
+        >
+          {t("All")}
+        </p>
+        <hr />
+        <p
+          style={{ color: info === "corporativas" ? "#0081C3" : "black" }}
+          onClick={() => setInfo("corporativas")}
+        >
+          {t("corp")}
+        </p>
+        <hr />
+        <p
+          style={{ color: info === "entretenimiento" ? "#0081C3" : "black" }}
+          onClick={() => setInfo("entretenimiento")}
+        >
+          {t("entretenimiento")}
+        </p>
+        <hr />
+        <p
+          style={{ color: info === "estilo" ? "#0081C3" : "black" }}
+          onClick={() => setInfo("estilo")}
+        >
+          {t("estilo")}
+        </p>
+        <hr />
+        <p
+          style={{ color: info === "deportivas" ? "#0081C3" : "black" }}
+          onClick={() => setInfo("deportivas")}
+        >
+          {t("depor")}
+        </p>
+      </div>
 
       <div className="order_image">
-      {show === 0 ? 
-          <div className="images_per_row">
-            {Catalogo[0].all.allImages.map((e, idx) => {
-              return <img key={idx} src={e.image.default} alt="image_icon" />;
-            })}
-          </div> : null}
         {/* ARGENTINA SECTIONS */}
-        
+
         {show === 4 && info === "corporativas" ? (
           <div className="images_per_row">
             {Catalogo[0].argentina.corporativas.map((e, idx) => {
@@ -268,6 +327,12 @@ export default function NavMarcas() {
         ) : show === 4 && info === "deportivas" ? (
           <div className="images_per_row">
             {Catalogo[0].argentina.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </div>
+        ) : show === 4 && info === "all" ? (
+          <div className="images_per_row">
+            {Catalogo[0].argentina.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
           </div>
@@ -299,6 +364,12 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
           </div>
+        ) : show === 1 && info === "all" ? (
+          <div className="images_per_row">
+            {Catalogo[1].mexico.all.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </div>
         ) : null}
 
         {/* BRASIL SECTIONS */}
@@ -324,6 +395,12 @@ export default function NavMarcas() {
         ) : show === 8 && info === "deportivas" ? (
           <div className="images_per_row">
             {Catalogo[2].brasil.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </div>
+        ) : show === 8 && info === "all" ? (
+          <div className="images_per_row">
+            {Catalogo[2].brasil.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
           </div>
@@ -355,6 +432,12 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
           </div>
+        ) : show === 5 && info === "all" ? (
+          <div className="images_per_row">
+            {Catalogo[3].chile.all.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </div>
         ) : null}
 
         {/* PERÚ SECTIONS */}
@@ -380,6 +463,12 @@ export default function NavMarcas() {
         ) : show === 6 && info === "deportivas" ? (
           <div className="images_per_row">
             {Catalogo[4].peru.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </div>
+        ) : show === 6 && info === "all" ? (
+          <div className="images_per_row">
+            {Catalogo[4].peru.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
           </div>
@@ -411,6 +500,12 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
           </div>
+        ) : show === 7 && info === "all" ? (
+          <div className="images_per_row">
+            {Catalogo[5].centroAmerica.all.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </div>
         ) : null}
         {/* COLOMBIA SECTIONS */}
 
@@ -435,6 +530,12 @@ export default function NavMarcas() {
         ) : show === 2 && info === "deportivas" ? (
           <div className="images_per_row">
             {Catalogo[6].colombia.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </div>
+        ) : show === 2 && info === "all" ? (
+          <div className="images_per_row">
+            {Catalogo[6].colombia.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
           </div>
@@ -463,6 +564,12 @@ export default function NavMarcas() {
         ) : show === 3 && info === "deportivas" ? (
           <div className="images_per_row">
             {Catalogo[7].ecuador.deportivas.map((e, idx) => {
+              return <img key={idx} src={e.image.default} alt="image_icon" />;
+            })}
+          </div>
+        ) : show === 3 && info === "all" ? (
+          <div className="images_per_row">
+            {Catalogo[7].ecuador.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })}
           </div>
