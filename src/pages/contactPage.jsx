@@ -39,7 +39,9 @@ const ContactPage = () => {
                     <h2 className='adquirir'>{t("acquisition")}</h2>
                     <div className='contactRightDiv'>
                         <p className='responde'>{t("answer")}</p>
-                        <p className='mail' href="mailto:contacto@tycoon.mx">{t("contactMail")}</p>
+                        <a href="mailto:contacto@tycoon.mx">
+                            <p className='mail'>{t("contactMail")}</p>
+                        </a>
                         <p className='teResponderemos'>{t("willAnswer")}</p>
                     </div>
                 </div>
