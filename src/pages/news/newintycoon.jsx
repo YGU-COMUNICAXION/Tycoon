@@ -1,10 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
-import NewsPage from "./newsPage";
-
+import NewInTycoon from "./newintycoonPage";
 
 const Index = () => {
-  return <NewsPage />;
+  return <NewInTycoon />;
 };
 
 export default Index;
