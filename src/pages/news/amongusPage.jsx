@@ -1,10 +1,11 @@
 import React from 'react'
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import renderStringHMTLtoJSX from "../../utils/renderStringHTMLtoJSX";
-import Layout from "../components/layout";
+import Layout from "../../components/layout";
 import "../../css/news/amongus.css";
 import NoticiasRecientes from "../../components/noticias-recientes";
 import useWindowSize from '../../hooks/useWindowSize';
+import SingleNews from '../../components/singleNews';
 
 const AmongusPage = () => {
     const { t } = useTranslation("among");
@@ -13,40 +14,23 @@ const AmongusPage = () => {
     return (
         <Layout>
         {windowSize < 752 ? (
-            <div className='MainDiv'>
-                <div/>
+            <>
+            <SingleNews>
+                <img/>
                 <div>
-                    <p>{t("")}</p>
-                    <img/>
-                    <div>
-                        <p>{t("")}</p>
-                        <p>{t("")}</p>
-                    </div>
-                    <p>{t("")}</p>
-                    <p>{t("")}</p>
+                    <p className='smallP'></p>
+                    <p className=''></p>
                 </div>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
-            </div>
+                <p className='smallP'></p>
+                <p className='smallP'></p>
+                <p className=''></p>
+            </SingleNews>
+            <NoticiasRecientes/>
+            </>
         ):(
-            <div className='MainDivDesk'>
-                <div className=''/>
-                <div className=''>
-                    <p>{t("")}</p>
-                    <div className=''>
-                        <p>{t("")}</p>
-                        <img/>
-                    </div>
-                    <div className=''>
-                        <p>{t("")}</p>
-                        <p>{t("")}</p>
-                    </div>
-                    <p>{t("")}</p>
-                    <p>{t("")}</p>
-                </div>
-                <div className=''>
-                    <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
-                </div>
-            </div>
+            <SingleNews>
+
+            </SingleNews>
         )}
         </Layout>
     )

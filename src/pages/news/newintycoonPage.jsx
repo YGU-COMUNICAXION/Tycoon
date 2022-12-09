@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const newintycoonPage = () => {
+const NewintycoonPage = () => {
   return (
     <div>newintycoonPage</div>
   )
 }
+
+export default NewintycoonPage
