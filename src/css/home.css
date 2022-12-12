@@ -155,11 +155,11 @@ body {
         font-size: 25px;
     }
     .regularP {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 28px;
     }
     .smallP {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 24px;
     }
     .thirdSectionButton {
@@ -181,10 +181,10 @@ body {
         font-size: 27px;
     }
     .regularP {
-        font-size: 22px;
+        font-size: 20px;
     }
     .smallP {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 24px;
     }
     .homeSecondSectionDesk {
@@ -208,11 +208,11 @@ body {
 
     }
     .regularP {
-        font-size: 30px;
+        font-size: 28px;
         line-height: 44px;
     }
     .smallP {
-        font-size: 23px;
+        font-size: 28px;
         line-height: 34px;
     }
 }
