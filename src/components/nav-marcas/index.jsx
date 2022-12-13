@@ -22,7 +22,7 @@ const StyledNavMarcas = styled.div`
       border: 0.5px solid black;
       font-family: "B SemiBold";
       font-style: normal;
-      font-size: 12px;
+      font-size: 11px;
       letter-spacing: 0.02em;
       color: #051c2c;
       cursor: pointer;
@@ -116,6 +116,11 @@ const StyledNavMarcas = styled.div`
   @media (min-width: 360px) {
     .wrapper__buttons {
       max-width: 500px;
+    }
+  }
+  @media only screen and (min-width: 370px){
+    .button {
+      font-size: 12px;
     }
   }
   @media (min-width: 752px) {
