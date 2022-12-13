@@ -32,7 +32,8 @@
     width: 30%;
 }
 .headerMenu img {
-    width: 70%;
+    width: 45%;
+    margin-left: 12%;
 }
 .headerLogo {
     display: flex;
@@ -147,5 +148,10 @@
         font-size: 19px;
         border-radius: 8px;
         border: solid 2px black;
+    }
+}
+@media only screen and (max-width: 752px) {
+    .HeaderTag{
+        height: 70px;
     }
 }

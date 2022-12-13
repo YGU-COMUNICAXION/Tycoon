@@ -1,7 +1,8 @@
 .contactFirstSection {
     background-image: url("../images/mobile/contacto/bannerContactoEsp.png");
     background-size: cover;
-    height: 128px;
+    /* height: 128px; */
+    padding-bottom: 35%;
 }
 .contactSecondSection {
     display: flex;
