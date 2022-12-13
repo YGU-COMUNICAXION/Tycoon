@@ -22,7 +22,7 @@ const StyledNavMarcas = styled.div`
       border: 0.5px solid black;
       font-family: "B SemiBold";
       font-style: normal;
-      font-size: 14px;
+      font-size: 12px;
       letter-spacing: 0.02em;
       color: #051c2c;
       cursor: pointer;
