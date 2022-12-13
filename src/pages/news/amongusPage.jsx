@@ -6,6 +6,11 @@ import "../../css/news/amongus.css";
 import NoticiasRecientes from "../../components/noticias-recientes";
 import useWindowSize from '../../hooks/useWindowSize';
 import SingleNews from '../../components/singleNews';
+import AmongBanner from "../../images/desktop/noticias/amongus/bannerAmongus.png"
+import AmongFirstImg from "../../images/desktop/noticias/amongus/fotoAmongus.png"
+import AmongSecondImgMob from "../../images/desktop/noticias/amongus/contenedorMob.png"
+import AmongSecondImgDesk from "../../images/desktop/noticias/amongus/contenedor.png"
+
 
 const AmongusPage = () => {
     const { t } = useTranslation("among");

@@ -492,23 +492,23 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={Nuevo} title={t("Nuevo")} date={t("newDate")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={Cobra} title={t("Cobra")} date={t("cobraDate")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={AmongLLega} title={t("AmongLLega")} date={t("amongDate")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={Warner} title={t("Warner")} date={t("WarnerDATE")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                             </div>                    
                             <div className='noticiasRow'>
                                 <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={t("CaminaKittyDATE")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                             </div>
                         </>
@@ -517,31 +517,31 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={ColeccionPantera} title={t("ColeccionPantera")} date={t("ColeccionPanteraDATE")}>
-                                    <img src={Mas} className="mas"/>   
+                                    {/* <img src={Mas} className="mas"/>    */}
                                 </NoticiasCard>
                                 <NoticiasCard image={Crayola} title={t("Crayola")} date={t("CrayolaDATE")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={MasterChef} title={t("MasterChef")}  date={t("MasterChefDATE")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={TycoonDia} title={t("TycoonDia")}  date={t("TycoonDiaDATE")}>
-                                    <img src={Mas} className="mas"/>       
+                                    {/* <img src={Mas} className="mas"/>        */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={Endemol} title={t("Endemol")} date={t("EndemolDATE")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={ColDistroller} title={t("ColDistroller")}  date={t("ColDistrollerDATE")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={Balleys} title={"Balleys"} date={t("BalleysDATE")}>
-                                    <img src={Mas} className="mas"/>
+                                    {/* <img src={Mas} className="mas"/> */}
                                 </NoticiasCard>
                             </div>
                         </>
@@ -917,21 +917,21 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-                                <img src={Mas} className="mas"/>
+                                {/* <img src={Mas} className="mas"/> */}
                             </NoticiasCard>
                             <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-                                <img src={Mas} className="mas"/>
+                                {/* <img src={Mas} className="mas"/> */}
                             </NoticiasCard>
                             <NoticiasCard image={AmongLLega} title={t("among")} date={t("amongDate")}>
-                                <img src={Mas} className="mas"/>   
+                                {/* <img src={Mas} className="mas"/>    */}
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRowSingle'>
                             <NoticiasCard image={Warner} title={t("Warner")} date={t("WarnerDATE")}>
-                                <img src={Mas} className="mas"/>
+                                {/* <img src={Mas} className="mas"/> */}
                             </NoticiasCard>
                             <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={t("CaminaKittyDATE")}>
-                                <img src={Mas} className="mas"/>
+                                {/* <img src={Mas} className="mas"/> */}
                             </NoticiasCard>
                         </div>                    
                     </>
@@ -940,29 +940,29 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={ColeccionPantera} title={t("ColeccionPantera")} date={t("ColeccionPanteraDATE")}>
-                                <img src={Mas} className="mas"/>   
+                                {/* <img src={Mas} className="mas"/>    */}
                             </NoticiasCard>
                             <NoticiasCard image={Crayola} title={t("Crayola")} date={t("CrayolaDATE")}>
-                                <img src={Mas} className="mas"/>   
+                                {/* <img src={Mas} className="mas"/>    */}
                             </NoticiasCard>
                             <NoticiasCard image={MasterChef} title={t("MasterChef")}  date={t("MasterChefDATE")}>
-                                <img src={Mas} className="mas"/>
+                                {/* <img src={Mas} className="mas"/> */}
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
                             <NoticiasCard image={TycoonDia} title={t("TycoonDia")}  date={t("TycoonDiaDATE")}>
-                                <img src={Mas} className="mas"/>
+                                {/* <img src={Mas} className="mas"/> */}
                             </NoticiasCard>
                             <NoticiasCard image={Endemol} title={t("Endemol")}  date={t("EndemolDATE")}>
-                                <img src={Mas} className="mas"/>
+                                {/* <img src={Mas} className="mas"/> */}
                             </NoticiasCard>
                             <NoticiasCard image={ColDistroller} title={t("ColDistroller")}  date={t("ColDistrollerDATE")}>
-                                <img src={Mas} className="mas"/>   
+                                {/* <img src={Mas} className="mas"/>    */}
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRowSingle'>
                             <NoticiasCard image={Balleys} title={t("Balleys")}  date={t("BalleysDATE")}>
-                                <img src={Mas} className="mas"/>
+                                {/* <img src={Mas} className="mas"/> */}
                             </NoticiasCard>
                         </div>
                     </>
