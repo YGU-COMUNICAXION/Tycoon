@@ -23,6 +23,7 @@ const StyledNavMarcas = styled.div`
       font-family: "B SemiBold";
       font-style: normal;
       font-size: 11px;
+      height: 30px;
       letter-spacing: 0.02em;
       color: #051c2c;
       cursor: pointer;
@@ -148,6 +149,7 @@ const StyledNavMarcas = styled.div`
         button {
           padding: 10px 30px 10px 30px;
           width: 20%;
+          height: 50px;
           font-size: 24px;
           :nth-child(3) {
             width: 400px;
@@ -166,6 +168,7 @@ const StyledNavMarcas = styled.div`
         button {
           padding: 10px 30px 10px 30px;
           width: 30%;
+          height: 50px;
           font-size: 24px;
           :first-child {
             border-radius: 0px 0px 0px 0px;
