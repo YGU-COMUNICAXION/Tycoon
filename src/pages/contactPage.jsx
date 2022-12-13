@@ -78,7 +78,7 @@ const ContactPage = () => {
                 <img src={Tycoon360} className="tycoon360"/>
             </div>
             <div className='contactThirdSection'>
-                <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
+                <h2 className='sectionTitle' id="contArg" >{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
                 <PaisContacto pais={t("argentina")} image={Argentina}>
                     <p className='contactP'>+(54) 91165341346</p>
                     <p className='contactSubtitle'>{t("contact")}</p>

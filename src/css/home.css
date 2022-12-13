@@ -4,6 +4,7 @@ body {
     margin: 0 !important;
     padding: 0 ;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .MainDiv {
     margin-top: 22%;
