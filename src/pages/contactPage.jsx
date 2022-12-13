@@ -79,7 +79,7 @@ const ContactPage = () => {
             </div>
             <div className='contactThirdSection'>
                 <h2 className='sectionTitle' id="contArg" >{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
-                <PaisContacto pais={t("argentina")} image={Argentina}>
+                <PaisContacto pais={t("argentina")} image={Argentina} id="contBz">
                     <p className='contactP'>+(54) 91165341346</p>
                     <p className='contactSubtitle'>{t("contact")}</p>
                     <p className='contactP'>Eleonora Parodi</p>
@@ -99,7 +99,7 @@ const ContactPage = () => {
                         <p className='contactP'>http://www.tycoon360.com.br/</p>
                     </a>                
                 </PaisContacto>
-                <PaisContacto pais={t("cam")} image={Cam}>
+                <PaisContacto pais={t("cam")} image={Cam} id="contCam">
                     <p className='contactP'>+ (506) 8820 4733</p>
                     <p className='contactP'>+ (506) 4001 7397</p>
                     <p className='contactSubtitle'>{t("contact")}</p>
@@ -108,7 +108,7 @@ const ContactPage = () => {
                         <p className='contactP'>dinnia.madriz@tycoon.mx</p>
                     </a>
                 </PaisContacto>
-                <PaisContacto pais={t("chile")} image={Chile}>
+                <PaisContacto pais={t("chile")} image={Chile} id="contCh">
                     <p className='contactP'>+56 2 2761-8685</p>
                     <p className='contactSubtitle'>{t("contact")}</p>
                     <p className='contactP'>Alejandra Pinto</p>
@@ -116,7 +116,7 @@ const ContactPage = () => {
                         <p className='contactP'>alejandra.pinto@tycoon.mx</p>
                     </a>
                 </PaisContacto>
-                <PaisContacto pais={t("colombia")} image={Colombia}>
+                <PaisContacto pais={t("colombia")} image={Colombia} id="contCol">
                     <p className='contactP'>+571 7431650</p>
                     <p className='contactSubtitle'>{t("contact")}</p>
                     <p className='contactP'>José Fernando Córdoba</p>
@@ -124,7 +124,7 @@ const ContactPage = () => {
                         <p className='contactP'>jose.cordoba@tycoon.mx</p>
                     </a>
                 </PaisContacto>
-                <PaisContacto pais={t("ecuador")} image={Ecuador}>
+                <PaisContacto pais={t("ecuador")} image={Ecuador} id="contEc">
                     <p className='contactP'>+571 7431650</p>
                     <p className='contactSubtitle'>{t("contact")}</p>
                     <p className='contactP'>Verónica Sandoval</p>
@@ -132,7 +132,7 @@ const ContactPage = () => {
                         <p className='contactP'>veronica.sandoval@tycoon.mx</p>
                     </a>
                 </PaisContacto>
-                <PaisContacto pais={t("mexico")} image={Mexico}>
+                <PaisContacto pais={t("mexico")} image={Mexico} id="contMex">
                     <p className='contactP'>+5255 5395 4111</p>
                     <p className='contactP'>+5255 5395 7833</p>
                     <p className='contactSubtitle'>{t("contact")}</p>
@@ -141,7 +141,7 @@ const ContactPage = () => {
                         <p className='contactP'>dalia@tycoon.mx</p>
                     </a>
                 </PaisContacto>
-                <PaisContacto pais={t("peru")} image={Peru}>
+                <PaisContacto pais={t("peru")} image={Peru} id="contPeru">
                     <p className='contactP'>+51 994 102 984</p>
                     <p className='contactSubtitle'>{t("contact")}</p>
                     <p className='contactP'>Milka Miletich</p>
@@ -209,7 +209,7 @@ const ContactPage = () => {
                     <img src={Tycoon360} className="tycoon360"/>
                 </a>
             </div> 
-            <div className='contactThirdSectiondesk'>
+            <div className='contactThirdSectiondesk' id="contArg">
                 <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
                 <div className='contacitoPaisCardsWrapper'>
                     <div className='contactoPaisRow'>

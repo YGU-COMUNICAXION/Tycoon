@@ -44,21 +44,29 @@ const Footer = () => {
                     <AnchorLink to="/contact#contArg">
                         <PaisCard image={Argentina} pais={t("argentina")}/>
                     </AnchorLink>
-                    <AnchorLink to="/contact#bz">
+                    <AnchorLink to="/contact#contBz">
                         <PaisCard image={Brasil} pais={t("brasil")}/>
                     </AnchorLink>
-                    <AnchorLink to="/contact#cam">
+                    <AnchorLink to="/contact#contCam">
                         <PaisCard image={Cam} pais={t("cam")}/>
                     </AnchorLink>
-                    <AnchorLink to="/contact#ch">
+                    <AnchorLink to="/contact#contCh">
                         <PaisCard image={Chile} pais={t("chile")}/>
                     </AnchorLink>
                 </div>
                 <div className='paisesRow'>
-                    <PaisCard image={Colombia} pais={t("colombia")}/>
-                    <PaisCard image={Ecuador} pais={t("ecuador")}/>
-                    <PaisCard image={Mexico} pais={t("mexico")}/>
-                    <PaisCard image={Peru} pais={t("peru")}/>
+                    <AnchorLink to="/contact#contCol">
+                        <PaisCard image={Colombia} pais={t("colombia")}/>
+                    </AnchorLink>
+                    <AnchorLink to="/contact#contEc">
+                        <PaisCard image={Ecuador} pais={t("ecuador")}/>
+                    </AnchorLink>
+                    <AnchorLink to="/contact#contMex">
+                        <PaisCard image={Mexico} pais={t("mexico")}/>
+                    </AnchorLink>
+                    <AnchorLink to="/contact#contPeru">
+                        <PaisCard image={Peru} pais={t("peru")}/>
+                    </AnchorLink>
                 </div>
             </div>
             <div className='teInteresaDiv'>
@@ -100,14 +108,16 @@ const Footer = () => {
                     <div className='paisesDivDesk'>
                         <h2 className='footerTitle'>{t("footerSecondTitle")}</h2>
                         <div className='paisesRow'>
-                            <PaisCard image={Argentina} pais={t("argentina")}/>
-                            <PaisCard image={Brasil} pais={t("brasil")}/>
-                            <PaisCard image={Cam} pais={t("cam")}/>
-                            <PaisCard image={Chile} pais={t("chile")}/>
-                            <PaisCard image={Colombia} pais={t("colombia")}/>
-                            <PaisCard image={Ecuador} pais={t("ecuador")}/>
-                            <PaisCard image={Mexico} pais={t("mexico")}/>
-                            <PaisCard image={Peru} pais={t("peru")}/>
+                            <AnchorLink to="/contact#contArg">
+                                <PaisCard image={Argentina} pais={t("argentina")}/>
+                                <PaisCard image={Brasil} pais={t("brasil")}/>
+                                <PaisCard image={Cam} pais={t("cam")}/>
+                                <PaisCard image={Chile} pais={t("chile")}/>
+                                <PaisCard image={Colombia} pais={t("colombia")}/>
+                                <PaisCard image={Ecuador} pais={t("ecuador")}/>
+                                <PaisCard image={Mexico} pais={t("mexico")}/>
+                                <PaisCard image={Peru} pais={t("peru")}/>
+                            </AnchorLink>
                         </div>
                     </div>
                     <div className='redesDeskDiv'>
