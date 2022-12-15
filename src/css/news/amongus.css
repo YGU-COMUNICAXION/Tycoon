@@ -1,7 +1,7 @@
 .singleNewsBanner {
     background-size: cover;
     width: 100%;
-    padding-bottom: 55%;
+    padding-bottom: 58%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,8 +19,14 @@
     text-align: center;
     color: #0081C3
 }
+.finalP {
+    font-family: "B SemiBold";
+    font-size: 18px;
+    text-align: center;
+    color: #0081C3;
+}
 .amongfFirstimg {
-    width: 80%;
+    width: 90%;
 }
 .amongContainer {
     background-image: url("../../images/desktop/noticias/amongus/contenedorMob.png");
@@ -136,8 +142,13 @@
     max-width: 1500px;
 }
 .singleRecentDesk {
-    margin-top: 6%;
+    margin-top: 2%;
     padding: 3% 4%;
+}
+.finalPDiv {
+    display: flex;
+    justify-content: center;
+    
 }
 @media only screen and (min-width: 752px) {
     .containerLight {
@@ -159,8 +170,12 @@
         font-size: 20px;
         width: 80%;
     }
+    .finalP {
+        font-size: 22px;
+        width: 80%;
+        max-width: 1500px;
+    }
 }
-@media only screen and (min-width: 900px) {}
 @media only screen and (min-width: 1000px) {
     .sigleNtitleDesk {
         font-size: 27px;
