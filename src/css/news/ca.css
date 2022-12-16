@@ -1,0 +1,59 @@
+.titleImagesDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.fullWidthImg {
+    width: 95%;
+    margin: 1% 0% 1% 0%
+}
+.pantherContainer {
+    background-image: url("../../images/desktop/noticias/c&a/caContainerMob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 470px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.finalLightP {
+    font-family: "B Medium";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.finalLightPDesk {
+    font-family: "B Medium";
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
+}
+.pantherContainerDesk {
+    background-image: url("../../images/desktop/noticias/c&a/caContainerDesk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 698px;
+    max-width: 1500px;
+    height: 230px;
+    /* padding: 3%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    /* padding-bottom: 10%; */
+}
+.imageGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
