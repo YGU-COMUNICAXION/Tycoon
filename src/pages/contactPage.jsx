@@ -46,7 +46,10 @@ const ContactPage = () => {
                     </div>
                 </div>
                 <div className='contactFormDiv'>
-                    <form>
+                    <form
+                        action="https://formspree.io/f/xeqwjolb"
+                        method="POST"
+                    >
                         <input type="text" name='' placeholder={t("fullName")}></input>
                         <input type="text" name='' placeholder={t("charge")}></input>
                         <input type="text" name='' placeholder={t("company")}></input>
@@ -186,7 +189,10 @@ const ContactPage = () => {
                     </div>
                 </div>
                 <div className='contactFormDiv'>
-                    <form>
+                    <form
+                        action="https://formspree.io/f/xeqwjolb"
+                        method="POST"
+                    >
                             <div className='inputsDeskDiv'>
                                 <div className='formLeftDeskDiv'>
                                     <input type="text" name='' placeholder={t("fullName")}></input>
