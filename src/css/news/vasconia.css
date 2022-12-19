@@ -1,0 +1,31 @@
+.sigleLeftTitle {
+    font-family: "B SemiBold";
+    text-align: left;
+    color: #0081C3;
+    margin-bottom: 12%;
+}
+.sigleLeftTitle span {
+    font-family: "B SemiLight";
+} 
+.sigleLeftTitleDesk {
+    font-family: "B SemiBold";
+    text-align: left;
+    color: #0081C3;
+    font-size: 23px;
+    width: 35%;
+    margin-bottom: 5%;
+}
+.sigleLeftTitleDesk span {
+    font-family: "B SemiLight";
+} 
+.fullWidthWrapper {
+    margin-top: 5%;
+}
+.leftAlignDiv {
+    width: 100%;
+}
+.vascSingleBigImg {
+    width: 70%;
+    max-width: 1500px;
+    margin: 5% 0%;
+}

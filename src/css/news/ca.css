@@ -3,7 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    /* margin-top: 5%; */
+    padding: 7% 0% 7% 0%;
+    width: 100%;
 }
 .fullWidthImg {
     width: 95%;
@@ -27,6 +29,9 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+}
+.finalLightP span {
+    font-family: "B Bold";
 }
 .finalLightPDesk {
     font-family: "B Medium";
@@ -56,4 +61,10 @@
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+}
+@media only screen and (min-width: 752px) {
+    .fullWidthImg {
+        width: 100%;
+        margin: 1% 0% 1% 0%
+    }
 }

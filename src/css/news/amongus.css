@@ -17,7 +17,8 @@
 .sigleNtitle {
     font-family: "B SemiBold";
     text-align: center;
-    color: #0081C3
+    color: #0081C3;
+    margin-bottom: 12%;
 }
 .finalP {
     font-family: "B SemiBold";
@@ -27,6 +28,7 @@
 }
 .amongfFirstimg {
     width: 90%;
+    margin: 18% 0%;
 }
 .amongContainer {
     background-image: url("../../images/desktop/noticias/amongus/contenedorMob.png");
