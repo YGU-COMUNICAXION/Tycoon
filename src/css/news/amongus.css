@@ -91,7 +91,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4%;
+    padding: 4% 4% 0% 4%;
 }
 .sigleNtitleDesk {
     font-family: "B SemiBold";
@@ -145,6 +145,10 @@
     max-width: 1500px;
 }
 .singleRecentDesk {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
     margin-top: 2%;
     padding: 3% 4%;
 }
@@ -263,7 +267,7 @@
 }
 @media only screen and (min-width: 2500px) {
     .dualLeftDiv {
-        margin-top: 11%;
+        margin-top: 5%;
         margin-left: 4%;
         width: 45%;
     }

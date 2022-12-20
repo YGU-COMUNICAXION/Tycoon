@@ -23,7 +23,8 @@ const IndexPage = () => {
           </div> */}
         </div>
         <div className="homeSecondSection">
-            <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
+            <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
+            <NoticiasRecientes/>
             <div className="secondSectionButtonDiv">
               <div className="secondSectionButton">
                 <Button buttonText={t("more")} href={"/news"}/>
@@ -47,7 +48,8 @@ const IndexPage = () => {
           </div> */}
         </div>
         <div className="homeSecondSectionDesk">
-            <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
+            <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
+            <NoticiasRecientes/>
             <div className="secondSectionButtonDiv">
               <div className="secondSectionButtonDesk">
                 <Button buttonText={t("more")} href={"/news"}/>

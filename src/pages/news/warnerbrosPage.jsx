@@ -39,7 +39,9 @@ const WarnerPage = () => {
                     <img src={Warner4} className="imgtrio"/>
                 </div>
             </SingleNews>
-            <div className='singleRecent'>
+            <div className='singleRecent'>ç
+                <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
+
                 <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
             </div>
             </>
@@ -69,12 +71,10 @@ const WarnerPage = () => {
                     <img src={Warner3} className="imgtrioDesk"/>
                     <img src={Warner4} className="imgtrioDesk"/>
                 </div>
-                <div className='finalPDiv'>
-                    <p className='sigleBottomP'>{t("cobraFinalP")}</p>
-                </div>
             </div>
             </SingleNews>
             <div className='singleRecentDesk'>
+                <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                 <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
             </div>
             </>

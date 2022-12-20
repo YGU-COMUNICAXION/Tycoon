@@ -38,6 +38,7 @@
     font-size: 16px;
     line-height: 20px;
     width: 100%;
+    max-width: 1400px;
     text-align: center;
 }
 .pantherContainerDesk {
@@ -61,10 +62,46 @@
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    max-width: 1500px;
 }
 @media only screen and (min-width: 752px) {
     .fullWidthImg {
         width: 100%;
         margin: 1% 0% 1% 0%
+    }
+}
+@media only screen and (min-width: 1000px){
+    .pantherContainerDesk {
+        width: 850px;
+        height: 277px;
+    }
+    .finalLightPDesk {
+        font-size: 22px;
+
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .pantherContainerDesk {
+        width: 1076px;
+        height: 347px;
+    }
+    .finalLightPDesk {
+        font-size: 30px;
+        line-height: 34px;
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .finalLightPDesk {
+        font-size: 30px;
+        line-height: 54px;
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .finalLightPDesk {
+        font-size: 40px;
+        line-height: 54px;
+        width: 90%;
     }
 }

@@ -65,6 +65,8 @@ const CobraPage = () => {
                 </div>
                 <div className='finalPDiv'>
                     <p className='sigleBottomP'>{t("cobraFinalP")}</p>
+                    <p className='sigleBottomP'>{t("cobraFinalP2")}</p>
+                    <p className='sigleBottomP'>{t("cobraFinalP3")}</p>
                 </div>
             </div>
             </SingleNews>

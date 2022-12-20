@@ -18,10 +18,9 @@
 .imgTrioRow {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     max-width: 1500px;
-
 }
 .imgtrioDesk {
     width: 30%;
