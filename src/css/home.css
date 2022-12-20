@@ -48,7 +48,7 @@ body {
 }
 .regularP {
     font-family: "B SemiLight";
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     color: #051C2C;
     margin-top: 0%;
@@ -60,7 +60,7 @@ body {
 }
 .smallP {
     font-family: "B SemiLight";
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #051C2C;
 }
@@ -155,7 +155,7 @@ body {
         font-size: 25px;
     }
     .regularP {
-        font-size: 15px;
+        font-size: 12px;
         line-height: 28px;
     }
     .smallP {

@@ -1,0 +1,30 @@
+.endemolContainer {
+    background-image: url("../../images/desktop/noticias/endemol/endemolContainer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 340px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.endemolSecondContainer {
+    background-image: url("../../images/desktop/noticias/endemol/endemolContainer2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 385px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.endemolFirstimgDesk {
+    width: 99%;
+    margin:  10% 0%;
+}
