@@ -14,7 +14,12 @@
 .paisesRow {
     display: flex;
     flex-direction: row;
-    
+    margin-top: 6%;
+}
+.paisesRow a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 .teInteresaDiv a {
     text-decoration: none;
@@ -86,11 +91,6 @@
     margin: 0% 0% 0% 3%;
 
 }
-.pagsDiv a {
-    font-size: 10px;
-    color: #051C2C;
-
-}
 .paisesDivDesk {
     display: flex;
     flex-direction: column;
@@ -102,11 +102,13 @@
 .pagsDiv a {
     font-family: "B SemiLight";
     text-decoration: none;
+    font-size: 10px;
     color: #051C2C;
+    margin: 14% 0%;
 }
 .redesDeskDiv {
     width: 15%;
-    margin: 0% 2%;
+    margin: 0% 0% 0% 4%;
 
 }
 .underDeskDiv {
@@ -156,6 +158,14 @@
         font-size: 13px;
     }
 }
+@media only screen and (min-width: 1300px){
+    .pagsDiv a {
+        margin: 10% 0%;
+    }
+    .paisesRow {
+        margin-top: 4%;
+    }
+}
 @media only screen and (min-width: 1500px){
     .footerLogoDesk img {
         width: 85%;
@@ -164,7 +174,8 @@
         font-size: 23px;
     }
     .pagsDiv a {
-        font-size: 21px;
+        font-size: 17px;
+        margin: 12% 0%;
     }
     .teInteresa {
         font-size: 21px;
@@ -184,7 +195,11 @@
         font-size: 27px;
     }
     .pagsDiv a {
-        font-size: 23px;
+        font-size: 19px;
+        margin: 9% 0%;
+    }
+    .paisesRow {
+        margin-top: 3%;
     }
     .teInteresa {
         font-size: 23px;
@@ -197,6 +212,9 @@
     }
     .underDeskDiv p {
         font-size: 18px;
+    }
+    .redesDeskDiv {
+        margin: 0% 0% 0% 1%;
     }
 }
 @font-face {

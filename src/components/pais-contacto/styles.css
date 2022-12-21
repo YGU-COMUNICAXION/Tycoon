@@ -18,7 +18,7 @@
     color: #051C2C;
 }
 .contactP {
-    font-family: "B semiBold";
+    font-family: "B Medium";
     font-size: 15px;
     margin-top: 0%;
     margin-bottom: 4%;
@@ -39,13 +39,12 @@
         margin-top: 0%;
         width: 25%;
     }
-
     .contactP {
         font-size: 11px;
         line-height: 15px;
     }
     .contactSubtitle {
-        font-size: 13px;
+        font-size: 12px;
         line-height: 15px;
     }
 }
@@ -59,7 +58,7 @@
         line-height: 15px;
     }
     .contactSubtitle {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 15px;
     }
 }
@@ -73,7 +72,7 @@
         line-height: 20px;
     }
     .contactSubtitle {
-        font-size: 25px;
+        font-size: 22px;
         line-height: 25px;
     }
 }

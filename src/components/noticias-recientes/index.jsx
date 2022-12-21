@@ -22,25 +22,25 @@ const NoticiasRecientes = () => {
         {windowSize < 752 ? (
           <div className='noticiasRecientesDiv'>
             <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-              <img src={Mas} className="mas"/>
+              {/* <img src={Mas} className="mas"/> */}
             </NoticiasCard>
             <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-              <img src={Mas} className="mas"/>
+              {/* <img src={Mas} className="mas"/> */}
             </NoticiasCard>
             <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-              <img src={Mas} className="mas"/>
+              {/* <img src={Mas} className="mas"/> */}
             </NoticiasCard>
           </div>
         ):(
           <div className='noticiasRecientesDivDesk'>
           <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-              <img src={Mas} className="mas"/>
+              {/* <img src={Mas} className="mas"/> */}
             </NoticiasCard>
             <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-              <img src={Mas} className="mas"/>
+              {/* <img src={Mas} className="mas"/> */}
             </NoticiasCard>
             <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-              <img src={Mas} className="mas"/>
+              {/* <img src={Mas} className="mas"/> */}
             </NoticiasCard>
           </div>
         )}

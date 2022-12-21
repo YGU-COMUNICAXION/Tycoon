@@ -3,7 +3,8 @@
     background-image: url("../images/mobile/nosotros/bannerNosotrosEsp.png");
     background-size: cover;
     width: 100%;
-    height: 133px;
+    /* height: 133px; */
+    padding-bottom: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,7 +218,7 @@
     .aboutRightDiv {
         display:flex;
         flex-direction:column;
-        align-items: center;
+        /* align-items: center; */
         justify-content: flex-end;
     }
     .aboutSectionDesk {

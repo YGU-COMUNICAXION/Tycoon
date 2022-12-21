@@ -46,7 +46,10 @@ const ContactPage = () => {
                     </div>
                 </div>
                 <div className='contactFormDiv'>
-                    <form>
+                    <form
+                        action="https://formspree.io/f/xeqwjolb"
+                        method="POST"
+                    >
                         <input type="text" name='' placeholder={t("fullName")}></input>
                         <input type="text" name='' placeholder={t("charge")}></input>
                         <input type="text" name='' placeholder={t("company")}></input>
@@ -78,77 +81,93 @@ const ContactPage = () => {
                 <img src={Tycoon360} className="tycoon360"/>
             </div>
             <div className='contactThirdSection'>
-                <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
-                <PaisContacto pais={t("argentina")} image={Argentina}>
-                    <p className='contactP'>+(54) 91165341346</p>
-                    <p className='contactSubtitle'>{t("contact")}</p>
-                    <p className='contactP'>Eleonora Parodi</p>
-                    <a href='mailto:eleonora.parodi@tycoon.mx'>
-                        <p className='contactP'>eleonora.parodi@tycoon.mx</p>
-                    </a>
-                </PaisContacto>
-                <PaisContacto pais={t("brasil")} image={Brasil}>
-                    <p className='contactP'>+55 11 3090 4244</p>
-                    <p className='contactSubtitle'>{t("contact")}</p>
-                    <p className='contactP'>Erica Giacomelli</p>
-                    <a href='mailto:contato@tycoon360.com.br'>
-                        <p className='contactP'>contato@tycoon360.com.br</p>
-                    </a>
-                    <p className='contactP'>{t("webSite")}</p>
-                    <a href='http://www.tycoon360.com.br/'>
-                        <p className='contactP'>http://www.tycoon360.com.br/</p>
-                    </a>                
-                </PaisContacto>
-                <PaisContacto pais={t("cam")} image={Cam}>
-                    <p className='contactP'>+ (506) 8820 4733</p>
-                    <p className='contactP'>+ (506) 4001 7397</p>
-                    <p className='contactSubtitle'>{t("contact")}</p>
-                    <p className='contactP'>Dinnia Madriz</p>
-                    <a href='mailto:dinnia.madriz@tycoon.mx'>
-                        <p className='contactP'>dinnia.madriz@tycoon.mx</p>
-                    </a>
-                </PaisContacto>
-                <PaisContacto pais={t("chile")} image={Chile}>
-                    <p className='contactP'>+56 2 2761-8685</p>
-                    <p className='contactSubtitle'>{t("contact")}</p>
-                    <p className='contactP'>Alejandra Pinto</p>
-                    <a href='mailto:alejandra.pinto@tycoon.mx'>
-                        <p className='contactP'>alejandra.pinto@tycoon.mx</p>
-                    </a>
-                </PaisContacto>
-                <PaisContacto pais={t("colombia")} image={Colombia}>
-                    <p className='contactP'>+571 7431650</p>
-                    <p className='contactSubtitle'>{t("contact")}</p>
-                    <p className='contactP'>José Fernando Córdoba</p>
-                    <a href='mailto:jose.cordoba@tycoon.mx'>
-                        <p className='contactP'>jose.cordoba@tycoon.mx</p>
-                    </a>
-                </PaisContacto>
-                <PaisContacto pais={t("ecuador")} image={Ecuador}>
-                    <p className='contactP'>+571 7431650</p>
-                    <p className='contactSubtitle'>{t("contact")}</p>
-                    <p className='contactP'>Verónica Sandoval</p>
-                    <a href='mailto:veronica.sandoval@tycoon.mx'>
-                        <p className='contactP'>veronica.sandoval@tycoon.mx</p>
-                    </a>
-                </PaisContacto>
-                <PaisContacto pais={t("mexico")} image={Mexico}>
-                    <p className='contactP'>+5255 5395 4111</p>
-                    <p className='contactP'>+5255 5395 7833</p>
-                    <p className='contactSubtitle'>{t("contact")}</p>
-                    <p className='contactP'>Dalia Benbassat</p>
-                    <a href='mailto:dalia@tycoon.mx'>
-                        <p className='contactP'>dalia@tycoon.mx</p>
-                    </a>
-                </PaisContacto>
-                <PaisContacto pais={t("peru")} image={Peru}>
-                    <p className='contactP'>+51 994 102 984</p>
-                    <p className='contactSubtitle'>{t("contact")}</p>
-                    <p className='contactP'>Milka Miletich</p>
-                    <a href='mailto:milka.miletich@tycoon.mx'>
-                        <p className='contactP'>milka.miletich@tycoon.mx</p>
-                    </a>
-                </PaisContacto>
+                <h2 className='sectionTitle' id="contArg" >{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
+                <div id="contBz">
+                    <PaisContacto pais={t("argentina")} image={Argentina}>
+                        <p className='contactP'>+(54) 91165341346</p>
+                        <p className='contactSubtitle'>{t("contact")}</p>
+                        <p className='contactP'>Eleonora Parodi</p>
+                        <a href='mailto:eleonora.parodi@tycoon.mx'>
+                            <p className='contactP'>eleonora.parodi@tycoon.mx</p>
+                        </a>
+                    </PaisContacto>
+                </div>
+                <div id="contCam">
+                    <PaisContacto pais={t("brasil")} image={Brasil}>
+                        <p className='contactP'>+55 11 3090 4244</p>
+                        <p className='contactSubtitle'>{t("contact")}</p>
+                        <p className='contactP'>Erica Giacomelli</p>
+                        <a href='mailto:contato@tycoon360.com.br'>
+                            <p className='contactP'>contato@tycoon360.com.br</p>
+                        </a>
+                        <p className='contactP'>{t("webSite")}</p>
+                        <a href='http://www.tycoon360.com.br/'>
+                            <p className='contactP'>http://www.tycoon360.com.br/</p>
+                        </a>                
+                    </PaisContacto>
+                </div>
+                <div id="contCh">
+                    <PaisContacto pais={t("cam")} image={Cam} >
+                        <p className='contactP'>+ (506) 8820 4733</p>
+                        <p className='contactP'>+ (506) 4001 7397</p>
+                        <p className='contactSubtitle'>{t("contact")}</p>
+                        <p className='contactP'>Dinnia Madriz</p>
+                        <a href='mailto:dinnia.madriz@tycoon.mx'>
+                            <p className='contactP'>dinnia.madriz@tycoon.mx</p>
+                        </a>
+                    </PaisContacto>
+                </div>
+                <div id="contCol">
+                    <PaisContacto pais={t("chile")} image={Chile}>
+                        <p className='contactP'>+56 2 2761-8685</p>
+                        <p className='contactSubtitle'>{t("contact")}</p>
+                        <p className='contactP'>Alejandra Pinto</p>
+                        <a href='mailto:alejandra.pinto@tycoon.mx'>
+                            <p className='contactP'>alejandra.pinto@tycoon.mx</p>
+                        </a>
+                    </PaisContacto>
+                </div>
+                <div id="contEc">
+                    <PaisContacto pais={t("colombia")} image={Colombia}>
+                        <p className='contactP'>+571 7431650</p>
+                        <p className='contactSubtitle'>{t("contact")}</p>
+                        <p className='contactP'>José Fernando Córdoba</p>
+                        <a href='mailto:jose.cordoba@tycoon.mx'>
+                            <p className='contactP'>jose.cordoba@tycoon.mx</p>
+                        </a>
+                    </PaisContacto>
+                </div>
+                <div id="contMex">
+                    <PaisContacto pais={t("ecuador")} image={Ecuador} >
+                        <p className='contactP'>+571 7431650</p>
+                        <p className='contactSubtitle'>{t("contact")}</p>
+                        <p className='contactP'>Verónica Sandoval</p>
+                        <a href='mailto:veronica.sandoval@tycoon.mx'>
+                            <p className='contactP'>veronica.sandoval@tycoon.mx</p>
+                        </a>
+                    </PaisContacto>
+                </div>
+                <div id="contPeru">
+                    <PaisContacto pais={t("mexico")} image={Mexico}>
+                        <p className='contactP'>+5255 5395 4111</p>
+                        <p className='contactP'>+5255 5395 7833</p>
+                        <p className='contactSubtitle'>{t("contact")}</p>
+                        <p className='contactP'>Dalia Benbassat</p>
+                        <a href='mailto:dalia@tycoon.mx'>
+                            <p className='contactP'>dalia@tycoon.mx</p>
+                        </a>
+                    </PaisContacto>
+                </div>
+                <div>
+                    <PaisContacto pais={t("peru")} image={Peru}>
+                        <p className='contactP'>+51 994 102 984</p>
+                        <p className='contactSubtitle'>{t("contact")}</p>
+                        <p className='contactP'>Milka Miletich</p>
+                        <a href='mailto:milka.miletich@tycoon.mx'>
+                            <p className='contactP'>milka.miletich@tycoon.mx</p>
+                        </a>
+                    </PaisContacto>
+                </div>
             </div>
             <div className='contact'></div>
             <div className='contact'></div>
@@ -170,7 +189,10 @@ const ContactPage = () => {
                     </div>
                 </div>
                 <div className='contactFormDiv'>
-                    <form>
+                    <form
+                        action="https://formspree.io/f/xeqwjolb"
+                        method="POST"
+                    >
                             <div className='inputsDeskDiv'>
                                 <div className='formLeftDeskDiv'>
                                     <input type="text" name='' placeholder={t("fullName")}></input>
@@ -209,7 +231,7 @@ const ContactPage = () => {
                     <img src={Tycoon360} className="tycoon360"/>
                 </a>
             </div> 
-            <div className='contactThirdSectiondesk'>
+            <div className='contactThirdSectiondesk' id="contArg">
                 <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
                 <div className='contacitoPaisCardsWrapper'>
                     <div className='contactoPaisRow'>

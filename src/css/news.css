@@ -1,7 +1,8 @@
 .newsFirstSection {
     background-image: url("../images/mobile/noticias/bannerNoticiasEsp.png");
     background-size: cover;
-    height: 128px;
+    /* height: 128px; */
+    padding-bottom: 35%;
 }
 .newsSecondSection {
     padding: 10% 0% 1% 4%;

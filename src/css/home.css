@@ -4,6 +4,7 @@ body {
     margin: 0 !important;
     padding: 0 ;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .MainDiv {
     margin-top: 22%;
@@ -17,7 +18,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
+    /* height: 750px; */
+    padding-bottom: 200%;
     position: relative;
     z-index: 1;
 }
@@ -159,7 +161,7 @@ body {
         line-height: 28px;
     }
     .smallP {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 24px;
     }
     .thirdSectionButton {
@@ -181,10 +183,10 @@ body {
         font-size: 27px;
     }
     .regularP {
-        font-size: 22px;
+        font-size: 20px;
     }
     .smallP {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 24px;
     }
     .homeSecondSectionDesk {
@@ -211,11 +213,11 @@ body {
 
     }
     .regularP {
-        font-size: 30px;
+        font-size: 28px;
         line-height: 44px;
     }
     .smallP {
-        font-size: 23px;
+        font-size: 28px;
         line-height: 34px;
     }
 }

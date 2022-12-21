@@ -1,6 +1,7 @@
 import React from 'react'
 import "./footer.css"
 import { Link } from "gatsby";
+// import scrollTo from 'gatsby-plugin-smoothscroll';
 import useWindowSize from "../../hooks/useWindowSize";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import "./footer.css"
@@ -19,7 +20,7 @@ import Ecuador from "../../images/mobile/layout/footer/paises/Ecuador.png"
 import Mexico from "../../images/mobile/layout/footer/paises/mexico.png"
 import Peru from "../../images/mobile/layout/footer/paises/peru.png"
 import Logo from "../../images/desktop/layout/footer/logofooter.png"
-
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const Footer = () => {
     const windowSize = useWindowSize();
@@ -40,16 +41,32 @@ const Footer = () => {
             <div>
                 <h2 className='footerTitle'>{t("footerSecondTitle")}</h2>
                 <div className='paisesRow'>
-                    <PaisCard image={Argentina} pais={t("argentina")}/>
-                    <PaisCard image={Brasil} pais={t("brasil")}/>
-                    <PaisCard image={Cam} pais={t("cam")}/>
-                    <PaisCard image={Chile} pais={t("chile")}/>
+                    <AnchorLink to="/contact#contArg">
+                        <PaisCard image={Argentina} pais={t("argentina")}/>
+                    </AnchorLink>
+                    <AnchorLink to="/contact#contBz">
+                        <PaisCard image={Brasil} pais={t("brasil")}/>
+                    </AnchorLink>
+                    <AnchorLink to="/contact#contCam">
+                        <PaisCard image={Cam} pais={t("cam")}/>
+                    </AnchorLink>
+                    <AnchorLink to="/contact#contCh">
+                        <PaisCard image={Chile} pais={t("chile")}/>
+                    </AnchorLink>
                 </div>
                 <div className='paisesRow'>
-                    <PaisCard image={Colombia} pais={t("colombia")}/>
-                    <PaisCard image={Ecuador} pais={t("ecuador")}/>
-                    <PaisCard image={Mexico} pais={t("mexico")}/>
-                    <PaisCard image={Peru} pais={t("peru")}/>
+                    <AnchorLink to="/contact#contCol">
+                        <PaisCard image={Colombia} pais={t("colombia")}/>
+                    </AnchorLink>
+                    <AnchorLink to="/contact#contEc">
+                        <PaisCard image={Ecuador} pais={t("ecuador")}/>
+                    </AnchorLink>
+                    <AnchorLink to="/contact#contMex">
+                        <PaisCard image={Mexico} pais={t("mexico")}/>
+                    </AnchorLink>
+                    <AnchorLink to="/contact#contPeru">
+                        <PaisCard image={Peru} pais={t("peru")}/>
+                    </AnchorLink>
                 </div>
             </div>
             <div className='teInteresaDiv'>
@@ -91,14 +108,16 @@ const Footer = () => {
                     <div className='paisesDivDesk'>
                         <h2 className='footerTitle'>{t("footerSecondTitle")}</h2>
                         <div className='paisesRow'>
-                            <PaisCard image={Argentina} pais={t("argentina")}/>
-                            <PaisCard image={Brasil} pais={t("brasil")}/>
-                            <PaisCard image={Cam} pais={t("cam")}/>
-                            <PaisCard image={Chile} pais={t("chile")}/>
-                            <PaisCard image={Colombia} pais={t("colombia")}/>
-                            <PaisCard image={Ecuador} pais={t("ecuador")}/>
-                            <PaisCard image={Mexico} pais={t("mexico")}/>
-                            <PaisCard image={Peru} pais={t("peru")}/>
+                            <AnchorLink to="/contact#contArg">
+                                <PaisCard image={Argentina} pais={t("argentina")}/>
+                                <PaisCard image={Brasil} pais={t("brasil")}/>
+                                <PaisCard image={Cam} pais={t("cam")}/>
+                                <PaisCard image={Chile} pais={t("chile")}/>
+                                <PaisCard image={Colombia} pais={t("colombia")}/>
+                                <PaisCard image={Ecuador} pais={t("ecuador")}/>
+                                <PaisCard image={Mexico} pais={t("mexico")}/>
+                                <PaisCard image={Peru} pais={t("peru")}/>
+                            </AnchorLink>
                         </div>
                     </div>
                     <div className='redesDeskDiv'>

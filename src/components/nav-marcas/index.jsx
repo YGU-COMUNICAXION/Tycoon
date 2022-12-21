@@ -22,7 +22,8 @@ const StyledNavMarcas = styled.div`
       border: 0.5px solid black;
       font-family: "B SemiBold";
       font-style: normal;
-      font-size: 14px;
+      font-size: 11px;
+      height: 30px;
       letter-spacing: 0.02em;
       color: #051c2c;
       cursor: pointer;
@@ -118,6 +119,11 @@ const StyledNavMarcas = styled.div`
       max-width: 500px;
     }
   }
+  @media only screen and (min-width: 370px){
+    .button {
+      font-size: 12px;
+    }
+  }
   @media (min-width: 752px) {
     .order_image {
       .images_per_row {
@@ -141,8 +147,9 @@ const StyledNavMarcas = styled.div`
         display: flex;
         align-items: center;
         button {
+          padding: 10px 30px 10px 30px;
           width: 20%;
-          padding: 10px;
+          height: 50px;
           font-size: 24px;
           :nth-child(3) {
             width: 400px;
@@ -159,8 +166,9 @@ const StyledNavMarcas = styled.div`
         display: flex;
         align-items: center;
         button {
-          padding: 10px;
+          padding: 10px 30px 10px 30px;
           width: 30%;
+          height: 50px;
           font-size: 24px;
           :first-child {
             border-radius: 0px 0px 0px 0px;
@@ -207,32 +215,32 @@ const StyledNavMarcas = styled.div`
 export default function NavMarcas() {
   const { t } = useTranslation("brands");
 
-  const [show, setShow] = useState(1);
+  const [show, setShow] = useState(4);
   const [info, setInfo] = useState("all");
   return (
     <StyledNavMarcas>
       <div className="wrapper__buttons">
         <div className="level_one">
           <button
-            style={{ background: show === 4 ? "#0093d7" : "white" }}
+            style={{ background: show === 4 ? "#0081C3" : "white" , color: show === 4 ? "white" : "black"}}
             onClick={() => setShow(4)}
           >
             {t("arg")}
           </button>
           <button
-            style={{ background: show === 8 ? "#0093d7" : "white" }}
+            style={{ background: show === 8 ? "#0093d7" : "white" , color: show === 8 ? "white" : "black" }}
             onClick={() => setShow(8)}
           >
             {t("bra")}
           </button>
           <button
-            style={{ background: show === 7 ? "#0093d7" : "white" }}
+            style={{ background: show === 7 ? "#0093d7" : "white" , color: show === 7 ? "white" : "black"}}
             onClick={() => setShow(7)}
           >
             {t("centro")}
           </button>
           <button
-            style={{ background: show === 5 ? "#0093d7" : "white" }}
+            style={{ background: show === 5 ? "#0093d7" : "white" , color: show === 5 ? "white" : "black" }}
             onClick={() => setShow(5)}
           >
             {t("chi")}
@@ -240,25 +248,25 @@ export default function NavMarcas() {
         </div>
         <div className="level_two">
           <button
-            style={{ background: show === 2 ? "#0093d7" : "white" }}
+            style={{ background: show === 2 ? "#0093d7" : "white" , color: show === 2 ? "white" : "black"}}
             onClick={() => setShow(2)}
           >
             {t("col")}
           </button>
           <button
-            style={{ background: show === 3 ? "#0093d7" : "white" }}
+            style={{ background: show === 3 ? "#0093d7" : "white" , color: show === 3 ? "white" : "black"}}
             onClick={() => setShow(3)}
           >
             {t("ecu")}
           </button>
           <button
-            style={{ background: show === 1 ? "#0093d7" : "white" }}
+            style={{ background: show === 1 ? "#0093d7" : "white" , color: show === 1 ? "white" : "black"}}
             onClick={() => setShow(1)}
           >
             {t("mex")}
           </button>
           <button
-            style={{ background: show === 6 ? "#0093d7" : "white" }}
+            style={{ background: show === 6 ? "#0093d7" : "white" , color: show === 6 ? "white" : "black"}}
             onClick={() => setShow(6)}
           >
             {t("peru")}
