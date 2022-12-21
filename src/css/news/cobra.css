@@ -1,0 +1,28 @@
+.ThreeImgsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 0% 10% 0%;
+
+}
+.topImgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imgtrio {
+    width: 47%;
+    margin: 3%;
+}
+.imgTrioRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1500px;
+}
+.imgtrioDesk {
+    width: 30%;
+    margin: 1%;
+}

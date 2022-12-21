@@ -50,10 +50,10 @@ body {
 }
 .regularP {
     font-family: "B SemiLight";
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     color: #051C2C;
-
+    margin-top: 0%;
 }
 .regularP span {
     font-family: "B Bold";
@@ -62,7 +62,7 @@ body {
 }
 .smallP {
     font-family: "B SemiLight";
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #051C2C;
 }
@@ -107,7 +107,7 @@ body {
     padding-bottom: 65%;
 }
 .MainDivDesk {
-    margin-top: 5%;
+    margin-top: 7%;
 }
 .homeSecondSectionDesk {
     padding: 6% 4% 1% 4%;
@@ -157,7 +157,7 @@ body {
         font-size: 25px;
     }
     .regularP {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 28px;
     }
     .smallP {
@@ -204,6 +204,9 @@ body {
     /* .homeFirstSectionDesk {
         height: 850px;
     } */
+    .MainDivDesk {
+        margin-top: 6%;
+    }
     .sectionTitle {
         font-size: 39px;
         line-height: 47px;
@@ -259,6 +262,9 @@ body {
     /* .homeFirstSectionDesk {
         height: 1640px;
     } */
+    .MainDivDesk {
+        margin-top: 4.6%;
+    }
     .homeThridSectionDesk {
         padding: 5% 18% 5% 18% ;
     }

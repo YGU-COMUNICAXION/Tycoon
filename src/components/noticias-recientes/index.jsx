@@ -12,13 +12,13 @@ import CobraDesk from "../../images/desktop/noticias/noticiasRecientes/cobra.png
 import AmongDesk from "../../images/desktop/noticias/noticiasRecientes/among.png"
 import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
-const NoticiasRecientes = ({title}) => {
+const NoticiasRecientes = () => {
   const { t } = useTranslation("news");
   const windowSize = useWindowSize();
 
   return (
     <div className='noticiasRecientesMainDiv'>
-        <h2 className='sectionTitle'>{title}</h2>
+    
         {windowSize < 752 ? (
           <div className='noticiasRecientesDiv'>
             <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>

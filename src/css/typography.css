@@ -18,3 +18,7 @@
     font-family: "Gobold";
     src: url("../static/fonts/Gobold\ Regular.otf")
 } 
+@font-face {
+    font-family: "B Italic";
+    src: url("../static/fonts/Branding\ Italic.otf");
+}
