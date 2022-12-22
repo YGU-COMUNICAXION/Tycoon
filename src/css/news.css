@@ -22,14 +22,45 @@
 @media only screen and (min-width: 752px) {
 
     .newsSecondSection {
-        padding: 7% 4% 1% 4%;
+        padding: 45px 4% 0% 4%;
     }
     .newsThirdSection {
-        padding: 5% 4% 8% 4%;
+        padding: 45px 4%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+
+    .newsSecondSection {
+        padding: 60px 4% 0%;
+    }
+    .newsThirdSection {
+        padding: 60px 4%;
+    }
+}
+@media only screen and (min-width: 1300px) {
+
+    .newsSecondSection {
+        padding: 100px 4% 0% 4%;
+    }
+    .newsThirdSection {
+        padding: 100px 4%;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+
+    .newsSecondSection {
+        padding: 115px 4% 0% 4%;
+    }
+    .newsThirdSection {
+        padding: 115px 4%;
     }
 }
 @media only screen and (min-width: 2500px) {
+    .newsSecondSection h2 {
+        padding: 115px 16% 0% 16% ;
+    }
     .newsThirdSection h2 {
-        padding: 0% 16% 0% 16% ;
+        padding: 115px 16% 0% 16% ;
     }
 }

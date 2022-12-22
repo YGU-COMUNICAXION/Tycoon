@@ -26,6 +26,31 @@
 }
 .vascSingleBigImg {
     width: 70%;
-    max-width: 1500px;
+    max-width: 900px;
     margin: 5% 0%;
 }
+@media only screen and (min-width: 1000px) {
+    .sigleLeftTitleDesk {
+        font-size: 27px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .sigleLeftTitleDesk {
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .sigleLeftTitleDesk {
+        font-size: 50px;
+    }
+}
+/* @media only screen and (min-width: 2000px) {
+    .sigleLeftTitleDesk {
+        font-size: 27px;
+    }
+}
+@media only screen and (min-width: 2500px) {
+    .sigleLeftTitleDesk {
+        font-size: 27px;
+    }
+} */

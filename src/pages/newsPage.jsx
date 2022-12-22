@@ -17,6 +17,7 @@ const NewsPage = () => {
                     <div className="MainDiv">
                         <div className="newsFirstSection"></div>
                         <div className="newsSecondSection">
+                            <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                             <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
                         </div>
                         <div className="newsThirdSection">
@@ -28,6 +29,7 @@ const NewsPage = () => {
                     <div className="MainDivDesk">
                         <div className="newsFirstSectionDesk"/>
                         <div className="newsSecondSection">
+                            <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                             <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
                         </div>
                         <div className="newsThirdSection">

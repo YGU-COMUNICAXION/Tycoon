@@ -184,7 +184,7 @@
 .contactoPaisRow {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     padding: 2% 0%;
     max-width: 1400px;
@@ -279,6 +279,7 @@
     .blueTitle {
         font-size: 36px;
         margin-top: 0%;
+        width: 50%;
     }
     .contactInfoDiv {
         /* width: 57%; */

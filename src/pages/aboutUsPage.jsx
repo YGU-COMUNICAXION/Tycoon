@@ -88,11 +88,11 @@ const AboutUsPage = () => {
                     </div>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAwards2022"))}</h2>
                     <div className="reconocimientosRow">
-                        <ReconocimientoCard image={Retail} firstP={t("rovio")} secondP={t("angry")}/>
-                        <ReconocimientoCard image={Agent} firstP={t("elias")} secondP={t("salon")}/>
+                        <ReconocimientoCard image={Retail} firstP={t("international")} secondP={t("licencing")}/>
+                        <ReconocimientoCard image={Agent} firstP={t("MGM")} secondP={t("AGENT2")}/>
                     </div>
                     <div className="reconocimientosRow">
-                        <ReconocimientoCard image={Mk} firstP={t("team")} secondP={t("globalMerch")}/>
+                        <ReconocimientoCard image={Mk} firstP={t("MGM2")} secondP={t("BEST")}/>
                     </div>
                 </div>
                 <div className="aboutSeventhSection">
@@ -108,12 +108,12 @@ const AboutUsPage = () => {
                 <div className="aboutFirstSectionDesk"></div>
                 <div className="aboutSectionDesk">
                     <div className="aboutLeftDiv">
-                        <p className="smallP">{renderStringHMTLtoJSX(t("aboutFirstP"))}</p>
-                        <p className="smallP">{t("aboutSecondP")}</p>
+                        <p className="regularP">{renderStringHMTLtoJSX(t("aboutFirstP"))}</p>
+                        <p className="regularP">{t("aboutSecondP")}</p>
                     </div>
                     <div className="aboutRightDiv">
-                        <p className="smallP">{renderStringHMTLtoJSX(t("aboutThirdP"))}</p>
-                        <p className="smallP">{t("aboutFourthP")}</p>
+                        <p className="regularP">{renderStringHMTLtoJSX(t("aboutThirdP"))}</p>
+                        <p className="regularP">{t("aboutFourthP")}</p>
                     </div>
                 </div>
                 <div className="aboutCenteredSectionDesk">
@@ -166,9 +166,9 @@ const AboutUsPage = () => {
                     </div>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAwards2022"))}</h2>
                     <div className="premiosRowDesk">
-                        <ReconocimientoCard image={Retail} firstP={t("rovio")} secondP={t("angry")}/>
-                        <ReconocimientoCard image={Agent} firstP={t("elias")} secondP={t("salon")}/>
-                        <ReconocimientoCard image={Mk} firstP={t("team")} secondP={t("globalMerch")}/>
+                        <ReconocimientoCard image={Retail} firstP={t("international")} secondP={t("licencing")}/>
+                        <ReconocimientoCard image={Agent} firstP={t("MGM")} secondP={t("AGENT2")}/>
+                        <ReconocimientoCard image={Mk} firstP={t("MGM2")} secondP={t("BEST")}/>
                     </div>
                 </div>
                 <div className="aboutSeventhSectionDesk">

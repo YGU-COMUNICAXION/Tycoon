@@ -17,7 +17,7 @@ const Header = () => {
   const { languages, changeLanguage } = useI18next();
   const { t } = useTranslation("header");
 
-  return windowSize > 752 ? (
+  return windowSize > 751 ? (
     <div className="HeaderTag">
       <div className="deskLeftDiv">
         <Link to="/">

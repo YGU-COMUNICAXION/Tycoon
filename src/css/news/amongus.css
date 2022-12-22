@@ -159,6 +159,15 @@
     align-items: center;
     margin-top: 3%;
 }
+.finalPDiv a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: underline;
+    color: #0081C3;
+}
 @media only screen and (min-width: 752px) {
     .containerLight {
         font-size: 12px;
@@ -176,7 +185,7 @@
         margin-top: 0%;
     }
     .sigleBottomP {
-        font-size: 20px;
+        font-size: 18px;
         width: 80%;
         margin: .5%;
     }
@@ -203,7 +212,7 @@
         font-size: 18px;
     }
     .sigleBottomP {
-        font-size: 25px;
+        font-size: 23px;
         width: 70%;
     }
 }
@@ -249,7 +258,7 @@
         font-size: 29px;
     }
     .sigleBottomP {
-        font-size: 45px;
+        font-size: 40px;
     }
 }
 @media only screen and (min-width: 2000px) {
@@ -257,7 +266,7 @@
         padding-bottom: 2% ;
     }
     .sigleNtitleDesk {
-        width: 40%;
+        width: 50%;
     }
     .dualLeftDiv {
         margin-top: 5%;

@@ -69,8 +69,12 @@ const BaileysPage = () => {
                 </div>
                 <div className='finalPDiv'>
                     <p className='sigleBottomP'>{t("baSecondP")}</p>
-                    <p className='sigleBottomP'>{t("baIG")}</p>
-                    <p className='sigleBottomP'>{t("BAFB")}</p>
+                    <a href='https://www.instagram.com/baileysmx/' target="_blank">
+                        <p className='sigleBottomP'>{t("baIG")}</p>
+                    </a>
+                    <a href='https://www.facebook.com/BaileysMexico' target="_blank">
+                        <p className='sigleBottomP'>{t("BAFB")}</p>
+                    </a>
                 </div>
             </div>
             </SingleNews>

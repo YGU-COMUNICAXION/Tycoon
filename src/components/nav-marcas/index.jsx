@@ -98,7 +98,7 @@ const StyledNavMarcas = styled.div`
     justify-content: space-around;
     align-items: center;
     font-family: "B SemiBold";
-    margin: 42px auto 66px;
+    margin: 42px auto 0px;
     font-size: 12px;
     max-width: 500px;
     hr {
@@ -125,7 +125,14 @@ const StyledNavMarcas = styled.div`
     }
   }
   @media (min-width: 752px) {
+    .wrapper__buttons{
+      margin-top: 45px;
+    }
+    .select_category {
+      margin-top: 45px auto 0px;
+    }
     .order_image {
+      margin-top: 45px;
       .images_per_row {
         width: 772px;
         img {
@@ -189,12 +196,18 @@ const StyledNavMarcas = styled.div`
       }
     }
   }
+
   @media (min-width: 1400px) {
+    .wrapper__buttons {
+      margin-top: 100px
+    }
     .select_category {
       font-size: 22px;
       max-width: 800px;
+      margin-top: 100px;
     }
     .order_image {
+      margin-top: 100px;
       .images_per_row {
         width: 1310px;
         img {
@@ -206,8 +219,19 @@ const StyledNavMarcas = styled.div`
   }
   @media (min-width: 1600px) {
     .order_image {
-      margin: 0 auto 200px;
+      margin: 100px auto 200px;
       max-width: 1400px;
+    }
+  }
+  @media (min-width: 2000px) {
+    .wrapper__buttons {
+      margin-top: 115px
+    }
+    .select_category {
+      margin-top: 115px;
+    }
+    .order_image {
+      margin-top: 115px;
     }
   }
 `;

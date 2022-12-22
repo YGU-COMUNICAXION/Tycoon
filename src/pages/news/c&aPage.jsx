@@ -14,7 +14,6 @@ import Ca4 from "../../images/desktop/noticias/c&a/ca4.png"
 import Ca5 from "../../images/desktop/noticias/c&a/ca5.png"
 import Ca6 from "../../images/desktop/noticias/c&a/ca6.png"
 
-
 const CobraPage = () => {
     const { t } = useTranslation("ca");
     const windowSize = useWindowSize();
