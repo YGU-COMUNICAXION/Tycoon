@@ -35,23 +35,32 @@
 
 }
 @media only screen and (min-width: 752px) {
+    .paisContactName {
+        font-size: 18px;
+    }
     .paisContactoDiv {
-        margin-top: 0%;
-        width: 25%;
+        /* margin-top: 0%; */
+        margin: 0% 1% 1%;
+        width: 20%;
     }
     .contactP {
-        font-size: 11px;
+        font-size: 10px;
+        width: 100%;
         line-height: 15px;
     }
     .contactSubtitle {
         font-size: 12px;
         line-height: 15px;
     }
+    .paisContactoDiv img {
+        margin-top: 12%;
+        width: 43%;
+    }
 }
 @media only screen and (min-width: 1000px) {
     .paisContactName {
         font-family: "B semiBold";
-        font-size: 26px;
+        font-size: 22px;
     }
     .contactP {
         font-size: 13px;
