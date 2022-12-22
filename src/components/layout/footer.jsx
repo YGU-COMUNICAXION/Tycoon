@@ -34,7 +34,7 @@ const Footer = () => {
         <div className='upperFooterDiv'>
             <div className='footerNav'>
                 <h2 className='footerTitle'>{t("footerTitle")}</h2>
-                <Link to="/about-us">{t("us")}</Link>
+                <Link to="/aboutUs">{t("us")}</Link>
                 <Link to="/brands">{t("brands")}</Link>
                 <Link to="/news">{t("news")}</Link>
             </div>
@@ -101,7 +101,7 @@ const Footer = () => {
                     </div>
                     <div className='pagsDiv'>
                         <h2 className='footerTitle'>{t("footerTitle")}</h2>
-                        <Link to="/about-us">{t("us")}</Link>
+                        <Link to="/aboutUs">{t("us")}</Link>
                         <Link to="/brands">{t("brands")}</Link>
                         <Link to="/news">{t("news")}</Link>
                     </div>

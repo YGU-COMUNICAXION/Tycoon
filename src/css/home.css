@@ -111,7 +111,7 @@ body {
     margin-top: 7%;
 }
 .homeSecondSectionDesk {
-    padding: 6% 4% 1% 4%;
+    padding: 6% 4% 6% 4%;
 
 }
 .secondSectionButtonDesk {
@@ -122,7 +122,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 10% 3% 8% 3%;
+    padding: 6% 3% 12% 3%;
 
 }
 .homeContactDiv {
@@ -146,7 +146,7 @@ body {
     }
     .sectionTitle {
         margin-top: 0%;
-        margin-bottom: 4%;
+        margin-bottom: 45px;
         font-size: 21px;
     }
     .bannerTextHome {
@@ -191,11 +191,11 @@ body {
         line-height: 24px;
     }
     .homeSecondSectionDesk {
-        padding: 6% 4% 1% 4%;
+        padding: 60px 40px 10px;
     }
     .homeThridSectionDesk {
         justify-content: space-between;
-        padding: 10% 4% 8% 4%;
+        padding: 60px 40px 60px;
     }
     .oficinaDesk {
         width: 50%;
@@ -211,7 +211,7 @@ body {
     .sectionTitle {
         font-size: 39px;
         line-height: 47px;
-
+        margin-bottom: 100px;
     }
     .regularP {
         font-size: 28px;
@@ -221,6 +221,13 @@ body {
         font-size: 28px;
         line-height: 34px;
     }
+    .homeSecondSectionDesk {
+        padding: 100px 40px 10px;
+    }
+    .homeThridSectionDesk {
+        justify-content: space-between;
+        padding: 100px 40px 100px;
+    }
 }
 @media only screen and (min-width: 1500px) {
     /* .homeFirstSectionDesk {
@@ -228,7 +235,7 @@ body {
     } */
     .sectionTitle {
         font-size: 43px;
-        margin-bottom: 6%;
+        /* margin-bottom: 6%; */
     }
     .regularP {
         font-size: 30px;
@@ -248,7 +255,8 @@ body {
     }
     .sectionTitle {
         font-size: 43px;
-        margin-bottom: 6%;
+        /* margin-bottom: 6%; */
+        margin-bottom: 110px;
     }
     .regularP {
         font-size: 31px;
@@ -257,6 +265,13 @@ body {
     .smallP {
         font-size: 25px;
         line-height: 54px;
+    }
+    .homeSecondSectionDesk {
+        padding: 115px 40px 10px;
+    }
+    .homeThridSectionDesk {
+        justify-content: space-between;
+        padding: 115px 40px 115px;
     }
 }
 @media only screen and (min-width: 2500px) {
@@ -267,10 +282,10 @@ body {
         margin-top: 4.6%;
     }
     .homeSecondSectionDesk {
-        padding: 6% 18% 1% 18%;
+        padding: 150px 450px 25px;
     }
     .homeThridSectionDesk {
-        padding: 5% 18% 5% 18% ;
+        padding: 150px 450px;
     }
     .secondSectionButtonDesk {
         width: 14%;

@@ -23,7 +23,7 @@
 @media only screen and (min-width: 752px) {
     .institucionMainDiv {
         width: 30%;
-        height: 350px;
+        height: 315px;
         align-items: flex-start;
         justify-content: flex-start;
     }
@@ -53,7 +53,7 @@
     }
     .instInfo {
         font-size: 18px;
-        line-height: 25px;
+        line-height: 28px;
     }
 }
 @media only screen and (min-width: 1300px) {
@@ -65,7 +65,7 @@
     }
     .instInfo {
         font-size: 23px;
-        line-height: 25px;
+        line-height: 44px;
     }
 }
 @media only screen and (min-width: 1500px) {
@@ -77,7 +77,7 @@
     }
     .instInfo {
         font-size: 28px;
-        line-height: 35px;
+        line-height: 54px;
     }
 }
 @media only screen and (min-width: 2000px) {
@@ -89,6 +89,6 @@
     }
     .instInfo {
         font-size: 32px;
-        line-height: 42px;
+        line-height: 54px;
     }
 }

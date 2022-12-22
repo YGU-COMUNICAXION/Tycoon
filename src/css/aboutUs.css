@@ -85,7 +85,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    padding-bottom: 35%;
+    padding-bottom: 35.5%;
 }
 .aboutLeftDiv {
     width: 48%;
@@ -100,17 +100,19 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 6% 4% 1% 4%;
+    /* padding: 6% 4% 6% 4%; */;
+    padding: 45px 30px;
     justify-content: space-between;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
 }
 .aboutCenteredSectionDesk {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 6% 4% 1% 4%;
+    align-items: flex-start;
+    /* padding: 6% 4% 6% 4%; */
+    padding: 45px 30px;
     justify-content: space-between;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 .queDesk {
     width: 100%;
@@ -120,10 +122,10 @@
     flex-direction: row;
     background-color: #E5F4FB;
     align-items: flex-start;
-    padding: 6% 4% 1% 4%;
+    /* padding: 6% 4% 1% 4%; */
+    padding: 45px 30px 8px;
     justify-content: space-between;
-    margin-bottom: 2%;
-    position: relative;
+    /* position: relative; */
     z-index: 1;
 }
 .likeDesk {
@@ -142,32 +144,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6% 4% 1% 4%;
-
+    /* padding: 6% 4% 6% 4%; */
+    padding: 45px 30px 0px 30px;
 }
 .reconodimientosGroupDesk {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3%;
+    /* margin-bottom: 3%; */
 }
 .premiosRowDesk {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-bottom: 3%;
+    justify-content: center;
+    margin-bottom: 45px;
+    width: 90%;
+    max-width: 1500px;
 }
 .aboutSeventhSectionDesk {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2% 4% 1% 4%;
+    padding: 45px 30px;
 }
 .aboutSeventhSectionDesk img {
     width: 20%;
-    margin-bottom: 3%;
+    margin-bottom: 45px;
 }
 .institucionesDivDesk {
     display: flex;
@@ -191,7 +196,21 @@
     .aboutSeventhSectionDesk img {
         width: 15%;
     }
-
+    .aboutSectionDesk {
+        padding: 60px 30px 10px;
+    }
+    .aboutCenteredSectionDesk {
+        padding: 60px 30px 10px;
+    }
+    .aboutFifhtSectionDesk {
+        padding: 60px 30px 10px;
+    }
+    .aboutSixthSectionDesk {
+        padding: 60px 30px 0px;
+    }
+    .aboutSeventhSectionDesk {
+        padding: 60px 30px 60px;
+    }
 }
 @media only screen and (min-width: 1200px) {
     .likeDesk {
@@ -203,6 +222,22 @@
     .likeDesk {
         top: -28%;
         left: 70%;
+    }
+    .aboutSectionDesk {
+        padding: 100px 52px 10px;
+    }
+    .aboutCenteredSectionDesk {
+        padding: 100px 52px 10px;
+    }
+    .aboutFifhtSectionDesk {
+        margin-top: 80px;
+        padding: 100px 52px 10px;
+    }
+    .aboutSixthSectionDesk {
+        padding: 100px 52px 0px;
+    }
+    .aboutSeventhSectionDesk {
+        padding: 2% 52px 25% 4%;    
     }
 }
 @media only screen and (min-width: 1500px) {
@@ -222,28 +257,28 @@
         justify-content: flex-end;
     }
     .aboutSectionDesk {
-       padding: 6% 5% 1% 5%;
+       padding: 100px 75px 10px;
     }
     .aboutSeventhSectionDesk img {
         width: 20%;
     }
     .aboutCenteredSectionDesk {
         justify-content: space-around;
-        padding: 2% 4% 4% 4%;
+        padding: 100px 75px 10px;
         margin-bottom: 0%;
     }
     .aboutFifhtSectionDesk {
-        padding: 6% 4% 4% 4%;
+        padding: 100px 75px 10px;
         margin-bottom: 0%;
     }
     .aboutSixthSectionDesk {
-        padding: 6% 4% 4% 4%;
+        padding: 100px 75px 10px;
     }
-    .reconodimientosGroupDesk {
-        margin-bottom: 5%;
+    .premiosRowDesk {
+        margin-bottom: 100px;
     }
     .aboutSeventhSectionDesk img {
-        margin-bottom: 5%;
+        margin-bottom: 100px;
     }
 
 }
@@ -263,20 +298,27 @@
     }
     .aboutSectionDesk {
         justify-content: center;
+        padding: 115px 75px 10px;
     }
     .aboutCenteredSectionDesk {
         justify-content: center;
-        padding: 1% 4% 1% 4%;
+        padding: 115px 75px 10px;
     }
     .queDesk {
         width: 100%;
     }
     .aboutFifhtSectionDesk {
         justify-content: center;
-        padding: 6% 4% 4% 4%;
+        padding: 115px 75px 75px;
     }
     .aboutSixthSectionDesk {
-        padding: 6% 4% 2% 4%;
+        padding: 115px 75px 10px;
+    }
+    .premiosRowDesk {
+        margin-bottom: 115px;
+    }
+    .aboutSeventhSectionDesk {
+        padding: 1px 75px 270px;
     }
     .aboutSeventhSectionDesk img {
         width: 13%;

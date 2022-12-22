@@ -99,6 +99,23 @@
 .deskNav a:hover {
     color: #0081C3;
 }
+@media only screen and (min-width: 752px) {
+    .HeaderTag {
+        height: 50px;
+    }
+    .deskLeftDiv {
+        width: 50%;
+    }
+    .deskNav {
+        justify-content: center;
+    }
+    .deskNav a {
+        margin: 0px 10px;
+    }
+    .switchLeng {
+        margin-left: 20px;
+    }
+}
 @media only screen and (min-width: 1000px) {
     .HeaderTag {
         /* background-color: antiquewhite; */
@@ -111,18 +128,30 @@
         font-size: 16px;
     }
     .deskRightDiv img{
-        width: 50%;
+        width: 70%;
     }
 }
 @media only screen and (min-width: 1500px) {
+    .HeaderTag {
+        /* background-color: antiquewhite; */
+        height: 80px;
+    }
     .deskLeftDiv img {
         width: 90%;
     }
     .deskNav a {
         font-size: 23px;
+        margin: 0px 15px;
+    }
+    .deskRightDiv {
+        width: 15%;
+        padding: 1% 3% 1% 5%;
     }
     .deskRightDiv img{
-        width: 50%;
+        width: 70%;
+    }
+    .switchLeng {
+        margin-left: 30px;
     }
 }
 @media only screen and (min-width: 2000px) {
@@ -130,8 +159,12 @@
         /* background-color: antiquewhite; */
         height: 120px;
     }
+    .deskLeftDiv {
+        width: 35%;
+    }
     .deskLeftDiv img {
         width: 90%;
+        margin-right: 20%;
     }
     .deskNav a {
         font-size: 23px;
@@ -150,7 +183,12 @@
         border: solid 2px black;
     }
 }
-@media only screen and (max-width: 752px) {
+@media only screen and (min-width: 2500px) {
+    .deskNav {
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 751px) {
     .HeaderTag{
         height: 70px;
     }
