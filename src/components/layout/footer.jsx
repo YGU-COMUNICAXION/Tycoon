@@ -131,7 +131,9 @@ const Footer = () => {
                 </div>
                 <div className='upperContact'>
                     <h2 className='teInteresa'>{t("footerThirdTitle")}</h2>
-                    <p className='escribenos'>{renderStringHMTLtoJSX(t("textus"))}</p>
+                    <a href='mailto:contacto@tycoon.mx' target="_blank">
+                        <p className='escribenos'>{renderStringHMTLtoJSX(t("textus"))}</p>
+                    </a>
                 </div>
             </div>
             <div className='underDeskDiv'>

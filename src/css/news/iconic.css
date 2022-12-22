@@ -8,10 +8,10 @@
     width: 48%;
     margin: 2%;
 }
-/* .fullWidthPDiv {
+.fullWidthPDiv {
     padding:  0% 4%;
     max-width: 1500px;
-} */
+}
 .imgTrio {
     display: flex;
     flex-direction: row;

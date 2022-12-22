@@ -18,7 +18,7 @@
 }
 .redName{
     font-family: "B SemiLight";
-    font-size: 110%;
+    font-size: 10px;
 }
 @media only screen and (min-width: 752px) {
     .redLogo {
@@ -26,14 +26,21 @@
     }
     .redName{
         font-size: 10px;
+        margin: 10% 0%;
     }
 }
 @media only screen and (min-width: 1000px) {
     .redLogo {
-        width: 19%;
+        width: 15%;
     }
     .redName{
-        font-size: 14px;
+        font-size: 15px;
+        margin: 12% 0%;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .redName{
+        margin: 10% 0%;
     }
 }
 @media only screen and (min-width: 1500px) {
@@ -41,6 +48,14 @@
         width: 17%;
     }
     .redName{
-        font-size: 16px;
+        font-size: 17px;
+        margin: 12% 0%;
+
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .redName{
+        font-size: 19px;
+        margin: 10% 0%;
     }
 }

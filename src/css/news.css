@@ -29,6 +29,9 @@
     }
 }
 @media only screen and (min-width: 2500px) {
+    .newsSecondSection h2 {
+        padding: 0% 16% 0% 16% ;
+    }
     .newsThirdSection h2 {
         padding: 0% 16% 0% 16% ;
     }

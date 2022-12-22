@@ -70,9 +70,15 @@ const ColPage = () => {
                 </div>
                 <div className='finalPDiv'>
                     <p className='sigleBottomP'>{t("colSecondP")}</p>
-                    <p className='sigleBottomP'>{t("colIG")}</p>
-                    <p className='sigleBottomP'>{t("colFB")}</p>
-                    <p className='sigleBottomP'>{t("colThirdP")}</p>
+                    <a href='https://www.instagram.com/almacenesbrissa/' target="_blank">
+                        <p className='sigleBottomP'>{t("colIG")}</p>
+                    </a>
+                    <a href='https://www.facebook.com/almacenesbrissa' target="_blank">
+                        <p className='sigleBottomP'>{t("colFB")}</p>
+                    </a>
+                    <a target="_blank">
+                        <p className='sigleBottomP'>{t("colThirdP")}</p>
+                    </a>
                 </div>
             </div>
             </SingleNews>

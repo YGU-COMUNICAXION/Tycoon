@@ -4,8 +4,9 @@
     justify-content: center;
     align-items: center;
     /* margin-top: 5%; */
-    padding: 7% 0% 7% 0%;
+    padding: 7% 0% 0% 0%;
     width: 100%;
+    max-width: 1500px;
 }
 .fullWidthImg {
     width: 95%;
@@ -69,7 +70,7 @@
         width: 100%;
         margin: 1% 0% 1% 0%
     }
-}
+} 
 @media only screen and (min-width: 1000px){
     .pantherContainerDesk {
         width: 850px;
@@ -77,7 +78,6 @@
     }
     .finalLightPDesk {
         font-size: 22px;
-
     }
 }
 @media only screen and (min-width: 1300px) {

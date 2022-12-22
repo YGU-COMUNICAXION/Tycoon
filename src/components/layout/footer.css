@@ -27,6 +27,7 @@
 }
 .teInteresa {
     font-family: "B SemiBold";
+    cursor: pointer;
 }
 .escribenos {
     font-family: "B SemiLight";
@@ -81,14 +82,14 @@
     width: 15%;
 }
 .footerLogoDesk img {
-    margin-top: 20%;
+    margin-top: 2%;
     width: 100%;
 }
 .pagsDiv {
     display: flex;
     flex-direction: column;
     width: 10%;
-    margin: 0% 0% 0% 3%;
+    margin: 0% 3% 0% 6%;
 
 }
 .paisesDivDesk {
@@ -128,11 +129,17 @@
     .footerTitle {
         font-size: 14px;
     }
+    .footerTitle  {
+        margin-top: 0%;
+    }
     .teInteresa {
         font-size: 14px;
     }
     .escribenos {
         font-size: 14px;
+    }
+    .paisesRow {
+        justify-content: space-around;
     }
 }
 @media only screen and (min-width: 1000px){
@@ -144,6 +151,7 @@
     }
     .pagsDiv a {
         font-size: 15px;
+        margin: 17% 0%;
     }
     .teInteresa {
         font-size: 18px;
@@ -160,7 +168,7 @@
 }
 @media only screen and (min-width: 1300px){
     .pagsDiv a {
-        margin: 10% 0%;
+        margin: 12% 0%;
     }
     .paisesRow {
         margin-top: 4%;
@@ -175,7 +183,7 @@
     }
     .pagsDiv a {
         font-size: 17px;
-        margin: 12% 0%;
+        margin: 13% 0%;
     }
     .teInteresa {
         font-size: 21px;
@@ -196,7 +204,7 @@
     }
     .pagsDiv a {
         font-size: 19px;
-        margin: 9% 0%;
+        margin: 10% 0%;
     }
     .paisesRow {
         margin-top: 3%;
@@ -212,9 +220,6 @@
     }
     .underDeskDiv p {
         font-size: 18px;
-    }
-    .redesDeskDiv {
-        margin: 0% 0% 0% 1%;
     }
 }
 @font-face {

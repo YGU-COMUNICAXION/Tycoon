@@ -2,6 +2,7 @@ import React from 'react'
 import "./styles.css"
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import renderStringHMTLtoJSX from "../../utils/renderStringHTMLtoJSX";
+import { Link } from 'gatsby';
 import NoticiasCard from '../noticias-card'
 import Nuevo from "../../images/mobile/noticias/noticiasRecientes/nuevo.png"
 import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
@@ -22,25 +23,37 @@ const NoticiasRecientes = () => {
         {windowSize < 752 ? (
           <div className='noticiasRecientesDiv'>
             <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-              {/* <img src={Mas} className="mas"/> */}
+              <Link to="/news/newintycoon">
+                <img src={Mas} className="mas"/>
+              </Link>
             </NoticiasCard>
             <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-              {/* <img src={Mas} className="mas"/> */}
+              <Link to="/news/cobrakai">
+                <img src={Mas} className="mas"/>
+              </Link>
             </NoticiasCard>
             <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-              {/* <img src={Mas} className="mas"/> */}
+              <Link to="/news/amongus">
+                <img src={Mas} className="mas"/>
+              </Link>
             </NoticiasCard>
           </div>
         ):(
           <div className='noticiasRecientesDivDesk'>
-          <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-              {/* <img src={Mas} className="mas"/> */}
+            <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+              <Link to='/news/newintycoon'>
+                <img src={Mas} className="mas"/>
+              </Link>
             </NoticiasCard>
             <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-              {/* <img src={Mas} className="mas"/> */}
+              <Link to='/news/cobrakai'>
+                <img src={Mas} className="mas"/>
+              </Link>
             </NoticiasCard>
             <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-              {/* <img src={Mas} className="mas"/> */}
+              <Link to='/news/amongus'>
+                <img src={Mas} className="mas"/>
+              </Link>
             </NoticiasCard>
           </div>
         )}
