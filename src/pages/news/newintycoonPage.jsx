@@ -45,14 +45,10 @@ const NewintycoonPage = () => {
           <div className=''></div>
           <div className='videoContainer'>
             <iframe
-            //  width="340" 
-            //  height="190"
             src="https://www.youtube.com/embed/JpbnNpfeeOo" 
             frameborder="0" allowfullscreen
             />
             <iframe
-            //  width="340" 
-            //  height="190"
             src="https://www.youtube.com/embed/ohHYABXMqUQ" 
             frameborder="0" allowfullscreen
             />
@@ -60,7 +56,7 @@ const NewintycoonPage = () => {
           </SingleNews>
           <div className='singleRecent'>
                 <NoticiasRecientes>
-                   <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                   <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
                         <Link to='/news/amongus'>
                             <img src={Mas} className="mas"/>
                         </Link>
@@ -126,12 +122,12 @@ const NewintycoonPage = () => {
           </SingleNews>
           <div className='singleRecentDesk'>
                 <NoticiasRecientes>
-                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
                         <Link to='/news/amongus'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
-                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate2")}>
                         <Link to='/news/cobrakai'>
                             <img src={Mas} className="mas"/>
                         </Link>

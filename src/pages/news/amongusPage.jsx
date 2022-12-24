@@ -84,7 +84,6 @@ const AmongusPage = () => {
                 </div>
                 <p className='sigleBottomP'>{t("amongSixthP")}</p>
             </div>
-
             </SingleNews>
             <div className='singleRecentDesk'>
                 <NoticiasRecientes>
