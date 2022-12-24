@@ -9,8 +9,12 @@ import SingleNews from '../../components/singleNews';
 import AmongBanner from "../../images/desktop/noticias/amongus/bannerAmongus.png"
 import AmongFirstImg from "../../images/desktop/noticias/amongus/fotoAmongus.png"
 import AmongFirstImgMob from "../../images/desktop/noticias/amongus/fotoAmongusMob.png"
-import AmongSecondImgMob from "../../images/desktop/noticias/amongus/contenedorMob.png"
-import AmongSecondImgDesk from "../../images/desktop/noticias/amongus/contenedor.png"
+import { Link } from "gatsby";
+import NoticiasCard from '../../components/noticias-card';
+import Nuevo from "../../images/mobile/noticias/noticiasRecientes/nuevo.png"
+import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
+import CaminaKitty from "../../images/desktop/noticias/2021/TENIS-HELLOKITTY.png"
+import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
 const AmongusPage = () => {
     const { t } = useTranslation("among");
@@ -36,7 +40,23 @@ const AmongusPage = () => {
                 <p className='sigleBottomP'>{t("amongSixthP")}</p>
             </SingleNews>
             <div className='singleRecent'>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={t("CaminaKittyDATE")}>
+                        <Link to="/news/caminaEntreNubes">
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         ):(
@@ -67,7 +87,23 @@ const AmongusPage = () => {
 
             </SingleNews>
             <div className='singleRecentDesk'>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={t("CaminaKittyDATE")}>
+                        <Link to="/news/caminaEntreNubes">
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         )}

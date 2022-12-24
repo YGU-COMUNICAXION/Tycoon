@@ -8,6 +8,12 @@ import useWindowSize from '../../hooks/useWindowSize';
 import SingleNews from '../../components/singleNews';
 import BalBanner from "../../images/desktop/noticias/dia/diaBanner.png"
 import Dia1 from "../../images/desktop/noticias/dia/dia1.png"
+import { Link } from "gatsby";
+import NoticiasCard from '../../components/noticias-card';
+import Nuevo from "../../images/mobile/noticias/noticiasRecientes/nuevo.png"
+import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
+import Among from "../../images/desktop/noticias/noticiasRecientes/among.png"
+import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
 const DiaPage = () => {
     const { t } = useTranslation("warner");
@@ -26,7 +32,23 @@ const DiaPage = () => {
                 <img src={Dia1} className="amongfFirstimg"/>
             </SingleNews>
             <div className='singleRecent'>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         ):(
@@ -46,7 +68,23 @@ const DiaPage = () => {
             </div>
             </SingleNews>
             <div className='singleRecentDesk'>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         )}

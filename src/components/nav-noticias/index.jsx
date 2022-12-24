@@ -823,7 +823,7 @@ function NewsNav() {
                             </div>                    
                             <div className='noticiasRow'>
                                 <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={t("CaminaKittyDATE")}>
-                                    <Link to="/news/newintycoon">
+                                    <Link to="/news/caminaEntreNubes">
                                         <img src={Mas} className="mas"/>
                                     </Link>
                                 </NoticiasCard>

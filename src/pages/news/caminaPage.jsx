@@ -6,15 +6,20 @@ import "../../css/news/cobra.css";
 import NoticiasRecientes from "../../components/noticias-recientes";
 import useWindowSize from '../../hooks/useWindowSize';
 import SingleNews from '../../components/singleNews';
-import CobraBanner from "../../images/desktop/noticias/cobra/bannercobra.png"
-import cobra1 from "../../images/desktop/noticias/cobra/foto1.png"
-import cobra2 from "../../images/desktop/noticias/cobra/foto2.png"
-import cobra3 from "../../images/desktop/noticias/cobra/foto3.png"
-import cobra4 from "../../images/desktop/noticias/cobra/foto4.png"
+import CaminaBanner from "../../images/desktop/noticias/camina/caminaBanner.png";
+import Camina1 from "../../images/desktop/noticias/camina/camina1.png";
+import Camina2 from "../../images/desktop/noticias/camina/camina2.png";
+import { Link } from "gatsby";
+import NoticiasCard from '../../components/noticias-card';
+import Nuevo from "../../images/mobile/noticias/noticiasRecientes/nuevo.png"
+import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
+import Among from "../../images/desktop/noticias/noticiasRecientes/among.png"
+import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
+
 
 
 const CobraPage = () => {
-    const { t } = useTranslation("cobra");
+    const { t } = useTranslation("camina");
     const windowSize = useWindowSize();
 
     return (
@@ -22,54 +27,75 @@ const CobraPage = () => {
         {windowSize < 752 ? (
             <>
             <SingleNews
-                backgroundImage={CobraBanner}
-                singleTitle={t("cobraTitle")}
-                singleDate={renderStringHMTLtoJSX(t("cobraDate"))}
-                sigleFirstP={renderStringHMTLtoJSX(t("cobraFirstP"))}
+                backgroundImage={CaminaBanner}
+                singleTitle={t("caminaTitle")}
+                singleDate={renderStringHMTLtoJSX(t("caminaDate"))}
+                sigleFirstP={renderStringHMTLtoJSX(t("caminaFirstP"))}
             >
-                <img src={cobra1} className="amongfFirstimg"/>
-                <div className='ThreeImgsContainer'>
-                    <div className='topImgs'>
-                        <img src={cobra2} className="imgtrio"/>
-                        <img src={cobra3} className="imgtrio"/>
-                    </div>
-                    <img src={cobra4} className="imgtrio"/>
-                </div>
-                <h2 className='finalP'>{t("cobraFinalP")}</h2>
-
+                <img src={Camina1} className="amongfFirstimg"/>
+                <img src={Camina2} className="amongfFirstimg"/>
+                <h2 className='finalP'>{t("caminaFinalP")}</h2>
             </SingleNews>
             <div className='singleRecent'>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         ):(
             <>
             <SingleNews
-                backgroundImage={CobraBanner}
-                singleTitle={t("cobraTitle")}
-                singleDate={renderStringHMTLtoJSX(t("cobraDate"))}
+                backgroundImage={CaminaBanner}
+                singleTitle={t("caminaTitle")}
+                singleDate={renderStringHMTLtoJSX(t("caminaDate"))}
             >
             <div className='newsDualDiv'>
                 <div className='dualLeftDiv'>
-                    <p className='regularP'>{renderStringHMTLtoJSX(t("cobraFirstP"))}</p>
+                    <p className='regularP'>{renderStringHMTLtoJSX(t("caminaFirstP"))}</p>
                 </div>
                 <div className='dualRightDiv'>
-                    <img src={cobra1} className="amongfFirstimgDesk"/>
-                </div>
+                <img src={Camina1} className="amongfFirstimg"/>
+                <img src={Camina2} className="amongfFirstimg"/>
+            </div>
             </div>
             <div className='singleNewsContentDesk'>
-                <div className='imgTrioRow'>
-                    <img src={cobra2} className="imgtrioDesk"/>
-                    <img src={cobra3} className="imgtrioDesk"/>
-                    <img src={cobra4} className="imgtrioDesk"/>
-                </div>
                 <div className='finalPDiv'>
-                    <p className='sigleBottomP'>{t("cobraFinalP")}</p>
+                    <p className='sigleBottomP'>{t("caminaFinalP")}</p>
                 </div>
             </div>
             </SingleNews>
             <div className='singleRecentDesk'>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         )}

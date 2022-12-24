@@ -1,11 +1,17 @@
 import React from "react"
 import { useTranslation } from "gatsby-plugin-react-i18next";
+import { Link } from "gatsby";
 import renderStringHMTLtoJSX from "../utils/renderStringHTMLtoJSX";
 import Layout from "../components/layout";
 import "../css/news.css"
 import NoticiasRecientes from "../components/noticias-recientes"
 import NoticiasNav from "../components/nav-noticias"
 import useWindowSize from "../hooks/useWindowSize";
+import NoticiasCard from "../components/noticias-card";
+import Nuevo from "../images/mobile/noticias/noticiasRecientes/nuevo.png"
+import Cobra from "../images/mobile/noticias/noticiasRecientes/cobra.png"
+import Among from "../images/mobile/noticias/noticiasRecientes/among.png"
+import Mas from "../images/mobile/noticiasCard/botón-mas.png"
 
 const NewsPage = () => {
     const { t } = useTranslation("news");
@@ -18,7 +24,23 @@ const NewsPage = () => {
                         <div className="newsFirstSection"></div>
                         <div className="newsSecondSection">
                             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
-                            <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
+                            <NoticiasRecientes>
+                                <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                                    <Link to='/news/newintycoon'>
+                                        <img src={Mas} className="mas"/>
+                                    </Link>
+                                </NoticiasCard>
+                                <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                                    <Link to='/news/cobrakai'>
+                                        <img src={Mas} className="mas"/>
+                                    </Link>
+                                </NoticiasCard>
+                                <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                                    <Link to='/news/amongus'>
+                                        <img src={Mas} className="mas"/>
+                                    </Link>
+                                </NoticiasCard>
+                            </NoticiasRecientes>
                         </div>
                         <div className="newsThirdSection">
                             <h2 className="sectionTitle">{t("newstitle")}</h2>
@@ -30,7 +52,23 @@ const NewsPage = () => {
                         <div className="newsFirstSectionDesk"/>
                         <div className="newsSecondSection">
                             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
-                            <NoticiasRecientes title={renderStringHMTLtoJSX(t("recentNews"))}/>
+                            <NoticiasRecientes>
+                                <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                                    <Link to='/news/newintycoon'>
+                                        <img src={Mas} className="mas"/>
+                                    </Link>
+                                </NoticiasCard>
+                                <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                                    <Link to='/news/cobrakai'>
+                                        <img src={Mas} className="mas"/>
+                                    </Link>
+                                </NoticiasCard>
+                                <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                                    <Link to='/news/amongus'>
+                                        <img src={Mas} className="mas"/>
+                                    </Link>
+                                </NoticiasCard>
+                            </NoticiasRecientes>
                         </div>
                         <div className="newsThirdSection">
                             <h2 className="sectionTitle">{t("newstitle")}</h2>
