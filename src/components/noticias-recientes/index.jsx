@@ -13,7 +13,7 @@ import CobraDesk from "../../images/desktop/noticias/noticiasRecientes/cobra.png
 import AmongDesk from "../../images/desktop/noticias/noticiasRecientes/among.png"
 import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
-const NoticiasRecientes = () => {
+const NoticiasRecientes = ({children}) => {
   const { t } = useTranslation("news");
   const windowSize = useWindowSize();
 
@@ -22,7 +22,7 @@ const NoticiasRecientes = () => {
     
         {windowSize < 752 ? (
           <div className='noticiasRecientesDiv'>
-            <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+            {/* <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
               <Link to="/news/newintycoon">
                 <img src={Mas} className="mas"/>
               </Link>
@@ -36,11 +36,12 @@ const NoticiasRecientes = () => {
               <Link to="/news/amongus">
                 <img src={Mas} className="mas"/>
               </Link>
-            </NoticiasCard>
+            </NoticiasCard> */}
+            {children}
           </div>
         ):(
           <div className='noticiasRecientesDivDesk'>
-            <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+            {/* <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
               <Link to='/news/newintycoon'>
                 <img src={Mas} className="mas"/>
               </Link>
@@ -54,7 +55,8 @@ const NoticiasRecientes = () => {
               <Link to='/news/amongus'>
                 <img src={Mas} className="mas"/>
               </Link>
-            </NoticiasCard>
+            </NoticiasCard> */}
+            {children}
           </div>
         )}
     </div>

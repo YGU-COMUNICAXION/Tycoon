@@ -20,6 +20,12 @@ import iconic10 from "../../images/desktop/noticias/iconic/iconic10.png"
 import iconic11 from "../../images/desktop/noticias/iconic/iconic11.png"
 import iconic12 from "../../images/desktop/noticias/iconic/iconic12.png"
 import iconic13 from "../../images/desktop/noticias/iconic/iconic13.png"
+import { Link } from "gatsby";
+import NoticiasCard from '../../components/noticias-card';
+import Nuevo from "../../images/mobile/noticias/noticiasRecientes/nuevo.png"
+import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
+import Among from "../../images/desktop/noticias/noticiasRecientes/among.png"
+import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
 
 const CobraPage = () => {
@@ -69,7 +75,23 @@ const CobraPage = () => {
                 </div>
             </SingleNews>
             <div className='singleRecent'>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         ):(
@@ -118,7 +140,23 @@ const CobraPage = () => {
             </div>
             </SingleNews>
             <div className='singleRecentDesk'>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         )}

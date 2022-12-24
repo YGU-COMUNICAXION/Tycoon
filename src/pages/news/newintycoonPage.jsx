@@ -10,6 +10,12 @@ import NewBanner from "../../images/desktop/noticias/nuevoen/nuevoBanner.png"
 import NewBannerDesk from "../../images/desktop/noticias/nuevoen/nuevoBannerDesk.png"
 import firstImg from "../../images/desktop/noticias/nuevoen/nuevoFirst.png"
 import SecondImg from "../../images/desktop/noticias/nuevoen/nuevoSecond.png"
+import { Link } from "gatsby";
+import NoticiasCard from '../../components/noticias-card';
+import CaminaKitty from "../../images/desktop/noticias/2021/TENIS-HELLOKITTY.png"
+import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
+import Among from "../../images/mobile/noticias/noticiasRecientes/among.png"
+import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
 
 const NewintycoonPage = () => {
@@ -19,6 +25,7 @@ const NewintycoonPage = () => {
   return (
     <Layout>
       {windowSize < 752 ? (
+        <>
         <SingleNews
           backgroundImage={NewBanner}
           singleTitle={t("newTitle")}
@@ -50,7 +57,27 @@ const NewintycoonPage = () => {
             frameborder="0" allowfullscreen
             />
           </div>
-        </SingleNews>
+          </SingleNews>
+          <div className='singleRecent'>
+                <NoticiasRecientes>
+                   <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={t("CaminaKittyDATE")}>
+                        <Link to="/news/caminaEntreNubes">
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
+          </div>
+        </>
       ):(
         <>
           <SingleNews
@@ -98,7 +125,23 @@ const NewintycoonPage = () => {
             </div> 
           </SingleNews>
           <div className='singleRecentDesk'>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={t("CaminaKittyDATE")}>
+                        <Link to="/news/caminaEntreNubes">
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
           </div>
         </>
 

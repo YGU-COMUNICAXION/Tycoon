@@ -11,6 +11,12 @@ import Warner1 from "../../images/desktop/noticias/warner/warner1.png"
 import Warner2 from "../../images/desktop/noticias/warner/warner2.png"
 import Warner3 from "../../images/desktop/noticias/warner/warner3.png"
 import Warner4 from "../../images/desktop/noticias/warner/warner4.png"
+import { Link } from "gatsby";
+import NoticiasCard from '../../components/noticias-card';
+import Nuevo from "../../images/mobile/noticias/noticiasRecientes/nuevo.png"
+import Cobra from "../../images/mobile/noticias/noticiasRecientes/cobra.png"
+import Among from "../../images/desktop/noticias/noticiasRecientes/among.png"
+import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
 const WarnerPage = () => {
     const { t } = useTranslation("warner");
@@ -41,8 +47,23 @@ const WarnerPage = () => {
             </SingleNews>
             <div className='singleRecent'>ç
                 <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
-
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         ):(
@@ -75,7 +96,23 @@ const WarnerPage = () => {
             </SingleNews>
             <div className='singleRecentDesk'>
                 <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
-                <NoticiasRecientes title={renderStringHMTLtoJSX(t("relatedNews"))}/>
+                <NoticiasRecientes>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                        <Link to='/news/newintycoon'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
+                        <Link to='/news/cobrakai'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                        <Link to='/news/amongus'>
+                            <img src={Mas} className="mas"/>
+                        </Link>
+                    </NoticiasCard>
+                </NoticiasRecientes>
             </div>
             </>
         )}
