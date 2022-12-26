@@ -13,10 +13,12 @@ import Nuevo from "../images/mobile/noticias/noticiasRecientes/nuevo.png"
 import Cobra from "../images/mobile/noticias/noticiasRecientes/cobra.png"
 import Among from "../images/mobile/noticias/noticiasRecientes/among.png"
 import Mas from "../images/mobile/noticiasCard/botón-mas.png"
+import useGeo from "../hooks/useGeo";
 
 const IndexPage = () => {
   const { t } = useTranslation("home");
   const windowSize = useWindowSize();
+  const geo = useGeo();  
 
   return (
     <Layout>
