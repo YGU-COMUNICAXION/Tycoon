@@ -28,8 +28,14 @@ const FifaPage = () => {
         <img src={FifaUnder}/>
       </MarcaPage>
     )}
-    {geo === "CL" && (<></>)}
+    {/* {geo === "CL" && (<></>)}
     {geo === "CO" || geo === "EC" || geo === "CA" (
+      <MarcaPage backgroundImage={FifaBanner}>
+        <img src={FifaRight}/>
+        <img src={FifaWomen}/>
+      </MarcaPage>
+    )} */}
+    {(geo === "CO" || geo === "EC" || geo === "Ca") && (
       <MarcaPage backgroundImage={FifaBanner}>
         <img src={FifaRight}/>
         <img src={FifaWomen}/>
