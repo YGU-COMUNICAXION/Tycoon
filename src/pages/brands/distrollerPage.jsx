@@ -16,7 +16,7 @@ const DistrollerPage = () => {
     {geo === "AR" && (<></>)}
     {geo === "MX" && (<></>)}
     {geo === "CL" && (<></>)}
-    {geo === "CO" || "EC" || "CAM" (
+    {geo === "CO" || geo === "EC" || geo === "CAM" (
       <MarcaPage backgroundImage={DistrollerBanner}>
         <img src={Neonato}/>
         <img src={Virgencita}/>

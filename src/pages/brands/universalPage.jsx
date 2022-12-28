@@ -67,7 +67,7 @@ const UniversalPage = () => {
         <img src={Woody}/>
       </MarcaPage>
     </>)}
-    {geo === "CO" || "EC" || "CA" (<>
+    {geo === "CO" || geo === "EC" || geo === "CA" (<>
       <MarcaPage backgroundImage={UniversaBanner}>
         <img src={Minions}/>
         <img src={JurasicW}/>

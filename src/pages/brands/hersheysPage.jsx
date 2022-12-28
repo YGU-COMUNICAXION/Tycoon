@@ -26,7 +26,7 @@ const HersheysPage = () => {
       </MarcaPage>
     )}
     {geo === "CL" && (<></>)}
-    {geo === "CO" || "EC" || "CA" (
+    {geo === "CO" || geo === "EC" || geo === "CA" (
       <MarcaPage backgroundImage={HersheysBanner}>
         <img src={HersheysW}/>
         <img src={Joly}/>

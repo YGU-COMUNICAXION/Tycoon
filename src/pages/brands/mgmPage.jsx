@@ -50,7 +50,7 @@ const MgmPage = () => {
         <img src={Vikings}/>
       </MarcaPage>
     )}
-    {geo === "CO" || "EC" || "CA" (
+    {geo === "CO" || geo === "EC" || geo === "CA" (
       <MarcaPage backgroundImage={MgmBanner}>
         <img src={PinkLight}/>
         <img src={Rocky2}/>

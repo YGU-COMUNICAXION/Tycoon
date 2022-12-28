@@ -29,7 +29,7 @@ const FifaPage = () => {
       </MarcaPage>
     )}
     {geo === "CL" && (<></>)}
-    {geo === "CO" || "EC" || "CA" (
+    {geo === "CO" || geo === "EC" || geo === "CA" (
       <MarcaPage backgroundImage={FifaBanner}>
         <img src={FifaRight}/>
         <img src={FifaWomen}/>

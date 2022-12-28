@@ -11,7 +11,7 @@ const MoonbugPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || "MX" || "CL" || "CO" || "PE" || "EC" || "CA"(<>
+    {geo === "AR" || geo === "MX" || geo === "CL" || geo === "CO" || geo === "PE" || geo === "EC" || geo === "CA"(<>
       <MarcaPage backgroundImage={MoonbugBanner}>
         <img src={Coocomelon}/>
         <img src={Blippi}/>

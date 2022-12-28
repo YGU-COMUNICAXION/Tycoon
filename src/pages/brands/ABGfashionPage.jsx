@@ -34,7 +34,7 @@ const AbgFaPage = () => {
       </MarcaPage>
     )}
     {geo === "MX" && (<></>)}
-    {geo === "CL" || "PE" (
+    {geo === "CL" || geo === "PE" (
       <MarcaPage backgroundImage={AbgFashionBanner}>
         <img src={Nautica}/>
         <img src={Nine}/>

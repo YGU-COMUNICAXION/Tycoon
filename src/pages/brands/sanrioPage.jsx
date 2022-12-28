@@ -13,7 +13,7 @@ const SanrioPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || "MX" (<>
+    {geo === "AR" || geo === "MX" (<>
       <MarcaPage backgroundImage={SanrioBanner}>
         <img src={Hello}/>
         <img src={HelloFriends}/>
@@ -21,7 +21,7 @@ const SanrioPage = () => {
         <img src={AggRetsuko}/>
       </MarcaPage>
     </>)}
-    {geo === "CO" || "EC" || "CL" || "PE" || "CAM" (
+    {geo === "CO" || geo === "EC" || geo === "CL" || geo === "PE" || geo === "CAM" (
       <MarcaPage backgroundImage={SanrioBanner}>
         <img src={Hello}/>
       </MarcaPage>

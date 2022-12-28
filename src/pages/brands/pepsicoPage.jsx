@@ -17,7 +17,7 @@ const PepsicoPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || "CL" || "PE" || "CO" || "EC" || "CA"(<>
+    {geo === "AR" || geo === "CL" || geo === "PE" || geo === "CO" || geo === "EC" || geo === "CA"(<>
       <MarcaPage backgroundImage={PepsicoBanner}>
         <img src={PepsiRound}/>
         <img src={Sevenup}/>

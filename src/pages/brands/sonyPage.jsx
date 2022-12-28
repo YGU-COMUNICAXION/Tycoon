@@ -14,7 +14,7 @@ const SonyPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || "CL" || "PE" (<>
+    {geo === "AR" || geo === "CL" || geo === "PE" (<>
       <MarcaPage backgroundImage={SonnyBanner}>
         <img src={Ghost}/>
         <img src={Cobra}/>
@@ -28,7 +28,7 @@ const SonyPage = () => {
         <img src={Death}/>
       </MarcaPage>
     </>)}
-    {geo === "CO" || "EC" || "CA" (<>
+    {geo === "CO" || geo === "EC" || geo === "CA" (<>
       <MarcaPage backgroundImage={SonnyBanner}>
         <img src={Ghost}/>
         <img src={Cobra}/>

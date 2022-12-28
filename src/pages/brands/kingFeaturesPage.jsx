@@ -19,7 +19,7 @@ const KingPage = () => {
       </MarcaPage>
     </>)}
     {geo === "CL" && (<></>)}
-    {geo === "CO" || "EC" || "CA" (<>
+    {geo === "CO" || geo === "EC" || geo === "CA" (<>
       <MarcaPage backgroundImage={KingBanner}>
         <img src={Olive}/>
         <img src={Popeye}/>

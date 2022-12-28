@@ -11,7 +11,7 @@ const MicrosoftPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || "MX" || "CL" || "PE" || "CO" || "EC" || "CA" (
+    {geo === "AR" || geo === "MX" || geo === "CL" || geo === "PE" || geo === "CO" || geo === "EC" || geo === "CA" (
       <MarcaPage backgroundImage={MicrosoftBanner}>
         <img src={Xbox}/>
         <img src={Halo}/>

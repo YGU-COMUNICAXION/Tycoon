@@ -14,7 +14,7 @@ const AbgCePage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || "CL" || "PE" (<>
+    {geo === "AR" || geo === "CL" || geo === "PE" (<>
       <MarcaPage backgroundImage={AbgCelebsBanner}>
         <img src={Thalia}/>
         <img src={Muhhamad}/>
