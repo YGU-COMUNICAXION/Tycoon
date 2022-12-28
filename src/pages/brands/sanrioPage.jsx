@@ -13,7 +13,7 @@ const SanrioPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || geo === "MX" (<>
+    {/* {geo === "AR" || geo === "MX" (<>
       <MarcaPage backgroundImage={SanrioBanner}>
         <img src={Hello}/>
         <img src={HelloFriends}/>
@@ -26,7 +26,7 @@ const SanrioPage = () => {
         <img src={Hello}/>
       </MarcaPage>
     )}
-    {geo === "BR" && (<></>)}
+    {geo === "BR" && (<></>)} */}
 
     </Layout>
   )

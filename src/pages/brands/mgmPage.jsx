@@ -22,7 +22,7 @@ const MgmPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (
+    {/* {geo === "AR" && (
       <MarcaPage backgroundImage={MgmBanner}>
         <img src={Rocky}/>
         <img src={Legally}/>
@@ -76,7 +76,7 @@ const MgmPage = () => {
         <img src={PinkLight}/>
         <img src={Vikings}/>
       </MarcaPage>
-    )}
+    )} */}
     </Layout>
   )
 }

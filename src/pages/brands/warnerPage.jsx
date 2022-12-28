@@ -64,7 +64,7 @@ const WarnerPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (<>
+    {/* {geo === "AR" && (<>
       <MarcaPage backgroundImage={WarnerBanner}>
         <img src={Dc}/>
         <img src={Justice}/>
@@ -182,7 +182,7 @@ const WarnerPage = () => {
     {geo === "BR" && (<></>)}
     {geo === "PE" && (<></>)}
     {geo === "EC" && (<></>)}
-    {geo === "CA" && (<></>)}
+    {geo === "CA" && (<></>)} */}
     </Layout>
   )
 }

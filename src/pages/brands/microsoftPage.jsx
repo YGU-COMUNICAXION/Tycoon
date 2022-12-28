@@ -11,13 +11,13 @@ const MicrosoftPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || geo === "MX" || geo === "CL" || geo === "PE" || geo === "CO" || geo === "EC" || geo === "CA" (
+    {/* {geo === "AR" || geo === "MX" || geo === "CL" || geo === "PE" || geo === "CO" || geo === "EC" || geo === "CA" (
       <MarcaPage backgroundImage={MicrosoftBanner}>
         <img src={Xbox}/>
         <img src={Halo}/>
       </MarcaPage>
     )}
-    {geo === "BR" && (<></>)}
+    {geo === "BR" && (<></>)} */}
     </Layout>
   )
 }

@@ -11,7 +11,7 @@ const KingPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (<></>)}
+    {/* {geo === "AR" && (<></>)}
     {geo === "MX" && (<>
       <MarcaPage backgroundImage={KingBanner}>
         <img src={Olive}/>
@@ -26,7 +26,7 @@ const KingPage = () => {
       </MarcaPage>
     </>)}
     {geo === "BR" && (<></>)}
-    {geo === "PE" && (<></>)}
+    {geo === "PE" && (<></>)} */}
     </Layout>
   )
 }

@@ -17,7 +17,7 @@ const PepsicoPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || geo === "CL" || geo === "PE" || geo === "CO" || geo === "EC" || geo === "CA"(<>
+    {/* {geo === "AR" || geo === "CL" || geo === "PE" || geo === "CO" || geo === "EC" || geo === "CA"(<>
       <MarcaPage backgroundImage={PepsicoBanner}>
         <img src={PepsiRound}/>
         <img src={Sevenup}/>
@@ -35,7 +35,7 @@ const PepsicoPage = () => {
         <img src={DoritoslIght}/>
       </MarcaPage>
     </>)}
-    {geo === "BR" && (<></>)}
+    {geo === "BR" && (<></>)} */}
     </Layout>
   )
 }

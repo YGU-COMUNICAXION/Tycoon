@@ -15,7 +15,7 @@ const HersheysPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (<></>)}
+    {/* {geo === "AR" && (<></>)}
     {geo === "MX" && (
       <MarcaPage backgroundImage={HersheysBanner}>
         <img src={HersheysW}/>
@@ -35,7 +35,7 @@ const HersheysPage = () => {
       </MarcaPage>
     )}
     {geo === "BR" && (<></>)}
-    {geo === "PE" && (<></>)}
+    {geo === "PE" && (<></>)} */}
     </Layout>
   )
 }

@@ -14,7 +14,7 @@ const VizPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || geo === "CL" || geo === "PE" (<>
+    {/* {geo === "AR" || geo === "CL" || geo === "PE" (<>
       <MarcaPage backgroundImage={VizBanner}>
         <img src={Naruto}/>
         <img src={NarutoShi}/>
@@ -31,7 +31,7 @@ const VizPage = () => {
         <img src={Death}/>
       </MarcaPage>
     )}
-    {geo === "BR" && (<></>)}
+    {geo === "BR" && (<></>)} */}
     </Layout>
   )
 }

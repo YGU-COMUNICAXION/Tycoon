@@ -13,7 +13,7 @@ const MgmPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (<></>)}
+    {/* {geo === "AR" && (<></>)}
     {geo === "MX" && (<>
       <MarcaPage backgroundImage={ApexBanner}>
         <img src={Everyday}/>
@@ -27,7 +27,7 @@ const MgmPage = () => {
     {geo === "BR" && (<></>)}
     {geo === "PE" && (<></>)}
     {geo === "EC" && (<></>)}
-    {geo === "CA" && (<></>)}
+    {geo === "CA" && (<></>)} */}
     </Layout>
   )
 }

@@ -24,7 +24,7 @@ const AbgFaPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (
+    {/* {geo === "AR" && (
       <MarcaPage backgroundImage={AbgFashionBanner}>
         <img src={Nautica}/>
         <img src={Nine}/>
@@ -56,7 +56,7 @@ const AbgFaPage = () => {
     {geo === "CO" && (<></>)}
     {geo === "BR" && (<></>)}
     {geo === "EC" && (<></>)}
-    {geo === "CA" && (<></>)}
+    {geo === "CA" && (<></>)} */}
     </Layout>
   )
 }

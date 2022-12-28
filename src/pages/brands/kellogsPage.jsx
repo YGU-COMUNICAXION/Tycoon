@@ -18,7 +18,7 @@ const KellogsPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (<></>)}
+    {/* {geo === "AR" && (<></>)}
     {geo === "MX" && (
       <MarcaPage backgroundImage={KellogsBanner}>
         <img src={EspecialK}/>
@@ -37,7 +37,7 @@ const KellogsPage = () => {
     {geo === "BR" && (<></>)}
     {geo === "PE" && (<></>)}
     {geo === "EC" && (<></>)}
-    {geo === "CA" && (<></>)}
+    {geo === "CA" && (<></>)} */}
     </Layout>
   )
 }

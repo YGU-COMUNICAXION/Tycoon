@@ -37,7 +37,7 @@ const UniversalPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (<></>)}
+    {/* {geo === "AR" && (<></>)}
     {geo === "MX" && (<></>)}
     {geo === "CL" && (<>
       <MarcaPage backgroundImage={UniversaBanner}>
@@ -96,7 +96,7 @@ const UniversalPage = () => {
       </MarcaPage>
     </>)}
     {geo === "BR" && (<></>)}
-    {geo === "PE" && (<></>)}
+    {geo === "PE" && (<></>)} */}
 
     </Layout>
   )
