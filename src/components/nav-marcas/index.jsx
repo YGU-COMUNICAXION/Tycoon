@@ -50,6 +50,7 @@ import Panam from "../../images/brands_desktop/panam_desktop.png"
 import Warner from "../../images/brands_desktop/warner.png"
 import Universal from "../../images/brands_desktop/universal_desktop.png"
 import Distroller from "../../images/brands_desktop/distroller_desktop.png"
+import useGeo from "../../hooks/useGeo";
 
 const StyledNavMarcas = styled.div`
   .nav {
@@ -285,9 +286,10 @@ const StyledNavMarcas = styled.div`
 
 export default function NavMarcas() {
   const { t } = useTranslation("brands");
-
   const [show, setShow] = useState(4);
   const [info, setInfo] = useState("all");
+  const geo = useGeo();  
+
   return (
     <StyledNavMarcas>
       <div className="wrapper__buttons">
@@ -392,9 +394,15 @@ export default function NavMarcas() {
             <Link>
               <img src={Acer} alt=""/>
             </Link>
-            <Link>
-              <img src={Fifa} alt=""/> 
-            </Link>
+            {geo === "AR" || geo === "CO" || geo === "EC" || geo === "MX" ? (
+              <Link to="/brands/fifa">
+                <img src={Fifa} alt=""/> 
+              </Link>
+            ):(
+              <Link>
+                <img src={Fifa} alt=""/> 
+              </Link>
+            )}
             <Link>
               <img src={Hersheys} alt=""/>
             </Link>
