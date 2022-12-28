@@ -14,7 +14,7 @@ const FifaPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" || geo === "MX" && (
+    {(geo === "AR" || geo === "MX") && (
       <MarcaPage backgroundImage={FifaBanner}>
         <img src={FifaUnder}/>
         <img src={Qtar}/>
@@ -29,12 +29,6 @@ const FifaPage = () => {
       </MarcaPage>
     )} */}
     {geo === "CL" && (<></>)}
-    {/* {geo === "CO" || geo === "EC" || geo === "CA" (
-      <MarcaPage backgroundImage={FifaBanner}>
-        <img src={FifaRight}/>
-        <img src={FifaWomen}/>
-      </MarcaPage>
-    )} */}
     {geo === "CO" || geo === "EC" || geo === "Ca" && (
       <MarcaPage backgroundImage={FifaBanner}>
         <img src={FifaRight}/>
