@@ -14,7 +14,7 @@ const FifaPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (
+    {geo === "ARG" && (
       <MarcaPage backgroundImage={FifaBanner}>
         <img src={FifaUnder}/>
         <img src={Qtar}/>
