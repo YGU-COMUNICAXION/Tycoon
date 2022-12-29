@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
-import mgmArgPage from "./mgmArgPage";
+import MgmmArgPage from "./mgmArgPage";
 
 const Index = () => {
-  return <mgmArgPage/>;
+  return <MgmmArgPage/>;
 };
 
 export default Index;
