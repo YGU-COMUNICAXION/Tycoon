@@ -40,7 +40,11 @@ const CobraPage = () => {
                     </div>
                     <img src={cobra4} className="imgtrio"/>
                 </div>
-                <h2 className='finalP'>{t("cobraFinalP")}</h2>
+                <div className='finalPDivMob'>
+                    <a href='https://www.primavolta.com.mx/' target="_blank">
+                        <h2 className='finalP'>{renderStringHMTLtoJSX(t("cobraFinalP"))}</h2>
+                    </a>
+                </div>
 
             </SingleNews>
             <div className='singleRecent'>
@@ -86,7 +90,9 @@ const CobraPage = () => {
                 </div>
                 <div className='finalPDiv'>
                     <p className='sigleBottomP'>{t("cobraFinalP")}</p>
-                    <p className='sigleBottomP'>{t("cobraFinalP2")}</p>
+                    <a href='https://www.primavolta.com.mx/' target="_blank">
+                        <p className='sigleBottomP'>{t("cobraFinalP2")}</p>
+                    </a>
                     <p className='sigleBottomP'>{t("cobraFinalP3")}</p>
                 </div>
             </div>
