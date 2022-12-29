@@ -1,37 +1,23 @@
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import KellogsBanner from "../../images/desktop/marcas/kelloggs/kellogsBanner.png"
-import EspecialK from "../../images/desktop/marcas/kelloggs/especialk.png"
-import Froot from "../../images/desktop/marcas/kelloggs/froot.png"
-import PopTarts from "../../images/desktop/marcas/kelloggs/poptarts.png"
-import Eggo from "../../images/desktop/marcas/kelloggs/eggo.png"
-import Pringles from "../../images/desktop/marcas/kelloggs/pringles.png"
-import CornFlakes from "../../images/desktop/marcas/kelloggs/cornflakes.png"
-import ChocoCrispis from "../../images/desktop/marcas/kelloggs/chocokrispis.png"
-import Zucaritas from "../../images/desktop/marcas/kelloggs/zucaritas.png"
-import RiceKrispies from "../../images/desktop/marcas/kelloggs/ricekrispies.png"
-import useGeo from '../../hooks/useGeo'
+import React from "react";
+import { graphql } from "gatsby";
+import KelloggsMxPage from "./kelloggsMxPage";
 
-const KellogsPage = () => {
-  const geo = useGeo();  
+const Index = () => {
+  return <KelloggsMxPage/>;
+};
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={KellogsBanner}>
-        <img src={EspecialK}/>
-        <img src={RiceKrispies}/>
-        <img src={PopTarts}/>
-        <img src={Froot}/>
-        <img src={Eggo}/>
-        <img src={CornFlakes}/>
-        <img src={ChocoCrispis}/>
-        <img src={Zucaritas}/>
-        <img src={Pringles}/>
-      </MarcaPage>
+export default Index;
 
-    </Layout>
-  )
-}
-
-export default KellogsPage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

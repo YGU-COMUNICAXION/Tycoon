@@ -1,28 +1,23 @@
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import VizBanner from "../../images/desktop/marcas/viz/vizBanner.png"
-import Onepunch from "../../images/desktop/marcas/viz/onepunch.png"
-import Bleach from "../../images/desktop/marcas/viz/bleach.png"
-import NarutoShi from "../../images/desktop/marcas/viz/narutoship.png"
-import Naruto from "../../images/desktop/marcas/viz/naruto.png"
-import Death from "../../images/desktop/marcas/viz/death.png"
-import useGeo from '../../hooks/useGeo'
+import React from "react";
+import { graphql } from "gatsby";
+import VizmediaColPage from "./vizmediaColPage";
 
-const VizPage = () => {
-  const geo = useGeo();  
+const Index = () => {
+  return <VizmediaColPage/>;
+};
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={VizBanner}>
-        <img src={Naruto}/>
-        <img src={NarutoShi}/>
-        <img src={Onepunch}/>
-        <img src={Bleach}/>
-        <img src={Death}/>
-      </MarcaPage>
-    </Layout>
-  )
-}
+export default Index;
 
-export default VizPage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

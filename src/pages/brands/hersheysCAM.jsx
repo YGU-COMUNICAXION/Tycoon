@@ -1,28 +1,23 @@
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import HersheysBanner from "../../images/desktop/marcas/hersheys/hersheysBanner.png"
-import Reeses from "../../images/desktop/marcas/hersheys/reeses.png"
-import Kisses from "../../images/desktop/marcas/hersheys/kisses.png"
-import Joly from "../../images/desktop/marcas/hersheys/joly.png"
-import Pelon from "../../images/desktop/marcas/hersheys/pelon.png"
-import HersheysW from "../../images/desktop/marcas/hersheys/hersheys.png"
+import React from "react";
+import { graphql } from "gatsby";
+import HersheysCamPage from "./hersheysCAMPage";
 
-import useGeo from '../../hooks/useGeo'
+const Index = () => {
+  return <HersheysCamPage/>;
+};
 
-const HersheysPage = () => {
-  const geo = useGeo();  
+export default Index;
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={HersheysBanner}>
-        <img src={HersheysW}/>
-        <img src={Joly}/>
-        <img src={Kisses}/>
-        <img src={Reeses}/>
-      </MarcaPage>
-    </Layout>
-  )
-}
-
-export default HersheysPage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

@@ -1,25 +1,23 @@
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import SonnyBanner from "../../images/desktop/marcas/sony/sonyBanner.png"
-import Braking from "../../images/desktop/marcas/sony/breakingbad.png"
-import Cobra from "../../images/desktop/marcas/sony/cobrakai.png"
-import Death from "../../images/desktop/marcas/sony/deathnote.png"
-import Ghost from "../../images/desktop/marcas/sony/ghost.png"
-import Boys from "../../images/desktop/marcas/sony/theboys.png"
-import useGeo from '../../hooks/useGeo'
+import React from "react";
+import { graphql } from "gatsby";
+import SonyArgPage from "./sonyArgPage";
 
-const SonyPage = () => {
-  const geo = useGeo();  
+const Index = () => {
+  return <SonyArgPage/>;
+};
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={SonnyBanner}>
-        <img src={Ghost}/>
-        <img src={Cobra}/>
-      </MarcaPage>
-    </Layout>
-  )
-}
+export default Index;
 
-export default SonyPage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

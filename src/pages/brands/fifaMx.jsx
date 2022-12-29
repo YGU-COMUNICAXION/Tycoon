@@ -1,25 +1,23 @@
+import React from "react";
+import { graphql } from "gatsby";
+import FifaMxPage from "./fifaMxPage";
 
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import FifaBanner from "../../images/desktop/marcas/fifa/fifaBanner.png"
-import FifaWomen from "../../images/desktop/marcas/fifa/fifawomen.png"
-import FifaUnder from "../../images/desktop/marcas/fifa/fifaunder.png"
-import Qtar from "../../images/desktop/marcas/fifa/qatar.png"
-import Fifasimple from "../../images/desktop/marcas/fifa/fifasimple.png"
-import FifaRight from "../../images/desktop/marcas/fifa/fifaRight.png"
+const Index = () => {
+  return <FifaMxPage/>;
+};
 
-const FifaPage = () => {
+export default Index;
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={FifaBanner}>
-        <img src={FifaUnder}/>
-        <img src={Qtar}/>
-        <img src={FifaWomen}/>
-      </MarcaPage>
-    </Layout>
-  )
-}
-
-export default FifaPage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

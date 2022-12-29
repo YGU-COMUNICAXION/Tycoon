@@ -1,25 +1,23 @@
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import DistrollerBanner from "../../images/desktop/marcas/distroller/distrollerBanner.png"
-import Neonato from "../../images/desktop/marcas/distroller/neonato.png"
-import Virgencita from "../../images/desktop/marcas/distroller/virgencita.png"
-import Chamoy from "../../images/desktop/marcas/distroller/chamoy.png"
+import React from "react";
+import { graphql } from "gatsby";
+import DistrollerCamPage from "./distrollerCAMPage";
 
-import useGeo from '../../hooks/useGeo'
+const Index = () => {
+  return <DistrollerCamPage/>;
+};
 
-const DistrollerPage = () => {
-  const geo = useGeo();  
+export default Index;
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={DistrollerBanner}>
-        <img src={Neonato}/>
-        <img src={Virgencita}/>
-        <img src={Chamoy}/>
-      </MarcaPage>
-    </Layout>
-  )
-}
-
-export default DistrollerPage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

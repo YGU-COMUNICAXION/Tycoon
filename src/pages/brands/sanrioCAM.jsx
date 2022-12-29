@@ -1,23 +1,23 @@
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import SanrioBanner from "../../images/desktop/marcas/sanrio/sanrioBanner.png"
-import AggRetsuko from "../../images/desktop/marcas/sanrio/aggretsuko.png"
-import Gudetama from "../../images/desktop/marcas/sanrio/gudetama.png"
-import HelloFriends from "../../images/desktop/marcas/sanrio/hellofriends.png"
-import Hello from "../../images/desktop/marcas/sanrio/hellokitty.png"
-import useGeo from '../../hooks/useGeo'
+import React from "react";
+import { graphql } from "gatsby";
+import SanrioCAMPage from "./sanrioCAMPage";
 
-const SanrioPage = () => {
-  const geo = useGeo();  
+const Index = () => {
+  return <SanrioCAMPage/>;
+};
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={SanrioBanner}>
-        <img src={Hello}/>
-      </MarcaPage>
-    </Layout>
-  )
-}
+export default Index;
 
-export default SanrioPage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

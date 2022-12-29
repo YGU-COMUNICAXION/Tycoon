@@ -1,24 +1,23 @@
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import ActivisionBanner from "../../images/desktop/marcas/activision/activisionBanner.png"
-import Spyro from "../../images/desktop/marcas/activision/spyro.png"
-import Crash from "../../images/desktop/marcas/activision/crash.png"
-import Call from "../../images/desktop/marcas/activision/callodduty.png"
-import useGeo from '../../hooks/useGeo'
+import React from "react";
+import { graphql } from "gatsby";
+import ActivisionBzPage from "./activisionBzPage";
 
-const MgmPage = () => {
-  const geo = useGeo();  
+const Index = () => {
+  return <ActivisionBzPage/>;
+};
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={ActivisionBanner}>
-        <img src={Spyro}/>
-        <img src={Crash}/>
-        <img src={Call}/>
-      </MarcaPage>
-    </Layout>
-  )
-}
+export default Index;
 
-export default MgmPage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

@@ -1,28 +1,23 @@
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import AbgCelebsBanner from "../../images/desktop/marcas/abgceleb/abgCBanner.png"
-import Thalia from "../../images/desktop/marcas/abgceleb/thalia.png"
-import Muhhamad from "../../images/desktop/marcas/abgceleb/muhhamad.png"
-import Elvis from "../../images/desktop/marcas/abgceleb/elvis.png"
-import Marilyn from "../../images/desktop/marcas/abgceleb/marilyn.png"
-import Shaq from "../../images/desktop/marcas/abgceleb/shaq.png"
-import useGeo from '../../hooks/useGeo'
+import React from "react";
+import { graphql } from "gatsby";
+import ABGcelebsChPage from "./ABGcelebsChPage";
 
-const AbgCePage = () => {
-  const geo = useGeo();  
+const Index = () => {
+  return <ABGcelebsChPage/>;
+};
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={AbgCelebsBanner}>
-        <img src={Thalia}/>
-        <img src={Muhhamad}/>
-        <img src={Elvis}/>
-        <img src={Marilyn}/>
-        <img src={Shaq}/>
-      </MarcaPage>
-    </Layout>
-  )
-}
+export default Index;
 
-export default AbgCePage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;

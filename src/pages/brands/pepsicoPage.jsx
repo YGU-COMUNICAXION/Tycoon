@@ -21,8 +21,8 @@ const PepsicoPage = () => {
         <img src={PepsiRound}/>
         <img src={Sevenup}/>
         <img src={Cheetos}/>
-        <img src={Sabritas}/>
         <img src={DoritoslIght}/>
+        <img src={Lays}/>
       </MarcaPage>
     </Layout>
   )

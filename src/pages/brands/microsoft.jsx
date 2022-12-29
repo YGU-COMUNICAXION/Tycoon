@@ -1,22 +1,23 @@
-import React from 'react'
-import Layout from '../../components/layout'
-import MarcaPage from '../../components/marcaPage'
-import MicrosoftBanner from "../../images/desktop/marcas/microsoft/microsoftBanner.png"
-import Halo from "../../images/desktop/marcas/microsoft/halo.png"
-import Xbox from "../../images/desktop/marcas/microsoft/xbox.png"
-import useGeo from '../../hooks/useGeo'
+import React from "react";
+import { graphql } from "gatsby";
+import MicrosoftPage from "./microsoftPage";
 
-const MicrosoftPage = () => {
-  const geo = useGeo();  
+const Index = () => {
+  return <MicrosoftPage/>;
+};
 
-  return (
-    <Layout>
-      <MarcaPage backgroundImage={MicrosoftBanner}>
-        <img src={Xbox}/>
-        <img src={Halo}/>
-      </MarcaPage>
-    </Layout>
-  )
-}
+export default Index;
 
-export default MicrosoftPage
+export const query = graphql`
+  query ($language: String!) {
+    locales: allLocale(filter: { language: { eq: $language } }) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;
