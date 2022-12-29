@@ -37,9 +37,6 @@ const UniversalPage = () => {
 
   return (
     <Layout>
-    {geo === "AR" && (<></>)}
-    {geo === "MX" && (<></>)}
-    {geo === "CL" && (<>
       <MarcaPage backgroundImage={UniversaBanner}>
         <img src={Minions}/>
         <img src={JurasicW}/>
@@ -66,38 +63,6 @@ const UniversalPage = () => {
         <img src={Waldo}/>
         <img src={Woody}/>
       </MarcaPage>
-    </>)}
-    {(geo === "CO" || geo === "EC" || geo === "GT" || geo === "BZ" || geo === "HN" || geo === "NI" || geo === "CR" || geo === "PA") && (<>
-      <MarcaPage backgroundImage={UniversaBanner}>
-        <img src={Minions}/>
-        <img src={JurasicW}/>
-        <img src={BabyDream}/>
-        <img src={Kou}/>
-        <img src={Back2}/>
-        <img src={Casper}/>
-        <img src={Curious}/>
-        <img src={Dragons}/>
-        <img src={Et}/>
-        <img src={Fast}/>
-        <img src={Felix}/>
-        <img src={Jaws}/>
-        <img src={GabbysDoll}/>
-        <img src={LittleLulu}/>
-        <img src={Madagascar}/>
-        <img src={Olivia}/>
-        <img src={Pets}/>
-        <img src={Puss}/>
-        <img src={Sherk}/>
-        <img src={Sing}/>
-        <img src={Spirit}/>
-        <img src={TrollsDark}/>
-        <img src={Waldo}/>
-        <img src={Woody}/>
-      </MarcaPage>
-    </>)}
-    {geo === "BR" && (<></>)}
-    {geo === "PE" && (<></>)}
-
     </Layout>
   )
 }

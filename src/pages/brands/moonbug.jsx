@@ -1,23 +1,22 @@
-import React from "react";
-import { graphql } from "gatsby";
-import MoonbugPage from "./moonbugPage";
+import React from 'react'
+import Layout from '../../components/layout'
+import MarcaPage from '../../components/marcaPage'
+import MoonbugBanner from "../../images/desktop/marcas/moonbug/moonbugBanner.png"
+import Coocomelon from "../../images/desktop/marcas/moonbug/cocomelon.png"
+import Blippi from "../../images/desktop/marcas/moonbug/blippi.png"
+import useGeo from '../../hooks/useGeo'
 
-const Index = () => {
-  return <MoonbugPage />;
-};
+const MoonbugPage = () => {
+  const geo = useGeo();  
 
-export default Index;
+  return (
+    <Layout>
+      <MarcaPage backgroundImage={MoonbugBanner}>
+        <img src={Coocomelon}/>
+        <img src={Blippi}/>
+      </MarcaPage>
+    </Layout>
+  )
+}
 
-export const query = graphql`
-  query ($language: String!) {
-    locales: allLocale(filter: { language: { eq: $language } }) {
-      edges {
-        node {
-          ns
-          data
-          language
-        }
-      }
-    }
-  }
-`;
+export default MoonbugPage
