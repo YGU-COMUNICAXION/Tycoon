@@ -34,7 +34,11 @@ const CobraPage = () => {
             >
                 <img src={Camina1} className="amongfFirstimg"/>
                 <img src={Camina2} className="amongfFirstimg"/>
-                <h2 className='finalP'>{t("caminaFinalP")}</h2>
+                <div className='finalPDivMob'>
+                    <a href='https://www.lolyinthesky.com.mx/' target="_blank">
+                        <h2 className='finalP'>{renderStringHMTLtoJSX(t("caminaFinalP"))}</h2>
+                    </a>
+                </div>
             </SingleNews>
             <div className='singleRecent'>
                 <NoticiasRecientes>
@@ -74,7 +78,9 @@ const CobraPage = () => {
             </div>
             <div className='singleNewsContentDesk'>
                 <div className='finalPDiv'>
-                    <p className='sigleBottomP'>{t("caminaFinalP")}</p>
+                    <a href='https://www.lolyinthesky.com.mx/' target="_blank">
+                        <p className='sigleBottomP'>{renderStringHMTLtoJSX(t("caminaFinalP"))}</p>
+                    </a>
                 </div>
             </div>
             </SingleNews>

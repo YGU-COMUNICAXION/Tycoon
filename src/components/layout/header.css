@@ -65,7 +65,7 @@
     width: 50%;
 }
 .deskLeftDiv img {
-    width: 70%;
+    width: 73px;
 }
 .deskRightDiv {
     display: flex;
@@ -88,7 +88,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 300px;
 }
 .deskNav a {
     font-family: "B Medium";
@@ -100,11 +100,12 @@
     color: #0081C3;
 }
 @media only screen and (min-width: 752px) {
+
     .HeaderTag {
         height: 50px;
     }
     .deskLeftDiv {
-        width: 50%;
+        width: 407px;
     }
     .deskNav {
         justify-content: center;
@@ -116,16 +117,33 @@
         margin-left: 20px;
     }
 }
+/* @media only screen and (min-width: 852px) {
+    .deskLeftDiv img {
+        width: 80%;
+    }
+    .deskLeftDiv {
+        width: 45%;
+    }
+} */
 @media only screen and (min-width: 1000px) {
     .HeaderTag {
         /* background-color: antiquewhite; */
         height: 70px;
     }
     .deskLeftDiv img {
-        width: 80%;
+        width: 85px;
     }
+    .deskLeftDiv {
+        width: 507px;
+    }
+    /* .deskLeftDiv {
+        width: 607px;
+    } */
     .deskNav a {
         font-size: 16px;
+    }
+    .deskNav {
+        width: 500px;
     }
     .deskRightDiv img{
         width: 70%;
@@ -136,12 +154,21 @@
         /* background-color: antiquewhite; */
         height: 80px;
     }
-    .deskLeftDiv img {
+    /* .deskLeftDiv img {
         width: 90%;
+    } */
+    .deskLeftDiv img {
+        width: 125px;
+    }
+    .deskLeftDiv {
+        width: 707px;
     }
     .deskNav a {
         font-size: 23px;
         margin: 0px 15px;
+    }
+    .deskNav {
+        width: 700px;
     }
     .deskRightDiv {
         width: 15%;

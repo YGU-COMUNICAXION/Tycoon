@@ -25,7 +25,10 @@
     font-size: 18px;
     text-align: center;
     color: #0081C3;
-    margin: 0%;
+    margin: 2% 0%;
+}
+.finalP span {
+    text-decoration: underline;
 }
 .amongfFirstimg {
     width: 96%;
@@ -69,6 +72,9 @@
     text-align: center;
     color: #0081C3;
     width: 100%;
+}
+.sigleBottomP span {
+    text-decoration: underline;
 }
 .singleRecent {
     padding-left: 3%;
@@ -152,12 +158,20 @@
     margin-top: 2%;
     padding: 3% 4%;
 }
+.finalPDivMob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0px
+}
 .finalPDiv {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3%;
+    margin: 52px 0px 30px;
+    width: 100%;
 }
 .finalPDiv a {
     display: flex;
@@ -165,7 +179,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    text-decoration: underline;
+    text-decoration: none;
     color: #0081C3;
 }
 @media only screen and (min-width: 752px) {
@@ -187,7 +201,10 @@
     .sigleBottomP {
         font-size: 18px;
         width: 80%;
-        margin: .5%;
+        margin: 1% 0% 1%;
+    }
+    .videoContainerDesk {
+        margin-bottom: 0% !important;
     }
     .finalP {
         font-size: 22px;

@@ -7,5 +7,8 @@
     "caSubTitle": "COLECCIÓN",
     "caSecondSubTitle": "EXHIBICIÓN EN PUNTO DE VENTA",
     "caFinalLightP": "Vístete de rosa con las nuevas playeras de Pink Panther y C&A. Súmate a la campaña de autoexploración y conoce la labor de Fundación CIMA para la detección oportuna del cáncer de mama.",
-    "caFinalP": "Colección Pink Panther: www.cyamoda.com Fundación CIMA: https://www.cimafundacion.org/"
+    "caColeccion": "Colección Pink Panther:",
+    "caModa": "<span>www.cyamoda.com</span>",
+    "caFundacion": "Fundación CIMA:",
+    "caFundOrg": "<span>https://www.cimafundacion.org/</span>"
 }

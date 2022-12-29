@@ -108,7 +108,7 @@ body {
     padding-bottom: 65%;
 }
 .MainDivDesk {
-    margin-top: 7%;
+    margin-top: 50px;
 }
 .homeSecondSectionDesk {
     padding: 6% 4% 6% 4%;
@@ -200,6 +200,9 @@ body {
     .oficinaDesk {
         width: 50%;
     }
+    .MainDivDesk {
+        margin-top: 70px;
+    }
 }
 @media only screen and (min-width: 1300px) {
     /* .homeFirstSectionDesk {
@@ -228,6 +231,9 @@ body {
         justify-content: space-between;
         padding: 100px 40px 100px;
     }
+    .MainDivDesk {
+        margin-top: 70px;
+    }
 }
 @media only screen and (min-width: 1500px) {
     /* .homeFirstSectionDesk {
@@ -244,6 +250,9 @@ body {
     .smallP {
         font-size: 25px;
         line-height: 54px;
+    }
+    .MainDivDesk {
+        margin-top: 80px;
     }
 }
 @media only screen and (min-width: 2000px) {
@@ -272,6 +281,9 @@ body {
     .homeThridSectionDesk {
         justify-content: space-between;
         padding: 115px 40px 115px;
+    }
+    .MainDivDesk {
+        margin-top: 120px;
     }
 }
 @media only screen and (min-width: 2500px) {

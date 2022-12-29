@@ -53,6 +53,9 @@ const NewintycoonPage = () => {
             frameborder="0" allowfullscreen
             />
           </div>
+          <Link to="/brands">
+            <h2 className='finalP'>{renderStringHMTLtoJSX(t("newFourthP"))}</h2>
+          </Link>
           </SingleNews>
           <div className='singleRecent'>
                 <NoticiasRecientes>
@@ -117,6 +120,11 @@ const NewintycoonPage = () => {
                   src="https://www.youtube.com/embed/ohHYABXMqUQ" 
                   frameborder="0" allowfullscreen
                   />
+                </div>
+                <div className='finalPDiv'>
+                  <Link to="/brands">
+                    <p className='sigleBottomP'>{renderStringHMTLtoJSX(t("newFourthP"))}</p>
+                  </Link>
                 </div>
             </div> 
           </SingleNews>

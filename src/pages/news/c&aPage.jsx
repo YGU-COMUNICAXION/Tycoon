@@ -51,7 +51,16 @@ const CobraPage = () => {
                     <img src={Ca6} className="fullWidthImg"/>
                 </div>
                 <p className='finalLightP'>{t("caFinalLightP")}</p>
-                <h2 className='finalP'>{t("caFinalP")}</h2>
+                <div className='finalPDivMob'>
+                    <h2 className='finalP'>{t("caColeccion")}</h2>
+                    <a href='https://www.cyamoda.com' target="_blank">
+                        <h2 className='finalP'>{renderStringHMTLtoJSX(t("caModa"))}</h2>
+                    </a>
+                    <h2 className='finalP'>{t("caFundacion")}</h2>
+                    <a href='https://www.cimafundacion.org/' target="_blank">
+                        <h2 className='finalP'>{renderStringHMTLtoJSX(t("caFundOrg"))}</h2>
+                    </a>
+                </div>
 
             </SingleNews>
             <div className='singleRecent'>
@@ -111,7 +120,14 @@ const CobraPage = () => {
                 </div>
                 <p className='finalLightPDesk'>{t("caFinalLightP")}</p>
                 <div className='finalPDiv'>
-                    <p className='sigleBottomP'>{t("cobraFinalP")}</p>
+                    <p className='sigleBottomP'>{t("caColeccion")}</p>
+                    <a href='https://www.cyamoda.com' target="_blank">
+                        <p className='sigleBottomP'>{renderStringHMTLtoJSX(t("caModa"))}</p>
+                    </a>
+                    <p className='sigleBottomP'>{t("caFundacion")}</p>
+                    <a href='https://www.cimafundacion.org/' target="_blank">
+                        <p className='sigleBottomP'>{renderStringHMTLtoJSX(t("caFundOrg"))}</p>
+                    </a>
                 </div>
                 
             </div>

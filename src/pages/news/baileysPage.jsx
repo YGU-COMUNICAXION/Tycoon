@@ -20,7 +20,7 @@ import Among from "../../images/desktop/noticias/noticiasRecientes/among.png"
 import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
 const BaileysPage = () => {
-    const { t } = useTranslation("warner");
+    const { t } = useTranslation("baileys");
     const windowSize = useWindowSize();
 
     return (
@@ -42,9 +42,15 @@ const BaileysPage = () => {
                     </div>
                     <img src={Bal5} className="imgtrio"/>
                 </div>
-                <h2 className='finalP'>{t("baSecondP")}</h2>
-                <h2 className='finalP'>{t("baIG")}</h2>
-                <h2 className='finalP'>{t("BAFB")}</h2>
+                <div className='finalPDivMob'>
+                    <h2 className='finalP'>{t("baSecondP")}</h2>
+                    <a href='https://www.instagram.com/baileysmx/' target="_blank">
+                        <h2 className='finalP'>{renderStringHMTLtoJSX(t("baIG"))}</h2>
+                    </a>
+                    <a href='https://www.facebook.com/BaileysMexico' target="_blank">
+                        <h2 className='finalP'>{renderStringHMTLtoJSX(t("BAFB"))}</h2>
+                    </a>
+                </div>
             </SingleNews>
             <div className='singleRecent'>
                 <NoticiasRecientes>
@@ -91,10 +97,10 @@ const BaileysPage = () => {
                 <div className='finalPDiv'>
                     <p className='sigleBottomP'>{t("baSecondP")}</p>
                     <a href='https://www.instagram.com/baileysmx/' target="_blank">
-                        <p className='sigleBottomP'>{t("baIG")}</p>
+                        <p className='sigleBottomP'>{renderStringHMTLtoJSX(t("baIG"))}</p>
                     </a>
                     <a href='https://www.facebook.com/BaileysMexico' target="_blank">
-                        <p className='sigleBottomP'>{t("BAFB")}</p>
+                        <p className='sigleBottomP'>{renderStringHMTLtoJSX(t("BAFB"))}</p>
                     </a>
                 </div>
             </div>

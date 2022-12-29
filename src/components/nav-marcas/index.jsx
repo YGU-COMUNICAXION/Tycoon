@@ -138,6 +138,11 @@ const StyledNavMarcas = styled.div`
         width: 156px;
         padding: 5px;
       }
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
   .select_category {
@@ -1838,10 +1843,10 @@ export default function NavMarcas() {
             <Link>
               <img src={FreeFire}/>
             </Link>
-            <Link to="/brands">
+            <Link to="/brands/hersheysEc">
               <img src={Hersheys} alt=""/>
             </Link>
-            <Link to="/brands">
+            <Link to="/brands/kingFeaturesEc">
               <img src={KingFeatures} alt=""/>
             </Link>
             <Link>

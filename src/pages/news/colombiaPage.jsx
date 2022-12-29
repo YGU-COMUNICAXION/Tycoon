@@ -20,7 +20,7 @@ import Among from "../../images/desktop/noticias/noticiasRecientes/among.png"
 import Mas from "../../images/mobile/noticiasCard/botón-mas.png"
 
 const ColPage = () => {
-    const { t } = useTranslation("warner");
+    const { t } = useTranslation("col");
     const windowSize = useWindowSize();
 
     return (
@@ -42,10 +42,18 @@ const ColPage = () => {
                     </div>
                     <img src={Col5} className="imgtrio"/>
                 </div>
-                <h2 className='finalP'>{t("colSecondP")}</h2>
-                <h2 className='finalP'>{t("colIG")}</h2>
-                <h2 className='finalP'>{t("colFB")}</h2>
-                <h2 className='finalP'>{t("colThirdP")}</h2>
+                <div className='finalPDivMob'>
+                    <h2 className='finalP'>{t("colSecondP")}</h2>
+                    <a href='https://www.instagram.com/almacenesbrissa/' target="_blank">
+                        <h2 className='finalP'>{renderStringHMTLtoJSX(t("colIG"))}</h2>
+                    </a>
+                    <a href='https://www.facebook.com/almacenesbrissa' target="_blank">
+                        <h2 className='finalP'>{renderStringHMTLtoJSX(t("colFB"))}</h2>
+                    </a>
+                    <a href="https://www.almacenesbrissa.com.co/distroller" target="_blank">
+                        <h2 className='finalP'>{t("colThirdP")}</h2>
+                    </a>
+                </div>
             </SingleNews>
             <div className='singleRecent'>
                 <NoticiasRecientes>
@@ -92,13 +100,13 @@ const ColPage = () => {
                 <div className='finalPDiv'>
                     <p className='sigleBottomP'>{t("colSecondP")}</p>
                     <a href='https://www.instagram.com/almacenesbrissa/' target="_blank">
-                        <p className='sigleBottomP'>{t("colIG")}</p>
+                        <p className='sigleBottomP'>{renderStringHMTLtoJSX(t("colIG"))}</p>
                     </a>
                     <a href='https://www.facebook.com/almacenesbrissa' target="_blank">
-                        <p className='sigleBottomP'>{t("colFB")}</p>
+                        <p className='sigleBottomP'>{renderStringHMTLtoJSX(t("colFB"))}</p>
                     </a>
-                    <a target="_blank">
-                        <p className='sigleBottomP'>{t("colThirdP")}</p>
+                    <a href="https://www.almacenesbrissa.com.co/distroller" target="_blank">
+                        <p className='sigleBottomP'>{renderStringHMTLtoJSX(t("colThirdP"))}</p>
                     </a>
                 </div>
             </div>

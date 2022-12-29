@@ -16,6 +16,7 @@
     height: 100%;
     aspect-ratio: 16/9;
     margin-top: 7%;
+    margin-bottom: 7%;
 }
 .newsDualCenterDiv {
     display: flex;
