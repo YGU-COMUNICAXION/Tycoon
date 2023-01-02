@@ -256,11 +256,11 @@ const ContactPage = () => {
                             </a>
                         </PaisContacto>
                         <PaisContacto pais={t("cam")} image={Cam}>
-                            <p className='contactP'>+ (506) 8820 4733</p>
-                            <p className='contactP'>+ (506) 4001 7397</p>
+                            <p className='contactP'>+ 506 8820 4733</p>
+                            <p className='contactP'>+ 506 4001 7397</p>
                             <p className='contactSubtitle'>{t("contact")}</p>
                             <p className='contactP'>Dinnia Madriz</p>
-                            <a href='mailto:'>
+                            <a href='mailto:dinnia.madriz@tycoon.m'>
                                 <p className='contactP'>dinnia.madriz@tycoon.mx</p>
                             </a>
                         </PaisContacto>

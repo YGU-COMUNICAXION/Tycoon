@@ -35,10 +35,10 @@ module.exports = {
             getLanguageFromPath: true,
             excludeLanguages: ["es"],
           },
-          // {
-          //   matchPath: "/preview",
-          //   languages: ["en"],
-          // },
+          {
+            matchPath: "/preview",
+            languages: ["en"],
+          },
         ],
       },
     },

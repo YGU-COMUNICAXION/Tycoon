@@ -26,7 +26,7 @@
     }
     .redName{
         font-size: 10px;
-        margin: 10% 0%;
+        margin: 10.4px 0px;
     }
 }
 @media only screen and (min-width: 1000px) {
@@ -35,27 +35,27 @@
     }
     .redName{
         font-size: 15px;
-        margin: 12% 0%;
+        margin: 14.2px 0px;
     }
 }
 @media only screen and (min-width: 1300px) {
     .redName{
-        margin: 10% 0%;
+        margin: 13.9px 0px;
     }
 }
 @media only screen and (min-width: 1500px) {
     .redLogo {
         width: 17%;
     }
-    .redName{
+    .redName {
         font-size: 17px;
-        margin: 12% 0%;
+        margin: 16.9px 0px;
 
     }
 }
 @media only screen and (min-width: 2000px) {
     .redName{
         font-size: 19px;
-        margin: 10% 0%;
+        margin: 14.6px 0px;
     }
 }

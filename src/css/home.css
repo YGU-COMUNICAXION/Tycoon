@@ -255,6 +255,11 @@ body {
         margin-top: 80px;
     }
 }
+@media only screen and (Min-width: 1700px) {
+    .secondSectionButtonDiv {
+        margin-top: 7%;
+    }
+}
 @media only screen and (min-width: 2000px) {
     /* .homeFirstSectionDesk {
         height: 1300px;
