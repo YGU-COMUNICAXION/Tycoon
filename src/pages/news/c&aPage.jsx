@@ -6,7 +6,7 @@ import "../../css/news/ca.css";
 import NoticiasRecientes from "../../components/noticias-recientes";
 import useWindowSize from '../../hooks/useWindowSize';
 import SingleNews from '../../components/singleNews';
-import CaBanner from "../../images/desktop/noticias/c&a/caBanner.png"
+import CaBanner from "../../images/desktop/noticias/c&a/caBanner.webp"
 import Ca1 from "../../images/desktop/noticias/c&a/ca1.png"
 import Ca2 from "../../images/desktop/noticias/c&a/ca2.png"
 import Ca3 from "../../images/desktop/noticias/c&a/ca3.png"

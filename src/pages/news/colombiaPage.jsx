@@ -6,7 +6,7 @@ import "../../css/news/warner.css";
 import NoticiasRecientes from "../../components/noticias-recientes";
 import useWindowSize from '../../hooks/useWindowSize';
 import SingleNews from '../../components/singleNews';
-import ColBanner from "../../images/desktop/noticias/colombia/colombiaBanner.png"
+import ColBanner from "../../images/desktop/noticias/colombia/colombiaBanner.webp"
 import Col1 from "../../images/desktop/noticias/colombia/colombia1.png"
 import Col2 from "../../images/desktop/noticias/colombia/colombia2.png"
 import Col3 from "../../images/desktop/noticias/colombia/colombia3.png"

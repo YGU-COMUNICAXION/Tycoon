@@ -6,7 +6,7 @@ import "../../css/news/cobra.css";
 import NoticiasRecientes from "../../components/noticias-recientes";
 import useWindowSize from '../../hooks/useWindowSize';
 import SingleNews from '../../components/singleNews';
-import CobraBanner from "../../images/desktop/noticias/cobra/bannercobra.png"
+import CobraBanner from "../../images/desktop/noticias/cobra/bannercobra.webp"
 import cobra1 from "../../images/desktop/noticias/cobra/foto1.png"
 import cobra2 from "../../images/desktop/noticias/cobra/foto2.png"
 import cobra3 from "../../images/desktop/noticias/cobra/foto3.png"
