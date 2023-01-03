@@ -25,7 +25,7 @@ const Header = () => {
         </Link>
         <div className="deskNav">
           <Link to="/">{t("home")}</Link>
-          <Link to="/aboutUs">{t("us")}</Link>
+          <Link to="/about-us">{t("us")}</Link>
           <Link to="/brands">{t("brands")}</Link>
           <Link to="/news">{t("news")}</Link>
           <Link to="/contact">{t("contact")}</Link>
@@ -62,7 +62,7 @@ const Header = () => {
       {nav ? (
         <div className="MobileNav">
             <Link to="/">{t("home")}</Link>
-            <Link to="/aboutUs">{t("us")}</Link>
+            <Link to="/about-us">{t("us")}</Link>
             <Link to="/brands">{t("brands")}</Link>
             <Link to="/news">{t("news")}</Link>
             <Link to="/contact">{t("contact")}</Link>

@@ -399,7 +399,7 @@ export default function NavMarcas() {
             <Link>
               <img src={Acer} alt=""/>
             </Link>
-            <Link to="/brands/fifaArg">
+            <Link to="/brands/fifa-Arg">
               <img src={Fifa} alt=""/> 
             </Link>
             <Link>
@@ -429,7 +429,7 @@ export default function NavMarcas() {
             <Link>
               <img src={FallGuys} alt=""/> 
             </Link>
-            <Link to="/brands/mgmArg">
+            <Link to="/brands/mgm-Arg">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -441,16 +441,16 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sanrioArg">
+            <Link to="/brands/sanrio-Arg">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyArg">
+            <Link to="/brands/sony-Arg">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaArg">
+            <Link to="/brands/vizmedia-Arg">
               <img src={Viz} alt=""/>
             </Link>
-            <Link to="/brands/warnerArg">
+            <Link to="/brands/warner-Arg">
               <img src={Wb} alt=""/>
             </Link>
           </div>
@@ -459,10 +459,10 @@ export default function NavMarcas() {
             {/* {Catalogo[0].argentina.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABGcelebsArg">
+            <Link to="/brands/ABG-celebs-Arg">
               <img src={Abg1} alt=""/>
             </Link>
-            <Link to="/brands/ABGfashionArg">
+            <Link to="/brands/ABG-fashion-Arg">
               <img src={Abg2} alt=""/>
             </Link>
           </div>
@@ -471,7 +471,7 @@ export default function NavMarcas() {
             {/* {Catalogo[0].argentina.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/fifaArg">
+            <Link to="/brands/fifa-Arg">
               <img src={Fifa} alt=""/> 
             </Link>
             <Link>
@@ -486,10 +486,10 @@ export default function NavMarcas() {
             {/* {Catalogo[0].argentina.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABGcelebsArg">
+            <Link to="/brands/ABG-celebs-Arg">
               <img src={Abg1} alt=""/>
             </Link>
-            <Link to="/brands/ABGfashionArg">
+            <Link to="/brands/ABG-fashion-Arg">
               <img src={Abg2} alt=""/>
             </Link>
             <Link>
@@ -504,7 +504,7 @@ export default function NavMarcas() {
             <Link>
               <img src={FallGuys} alt=""/>
             </Link>
-            <Link to="/brands/fifaArg">
+            <Link to="/brands/fifa-Arg">
               <img src={Fifa} alt=""/> 
             </Link>
             <Link>
@@ -519,7 +519,7 @@ export default function NavMarcas() {
             <Link>
               <img src={MasterChef} alt=""/>
             </Link>
-            <Link to="/brands/mgmArg">
+            <Link to="/brands/mgm-Arg">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -537,16 +537,16 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sanrioArg">
+            <Link to="/brands/sanrio-Arg">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyArg">
+            <Link to="/brands/sony-Arg">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaArg">
+            <Link to="/brands/vizmedia-Arg">
               <img src={Viz} alt=""/>
             </Link>
-            <Link to="/brands/warnerArg">
+            <Link to="/brands/warner-Arg">
               <img src={Wb} alt=""/>
             </Link>
           </div>
@@ -568,13 +568,13 @@ export default function NavMarcas() {
             <Link >
               <img src={Crayola} alt=""/>
             </Link>
-            <Link to="/brands/fifaMx">
+            <Link to="/brands/fifa-Mx">
               <img src={Fifa} alt=""/>
             </Link>
-            <Link to="/brands/hersheysMx">
+            <Link to="/brands/hersheys-Mx">
               <img src={Hersheys} alt=""/>
             </Link>
-            <Link to="/brands/kelloggsMx">
+            <Link to="/brands/kelloggs-Mx">
               <img src={Kellogs} alt=""/>
             </Link>
             <Link>
@@ -616,13 +616,13 @@ export default function NavMarcas() {
             <Link>
               <img src={Gears} alt=""/>
             </Link>
-            <Link to="/brands/kingFeaturesMx">
+            <Link to="/brands/king-Features-Mx">
               <img src={KingFeatures} alt=""/>
             </Link>
             <Link>
               <img src={Kodak} alt=""/>
             </Link>
-            <Link to="/brands/mgmMx">
+            <Link to="/brands/mgm-Mx">
               <img src={Mgm} alt=""/>
             </Link>
             <Link>
@@ -631,13 +631,13 @@ export default function NavMarcas() {
             <Link to="/brands/moonbug">
               <img src={Moonbug} alt=""/>
             </Link>
-            <Link to="/brands/sanrioMx">
+            <Link to="/brands/sanrio-Mx">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyMx">
+            <Link to="/brands/sony-Mx">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaMx">
+            <Link to="/brands/vizmedia-Mx">
               <img src={Viz} alt=""/>
             </Link>
           </div>
@@ -652,7 +652,7 @@ export default function NavMarcas() {
             <Link >
               <img src={Abg2} alt=""/>
             </Link>
-            <Link to="/brands/apexMx">
+            <Link to="/brands/apex-Mx">
               <img src={Apex} alt=""/>
             </Link>
             <Link >
@@ -670,7 +670,7 @@ export default function NavMarcas() {
             {/* {Catalogo[1].mexico.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/fifaMx">
+            <Link to="/brands/fifa-Mx">
               <img src={Fifa} alt=""/>
             </Link>  
             <Link >
@@ -703,7 +703,7 @@ export default function NavMarcas() {
             <Link >
               <img src={AnaEmilia} alt=""/>
             </Link>
-            <Link to="/brands/apexMx">
+            <Link to="/brands/apex-Mx">
               <img src={Apex} alt=""/>
             </Link>
             <Link >
@@ -727,7 +727,7 @@ export default function NavMarcas() {
             <Link >
               <img src={Barcelona} alt=""/>
             </Link>
-            <Link to="/brands/fifaMx">
+            <Link to="/brands/fifa-Mx">
               <img src={Fifa} alt=""/>
             </Link>
             <Link >
@@ -745,7 +745,7 @@ export default function NavMarcas() {
             <Link to="/brands">
               <img src={Hersheys} alt=""/>
             </Link>
-            <Link to="/brands/kelloggsMx">
+            <Link to="/brands/kelloggs-Mx">
               <img src={Kellogs} alt=""/>
             </Link>
             <Link to="/brands">
@@ -757,7 +757,7 @@ export default function NavMarcas() {
             <Link to="/brands/pepsico">
               <img src={Pepsico} alt=""/>
             </Link>
-            <Link to="/brands/mgmMX">
+            <Link to="/brands/mgm-MX">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -772,13 +772,13 @@ export default function NavMarcas() {
             <Link >
               <img src={Playmobil} alt=""/>
             </Link>
-            <Link to="/brands/sanrioMx">
+            <Link to="/brands/sanrio-Mx">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyMx">
+            <Link to="/brands/sony-Mx">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaMx">
+            <Link to="/brands/vizmedia-Mx">
               <img src={Viz} alt=""/>
             </Link>
           </div>
@@ -794,7 +794,7 @@ export default function NavMarcas() {
             <Link >
               <img src={Acer} alt=""/>
             </Link>
-            <Link to="/brands/fifaBz">
+            <Link to="/brands/fifa-Bz">
               <img src={Fifa} alt=""/>
             </Link>
             <Link >
@@ -809,7 +809,7 @@ export default function NavMarcas() {
             {/* {Catalogo[2].brasil.entretenimiento.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/activisionBz">
+            <Link to="/brands/activision-Bz">
               <img src={Activision} alt=""/>
             </Link>
             <Link >
@@ -824,13 +824,13 @@ export default function NavMarcas() {
             <Link >
               <img src={FallGuys} alt=""/>
             </Link>
-            <Link to="/brands/hasbroBz">
+            <Link to="/brands/hasbro-Bz">
               <img src={Hasbro} alt=""/>
             </Link>
             <Link >
               <img src={Kodak} alt=""/>
             </Link>
-            <Link to="/brands/mgmBz">
+            <Link to="/brands/mgm-Bz">
               <img src={Mgm} alt=""/>
             </Link>
             <Link >
@@ -863,7 +863,7 @@ export default function NavMarcas() {
             {/* {Catalogo[2].brasil.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/fifaBz">
+            <Link to="/brands/fifa-Bz">
               <img src={Fifa} alt=""/>
             </Link>
           </div>
@@ -881,7 +881,7 @@ export default function NavMarcas() {
             <Link >
               <img src={Acer} alt=""/>
             </Link>
-            <Link to="/brands/activisionBz">
+            <Link to="/brands/activision-Bz">
               <img src={Activision} alt=""/>
             </Link>
             <Link >
@@ -896,10 +896,10 @@ export default function NavMarcas() {
             <Link >
               <img src={FallGuys} alt=""/>
             </Link>
-            <Link to="/brands/fifaBz">
+            <Link to="/brands/fifa-Bz">
               <img src={Fifa} alt=""/>
             </Link>
-            <Link to="/brands/hasbroBz">
+            <Link to="/brands/hasbro-Bz">
               <img src={Hasbro} alt=""/>
             </Link>
             <Link>
@@ -908,7 +908,7 @@ export default function NavMarcas() {
             <Link>
               <img src={Kodak} alt=""/>
             </Link>
-            <Link to="/brands/mgmBz">
+            <Link to="/brands/mgm-Bz">
               <img src={Mgm} alt=""/>
             </Link>
             <Link>
@@ -975,7 +975,7 @@ export default function NavMarcas() {
             <Link>
               <img src={Kodak} alt=""/>
             </Link>
-            <Link to="/brands/mgmCh">
+            <Link to="/brands/mgm-Ch">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -987,19 +987,19 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sanrioCh">
+            <Link to="/brands/sanrio-Ch">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyCh">
+            <Link to="/brands/sony-Ch">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/universalCh">
+            <Link to="/brands/universal-Ch">
               <img src={Universal} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaCh">
+            <Link to="/brands/vizmedia-Ch">
               <img src={Viz} alt=""/>
             </Link>
-            <Link to="/brands/universalCh">
+            <Link to="/brands/universal-Ch">
               <img src={Wb} alt=""/>
             </Link>
           </div>
@@ -1008,10 +1008,10 @@ export default function NavMarcas() {
             {/* {Catalogo[3].chile.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABGcelebsCh">
+            <Link to="/brands/ABG-celebs-Ch">
               <img src={Abg1} alt=""/>
             </Link>
-            <Link to="/brands/ABGfashionCh">
+            <Link to="/brands/ABG-fashion-Ch">
               <img src={Abg2} alt=""/>
             </Link>
           </div>
@@ -1035,10 +1035,10 @@ export default function NavMarcas() {
             {/* {Catalogo[3].chile.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABGcelebsCh">
+            <Link to="/brands/ABG-celebs-Ch">
               <img src={Abg1} alt=""/>
             </Link>
-            <Link to="/brands/ABGfashionCh">
+            <Link to="/brands/ABG-fashion-Ch">
               <img src={Abg2} alt=""/>
             </Link>
             <Link>
@@ -1071,7 +1071,7 @@ export default function NavMarcas() {
             <Link>
               <img src={MasterChef} alt=""/>
             </Link>
-            <Link to="/brands/mgmCh">
+            <Link to="/brands/mgm-Ch">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -1092,19 +1092,19 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sanrioCh">
+            <Link to="/brands/sanrio-Ch">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyCh">
+            <Link to="/brands/sony-Ch">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/universalCh">
+            <Link to="/brands/universal-Ch">
               <img src={Universal} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaCh">
+            <Link to="/brands/vizmedia-Ch">
               <img src={Viz} alt=""/>
             </Link>
-            <Link to="/brands/warnerCh">
+            <Link to="/brands/warner-Ch">
               <img src={Wb} alt=""/>
             </Link>
             <Link>
@@ -1166,7 +1166,7 @@ export default function NavMarcas() {
             <Link>
               <img src={Kodak} alt=""/>
             </Link>
-            <Link to="/brands/mgmPe">
+            <Link to="/brands/mgm-Pe">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -1178,10 +1178,10 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sonyPe">
+            <Link to="/brands/sony-Pe">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaPe">
+            <Link to="/brands/vizmedia-Pe">
               <img src={Viz} alt=""/>
             </Link>
             <Link>
@@ -1193,10 +1193,10 @@ export default function NavMarcas() {
             {/* {Catalogo[4].peru.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABGcelebsPe">
+            <Link to="/brands/ABG-celebs-Pe">
               <img src={Abg1} alt=""/>
             </Link>
-            <Link to="/brands/ABGfashionPe">
+            <Link to="/brands/ABG-fashion-Pe">
               <img src={Abg2} alt=""/>
             </Link>
           </div>
@@ -1220,10 +1220,10 @@ export default function NavMarcas() {
             {/* {Catalogo[4].peru.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABGcelebsPe">
+            <Link to="/brands/ABG-celebs-Pe">
               <img src={Abg1} alt=""/>
             </Link>
-            <Link to="/brands/ABGfashionPe">
+            <Link to="/brands/ABG-fashion-Pe">
               <img src={Abg2} alt=""/>
             </Link>
             <Link>
@@ -1256,7 +1256,7 @@ export default function NavMarcas() {
             <Link>
               <img src={MasterChef} alt=""/>
             </Link>
-            <Link to="/brands/mgmPer">
+            <Link to="/brands/mgm-Per">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -1277,13 +1277,13 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sonyPe">
+            <Link to="/brands/sony-Pe">
               <img src={Sony} alt=""/>
             </Link>
             <Link>
               <img src={Universal} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaPe">
+            <Link to="/brands/vizmedia-Pe">
               <img src={Viz} alt=""/>
             </Link>
           </div>
@@ -1305,10 +1305,10 @@ export default function NavMarcas() {
             <Link>
               <img src={Crayola} alt=""/>
             </Link>
-            <Link to="/brands/fifaCAM">
+            <Link to="/brands/fifa-CAM">
               <img src={Fifa} alt=""/>
             </Link>
-            <Link to="/brands/hersheysCAM">
+            <Link to="/brands/hersheys-CAM">
               <img src={Hersheys} alt=""/>
             </Link>
             <Link>
@@ -1335,7 +1335,7 @@ export default function NavMarcas() {
             <Link>
               <img src={CareBears} alt=""/>
             </Link>
-            <Link to="/brands/distrollerCAM">
+            <Link to="/brands/distroller-CAM">
               <img src={Distroller} alt=""/>
             </Link>
             <Link>
@@ -1344,13 +1344,13 @@ export default function NavMarcas() {
             <Link>
               <img src={FallGuys} alt=""/>
             </Link>
-            <Link to="/brands/kingFeaturesCAM">
+            <Link to="/brands/king-Features-CAM">
               <img src={KingFeatures} alt=""/>
             </Link>
             <Link>
               <img src={Kodak} alt=""/>
             </Link>
-            <Link to="/brands/mgmCAM">
+            <Link to="/brands/mgm-CAM">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -1362,16 +1362,16 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sanrioCAM">
+            <Link to="/brands/sanrio-CAM">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyCAM">
+            <Link to="/brands/sony-CAM">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/universalCAM">
+            <Link to="/brands/universal-CAM">
               <img src={Universal} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaCAM">
+            <Link to="/brands/vizmedia-CAM">
               <img src={Viz} alt=""/>
             </Link>
           </div>
@@ -1392,7 +1392,7 @@ export default function NavMarcas() {
             {/* {Catalogo[5].centroAmerica.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/fifaCAM">
+            <Link to="/brands/fifa-CAM">
               <img src={Fifa} alt=""/>
             </Link>
             <Link>
@@ -1443,13 +1443,13 @@ export default function NavMarcas() {
             <Link>
               <img src={Barcelona} alt=""/>
             </Link>
-            <Link to="/brands/fifaCAM">
+            <Link to="/brands/fifa-CAM">
               <img src={Fifa} alt=""/>
             </Link>
-            <Link to="/brands/hersheysCAM">
+            <Link to="/brands/hersheys-CAM">
               <img src={Hersheys} alt=""/>
             </Link>
-            <Link to="/brands/kingFeatures/CAM">
+            <Link to="/brands/king-Features-CAM">
               <img src={KingFeatures} alt=""/>
             </Link>
             <Link>
@@ -1458,7 +1458,7 @@ export default function NavMarcas() {
             <Link>
               <img src={MasterChef} alt=""/>
             </Link>
-            <Link to="/brands/mgmCAM">
+            <Link to="/brands/mgm-CAM">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -1479,16 +1479,16 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sanrioCAM">
+            <Link to="/brands/sanrio-CAM">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyCAM">
+            <Link to="/brands/sony-CAM">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/universalCAM">
+            <Link to="/brands/universal-CAM">
               <img src={Universal} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaCAM">
+            <Link to="/brands/vizmedia-CAM">
               <img src={Viz} alt=""/>
             </Link>
           </div>
@@ -1509,10 +1509,10 @@ export default function NavMarcas() {
             <Link>
               <img src={Crayola} alt=""/>
             </Link>
-            <Link to="/brands/fifaCol">
+            <Link to="/brands/fifa-Col">
               <img src={Fifa} alt=""/>
             </Link>
-            <Link to="/brands/hersheysCol">
+            <Link to="/brands/hersheys-Col">
               <img src={Hersheys} alt=""/>
             </Link>
             <Link>
@@ -1539,7 +1539,7 @@ export default function NavMarcas() {
             <Link>
               <img src={CareBears} alt=""/>
             </Link>
-            <Link to="/brands/distrollerCol">
+            <Link to="/brands/distroller-Col">
               <img src={Distroller} alt=""/>
             </Link>
             <Link>
@@ -1548,13 +1548,13 @@ export default function NavMarcas() {
             <Link>
               <img src={FreeFire} alt=""/>
             </Link>
-            <Link to="/brands/kingFeaturesCol">
+            <Link to="/brands/king-Features-Col">
               <img src={KingFeatures} alt=""/>
             </Link>
             <Link>
               <img src={Kodak} alt=""/>
             </Link>
-            <Link to="/brands/mgmCol">
+            <Link to="/brands/mgm-Col">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -1566,16 +1566,16 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sanrioCol">
+            <Link to="/brands/sanrio-Col">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyCol">
+            <Link to="/brands/sony-Col">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/universalCol">
+            <Link to="/brands/universal-Col">
               <img src={Universal} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaCol">
+            <Link to="/brands/vizmedia-Col">
               <img src={Viz} alt=""/>
             </Link>
           </div>
@@ -1596,7 +1596,7 @@ export default function NavMarcas() {
             {/* {Catalogo[6].colombia.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/fifaCol">
+            <Link to="/brands/fifa-Col">
               <img src={Fifa} alt=""/>
             </Link>
             <Link>
@@ -1644,16 +1644,16 @@ export default function NavMarcas() {
             <Link>
               <img src={Barcelona} alt=""/>
             </Link>
-            <Link to="/brands/fifaCol">
+            <Link to="/brands/fifa-Col">
               <img src={Fifa} alt=""/>
             </Link>
             <Link>
               <img src={FreeFire}/>
             </Link>
-            <Link to="/brands/hersheysCol">
+            <Link to="/brands/hersheys-Col">
               <img src={Hersheys} alt=""/>
             </Link>
-            <Link to="/brands/kingFeaturesCol">
+            <Link to="/brands/king-Features-Col">
               <img src={KingFeatures} alt=""/>
             </Link>
             <Link>
@@ -1662,7 +1662,7 @@ export default function NavMarcas() {
             <Link>
               <img src={MasterChef} alt=""/>
             </Link>
-            <Link to="/brands/mgmCol">
+            <Link to="/brands/mgm-Col">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -1683,16 +1683,16 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt=""/>
             </Link>
-            <Link to="/brands/sonrioCol">
+            <Link to="/brands/sonrio-Col">
               <img src={Samri} alt=""/>
             </Link>
-            <Link to="/brands/sonyCol">
+            <Link to="/brands/sony-Col">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/universalCol">
+            <Link to="/brands/universal-Col">
               <img src={Universal} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaCol">
+            <Link to="/brands/vizmedia-Col">
               <img src={Viz} alt=""/>
             </Link>
           </div>
@@ -1711,10 +1711,10 @@ export default function NavMarcas() {
             <Link>
               <img src={Crayola} alt=""/>
             </Link>
-            <Link to="/brands/fifaEc">
+            <Link to="/brands/fifa-Ec">
               <img src={Fifa} alt=""/>
             </Link>
-            <Link to="/brands/hersheysEc">
+            <Link to="/brands/hersheys-Ec">
               <img src={Hersheys} alt=""/>
             </Link>
             <Link>
@@ -1741,7 +1741,7 @@ export default function NavMarcas() {
             <Link>
               <img src={CareBears} alt=""/>
             </Link>
-            <Link to="/brands/distrollerEc">
+            <Link to="/brands/distroller-Ec">
               <img src={Distroller} alt=""/>
             </Link>
             <Link>
@@ -1750,13 +1750,13 @@ export default function NavMarcas() {
             <Link>
               <img src={FreeFire} alt=""/>
             </Link>
-            <Link to="/brands/kingfeaturesEc">
+            <Link to="/brands/king-features-Ec">
               <img src={KingFeatures} alt=""/>
             </Link>
             <Link>
               <img src={Kodak} alt=""/>
             </Link>
-            <Link to="/brands/mgmEc">
+            <Link to="/brands/mgm-Ec">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -1765,13 +1765,13 @@ export default function NavMarcas() {
             <Link to="/brands/moonbug">
               <img src={Moonbug} alt=""/>
             </Link>
-            <Link to="/brands/sonyEc">
+            <Link to="/brands/sony-Ec">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/universalEc">
+            <Link to="/brands/universal-Ec">
               <img src={Universal} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaEc">
+            <Link to="/brands/vizmedia-Ec">
               <img src={Viz} alt=""/>
             </Link>
           </div>
@@ -1792,7 +1792,7 @@ export default function NavMarcas() {
             {/* {Catalogo[7].ecuador.deportivas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/fifaEc">
+            <Link to="/brands/fifa-Ec">
               <img src={Fifa} alt=""/>
             </Link>
             <Link>
@@ -1837,16 +1837,16 @@ export default function NavMarcas() {
             <Link>
               <img src={Barcelona} alt=""/>
             </Link>
-            <Link to="/brands/fifaEc">
+            <Link to="/brands/fifa-Ec">
               <img src={Fifa} alt=""/>
             </Link>
             <Link>
               <img src={FreeFire}/>
             </Link>
-            <Link to="/brands/hersheysEc">
+            <Link to="/brands/hersheys-Ec">
               <img src={Hersheys} alt=""/>
             </Link>
-            <Link to="/brands/kingFeaturesEc">
+            <Link to="/brands/king-Features-Ec">
               <img src={KingFeatures} alt=""/>
             </Link>
             <Link>
@@ -1855,7 +1855,7 @@ export default function NavMarcas() {
             <Link>
               <img src={MasterChef} alt=""/>
             </Link>
-            <Link to="/brands/mgmEc">
+            <Link to="/brands/mgm-Ec">
               <img src={Mgm} alt=""/>
             </Link>
             <Link to="/brands/microsoft">
@@ -1873,13 +1873,13 @@ export default function NavMarcas() {
             <Link>
               <img src={Playmobil} alt=""/>
             </Link>
-            <Link to="/brands/sonyEc">
+            <Link to="/brands/sony-Ec">
               <img src={Sony} alt=""/>
             </Link>
-            <Link to="/brands/universalEc">
+            <Link to="/brands/universal-Ec">
               <img src={Universal} alt=""/>
             </Link>
-            <Link to="/brands/vizmediaEc">
+            <Link to="/brands/vizmedia-Ec">
               <img src={Viz} alt=""/>
             </Link>
           </div>

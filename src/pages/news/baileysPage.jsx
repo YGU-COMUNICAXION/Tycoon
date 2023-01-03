@@ -55,17 +55,17 @@ const BaileysPage = () => {
             <div className='singleRecent'>
                 <NoticiasRecientes>
                     <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate2")}>
-                        <Link to='/news/newintycoon'>
+                        <Link to='/news/nuevo-en-tycoon'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
                     <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate2")}>
-                        <Link to='/news/cobrakai'>
+                        <Link to='/news/cobra-kai'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
                     <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
-                        <Link to='/news/amongus'>
+                        <Link to='/news/among-us'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
@@ -108,17 +108,17 @@ const BaileysPage = () => {
             <div className='singleRecentDesk'>
                 <NoticiasRecientes>
                     <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate2")}>
-                        <Link to='/news/newintycoon'>
+                        <Link to='/news/nuevo-en-tycoon'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
                     <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate2")}>
-                        <Link to='/news/cobrakai'>
+                        <Link to='/news/cobra-kai'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
                     <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
-                        <Link to='/news/amongus'>
+                        <Link to='/news/among-us'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>

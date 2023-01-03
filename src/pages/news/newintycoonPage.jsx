@@ -60,17 +60,17 @@ const NewintycoonPage = () => {
           <div className='singleRecent'>
                 <NoticiasRecientes>
                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
-                        <Link to='/news/amongus'>
+                        <Link to='/news/among-us'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
                     <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-                        <Link to='/news/cobrakai'>
+                        <Link to='/news/cobra-kai'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
                     <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={t("CaminaKittyDATE")}>
-                        <Link to="/news/caminaEntreNubes">
+                        <Link to="/news/camina-entre-nubes">
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
@@ -131,17 +131,17 @@ const NewintycoonPage = () => {
           <div className='singleRecentDesk'>
                 <NoticiasRecientes>
                     <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
-                        <Link to='/news/amongus'>
+                        <Link to='/news/among-us'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
                     <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate2")}>
-                        <Link to='/news/cobrakai'>
+                        <Link to='/news/cobra-kai'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
                     <NoticiasCard image={CaminaKitty} title={t("CaminaKitty")} date={t("CaminaKittyDATE")}>
-                        <Link to="/news/caminaEntreNubes">
+                        <Link to="/news/camina-entre-nubes">
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>

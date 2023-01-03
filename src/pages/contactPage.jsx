@@ -71,7 +71,6 @@ const ContactPage = () => {
                         </select>
                         <textarea type="text" name='Mensaje' placeholder={t("message")} required/>
                         <div className='formButtonDiv'>
-                            {/* <Enviar buttonText={t("send")}/> */}
                             <button type="submit" className='buttonDiv'>
                                 {t("send")}
                             </button>
@@ -226,7 +225,6 @@ const ContactPage = () => {
                                 <button type="submit" className='buttonDiv'>
                                     {t("send")}
                                 </button>
-                                {/* <Enviar buttonText={t("send")}/> */}
                             </div>
                     </form>
                 </div>

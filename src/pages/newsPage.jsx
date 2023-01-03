@@ -26,17 +26,17 @@ const NewsPage = () => {
                             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                             <NoticiasRecientes>
                                 <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-                                    <Link to='/news/newintycoon'>
+                                    <Link to='/news/nuevo-en-tycoon'>
                                         <img src={Mas} className="mas"/>
                                     </Link>
                                 </NoticiasCard>
                                 <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-                                    <Link to='/news/cobrakai'>
+                                    <Link to='/news/cobra-kai'>
                                         <img src={Mas} className="mas"/>
                                     </Link>
                                 </NoticiasCard>
                                 <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-                                    <Link to='/news/amongus'>
+                                    <Link to='/news/among-us'>
                                         <img src={Mas} className="mas"/>
                                     </Link>
                                 </NoticiasCard>
@@ -54,17 +54,17 @@ const NewsPage = () => {
                             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                             <NoticiasRecientes>
                                 <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-                                    <Link to='/news/newintycoon'>
+                                    <Link to='/news/nuevo-en-tycoon'>
                                         <img src={Mas} className="mas"/>
                                     </Link>
                                 </NoticiasCard>
                                 <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-                                    <Link to='/news/cobrakai'>
+                                    <Link to='/news/cobra-kai'>
                                         <img src={Mas} className="mas"/>
                                     </Link>
                                 </NoticiasCard>
                                 <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-                                    <Link to='/news/amongus'>
+                                    <Link to='/news/among-us'>
                                         <img src={Mas} className="mas"/>
                                     </Link>
                                 </NoticiasCard>
