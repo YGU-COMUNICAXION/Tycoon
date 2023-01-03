@@ -223,7 +223,10 @@ const ContactPage = () => {
                                 </div>
                             </div>
                             <div className='formButtonDiv'>
-                                <Enviar buttonText={t("send")}/>
+                                <button type="submit" className='buttonDiv'>
+                                    {t("send")}
+                                </button>
+                                {/* <Enviar buttonText={t("send")}/> */}
                             </div>
                     </form>
                 </div>
