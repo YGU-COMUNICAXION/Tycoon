@@ -50,13 +50,13 @@ const ContactPage = () => {
                         action="https://formspree.io/f/xeqwjolb"
                         method="POST"
                     >
-                        <input type="text" name='' placeholder={t("fullName")}></input>
+                        <input type="text" name='' placeholder={t("fullName")} required></input>
                         <input type="text" name='' placeholder={t("charge")}></input>
                         <input type="text" name='' placeholder={t("company")}></input>
                         <input type="text" name='' placeholder={t("brandOfInterest")}></input>
                         <input type="text" name='' placeholder={t("product")}></input>
                         <input type="text" name='' placeholder={t("industry")}></input>
-                        <input type="text" name='' placeholder={t("email")}></input>
+                        <input type="text" name='' placeholder={t("email")} required></input>
                         <input type="text" name='' placeholder={t("phone")}></input>
                         <select type="text" name=''>
                             <option value="" className='opcion'>{t("territory")}</option>
@@ -69,7 +69,7 @@ const ContactPage = () => {
                             <option value="item7">{t("mexico")}</option>
                             <option value="item8">{t("peru")}</option>
                         </select>
-                        <textarea type="text" name='' placeholder={t("message")}/>
+                        <textarea type="text" name='' placeholder={t("message")} required/>
                         <div className='formButtonDiv'>
                             {/* <Enviar buttonText={t("send")}/> */}
                             <button type="submit" className='buttonDiv'>
@@ -198,10 +198,10 @@ const ContactPage = () => {
                     >
                             <div className='inputsDeskDiv'>
                                 <div className='formLeftDeskDiv'>
-                                    <input type="text" name='' placeholder={t("fullName")}></input>
+                                    <input type="text" name='' placeholder={t("fullName")} required></input>
                                     <input type="text" name='' placeholder={t("company")}></input>
                                     <input type="text" name='' placeholder={t("product")}></input>
-                                    <input type="text" name='' placeholder={t("email")}></input>
+                                    <input type="text" name='' placeholder={t("email")} required></input>
                                     <select type="text" name=''>
                                         <option value="">{t("territory")}</option>
                                         <option value="item1" className='opcion'>{t("argentina")}</option>
@@ -219,7 +219,7 @@ const ContactPage = () => {
                                     <input type="text" name='' placeholder={t("brandOfInterest")}></input>
                                     <input type="text" name='' placeholder={t("industry")}></input>
                                     <input type="text" name='' placeholder={t("phone")}></input>
-                                    <textarea type="text" name='' placeholder={t("message")}/>
+                                    <textarea type="text" name='' placeholder={t("message")} required/>
                                 </div>
                             </div>
                             <div className='formButtonDiv'>
