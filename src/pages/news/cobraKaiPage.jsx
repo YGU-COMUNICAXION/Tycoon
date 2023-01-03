@@ -49,12 +49,12 @@ const CobraPage = () => {
             </SingleNews>
             <div className='singleRecent'>
                 <NoticiasRecientes>
-                   <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                   <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
                         <Link to='/news/amongus'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
-                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate2")}>
                         <Link to='/news/newintycoon'>
                             <img src={Mas} className="mas"/>
                         </Link>
@@ -99,12 +99,12 @@ const CobraPage = () => {
             </SingleNews>
             <div className='singleRecentDesk'>
                 <NoticiasRecientes>
-                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
                         <Link to='/news/amongus'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
-                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate2")}>
                         <Link to='/news/newintycoon'>
                             <img src={Mas} className="mas"/>
                         </Link>
