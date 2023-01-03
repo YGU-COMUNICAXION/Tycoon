@@ -50,15 +50,15 @@ const ContactPage = () => {
                         action="https://formspree.io/f/xeqwjolb"
                         method="POST"
                     >
-                        <input type="text" name='' placeholder={t("fullName")} required></input>
-                        <input type="text" name='' placeholder={t("charge")}></input>
-                        <input type="text" name='' placeholder={t("company")}></input>
-                        <input type="text" name='' placeholder={t("brandOfInterest")}></input>
-                        <input type="text" name='' placeholder={t("product")}></input>
-                        <input type="text" name='' placeholder={t("industry")}></input>
-                        <input type="text" name='' placeholder={t("email")} required></input>
-                        <input type="text" name='' placeholder={t("phone")}></input>
-                        <select type="text" name=''>
+                        <input type="text" name='Nombre' placeholder={t("fullName")} required></input>
+                        <input type="text" name='Cargo' placeholder={t("charge")}></input>
+                        <input type="text" name='Compañía' placeholder={t("company")}></input>
+                        <input type="text" name='Marca de interés' placeholder={t("brandOfInterest")}></input>
+                        <input type="text" name='Producto' placeholder={t("product")}></input>
+                        <input type="text" name='Giro o industria' placeholder={t("industry")}></input>
+                        <input type="text" name='Mail' placeholder={t("email")} required></input>
+                        <input type="text" name='Teléfono' placeholder={t("phone")}></input>
+                        <select type="text" name='Territorio de interés'>
                             <option value="" className='opcion'>{t("territory")}</option>
                             <option value="item1">{t("argentina")}</option>
                             <option value="item2">{t("brazil")}</option>
@@ -69,7 +69,7 @@ const ContactPage = () => {
                             <option value="item7">{t("mexico")}</option>
                             <option value="item8">{t("peru")}</option>
                         </select>
-                        <textarea type="text" name='' placeholder={t("message")} required/>
+                        <textarea type="text" name='Mensaje' placeholder={t("message")} required/>
                         <div className='formButtonDiv'>
                             {/* <Enviar buttonText={t("send")}/> */}
                             <button type="submit" className='buttonDiv'>
@@ -198,11 +198,11 @@ const ContactPage = () => {
                     >
                             <div className='inputsDeskDiv'>
                                 <div className='formLeftDeskDiv'>
-                                    <input type="text" name='' placeholder={t("fullName")} required></input>
-                                    <input type="text" name='' placeholder={t("company")}></input>
-                                    <input type="text" name='' placeholder={t("product")}></input>
-                                    <input type="text" name='' placeholder={t("email")} required></input>
-                                    <select type="text" name=''>
+                                    <input type="text" name='Nombre' placeholder={t("fullName")} required></input>
+                                    <input type="text" name='Compañía' placeholder={t("company")}></input>
+                                    <input type="text" name='Producto' placeholder={t("product")}></input>
+                                    <input type="text" name='Mail' placeholder={t("email")} required></input>
+                                    <select type="text" name='Territorio de interés'>
                                         <option value="">{t("territory")}</option>
                                         <option value="item1" className='opcion'>{t("argentina")}</option>
                                         <option value="item2" className='opcion'>{t("brazil")}</option>
@@ -215,11 +215,11 @@ const ContactPage = () => {
                                     </select>
                                 </div>
                                 <div className='formRightDeskDiv'>
-                                    <input type="text" name='' placeholder={t("charge")}></input>
-                                    <input type="text" name='' placeholder={t("brandOfInterest")}></input>
-                                    <input type="text" name='' placeholder={t("industry")}></input>
-                                    <input type="text" name='' placeholder={t("phone")}></input>
-                                    <textarea type="text" name='' placeholder={t("message")} required/>
+                                    <input type="text" name='Cargo' placeholder={t("charge")}></input>
+                                    <input type="text" name='Marca de interés' placeholder={t("brandOfInterest")}></input>
+                                    <input type="text" name='Giro o industria' placeholder={t("industry")}></input>
+                                    <input type="text" name='Teléfono' placeholder={t("phone")}></input>
+                                    <textarea type="text" name='Mensaje' placeholder={t("message")} required/>
                                 </div>
                             </div>
                             <div className='formButtonDiv'>
