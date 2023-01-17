@@ -18,6 +18,13 @@ import Peru from "../images/mobile/layout/footer/paises/peru.png"
 import useWindowSize from '../hooks/useWindowSize';
 import Buscando from "../images/desktop/contacto/teEstamosbuscando.png"
 import styled from 'styled-components';
+import esBackground from "../images/mobile/contacto/bannerContactoEsp.png"
+import enBackground from "../images/desktop/contacto/PORTADA-CONTACT -eng..png"
+import esBackgroundDesk from "../images/desktop/contacto/banerContactoDeskEsp.png"
+import enBackgroundDesk from "../images/desktop/contacto/PORTADA-CONTACT -eng..png"
+
+const imgMap = {en: enBackground, es: esBackground}
+const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}
 
 const formLeftDeskDiv = styled.div`
 
@@ -26,12 +33,13 @@ const formLeftDeskDiv = styled.div`
 const ContactPage = () => {
     const { t } = useTranslation("contact");
     const windowSize = useWindowSize();
+    const { i18n } = useTranslation();
 
   return (
     <Layout>
        {windowSize < 752 ? (
         <div className='MainDiv'>
-            <div className='contactFirstSection'></div>
+            <div className='contactFirstSection' style={{backgroundImage:`url("${imgMap[i18n.language]}")`}}></div>
             <div className='contactSecondSection'>
                     <img src={Buscando} className="buscandote"/>
                 <h2 className='blueTitle'>{t("contactTitle")}</h2>
@@ -177,7 +185,7 @@ const ContactPage = () => {
         </div>
        ):(
         <div className='MainDivDesk'>
-            <div className='contactFirstSectionDesk'/>
+            <div className='contactFirstSectionDesk' style={{backgroundImage:`url("${imgMapDesk[i18n.language]}")`}}/>
             <div className='contactSecondSection'>
                 <img src={Buscando} className="buscandote"/>
                 <h2 className='blueTitle'>{t("contactTitle")}</h2>

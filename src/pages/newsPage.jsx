@@ -12,16 +12,24 @@ import Nuevo from "../images/mobile/noticias/noticiasRecientes/nuevo.png"
 import Cobra from "../images/mobile/noticias/noticiasRecientes/cobra.png"
 import Among from "../images/mobile/noticias/noticiasRecientes/among.png"
 import Mas from "../images/mobile/noticiasCard/botón-mas.png"
+import esBackground from "../images/mobile/noticias/bannerNoticiasEsp.png"
+import enBackground from "../images/desktop/noticias/PORTADA-NEWS -eng..png"
+import esBackgroundDesk from "../images/desktop/noticias/portadaNoticiasDeskEsp.png"
+import enBackgroundDesk from "../images/desktop/noticias/PORTADA-NEWS -eng..png"
+
+const imgMap = {en: enBackground, es: esBackground}
+const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}
 
 const NewsPage = () => {
     const { t } = useTranslation("news");
     const windowSize = useWindowSize();
+    const { i18n } = useTranslation();
 
     return (
         <Layout>
                 {windowSize < 752 ? (
                     <div className="MainDiv">
-                        <div className="newsFirstSection"></div>
+                        <div className="newsFirstSection" style={{backgroundImage:`url("${imgMap[i18n.language]}")`}}></div>
                         <div className="newsSecondSection">
                             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                             <NoticiasRecientes>
@@ -49,7 +57,7 @@ const NewsPage = () => {
                     </div>
                 ):(
                     <div className="MainDivDesk">
-                        <div className="newsFirstSectionDesk"/>
+                        <div className="newsFirstSectionDesk" style={{backgroundImage:`url("${imgMapDesk[i18n.language]}")`}}/>
                         <div className="newsSecondSection">
                             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                             <NoticiasRecientes>

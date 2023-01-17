@@ -1,5 +1,5 @@
 .brandsFirstSection {
-    background-image: url("../images/mobile/marcas/bannerMarcasEsp.png");
+    /* background-image: url("../images/mobile/marcas/bannerMarcasEsp.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -17,7 +17,7 @@ body {
     overflow-x: hidden;
 }
 .brandsFirstSectionDesk {
-    background-image: url("../images/mobile/marcas/bannerMarcasEspDesk.png");
+    /* background-image: url("../images/mobile/marcas/bannerMarcasEspDesk.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
