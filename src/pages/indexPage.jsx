@@ -14,17 +14,28 @@ import Cobra from "../images/mobile/noticias/noticiasRecientes/cobra.png"
 import Among from "../images/mobile/noticias/noticiasRecientes/among.png"
 import Mas from "../images/mobile/noticiasCard/botón-mas.png"
 import useGeo from "../hooks/useGeo";
+import esBackground from "../images/mobile/home/bannerHomeEsp.png"
+import enBackground from "../images/mobile/home/PORTADA-HOME-INGLES-MOBILE.png"
+import esBackgroundDesk from "../images/desktop/home/bannerHomeEsp.png"
+import enBackgroundDesk from "../images/desktop/home/PORTADA-HOME-INGLES-DESKTOP.png"
+
+const imgMap = {en: enBackground, es: esBackground}
+const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}
+
 
 const IndexPage = () => {
   const { t } = useTranslation("home");
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const windowSize = useWindowSize();
   const geo = useGeo();  
 
+  console.log(i18n.language)
   return (
     <Layout>
     {windowSize < 752 ? (
       <div className="MainDiv">
-        <div className="homeFirstSection">
+        <div className="homeFirstSection" style={{backgroundImage:`url("${imgMap[i18n.language]}")`}}>
         </div>
         <div className="homeSecondSection">
             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
@@ -62,10 +73,7 @@ const IndexPage = () => {
       </div>
     ):(
       <div className="MainDivDesk">
-        <div className="homeFirstSectionDesk">
-          {/* <div className="bannerTextHome">
-            <h1>{t("homeBanner")}</h1>
-          </div> */}
+        <div className="homeFirstSectionDesk" style={{backgroundImage:`url("${imgMapDesk[i18n.language]}")`}}>
         </div>
         <div className="homeSecondSectionDesk">
             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>

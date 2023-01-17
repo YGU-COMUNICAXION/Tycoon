@@ -14,7 +14,7 @@ body {
     cursor: pointer;
 }
 .homeFirstSection {
-    background-image: url("../images/mobile/home/bannerHomeEsp.png");
+    /* background-image: url("../images/mobile/home/bannerHomeEsp.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -98,7 +98,7 @@ body {
 /* CLASES DESKTOP */
 
 .homeFirstSectionDesk {
-    background-image: url("../images/desktop/home/bannerHomeEsp.png");
+    /* background-image: url("../images/desktop/home/bannerHomeEsp.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

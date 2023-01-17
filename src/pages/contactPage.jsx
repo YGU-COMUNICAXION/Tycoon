@@ -80,8 +80,9 @@ const ContactPage = () => {
                 <div className='interestBZDiv'>
                     <p className='smallP'>{t("interestBZ")}</p>
                 </div>
-                <img src={Tycoon360} className="tycoon360"/>
-            </div>
+                <a href='http://www.tycoon360.com.br/' className='tycoon360Link'>
+                    <img src={Tycoon360} className="tycoon360"/>
+                </a>            </div>
             <div className='contactThirdSection'>
                 <h2 className='sectionTitle' id="contArg" >{renderStringHMTLtoJSX(t("whereTitle"))}</h2>
                 <div id="contBz">
@@ -240,7 +241,7 @@ const ContactPage = () => {
                 <div className='contacitoPaisCardsWrapper'>
                     <div className='contactoPaisRow'>
                         <PaisContacto pais={t("argentina")} image={Argentina}>
-                            <p className='contactP'>+(54) 91165341346</p>
+                            <p className='contactP'>+54 91165341346</p>
                             <p className='contactSubtitle'>{t("contact")}</p>
                             <p className='contactP'>Eleonora Parodi</p>
                             <a href='mailto:eleonora.parodi@tycoon.mx'>
