@@ -88,7 +88,7 @@ const IndexPage = () => {
                   <img src={Mas} className="mas"/>
                 </Link>
               </NoticiasCard>
-              <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
+              <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
                 <Link to='/news/among-us'>
                   <img src={Mas} className="mas"/>
                 </Link>
