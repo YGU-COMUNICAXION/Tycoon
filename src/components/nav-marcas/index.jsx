@@ -212,7 +212,7 @@ const StyledNavMarcas = styled.div`
           height: 50px;
           font-size: 24px;
           :nth-child(3) {
-            width: 400px;
+            width: 480px;
           }
           :first-child {
             border-radius: 4px 0 0 4px;
