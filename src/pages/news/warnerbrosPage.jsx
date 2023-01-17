@@ -48,17 +48,17 @@ const WarnerPage = () => {
             <div className='singleRecent'>ç
                 <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                 <NoticiasRecientes>
-                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate2")}>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
                         <Link to='/news/nuevo-en-tycoon'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
-                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate2")}>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
                         <Link to='/news/cobra-kai'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
-                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
                         <Link to='/news/among-us'>
                             <img src={Mas} className="mas"/>
                         </Link>
@@ -97,17 +97,17 @@ const WarnerPage = () => {
             <div className='singleRecentDesk'>
                 <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                 <NoticiasRecientes>
-                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate2")}>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
                         <Link to='/news/newintycoon'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
-                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate2")}>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
                         <Link to='/news/cobrakai'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
-                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
                         <Link to='/news/amongus'>
                             <img src={Mas} className="mas"/>
                         </Link>

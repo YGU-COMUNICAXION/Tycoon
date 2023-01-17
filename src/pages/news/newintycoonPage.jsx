@@ -59,7 +59,7 @@ const NewintycoonPage = () => {
           </SingleNews>
           <div className='singleRecent'>
                 <NoticiasRecientes>
-                   <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
+                   <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
                         <Link to='/news/among-us'>
                             <img src={Mas} className="mas"/>
                         </Link>
@@ -130,12 +130,12 @@ const NewintycoonPage = () => {
           </SingleNews>
           <div className='singleRecentDesk'>
                 <NoticiasRecientes>
-                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate2")}>
+                    <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
                         <Link to='/news/among-us'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
-                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate2")}>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
                         <Link to='/news/cobra-kai'>
                             <img src={Mas} className="mas"/>
                         </Link>

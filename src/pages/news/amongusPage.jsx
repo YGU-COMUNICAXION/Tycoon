@@ -41,12 +41,12 @@ const AmongusPage = () => {
             </SingleNews>
             <div className='singleRecent'>
                 <NoticiasRecientes>
-                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate2")}>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
                         <Link to='/news/nuevo-en-tycoon'>
                             <img src={Mas} className="mas"/>
                         </Link>
                     </NoticiasCard>
-                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate2")}>
+                    <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
                         <Link to='/news/cobra-kai'>
                             <img src={Mas} className="mas"/>
                         </Link>
@@ -87,7 +87,7 @@ const AmongusPage = () => {
             </SingleNews>
             <div className='singleRecentDesk'>
                 <NoticiasRecientes>
-                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate2")}>
+                    <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
                         <Link to='/news/nuevo-en-tycoon'>
                             <img src={Mas} className="mas"/>
                         </Link>
