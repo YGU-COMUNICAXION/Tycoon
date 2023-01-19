@@ -22,7 +22,7 @@
 }
 @media only screen and (min-width: 752px) {
     .redLogo {
-        width: 15%;
+        width: 15px;
     }
     .redName{
         font-size: 10px;

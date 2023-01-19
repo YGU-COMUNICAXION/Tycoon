@@ -35,13 +35,19 @@
 
 }
 @media only screen and (min-width: 752px) {
+
     .paisContactName {
         font-size: 18px;
     }
     .paisContactoDiv {
         /* margin-top: 0%; */
-        margin: 0% 1% 1%;
-        width: 20%;
+        margin: 0% 2% 1%;
+        width: 142px;
+        justify-content: left;
+        position: relative;
+    }
+    .cardInfoDiv {
+        width: 100%;
     }
     .contactP {
         font-size: 10px;
@@ -55,9 +61,16 @@
     .paisContactoDiv img {
         margin-top: 12%;
         width: 43%;
+        position: absolute;
+        right: 5%;
     }
 }
 @media only screen and (min-width: 1000px) {
+    .paisContactoDiv {
+
+        margin: 0% 2% 1%;
+        width: 192px;
+    }
     .paisContactName {
         font-family: "B semiBold";
         font-size: 22px;
@@ -72,6 +85,11 @@
     }
 }
 @media only screen and (min-width: 1500px) {
+    .paisContactoDiv {
+
+        margin: 0% 2% 1%;
+        width: 302px;
+    }
     .paisContactName {
         font-family: "B semiBold";
         font-size: 35px;
