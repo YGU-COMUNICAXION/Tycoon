@@ -110,74 +110,74 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={HelloKitty22} title={t("HelloKitty22")} date={t("HelloKitty22DATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/100064083333464/posts/pfbid0vXAWbR918VjZR4coGjXEbxMS3kfvySZFoPWTBm3T3mckNRw5YrHgiBDSznB5MCdnl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CkbdKUMO-42/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-hellokitty-activity-6993283708149497856-uG9N?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={PinkPantherLanza} title={t("PinkPantherLanza")} date={t("PinkPantherLanzaDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/100064083333464/posts/pfbid0ectJotQH3qpCZFJkWcmTSVWdajv5s6jz5vZft7uYfrvVVWnUDDMPJUEQ5Ke5iRbvl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CkRD3zMt5hU/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={PlayerasHoodies} title={t("PlayerasHoodies")} date={t("PlayerasHoodiesDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02ZPcDHrbyXz46CXuikfuitPb1U8HQNKTJ3La7QBM9EiKLxasmjXSuouYqniaU1Y6Ul/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CkG5rWKJCYd/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={PonteRosa} title={t("PonteRosa")} date={t("PonteRosaDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0scYXYVpyjAvPNYNG9mmKYRzYZeA1gLiouyDpUTZvjGxmXEZhC1MafCjMADcoXrVZl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cj6Aj_rt081/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_favordetocar-pinkpanther-fundaciaejncima-activity-6988617406994599936-WkQb?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={ColeccionXbox} title={t("ColeccionXbox")} date={t("ColeccionXboxDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02FuhemXHSPg6JJqbDp8hfUTK866ABVWcDZtVujLNhdM8hJTxr76zxEPpiRJgcnhHNl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cj091b0MQ-N/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={AutoExploracion} title={t("AutoExploracion")} date={t("AutoExploracionDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02bGvjUj6NqGnyrtvVgHp7Vuq1o2SaeQzGNuShZBxQqSS9BEovSfVwXg2z98b943ewl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cj08sXFsdm8/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                         </>
@@ -186,74 +186,74 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={CausaRosa} title={t("CausaRosa")} date={t("CausaRosaDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0voSJdcbRTYiKMAUyNrVS1gJN9wAgXV8uvD2mhNyxoAHbbLFw5qt9WjeyxaM1zTrXl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CjtZI8VvU8A/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={Koaj2022} title={t("Koaj2022")} date={t("Koaj2022DATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02yMXQFD7etkTzjP5kWpwE7LNk8d355qBWtVMsgep9rFJzMtotJX92zuLcDjFrgR7cl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cji82XAshXd/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={VianneyXbox} title={t("VianneyXbox")} date={t("VianneyXboxDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0NvjCWrSY1ybW7pns6rGbjzCyNrszV9fUAD2Q2DPyeBTMAWypnsTfQeuNyfLohdqRl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CjRH5j3MNvr/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={PopeyeKOAJ} title={t("PopeyeKOAJ")} date={t("PopeyeKOAJDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0x5GDQco52ykd7PgKBgKUYVxYUJL9eKGEWQvJLdnuLfd3WH2Fjsgx7dW4Lym732efl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cif_nHCvpXU/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div> 
                             <div className='noticiasRow'>
                                 <NoticiasCard image={ArgentinaAmong} title={t("ArgentinaAmong")} date={t("ArgentinaAmongDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0WsvU6ignXFqB7QHd6EVob3ZhrV65W6BCfXYcqfNBKzrUrHkzGhcAgFNTssdu7Sd7l/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cia2AwToL5V/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={KaratePeru} title={t("KaratePeru")} date={t("KaratePeruDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0gywiEEbS9p53AK1jj26coJUEVT6eeBjcUH5ZgREyKBjYDRhEYiuHew5Qtp3FyiqWl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CiTHoQ7pR51/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                         </>
@@ -262,74 +262,74 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={AnaEmilia} title={t("AnaEmilia")} date={t("AnaEmiliaDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02WzFnqFZYwLKp9au4cGHcjwCCuyXKyAVFLw8jLGTBynyzDGFqAL3pixbPBa4rHqbql/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CiQMiwYO5Si/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={Amarillo} title={t("Amarillo")} date={t("AmarilloDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0CvVfg5XwbAEXTHDqLnGZE1vYkkLv99tu4S5ZzVPabXyKvuKoTQKbECuKriFdBG2xl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CiI0dwWIcps/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={CampañaChile} title={t("CampañaChile")} date={t("CampañaChileDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02uTTdqgpBAsPsQbgka4jTgRpcqQo8L9TgjBvRBcsw26KW7TyTDuWPNytxsSj1TnK4l/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CiBGEcrsTSN/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-minions-activity-6978739835985391616-RcLY?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={DunkinMinions} title={t("DunkinMinions")} date={t("DunkinMinionsDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02p66sTt4iPYcwDVuNDeavt6wqKM87gwaWCNyZPSfk8RUBb5k7Mgm2rutewV8hXFq7l/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Ch78fQNNZjM/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-licensing-activity-6973340365248430080-Z8Mp?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                             </div> 
                             <div className='noticiasRow'>
                                 <NoticiasCard image={Minione} title={t("Minione")} date={t("MinioneDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0LhyCBucFU8htReKK5VP6ZnoxKPwdev8oWU4TCAEmyWUhzNDzb3G39iAhFZq9ArsYl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Ch2y5xbIdOJ/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={Narutomx} title={t("Narutomx")} date={t("NarutomxDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02DV3CHFYcp4Hqz2U83cVs6w4bccEEoZkX8LpVdhYydyjq6ssyvQ4xs18GXfkFbZpCl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/ChvEgZtpnko/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                         </>
@@ -338,72 +338,72 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={atunMinion} title={t("atunMinion")} date={t("atunMinionDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid06SNjJ6E8HWWWRjMzYh84Pds2QbBGXKnFqW3kEW5Nn65vaEyqRdA88fy1d6KEfSiKl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Chp66T3pdDc/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-minions-activity-6970414912565059585-L0mr?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={LolyColeccion} title={t("LolyColeccion")} date={t("LolyColeccionDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0QB2TNFiSSEtcBHBQyzUUYcezomTiTKWeCX1T4oYBc9uvVsjnW9bPoSoPnP8R7BeXl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/ChkPYUVOMlq/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-lolyintheskyxbt21-activity-6968715080104361984-Wz5M?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={SaborHer} title={t("SaborHer")} date={t("SaborHerDATE")}>
-                                    <a>
+                                    <a href='' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/ChF4WdJljwa/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-hersheys-activity-6965444258740785152-y7Ae?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={BebidaJurasic} title={t("BebidaJurasic")} date={t("BebidaJurasicDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0sjkaose6zuRekeKrZczt4NiyYRfgR7rTapXvzBUxr9dQtXmBcRrxwpesVNTBuVmUl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/ChBQhWkhaFb/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-raptor-activity-6963916254524956672-kYIc?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                             </div> 
                             <div className='noticiasRow'>
                                 <NoticiasCard image={HarryWal} title={t("HarryWal")} date={t("HarryWalDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0TEGpDx1ZLtFkLRvm1v6P1nA337Jhj228Two3HvoJ73G7HPcNCaTWhFLukvvtXjMml/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cg4_zWLPT5G/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-harrypotter-activity-6963212677556924416-REuw?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={Olive} title={t("Olive")} date={t("OliveDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02tuTk7YKJzqM8Rb8Hit4dPmHHViiJvHmVR9y4wpMXSoWxPZ8w1bKazYK1T6h5q9JRl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cg0YjH7MAch/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-oliveoyl-activity-6961002306821656577-ZD09?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
@@ -414,72 +414,72 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={CrayolaMayo} title={t("CrayolaMayo")} date={t("CrayolaMayoDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0mSfRXbCdJTFnznD9EGesSgf8j6CCtYU47MM4HNxkvYPBg7NjxefTrruFtEv3b9qcl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CgkZctwvdgV/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-crayola-activity-6958832365204905984-LQaO?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={Tycum} title={t("Tycum")} date={t("TycumDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02mi4V2wigmUmBDvmQZ6Qjw7bc9319t5x3JPAvARhMH5CCjEcq9BkfEaKLWQkQe4sZl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CgfCCLLOWk-/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoon-soytycoon-licensing-activity-6957757894230487040-ZRJR?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={Unwind} title={t("Unwind")} date={t("UnwindDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0299du4i9Rhmdr6m2LsHA2NwpYNYKq7AXRDnMabPnJBaHFBUfC8CPewRjj2ct2g8V1l/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CgcysEmMMGE/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-pinkpanther-activity-6957440739194671104-gw6r?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={HaloChamp} title={t("HaloChamp")} date={t("HaloChampDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02NDt9sqGfNfxNRmLUaSMVek3b8w7uVvRuUAAiJZnG1rso1jRF3R89STx4sr6icqFnl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CgVhDKxu1uI/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div> 
                             <div className='noticiasRow'>
                                 <NoticiasCard image={JurasicLatam} title={t("JurasicLatam")} date={t("JurasicLatamDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02rEiBF8DZfBvXmqWDxQKuCn1J8AqXgCua2C7XSRKMvwdhfcHkg7jZkQaewiz7zGvbl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CgCkrT-O9vw/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={PumaFrida} title={t("PumaFrida")} date={t("PumaFridaDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02txX6qDSzzRqhTDL9THS5xsDhwyJSrsDhTEjKa6G3BAMN5RR1KmTptKcYMvjat7Sxl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cf4yo7WNv9Z/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-hersheys-activity-6952378119513133057-J9zH?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
@@ -490,74 +490,74 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={Fridacien} title={t("Fridacien")} date={t("FridacienDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02ucCNTuC9SUptvohM2XGxjhaDuaMvUhnfPeUP6p7LNjGbwmBNgVSRMUg3UZiTxcTXl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CfsAUlfuebs/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={AlpinaMinion} title={t("AlpinaMinion")} date={t("AlpinaMinionDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02XbkQF7rJewDmgDTxvWz1FPPPv7HVRe2Fs8UC8vDhmxNapsVVALuy1KdVMuitRCCVl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CfP8-jtJCIp/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={BleachPeru} title={t("BleachPeru")} date={t("BleachPeruDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0QxZnZXoMjEMjuQ88RXfDLcjKgf947gKnJGN5RJyJ2THJs5YoPnYp3vCTTuLxHuaWl/?mibextid=cr9u03               ' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CfAgM9KsEjz/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={JurasicLanza} title={t("JurasicLanza")} date={t("JurasicLanzaDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02c2wSBdteoemHEFKYznUdtT3wxE7J8JwibaraGoV7cfPW82cSYiVDgEVMdNmfpUu3l/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Ce7Wn56O3cV/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div> 
                             <div className='noticiasRow'>
                                 <NoticiasCard image={FelicidadesCo} title={t("FelicidadesCo")} date={t("FelicidadesCoDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0yvBQcGKXkRRoZdFu393VmpA5ghSxqXXW5xPmVLSuzeb7bb43rDdKudc5ScX1sAZAl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CezoOlOp-V4/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-cocomelon-activity-6942529816524992512-1XV4?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={HelloCo} title={t("HelloCo")} date={t("HelloCoDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0aX2T4Ub94Pzn8yx1zrK3Gr8P2ijCoANknCgK2roWTiERvcKnfEvrLqCgS2NySbkvl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CeoRqO2OSN2/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                         </>
@@ -566,74 +566,74 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={FelicidadesGhost} title={t("FelicidadesGhost")} date={t("FelicidadesGhostDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0iRvhc5z84vuZdNX9cgF89aauaGxPJEBbtHPRc9YHiajXsXxigqXwT3F2HE9b19q8l/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CejpNG0tJUt/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-ghostbusters-activity-6942126811824762880-5gOz?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={CerealHer} title={t("CerealHer")} date={t("CerealHerDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0vgtFfTJwkj9p7wi7ZGFLSfUNkEkWH8HcJoKKMb5SJBRnrUhGtUR9qhpUvwAVz2odl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CeCtsodvuz_/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={AnaEmiliaHBO} title={t("AnaEmiliaHBO")} date={t("AnaEmiliaHBODATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02VPyRoET6JV7BUQ5czw3qfXqU23prsK3HZ8VZhLA1QfR3b857JYziBGvg7n6iSNhHl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cd6_T0Zrx90/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={CarreraHello} title={t("CarreraHello")} date={t("CarreraHelloDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02Dt5i41o4hTxkG3CoYWKH14xbUDbVKdB2yfgwf6Wu9fhgMGPCzJdNhpEVTow97yB9l/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cdq-IhcOBt9/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div> 
                             <div className='noticiasRow'>
                                 <NoticiasCard image={MagiaHarry} title={t("MagiaHarry")} date={t("MagiaHarryDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid06yHJdSpM1k77tNti5Rz7pQYnpJ8aQgQiU96gZvmuHDNiTdkqjSg444cGEXpNbhTGl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CdeqkZ5BXbT/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={HalloPara} title={t("HalloPara")} date={t("HalloParaDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02t1Ufu54b6LKEnE1uBA6umDmdcvCs8BKQqfRfbBK2vbSrxxdsufrxV3FRmmn6aEgHl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CdWSOe9O9Gu/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                         </>
@@ -642,74 +642,74 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={BalleysMont} title={t("BalleysMont")} date={t("BalleysMontDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid033P1tgWjokTUnmCfDLBbYKAan7CUC1Z2j3HHX8Rew4AAyr2aM373gNqeX2wtreiE4l/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/Cc6nccBLHD_/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={ChupaShampoo} title={t("ChupaShampoo")} date={t("ChupaShampooDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02bAGM8N48CgrA2iyzyLVAP6C29QqoyisBR1UsnGLPp3K9JyNy9F4uvqXVBHTFW1Mbl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CcZAhX-BqTN/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-chupachups-activity-6922954450013741056-H8EU?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={TodosPodemos} title={t("TodosPodemos")} date={t("TodosPodemosDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0V4Y18P1NV823pzDJmmzcvWv6QjGWJVrBFmjGuSusB3DkZWHTJjPa4TSSSjuAx4rNl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CcOtVq_MHxo/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-masterchef-activity-6919768243876319233-WNUK?utm_source=share&utm_medium=member_desktop' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
                                     </a>
                                 </NoticiasCard>
                                 <NoticiasCard image={SerieHalo} title={t("SerieHalo")} date={t("SerieHaloDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0gZvDStC7kSWHeJiG27YAE4d8cYcNVdLDF99vziv5MBdge6prXtaRSqx22VCy1s3Pl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CbiqF7iMi4W/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div> 
                             <div className='noticiasRow'>
                                 <NoticiasCard image={deathNote} title={t("deathNote")} date={t("deathNoteDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0HyWKB58NFD2qQ63GGe2Tsjy1E8wBJWr8ATJqBF11Q39fPtxPXJSkmLgmZapqTAJcl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CbYCT3SBvqn/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={VansCrayola} title={t("VansCrayola")} date={t("VansCrayolaDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0NoQqJWWjf4GRmBAaz2wQsDfUfTmpLjvLPVYrcCWsxn3bFTJqoqv4FVb2TZCuai1ml/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CbOHKaYJPba/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                         </>
@@ -718,39 +718,39 @@ function NewsNav() {
                         <>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={Vikings} title={t("Vikings")} date={t("VikingsDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid037osu3BsjGnFHsu2TSMhcbSnnneKxAuRZA7oRWs6wADh7kmRvA9swjuK8RV9wYBAel/?mibextid=cr9u03' target="_blank"> 
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CbIcAirvKK-/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                                 <NoticiasCard image={DulzuraHello} title={t("DulzuraHello")} date={t("DulzuraHelloDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0eWDvTXN2R9YiHAs6qQ2fBicyjd9s2oHqD7C1EDfncyYQfDh3ttvaAHrU7SZ7qLBGl/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CZuyU7DlF8H/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div>
                             <div className='noticiasRow'>
                                 <NoticiasCard image={HelloCafe} title={t("HelloCafe")} date={t("HelloCafeDATE")}>
-                                    <a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid037yNzn4BDt4MMPCrvZTdpyjnr3H3h9F5VyHqAV3K2FYLEmCNBKi3Cn3QhXoQrRLBml/?mibextid=cr9u03' target="_blank">
                                         <img src={Facebook} className="mas"/>
                                     </a>
-                                    <a>
+                                    <a href='https://www.instagram.com/p/CZkMUC1MFVV/' target="_blank">
                                         <img src={Instagram} className="mas"/>
                                     </a>
-                                    <a>
+                                    {/* <a href='' target="_blank">
                                         <img src={LinkedIn} className="mas"/>       
-                                    </a>
+                                    </a> */}
                                 </NoticiasCard>
                             </div> 
                         </>
@@ -884,72 +884,72 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={HelloKitty22} title={t("HelloKitty22")} date={t("HelloKitty22DATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/100064083333464/posts/pfbid0vXAWbR918VjZR4coGjXEbxMS3kfvySZFoPWTBm3T3mckNRw5YrHgiBDSznB5MCdnl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CkbdKUMO-42/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-hellokitty-activity-6993283708149497856-uG9N?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={PinkPantherLanza} title={t("PinkPantherLanza")} date={t("PinkPantherLanzaDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/100064083333464/posts/pfbid0ectJotQH3qpCZFJkWcmTSVWdajv5s6jz5vZft7uYfrvVVWnUDDMPJUEQ5Ke5iRbvl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CkRD3zMt5hU/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={PlayerasHoodies} title={t("PlayerasHoodies")} date={t("PlayerasHoodiesDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02ZPcDHrbyXz46CXuikfuitPb1U8HQNKTJ3La7QBM9EiKLxasmjXSuouYqniaU1Y6Ul/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CkG5rWKJCYd/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
                             <NoticiasCard image={PonteRosa} title={t("PonteRosa")} date={t("PonteRosaDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0scYXYVpyjAvPNYNG9mmKYRzYZeA1gLiouyDpUTZvjGxmXEZhC1MafCjMADcoXrVZl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cj6Aj_rt081/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_favordetocar-pinkpanther-fundaciaejncima-activity-6988617406994599936-WkQb?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={ColeccionXbox} title={t("ColeccionXbox")} date={t("ColeccionXboxDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02FuhemXHSPg6JJqbDp8hfUTK866ABVWcDZtVujLNhdM8hJTxr76zxEPpiRJgcnhHNl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cj091b0MQ-N/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={AutoExploracion} title={t("AutoExploracion")} date={t("AutoExploracionDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02bGvjUj6NqGnyrtvVgHp7Vuq1o2SaeQzGNuShZBxQqSS9BEovSfVwXg2z98b943ewl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cj08sXFsdm8/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div>
 
@@ -959,72 +959,72 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={CausaRosa} title={t("CausaRosa")} date={t("CausaRosaDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0voSJdcbRTYiKMAUyNrVS1gJN9wAgXV8uvD2mhNyxoAHbbLFw5qt9WjeyxaM1zTrXl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CjtZI8VvU8A/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={Koaj2022} title={t("Koaj2022")} date={t("Koaj2022DATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02yMXQFD7etkTzjP5kWpwE7LNk8d355qBWtVMsgep9rFJzMtotJX92zuLcDjFrgR7cl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cji82XAshXd/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={VianneyXbox} title={t("VianneyXbox")} date={t("VianneyXboxDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0NvjCWrSY1ybW7pns6rGbjzCyNrszV9fUAD2Q2DPyeBTMAWypnsTfQeuNyfLohdqRl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CjRH5j3MNvr/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
                             <NoticiasCard image={PopeyeKOAJ} title={t("PopeyeKOAJ")} date={t("PopeyeKOAJDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0x5GDQco52ykd7PgKBgKUYVxYUJL9eKGEWQvJLdnuLfd3WH2Fjsgx7dW4Lym732efl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cif_nHCvpXU/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={ArgentinaAmong} title={t("ArgentinaAmong")} date={t("ArgentinaAmongDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0WsvU6ignXFqB7QHd6EVob3ZhrV65W6BCfXYcqfNBKzrUrHkzGhcAgFNTssdu7Sd7l/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cia2AwToL5V/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={KaratePeru} title={t("KaratePeru")} date={t("KaratePeruDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0gywiEEbS9p53AK1jj26coJUEVT6eeBjcUH5ZgREyKBjYDRhEYiuHew5Qtp3FyiqWl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CiTHoQ7pR51/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div> 
                     </>
@@ -1033,72 +1033,72 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={AnaEmilia} title={t("AnaEmilia")} date={t("AnaEmiliaDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02WzFnqFZYwLKp9au4cGHcjwCCuyXKyAVFLw8jLGTBynyzDGFqAL3pixbPBa4rHqbql/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CiQMiwYO5Si/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={Amarillo} title={t("Amarillo")} date={t("AmarilloDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0CvVfg5XwbAEXTHDqLnGZE1vYkkLv99tu4S5ZzVPabXyKvuKoTQKbECuKriFdBG2xl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CiI0dwWIcps/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={CampañaChile} title={t("CampañaChile")} date={t("CampañaChileDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02uTTdqgpBAsPsQbgka4jTgRpcqQo8L9TgjBvRBcsw26KW7TyTDuWPNytxsSj1TnK4l/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CiBGEcrsTSN/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-minions-activity-6978739835985391616-RcLY?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
                             <NoticiasCard image={DunkinMinions} title={t("DunkinMinions")} date={t("DunkinMinionsDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02p66sTt4iPYcwDVuNDeavt6wqKM87gwaWCNyZPSfk8RUBb5k7Mgm2rutewV8hXFq7l/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Ch78fQNNZjM/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-licensing-activity-6973340365248430080-Z8Mp?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={Minione} title={t("Minione")} date={t("MinioneDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0LhyCBucFU8htReKK5VP6ZnoxKPwdev8oWU4TCAEmyWUhzNDzb3G39iAhFZq9ArsYl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Ch2y5xbIdOJ/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={Narutomx} title={t("Narutomx")} date={t("NarutomxDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02DV3CHFYcp4Hqz2U83cVs6w4bccEEoZkX8LpVdhYydyjq6ssyvQ4xs18GXfkFbZpCl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/ChvEgZtpnko/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div> 
                     </>
@@ -1107,72 +1107,72 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={atunMinion} title={t("atunMinion")} date={t("atunMinionDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid06SNjJ6E8HWWWRjMzYh84Pds2QbBGXKnFqW3kEW5Nn65vaEyqRdA88fy1d6KEfSiKl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Chp66T3pdDc/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-minions-activity-6970414912565059585-L0mr?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={LolyColeccion} title={t("LolyColeccion")} date={t("LolyColeccionDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0QB2TNFiSSEtcBHBQyzUUYcezomTiTKWeCX1T4oYBc9uvVsjnW9bPoSoPnP8R7BeXl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/ChkPYUVOMlq/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-lolyintheskyxbt21-activity-6968715080104361984-Wz5M?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={SaborHer} title={t("SaborHer")} date={t("SaborHerDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/ChF4WdJljwa/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-hersheys-activity-6965444258740785152-y7Ae?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
                             <NoticiasCard image={BebidaJurasic} title={t("BebidaJurasic")} date={t("BebidaJurasicDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0sjkaose6zuRekeKrZczt4NiyYRfgR7rTapXvzBUxr9dQtXmBcRrxwpesVNTBuVmUl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/ChBQhWkhaFb/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-raptor-activity-6963916254524956672-kYIc?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={HarryWal} title={t("HarryWal")} date={t("HarryWalDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0TEGpDx1ZLtFkLRvm1v6P1nA337Jhj228Two3HvoJ73G7HPcNCaTWhFLukvvtXjMml/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cg4_zWLPT5G/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-harrypotter-activity-6963212677556924416-REuw?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={Olive} title={t("Olive")} date={t("OliveDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02tuTk7YKJzqM8Rb8Hit4dPmHHViiJvHmVR9y4wpMXSoWxPZ8w1bKazYK1T6h5q9JRl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cg0YjH7MAch/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-oliveoyl-activity-6961002306821656577-ZD09?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                         </div> 
                     </>
@@ -1181,72 +1181,72 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={CrayolaMayo} title={t("CrayolaMayo")} date={t("CrayolaMayoDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0mSfRXbCdJTFnznD9EGesSgf8j6CCtYU47MM4HNxkvYPBg7NjxefTrruFtEv3b9qcl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CgkZctwvdgV/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-crayola-activity-6958832365204905984-LQaO?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={Tycum} title={t("Tycum")} date={t("TycumDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02mi4V2wigmUmBDvmQZ6Qjw7bc9319t5x3JPAvARhMH5CCjEcq9BkfEaKLWQkQe4sZl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CgfCCLLOWk-/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoon-soytycoon-licensing-activity-6957757894230487040-ZRJR?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={Unwind} title={t("Unwind")} date={t("UnwindDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0299du4i9Rhmdr6m2LsHA2NwpYNYKq7AXRDnMabPnJBaHFBUfC8CPewRjj2ct2g8V1l/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CgcysEmMMGE/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-pinkpanther-activity-6957440739194671104-gw6r?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
                             <NoticiasCard image={HaloChamp} title={t("HaloChamp")} date={t("HaloChampDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02NDt9sqGfNfxNRmLUaSMVek3b8w7uVvRuUAAiJZnG1rso1jRF3R89STx4sr6icqFnl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CgVhDKxu1uI/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={JurasicLatam} title={t("JurasicLatam")} date={t("JurasicLatamDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02rEiBF8DZfBvXmqWDxQKuCn1J8AqXgCua2C7XSRKMvwdhfcHkg7jZkQaewiz7zGvbl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CgCkrT-O9vw/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={PumaFrida} title={t("PumaFrida")} date={t("PumaFridaDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02txX6qDSzzRqhTDL9THS5xsDhwyJSrsDhTEjKa6G3BAMN5RR1KmTptKcYMvjat7Sxl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cf4yo7WNv9Z/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-hersheys-activity-6952378119513133057-J9zH?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                         </div> 
                     </>
@@ -1255,72 +1255,72 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={Fridacien} title={t("Fridacien")} date={t("FridacienDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02ucCNTuC9SUptvohM2XGxjhaDuaMvUhnfPeUP6p7LNjGbwmBNgVSRMUg3UZiTxcTXl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CfsAUlfuebs/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={AlpinaMinion} title={t("AlpinaMinion")} date={t("AlpinaMinionDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02XbkQF7rJewDmgDTxvWz1FPPPv7HVRe2Fs8UC8vDhmxNapsVVALuy1KdVMuitRCCVl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CfP8-jtJCIp/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={BleachPeru} title={t("BleachPeru")} date={t("BleachPeruDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0QxZnZXoMjEMjuQ88RXfDLcjKgf947gKnJGN5RJyJ2THJs5YoPnYp3vCTTuLxHuaWl/?mibextid=cr9u03               ' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CfAgM9KsEjz/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
                             <NoticiasCard image={JurasicLanza} title={t("JurasicLanza")} date={t("JurasicLanzaDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02c2wSBdteoemHEFKYznUdtT3wxE7J8JwibaraGoV7cfPW82cSYiVDgEVMdNmfpUu3l/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Ce7Wn56O3cV/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={FelicidadesCo} title={t("FelicidadesCo")} date={t("FelicidadesCoDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0yvBQcGKXkRRoZdFu393VmpA5ghSxqXXW5xPmVLSuzeb7bb43rDdKudc5ScX1sAZAl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CezoOlOp-V4/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-cocomelon-activity-6942529816524992512-1XV4?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={HelloCo} title={t("HelloCo")} date={t("HelloCoDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0aX2T4Ub94Pzn8yx1zrK3Gr8P2ijCoANknCgK2roWTiERvcKnfEvrLqCgS2NySbkvl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CeoRqO2OSN2/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div> 
                     </>
@@ -1329,72 +1329,72 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={FelicidadesGhost} title={t("FelicidadesGhost")} date={t("FelicidadesGhostDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0iRvhc5z84vuZdNX9cgF89aauaGxPJEBbtHPRc9YHiajXsXxigqXwT3F2HE9b19q8l/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CejpNG0tJUt/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-ghostbusters-activity-6942126811824762880-5gOz?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={CerealHer} title={t("CerealHer")} date={t("CerealHerDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0vgtFfTJwkj9p7wi7ZGFLSfUNkEkWH8HcJoKKMb5SJBRnrUhGtUR9qhpUvwAVz2odl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CeCtsodvuz_/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={AnaEmiliaHBO} title={t("AnaEmiliaHBO")} date={t("AnaEmiliaHBODATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02VPyRoET6JV7BUQ5czw3qfXqU23prsK3HZ8VZhLA1QfR3b857JYziBGvg7n6iSNhHl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cd6_T0Zrx90/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
                             <NoticiasCard image={CarreraHello} title={t("CarreraHello")} date={t("CarreraHelloDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02Dt5i41o4hTxkG3CoYWKH14xbUDbVKdB2yfgwf6Wu9fhgMGPCzJdNhpEVTow97yB9l/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cdq-IhcOBt9/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={MagiaHarry} title={t("MagiaHarry")} date={t("MagiaHarryDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid06yHJdSpM1k77tNti5Rz7pQYnpJ8aQgQiU96gZvmuHDNiTdkqjSg444cGEXpNbhTGl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CdeqkZ5BXbT/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={HalloPara} title={t("HalloPara")} date={t("HalloParaDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02t1Ufu54b6LKEnE1uBA6umDmdcvCs8BKQqfRfbBK2vbSrxxdsufrxV3FRmmn6aEgHl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CdWSOe9O9Gu/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div> 
                     </>
@@ -1403,72 +1403,72 @@ function NewsNav() {
                     <>
                         <div className='noticiasRow'>
                             <NoticiasCard image={BalleysMont} title={t("BalleysMont")} date={t("BalleysMontDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid033P1tgWjokTUnmCfDLBbYKAan7CUC1Z2j3HHX8Rew4AAyr2aM373gNqeX2wtreiE4l/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/Cc6nccBLHD_/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={ChupaShampoo} title={t("ChupaShampoo")} date={t("ChupaShampooDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid02bAGM8N48CgrA2iyzyLVAP6C29QqoyisBR1UsnGLPp3K9JyNy9F4uvqXVBHTFW1Mbl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CcZAhX-BqTN/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-chupachups-activity-6922954450013741056-H8EU?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                             <NoticiasCard image={TodosPodemos} title={t("TodosPodemos")} date={t("TodosPodemosDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0V4Y18P1NV823pzDJmmzcvWv6QjGWJVrBFmjGuSusB3DkZWHTJjPa4TSSSjuAx4rNl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CcOtVq_MHxo/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    <a href='https://www.linkedin.com/posts/tycoon-enterprises_tycoonenterprises-licenciasdemarcas-masterchef-activity-6919768243876319233-WNUK?utm_source=share&utm_medium=member_desktop' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a>
                             </NoticiasCard>
                         </div>
                         <div className='noticiasRow'>
                             <NoticiasCard image={SerieHalo} title={t("SerieHalo")} date={t("SerieHaloDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0gZvDStC7kSWHeJiG27YAE4d8cYcNVdLDF99vziv5MBdge6prXtaRSqx22VCy1s3Pl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CbiqF7iMi4W/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={deathNote} title={t("deathNote")} date={t("deathNoteDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0HyWKB58NFD2qQ63GGe2Tsjy1E8wBJWr8ATJqBF11Q39fPtxPXJSkmLgmZapqTAJcl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CbYCT3SBvqn/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                             <NoticiasCard image={VansCrayola} title={t("VansCrayola")} date={t("VansCrayolaDATE")}>
-                                <a>
-                                    <img src={Facebook} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={Instagram} className="mas"/>
-                                </a>
-                                <a>
-                                    <img src={LinkedIn} className="mas"/>       
-                                </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0NoQqJWWjf4GRmBAaz2wQsDfUfTmpLjvLPVYrcCWsxn3bFTJqoqv4FVb2TZCuai1ml/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CbOHKaYJPba/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                             </NoticiasCard>
                         </div> 
                     </>
@@ -1476,37 +1476,37 @@ function NewsNav() {
                 {page9 === "unonueve" && (
                     <div className='noticiasRow'>
                         <NoticiasCard image={Vikings} title={t("Vikings")} date={t("VikingsDATE")}>
-                            <a>
-                                <img src={Facebook} className="mas"/>
-                            </a>
-                            <a>
-                                <img src={Instagram} className="mas"/>
-                            </a>
-                            <a>
-                                <img src={LinkedIn} className="mas"/>       
-                            </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid037osu3BsjGnFHsu2TSMhcbSnnneKxAuRZA7oRWs6wADh7kmRvA9swjuK8RV9wYBAel/?mibextid=cr9u03' target="_blank"> 
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CbIcAirvKK-/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                         </NoticiasCard>
                         <NoticiasCard image={DulzuraHello} title={t("DulzuraHello")} date={t("DulzuraHelloDATE")}>
-                            <a>
-                                <img src={Facebook} className="mas"/>
-                            </a>
-                            <a>
-                                <img src={Instagram} className="mas"/>
-                            </a>
-                            <a>
-                                <img src={LinkedIn} className="mas"/>       
-                            </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid0eWDvTXN2R9YiHAs6qQ2fBicyjd9s2oHqD7C1EDfncyYQfDh3ttvaAHrU7SZ7qLBGl/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CZuyU7DlF8H/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                         </NoticiasCard>
                         <NoticiasCard image={HelloCafe} title={t("HelloCafe")} date={t("HelloCafeDATE")}>
-                            <a>
-                                <img src={Facebook} className="mas"/>
-                            </a>
-                            <a>
-                                <img src={Instagram} className="mas"/>
-                            </a>
-                            <a>
-                                <img src={LinkedIn} className="mas"/>       
-                            </a>
+                                    <a href='https://www.facebook.com/1826204927637891/posts/pfbid037yNzn4BDt4MMPCrvZTdpyjnr3H3h9F5VyHqAV3K2FYLEmCNBKi3Cn3QhXoQrRLBml/?mibextid=cr9u03' target="_blank">
+                                        <img src={Facebook} className="mas"/>
+                                    </a>
+                                    <a href='https://www.instagram.com/p/CZkMUC1MFVV/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
+                                    {/* <a href='' target="_blank">
+                                        <img src={LinkedIn} className="mas"/>       
+                                    </a> */}
                         </NoticiasCard>
                     </div>
                 )}
