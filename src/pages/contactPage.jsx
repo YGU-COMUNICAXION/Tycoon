@@ -19,9 +19,9 @@ import useWindowSize from '../hooks/useWindowSize';
 import Buscando from "../images/desktop/contacto/teEstamosbuscando.png"
 import styled from 'styled-components';
 import esBackground from "../images/mobile/contacto/bannerContactoEsp.png"
-import enBackground from "../images/desktop/contacto/PORTADA-CONTACT -eng..png"
+import enBackground from "../images/desktop/contacto/PORTADA-CONTACT -eng.jpg"
 import esBackgroundDesk from "../images/desktop/contacto/banerContactoDeskEsp.png"
-import enBackgroundDesk from "../images/desktop/contacto/PORTADA-CONTACT -eng..png"
+import enBackgroundDesk from "../images/desktop/contacto/PORTADA-CONTACT -eng.jpg"
 
 const imgMap = {en: enBackground, es: esBackground}
 const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}

@@ -13,9 +13,9 @@ import Cobra from "../images/mobile/noticias/noticiasRecientes/cobra.png"
 import Among from "../images/mobile/noticias/noticiasRecientes/among.png"
 import Mas from "../images/mobile/noticiasCard/botón-mas.png"
 import esBackground from "../images/mobile/noticias/bannerNoticiasEsp.png"
-import enBackground from "../images/desktop/noticias/PORTADA-NEWS -eng..png"
+import enBackground from "../images/desktop/noticias/PORTADA-NEWS -eng..jpg"
 import esBackgroundDesk from "../images/desktop/noticias/portadaNoticiasDeskEsp.png"
-import enBackgroundDesk from "../images/desktop/noticias/PORTADA-NEWS -eng..png"
+import enBackgroundDesk from "../images/desktop/noticias/PORTADA-NEWS -eng..jpg"
 
 const imgMap = {en: enBackground, es: esBackground}
 const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}

@@ -26,10 +26,10 @@ import ComoDesk from "../images/desktop/nosotros/como.png"
 import Responsabilidad from "../images/mobile/nosotros/responsabilidad.png"
 import Okey from "../images/mobile/nosotros/ok.png"
 import Like from "../images/mobile/nosotros/like.png"
-import enBackground from "../images/desktop/nosotros/PORTADA-ABOUT-US_Mesa de trabajo 1 copia 2.png"
+import enBackground from "../images/desktop/nosotros/PORTADA-ABOUT-US_Mesa de trabajo 1 copia 2.jpg"
 import esBackground from "../images/mobile/nosotros/bannerNosotrosEsp.png"
 import esBackgroundDesk from "../images/desktop/nosotros/bannerNosotrosDeskEsp.png"
-import enBackgroundDesk from "../images/desktop/nosotros/PORTADA-ABOUT-US_Mesa de trabajo 1 copia 2.png"
+import enBackgroundDesk from "../images/desktop/nosotros/PORTADA-ABOUT-US_Mesa de trabajo 1 copia 2.jpg"
 
 const imgMap = {en: enBackground, es: esBackground}
 const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}
