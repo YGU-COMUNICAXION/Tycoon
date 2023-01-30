@@ -14,7 +14,7 @@ import Cobra from "../images/mobile/noticias/noticiasRecientes/cobra.png"
 import Among from "../images/mobile/noticias/noticiasRecientes/among.png"
 import Mas from "../images/mobile/noticiasCard/botón-mas.png"
 import useGeo from "../hooks/useGeo";
-import esBackground from "../images/mobile/home/bannerHomeEsp.png"
+import esBackground from "../images/mobile/home/bannerHomeEsp.webp"
 import enBackground from "../images/mobile/home/PORTADA-HOME-INGLES-MOBILE.png"
 import esBackgroundDesk from "../images/desktop/home/bannerHomeEsp.webp"
 import enBackgroundDesk from "../images/desktop/home/PORTADA-HOME-INGLES-DESKTOP.webp"
