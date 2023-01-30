@@ -5,9 +5,9 @@ import NavMarcas from "../components/nav-marcas";
 import "../css/brands.css";
 import useWindowSize from "../hooks/useWindowSize";
 import esBackground from "../images/mobile/marcas/bannerMarcasEsp.png"
-import enBackground from "../images/desktop/marcas/PORTADA-BRANDS-eng.jpg"
+import enBackground from "../images/desktop/marcas/PORTADA-BRANDS-eng.webp"
 import esBackgroundDesk from "../images/mobile/marcas/bannerMarcasEspDesk.png"
-import enBackgroundDesk from "../images/desktop/marcas/PORTADA-BRANDS-eng.jpg"
+import enBackgroundDesk from "../images/desktop/marcas/PORTADA-BRANDS-eng.webp"
 
 const imgMap = {en: enBackground, es: esBackground}
 const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}

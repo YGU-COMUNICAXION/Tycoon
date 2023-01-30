@@ -16,8 +16,8 @@ import Mas from "../images/mobile/noticiasCard/botón-mas.png"
 import useGeo from "../hooks/useGeo";
 import esBackground from "../images/mobile/home/bannerHomeEsp.png"
 import enBackground from "../images/mobile/home/PORTADA-HOME-INGLES-MOBILE.png"
-import esBackgroundDesk from "../images/desktop/home/bannerHomeEsp.png"
-import enBackgroundDesk from "../images/desktop/home/PORTADA-HOME-INGLES-DESKTOP.jpg"
+import esBackgroundDesk from "../images/desktop/home/bannerHomeEsp.webp"
+import enBackgroundDesk from "../images/desktop/home/PORTADA-HOME-INGLES-DESKTOP.webp"
 
 const imgMap = {en: enBackground, es: esBackground}
 const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}
