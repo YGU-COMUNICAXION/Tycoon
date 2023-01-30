@@ -22,7 +22,6 @@ import Sony from "../../images/brands_desktop/sony_desktop.png"
 import Viz from "../../images/brands_desktop/viz_desktop.png"
 import Wb from "../../images/brands_desktop/wb_desktop.png"
 import Abg1 from "../../images/brands_desktop/abg1_desktop.png"
-import Abg2 from "../../images/brands_desktop/abg2_desktop.png"
 import Barcelona from "../../images/brands_desktop/barcelona_desktop.png"
 import Paris from "../../images/brands_desktop/paris_desktop.png"
 import ChupaChups from "../../images/brands_desktop/chupachups_desktop.png"
@@ -459,11 +458,8 @@ export default function NavMarcas() {
             {/* {Catalogo[0].argentina.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABG-celebs-Arg">
+            <Link to="/brands/ABG-Arg">
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link to="/brands/ABG-fashion-Arg">
-              <img src={Abg2} alt=""/>
             </Link>
           </div>
         ) : show === 4 && info === "deportivas" ? (
@@ -486,11 +482,8 @@ export default function NavMarcas() {
             {/* {Catalogo[0].argentina.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABG-celebs-Arg">
+            <Link to="/brands/ABG-Arg">
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link to="/brands/ABG-fashion-Arg">
-              <img src={Abg2} alt=""/>
             </Link>
             <Link>
               <img src={Acer} alt=""/>
@@ -649,9 +642,6 @@ export default function NavMarcas() {
             <Link>
               <img src={Abg1} alt=""/>
             </Link>
-            <Link >
-              <img src={Abg2} alt=""/>
-            </Link>
             <Link to="/brands/apex-Mx">
               <img src={Apex} alt=""/>
             </Link>
@@ -690,9 +680,6 @@ export default function NavMarcas() {
             })} */}
             <Link >
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link >
-              <img src={Abg2} alt=""/>
             </Link>
             <Link >
               <img src={Acer} alt=""/>
@@ -854,9 +841,6 @@ export default function NavMarcas() {
             <Link >
               <img src={Abg1} alt=""/>
             </Link>
-            <Link >
-              <img src={Abg2} alt=""/>
-            </Link>
           </div>
         ) : show === 8 && info === "deportivas" ? (
           <div className="images_per_row">
@@ -874,9 +858,6 @@ export default function NavMarcas() {
             })} */}
             <Link >
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link >
-              <img src={Abg2} alt=""/>
             </Link>
             <Link >
               <img src={Acer} alt=""/>
@@ -1008,11 +989,8 @@ export default function NavMarcas() {
             {/* {Catalogo[3].chile.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABG-celebs-Ch">
+            <Link to="/brands/ABG-Ch">
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link to="/brands/ABG-fashion-Ch">
-              <img src={Abg2} alt=""/>
             </Link>
           </div>
         ) : show === 5 && info === "deportivas" ? (
@@ -1035,11 +1013,8 @@ export default function NavMarcas() {
             {/* {Catalogo[3].chile.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABG-celebs-Ch">
+            <Link to="/brands/ABG-Ch">
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link to="/brands/ABG-fashion-Ch">
-              <img src={Abg2} alt=""/>
             </Link>
             <Link>
               <img src={Acer} alt=""/>
@@ -1193,11 +1168,8 @@ export default function NavMarcas() {
             {/* {Catalogo[4].peru.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABG-celebs-Pe">
+            <Link to="/brands/ABG-Pe">
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link to="/brands/ABG-fashion-Pe">
-              <img src={Abg2} alt=""/>
             </Link>
           </div>
         ) : show === 6 && info === "deportivas" ? (
@@ -1220,11 +1192,8 @@ export default function NavMarcas() {
             {/* {Catalogo[4].peru.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABG-celebs-Pe">
+            <Link to="/brands/ABG-Pe">
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link to="/brands/ABG-fashion-Pe">
-              <img src={Abg2} alt=""/>
             </Link>
             <Link>
               <img src={Acer} alt=""/>
@@ -1383,9 +1352,6 @@ export default function NavMarcas() {
             <Link>
               <img src={Abg1} alt=""/>
             </Link>
-            <Link>
-              <img src={Abg2} alt=""/>
-            </Link>
           </div>
         ) : show === 7 && info === "deportivas" ? (
           <div className="images_per_row">
@@ -1409,9 +1375,6 @@ export default function NavMarcas() {
             })} */}
             <Link>
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link>
-              <img src={Abg2} alt=""/>
             </Link>
             <Link>
               <img src={Acer} alt=""/>
@@ -1587,9 +1550,6 @@ export default function NavMarcas() {
             <Link>
               <img src={Abg1} alt=""/>
             </Link>
-            <Link>
-              <img src={Abg2} alt=""/>
-            </Link>
           </div>
         ) : show === 2 && info === "deportivas" ? (
           <div className="images_per_row">
@@ -1613,9 +1573,6 @@ export default function NavMarcas() {
             })} */}
             <Link>
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link>
-              <img src={Abg2} alt=""/>
             </Link>
             <Link>
               <img src={Acer} alt=""/>
@@ -1783,9 +1740,6 @@ export default function NavMarcas() {
             <Link>
               <img src={Abg1} alt=""/>
             </Link>
-            <Link>
-              <img src={Abg2} alt=""/>
-            </Link>
           </div>
         ) : show === 3 && info === "deportivas" ? (
           <div className="images_per_row">
@@ -1809,9 +1763,6 @@ export default function NavMarcas() {
             })} */}
             <Link>
               <img src={Abg1} alt=""/>
-            </Link>
-            <Link>
-              <img src={Abg2} alt=""/>
             </Link>
             <Link>
               <img src={Acer} alt=""/>
