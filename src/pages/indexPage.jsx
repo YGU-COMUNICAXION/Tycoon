@@ -29,8 +29,6 @@ const IndexPage = () => {
   const currentLanguage = i18n.language;
   const windowSize = useWindowSize();
   const geo = useGeo();  
-
-  console.log(i18n.language)
   return (
     <Layout>
     {windowSize < 752 ? (

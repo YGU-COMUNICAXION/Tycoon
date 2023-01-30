@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Catalogo from "../../../CatalogoBrandsDesktop";
 import styled from "styled-components";
 import { Link } from "gatsby";
 import { Nav } from "react-bootstrap";
