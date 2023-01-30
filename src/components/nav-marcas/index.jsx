@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { Nav } from "react-bootstrap";
 import "./styles_marcas.css";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import Acer from "../../images/brands_desktop/acer_desktop.png"
@@ -45,7 +44,6 @@ import Apex from "../../images/brands_desktop/apex_desktop.png"
 import Frida from "../../images/brands_desktop/frida_desktop.png"
 import Head from "../../images/brands_desktop/head_desktop.png"
 import Panam from "../../images/brands_desktop/panam_desktop.png"
-import Warner from "../../images/brands_desktop/warner.png"
 import Universal from "../../images/brands_desktop/universal_desktop.png"
 import Distroller from "../../images/brands_desktop/distroller_desktop.png"
 import useGeo from "../../hooks/useGeo";
