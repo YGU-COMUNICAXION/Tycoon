@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
-import ABGcelebsChPage from "./ABGcelebsChPage";
+import ABGargPage from "./ABG-ArgPage";
 
 const Index = () => {
-  return <ABGcelebsChPage/>;
+  return <ABGargPage/>;
 };
 
 export default Index;
