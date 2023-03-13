@@ -16,6 +16,10 @@ import esBackground from "../images/mobile/noticias/bannerNoticiasEsp.png"
 import enBackground from "../images/desktop/noticias/PORTADA-NEWS-eng..webp"
 import esBackgroundDesk from "../images/desktop/noticias/portadaNoticiasDeskEsp.png"
 import enBackgroundDesk from "../images/desktop/noticias/PORTADA-NEWS-eng..webp"
+import HelloCateau from "../images/desktop/noticias/HK.png"
+import BleachSpinOff from "../images/desktop/noticias/2023/Bleach.jpg"
+import FallGuysTycoon from "../images/desktop/noticias/2022/FallGuys.jpg"
+import Instagram from "../images/mobile/noticiasCard/icon-instagram.png"
 
 const imgMap = {en: enBackground, es: esBackground}
 const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}
@@ -33,20 +37,20 @@ const NewsPage = () => {
                         <div className="newsSecondSection">
                             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                             <NoticiasRecientes>
-                                <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-                                    <Link to='/news/nuevo-en-tycoon'>
-                                        <img src={Mas} className="mas"/>
-                                    </Link>
+                                <NoticiasCard image={HelloCateau} title={t("HelloChateau")} date={t("pendingDate")}>
+                                    <a href='https://www.instagram.com/p/CiIM85IDQX0/?igshid=YmMyMTA2M2Y=' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
                                 </NoticiasCard>
-                                <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-                                    <Link to='/news/cobra-kai'>
-                                        <img src={Mas} className="mas"/>
-                                    </Link>
+                                <NoticiasCard image={BleachSpinOff} title={t("BleachSpinOFF")} date={t("BleachSpinDate")}>
+                                    <a href='https://www.instagram.com/p/CosowM4rij9/' target="_blank">
+                                    <img src={Instagram} className="mas"/>
+                                    </a>
                                 </NoticiasCard>
-                                <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-                                    <Link to='/news/among-us'>
-                                        <img src={Mas} className="mas"/>
-                                    </Link>
+                                <NoticiasCard image={FallGuysTycoon} title={t("FallGuysTycoon")} date={t("FallGuysDate")}>
+                                    <a href='https://www.instagram.com/p/Cmc31sVNpE8/' target="_blank">
+                                    <img src={Instagram} className="mas"/>
+                                    </a>
                                 </NoticiasCard>
                             </NoticiasRecientes>
                         </div>
@@ -61,20 +65,20 @@ const NewsPage = () => {
                         <div className="newsSecondSection">
                             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
                             <NoticiasRecientes>
-                                <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-                                    <Link to='/news/nuevo-en-tycoon'>
-                                        <img src={Mas} className="mas"/>
-                                    </Link>
+                                <NoticiasCard image={HelloCateau} title={t("HelloChateau")} date={t("pendingDate")}>
+                                    <a href='https://www.instagram.com/p/CiIM85IDQX0/?igshid=YmMyMTA2M2Y=' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
                                 </NoticiasCard>
-                                <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-                                    <Link to='/news/cobra-kai'>
-                                        <img src={Mas} className="mas"/>
-                                    </Link>
+                                <NoticiasCard image={BleachSpinOff} title={t("BleachSpinOFF")} date={t("BleachSpinDate")}>
+                                    <a href='https://www.instagram.com/p/CosowM4rij9/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
                                 </NoticiasCard>
-                                <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-                                    <Link to='/news/among-us'>
-                                        <img src={Mas} className="mas"/>
-                                    </Link>
+                                <NoticiasCard image={FallGuysTycoon} title={t("FallGuysTycoon")} date={t("FallGuysDate")}>
+                                    <a href='https://www.instagram.com/p/Cmc31sVNpE8/' target="_blank">
+                                        <img src={Instagram} className="mas"/>
+                                    </a>
                                 </NoticiasCard>
                             </NoticiasRecientes>
                         </div>

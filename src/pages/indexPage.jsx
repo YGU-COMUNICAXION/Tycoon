@@ -12,12 +12,16 @@ import NoticiasCard from "../components/noticias-card";
 import Nuevo from "../images/mobile/noticias/noticiasRecientes/nuevo.png"
 import Cobra from "../images/mobile/noticias/noticiasRecientes/cobra.png"
 import Among from "../images/mobile/noticias/noticiasRecientes/among.png"
+import HelloCateau from "../images/desktop/noticias/HK.png"
+import BleachSpinOff from "../images/desktop/noticias/2023/Bleach.jpg"
+import FallGuysTycoon from "../images/desktop/noticias/2022/FallGuys.jpg"
 import Mas from "../images/mobile/noticiasCard/botón-mas.png"
 import useGeo from "../hooks/useGeo";
 import esBackground from "../images/mobile/home/bannerHomeEsp.webp"
 import enBackground from "../images/mobile/home/PORTADA-HOME-INGLES-MOBILE.png"
 import esBackgroundDesk from "../images/desktop/home/bannerHomeEsp.webp"
 import enBackgroundDesk from "../images/desktop/home/PORTADA-HOME-INGLES-DESKTOP.webp"
+import Instagram from "../images/mobile/noticiasCard/icon-instagram.png"
 
 const imgMap = {en: enBackground, es: esBackground}
 const imgMapDesk = {en: enBackgroundDesk, es: esBackgroundDesk}
@@ -38,20 +42,20 @@ const IndexPage = () => {
         <div className="homeSecondSection">
             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
               <NoticiasRecientes>
-                <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-                  <Link to='/news/nuevo-en-tycoon'>
-                    <img src={Mas} className="mas"/>
-                  </Link>
+                <NoticiasCard image={HelloCateau} title={t("HelloChateau")} date={t("pendingDate")}>
+                    <a href='https://www.instagram.com/p/CiIM85IDQX0/?igshid=YmMyMTA2M2Y=' target="_blank">
+                      <img src={Instagram} className="mas"/>
+                    </a>
                 </NoticiasCard>
-                <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-                  <Link to='/news/cobra-kai'>
-                    <img src={Mas} className="mas"/>
-                  </Link>
+                <NoticiasCard image={BleachSpinOff} title={t("BleachSpinOFF")} date={t("BleachSpinDate")}>
+                  <a href='https://www.instagram.com/p/CosowM4rij9/' target="_blank">
+                    <img src={Instagram} className="mas"/>
+                  </a>
                 </NoticiasCard>
-                <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-                  <Link to='/news/among-us'>
-                    <img src={Mas} className="mas"/>
-                  </Link>
+                <NoticiasCard image={FallGuysTycoon} title={t("FallGuysTycoon")} date={t("FallGuysDate")}>
+                  <a href='https://www.instagram.com/p/Cmc31sVNpE8/' target="_blank">
+                    <img src={Instagram} className="mas"/>
+                  </a>
                 </NoticiasCard>
               </NoticiasRecientes>
             <div className="secondSectionButtonDiv">
@@ -76,20 +80,20 @@ const IndexPage = () => {
         <div className="homeSecondSectionDesk">
             <h2 className='sectionTitle'>{renderStringHMTLtoJSX(t("recentNews"))}</h2>
             <NoticiasRecientes>
-              <NoticiasCard image={Nuevo} title={t("new")} date={t("newDate")}>
-                <Link to='/news/nuevo-en-tycoon'>
-                  <img src={Mas} className="mas"/>
-                </Link>
+              <NoticiasCard image={HelloCateau} title={t("HelloChateau")} date={t("pendingDate")}>
+                  <a href='https://www.instagram.com/p/CiIM85IDQX0/?igshid=YmMyMTA2M2Y=' target="_blank">
+                    <img src={Instagram} className="mas"/>
+                  </a>
               </NoticiasCard>
-              <NoticiasCard image={Cobra} title={t("cobra")} date={t("cobraDate")}>
-                <Link to='/news/cobra-kai'>
-                  <img src={Mas} className="mas"/>
-                </Link>
+              <NoticiasCard image={BleachSpinOff} title={t("BleachSpinOFF")} date={t("BleachSpinDate")}>
+                <a href='https://www.instagram.com/p/CosowM4rij9/' target="_blank">
+                  <img src={Instagram} className="mas"/>
+                </a>
               </NoticiasCard>
-              <NoticiasCard image={Among} title={t("among")} date={t("amongDate")}>
-                <Link to='/news/among-us'>
-                  <img src={Mas} className="mas"/>
-                </Link>
+              <NoticiasCard image={FallGuysTycoon} title={t("FallGuysTycoon")} date={t("FallGuysDate")}>
+                <a href='https://www.instagram.com/p/Cmc31sVNpE8/' target="_blank">
+                  <img src={Instagram} className="mas"/>
+                </a>
               </NoticiasCard>
             </NoticiasRecientes>
             <div className="secondSectionButtonDiv">
