@@ -9,13 +9,9 @@ import Button from "../components/button"
 import useWindowSize from "../hooks/useWindowSize";
 import Oficinadesk from "../images/desktop/home/oficina.png"
 import NoticiasCard from "../components/noticias-card";
-import Nuevo from "../images/mobile/noticias/noticiasRecientes/nuevo.png"
-import Cobra from "../images/mobile/noticias/noticiasRecientes/cobra.png"
-import Among from "../images/mobile/noticias/noticiasRecientes/among.png"
 import HelloCateau from "../images/desktop/noticias/HK.png"
 import BleachSpinOff from "../images/desktop/noticias/2023/Bleach.jpg"
 import FallGuysTycoon from "../images/desktop/noticias/2022/FallGuys.jpg"
-import Mas from "../images/mobile/noticiasCard/botón-mas.png"
 import useGeo from "../hooks/useGeo";
 import esBackground from "../images/mobile/home/bannerHomeEsp.webp"
 import enBackground from "../images/mobile/home/PORTADA-HOME-INGLES-MOBILE.png"
