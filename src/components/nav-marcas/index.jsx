@@ -45,7 +45,6 @@ import Frida from "../../images/brands_desktop/frida_desktop.png"
 import Head from "../../images/brands_desktop/head_desktop.png"
 import Panam from "../../images/brands_desktop/panam_desktop.png"
 import Universal from "../../images/brands_desktop/universal_desktop.png"
-import Distroller from "../../images/brands_desktop/distroller_desktop.png"
 import useGeo from "../../hooks/useGeo";
 
 const StyledNavMarcas = styled.div`
@@ -1130,9 +1129,6 @@ export default function NavMarcas() {
               <img src={CareBears} alt=""/>
             </Link>
             <Link>
-              <img src={Distroller} alt=""/>
-            </Link>
-            <Link>
               <img src={FallGuys} alt=""/>
             </Link>
             <Link>
@@ -1301,9 +1297,6 @@ export default function NavMarcas() {
             <Link>
               <img src={CareBears} alt=""/>
             </Link>
-            <Link to="/brands/distroller-CAM">
-              <img src={Distroller} alt=""/>
-            </Link>
             <Link>
               <img src={DinoRanch} alt=""/>
             </Link>
@@ -1393,9 +1386,6 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={DinoRanch} alt=""/>
-            </Link>
-            <Link>
-              <img src={Distroller} alt=""/>
             </Link>
             <Link>
               <img src={FallGuys} alt=""/>
@@ -1499,9 +1489,6 @@ export default function NavMarcas() {
             <Link>
               <img src={CareBears} alt=""/>
             </Link>
-            <Link to="/brands/distroller-Col">
-              <img src={Distroller} alt=""/>
-            </Link>
             <Link>
               <img src={FallGuys} alt=""/>
             </Link>
@@ -1588,9 +1575,6 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Crayola} alt=""/>
-            </Link>
-            <Link>
-              <img src={Distroller} alt=""/>
             </Link>
             <Link>
               <img src={FallGuys} alt=""/>
@@ -1695,9 +1679,6 @@ export default function NavMarcas() {
             <Link>
               <img src={CareBears} alt=""/>
             </Link>
-            <Link to="/brands/distroller-Ec">
-              <img src={Distroller} alt=""/>
-            </Link>
             <Link>
               <img src={FallGuys} alt=""/>
             </Link>
@@ -1775,9 +1756,6 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Crayola} alt=""/>
-            </Link>
-            <Link>
-              <img src={Distroller} alt=""/>
             </Link>
             <Link>
               <img src={FallGuys} alt=""/>
