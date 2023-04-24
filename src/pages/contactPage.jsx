@@ -41,7 +41,9 @@ const ContactPage = () => {
         <div className='MainDiv'>
             <div className='contactFirstSection' style={{backgroundImage:`url("${imgMap[i18n.language]}")`}}></div>
             <div className='contactSecondSection'>
-                    <img src={Buscando} className="buscandote"/>
+            <Link to='/vacantes' className='vacantesLink'>
+                <img src={Buscando} className="buscandote"/>
+            </Link>
                 <h2 className='blueTitle'>{t("contactTitle")}</h2>
                 <div className='contactInfoDiv'>
                     <h2 className='adquirir'>{t("acquisition")}</h2>
@@ -187,7 +189,9 @@ const ContactPage = () => {
         <div className='MainDivDesk'>
             <div className='contactFirstSectionDesk' style={{backgroundImage:`url("${imgMapDesk[i18n.language]}")`}}/>
             <div className='contactSecondSection'>
+            <Link to="/vacantes">
                 <img src={Buscando} className="buscandote"/>
+            </Link>
                 <h2 className='blueTitle'>{t("contactTitle")}</h2>
                 <div className='contactInfoDiv'>
                     <h2 className='adquirir'>{t("acquisition")}</h2>

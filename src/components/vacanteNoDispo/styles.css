@@ -1,0 +1,57 @@
+.vacanteNoDispoMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blueFace {
+    width: 70%;
+    margin-bottom: 8%;
+}
+.vacantesBlueP {
+    font-family: "B semiBold";
+    color: #0081C3;
+    font-size: 21px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.vacanteNoDispoMainDivDesk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 85%;
+    padding: 0% 10%;
+}
+.nodispoRightDiv {
+    width: 65%;
+}
+.blueTitleDesk {
+    font-family: "B semiBold";
+    color: #0081C3;
+    font-size: 28px;
+    text-align: center;
+}
+@media only screen and (min-width: 752px) {
+    .blueFace {
+        width: 30%;
+        margin-bottom: 8%;
+    }
+    .vacantesBlueP {
+        font-size: 17px;
+    }
+    .blueTitleDesk {
+        font-size: 20px;
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .vacantesBlueP {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .vacantesBlueP {
+        font-size: 25px;
+    }
+}

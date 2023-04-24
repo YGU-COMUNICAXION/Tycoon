@@ -1,0 +1,36 @@
+.vacantesFirstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 4%;
+}
+.blueSubtitle {
+    font-family: "B Medium";
+    color: #0081C3;
+    text-align: center;
+    margin-top: -6%;
+}
+.estaen {
+    font-family: "B Semibold";
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0%;
+}
+.vacantesFirstSectionDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 4%;
+}
+@media only screen and (min-width: 752px) {
+    .blueSubtitle {
+        margin-top: -2%;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .estaen {
+        font-size: 26px;
+    }
+}
