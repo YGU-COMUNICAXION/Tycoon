@@ -190,19 +190,20 @@ const StyledNavMarcas = styled.div`
       }
     }
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1400px) {
     .select_category {
       font-size: 15px;
     }
     .wrapper__buttons {
       display: flex;
       flex-direction: row;
-      width: 100%;
+     min-width: 90%;
+     max-width: 90%;
       .level_one {
         display: flex;
         align-items: center;
         button {
-          padding: 10px 30px 10px 30px;
+          padding: 10px 10px 10px 10px;
           width: 20%;
           height: 50px;
           font-size: 24px;
