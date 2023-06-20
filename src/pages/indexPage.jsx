@@ -13,10 +13,10 @@ import HelloCateau from "../images/desktop/noticias/HK.png"
 import BleachSpinOff from "../images/desktop/noticias/2023/Bleach.jpg"
 import FallGuysTycoon from "../images/desktop/noticias/2022/FallGuys.jpg"
 import useGeo from "../hooks/useGeo";
-import esBackground from "../images/mobile/home/bannerHomeEsp.webp"
-import enBackground from "../images/mobile/home/PORTADA-HOME-INGLES-MOBILE.png"
-import esBackgroundDesk from "../images/desktop/home/bannerHomeEsp.webp"
-import enBackgroundDesk from "../images/desktop/home/PORTADA-HOME-INGLES-DESKTOP.webp"
+import esBackground from "../images/mobile/home/portada-pride-mob-esp.png"
+import enBackground from "../images/mobile/home/portada-pride-mob-eng.png"
+import esBackgroundDesk from "../images/desktop/home/portada-pride-desk-esp.png"
+import enBackgroundDesk from "../images/desktop/home/portada-pride-desk-eng.png"
 import Instagram from "../images/mobile/noticiasCard/icon-instagram.png"
 
 const imgMap = {en: enBackground, es: esBackground}
