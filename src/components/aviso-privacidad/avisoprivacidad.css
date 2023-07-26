@@ -1,0 +1,45 @@
+/* Archivo: estilos.css */
+
+.avisoPrivacidad {
+  padding: 4rem 3rem;
+  font-family: "B Medium", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 1.25rem;
+}
+
+/* Colocar un padding menor para mobile */
+@media (max-width: 768px) {
+  .avisoPrivacidad {
+    padding: 3rem 1rem;
+  }
+}
+
+.avisoPrivacidad h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.avisoPrivacidad p {
+  font-size: 1rem;
+  margin-bottom: 0.9375rem;
+}
+
+.avisoPrivacidad a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.avisoPrivacidad a:hover {
+  text-decoration: underline;
+}
+
+.avisoPrivacidad ul,
+.avisoPrivacidad ol {
+  padding-left: 1.875rem;
+  margin-bottom: 0.9375rem;
+}
+
+.avisoPrivacidad li {
+  font-size: 1rem;
+  margin-bottom: 0.3125rem;
+}

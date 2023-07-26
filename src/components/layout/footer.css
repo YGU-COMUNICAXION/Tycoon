@@ -1,243 +1,248 @@
 .upperFooterDiv {
-    background-color: #F0F0F0;
-    padding: 7% 4% ;
+  background-color: #f0f0f0;
+  padding: 7% 4%;
 }
 .footerNav {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .footerTitle {
-    font-family: "B Bold";
-    color: #051C2C;
-
+  font-family: "B Bold";
+  color: #051c2c;
 }
 .paisesRow {
-    display: flex;
-    flex-direction: row;
-    margin-top: 6%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 6%;
 }
 .paisesRow a {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .teInteresaDiv a {
-    text-decoration: none;
-    color: #051C2C;
+  text-decoration: none;
+  color: #051c2c;
 }
 .teInteresa {
-    font-family: "B SemiBold";
-    cursor: pointer;
+  font-family: "B SemiBold";
+  cursor: pointer;
 }
 .escribenos {
-    font-family: "B SemiLight";
-    color: #051C2C;
-
+  font-family: "B SemiLight";
+  color: #051c2c;
 }
 .escribenos span {
-    font-family: "B SemiBold";
-    color: #051C2C;
+  font-family: "B SemiBold";
+  color: #051c2c;
 }
-.footerNav a  {
-    font-family: "B SemiLight";
-    text-decoration: none;
-    color: black;
+.footerNav a {
+  font-family: "B SemiLight";
+  text-decoration: none;
+  color: black;
 }
 .underFooterDiv {
-    background-color: #051C2C;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #051c2c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .underFooterDiv p {
-    font-family: "B SemiLight";
-    color: #0081C3;
+  font-family: "B SemiLight";
+  color: #0081c3;
 }
+.underFooterDiv p a {
+  font-family: "B SemiLight";
+  color: #0081c3;
+}
+
 .underPgroup {
-    text-align: center;
+  text-align: center;
 }
 .upperDeskDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #F0F0F0;
-    padding: 0% 0% 2% 0%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 0% 0% 2% 0%;
 }
 .upperMainDesk {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    width: 93%;
-    padding: 2% 2% 0% 2%;
-    max-width: 1500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 93%;
+  padding: 2% 2% 0% 2%;
+  max-width: 1500px;
 }
 .footerLogoDesk {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
 }
 .footerLogoDesk img {
-    margin-top: 2%;
-    width: 100%;
+  margin-top: 2%;
+  width: 100%;
 }
 .pagsDiv {
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    margin: 0% 3% 0% 6%;
-
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin: 0% 3% 0% 6%;
 }
 .paisesDivDesk {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 50%;
-    margin: 0% 2% 0% 1%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  margin: 0% 2% 0% 1%;
 }
 .pagsDiv a {
-    font-family: "B SemiLight";
-    text-decoration: none;
-    font-size: 10px;
-    color: #051C2C;
-    margin: 14% 0%;
+  font-family: "B SemiLight";
+  text-decoration: none;
+  font-size: 10px;
+  color: #051c2c;
+  margin: 14% 0%;
 }
 .redesDeskDiv {
-    width: 15%;
-    margin: 0% 0% 0% 4%;
-
+  width: 15%;
+  margin: 0% 0% 0% 4%;
 }
 .underDeskDiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #051C2C;
-    padding: 1% 2%;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #051c2c;
+  padding: 1% 2%;
 }
 .underDeskDiv p {
-    font-family: "B SemiLight";
-    color: #0081C3;
-    font-size: 9px;
+  font-family: "B SemiLight";
+  color: #0081c3;
+  font-size: 9px;
 }
-@media only screen and (min-width: 752px){
-    .footerTitle {
-        font-size: 14px;
-    }
-    .footerTitle  {
-        margin-top: 0%;
-    }
-    .teInteresa {
-        font-size: 14px;
-    }
-    .escribenos {
-        font-size: 14px;
-    }
-    .paisesRow {
-        justify-content: space-around;
-    }
-    .pagsDiv a {
-        margin: 10.2px 0%;
-    }
+
+.underDeskDiv p a {
+  font-family: "B SemiLight";
+  color: #0081c3;
+  font-size: 13px;
 }
-@media only screen and (min-width: 1000px){
-    .footerLogoDesk img {
-        width: 80%;
-    }
-    .footerTitle {
-        font-size: 18px;
-    }
-    .pagsDiv a {
-        font-size: 15px;
-        margin: 13.8px 0px;
-    }
-    .teInteresa {
-        font-size: 18px;
-    }
-    .escribenos {
-        font-size: 18px;
-    }
-    .underDeskDiv {
-        padding: 1% 3%;
-    }
-    .underDeskDiv p {
-        font-size: 13px;
-    }
+
+@media only screen and (min-width: 752px) {
+  .footerTitle {
+    font-size: 14px;
+  }
+  .footerTitle {
+    margin-top: 0%;
+  }
+  .teInteresa {
+    font-size: 14px;
+  }
+  .escribenos {
+    font-size: 14px;
+  }
+  .paisesRow {
+    justify-content: space-around;
+  }
+  .pagsDiv a {
+    margin: 10.2px 0%;
+  }
 }
-@media only screen and (min-width: 1300px){
-    .pagsDiv a {
-        margin: 13.5 0px;
-    }
-    .paisesRow {
-        margin-top: 4%;
-    }
+@media only screen and (min-width: 1000px) {
+  .footerLogoDesk img {
+    width: 80%;
+  }
+  .footerTitle {
+    font-size: 18px;
+  }
+  .pagsDiv a {
+    font-size: 15px;
+    margin: 13.8px 0px;
+  }
+  .teInteresa {
+    font-size: 18px;
+  }
+  .escribenos {
+    font-size: 18px;
+  }
+  .underDeskDiv {
+    padding: 1% 3%;
+  }
+  .underDeskDiv p {
+    font-size: 13px;
+  }
 }
-@media only screen and (min-width: 1500px){
-    .footerLogoDesk img {
-        width: 85%;
-    }
-    .footerTitle {
-        font-size: 23px;
-    }
-    .pagsDiv a {
-        font-size: 17px;
-        margin: 16.9px 0px;
-    }
-    .teInteresa {
-        font-size: 21px;
-    }
-    .escribenos {
-        font-size: 21px;
-    }
-    .underDeskDiv p {
-        font-size: 18px;
-    }
+@media only screen and (min-width: 1300px) {
+  .pagsDiv a {
+    margin: 13.5 0px;
+  }
+  .paisesRow {
+    margin-top: 4%;
+  }
 }
-@media only screen and (min-width: 2000px){
-    .footerLogoDesk img {
-        width: 95%;
-    }
-    .footerTitle {
-        font-size: 27px;
-    }
-    .pagsDiv a {
-        font-size: 19px;
-        margin: 14.5px 0px;
-    }
-    .paisesRow {
-        margin-top: 3%;
-    }
-    .teInteresa {
-        font-size: 23px;
-    }
-    .escribenos {
-        font-size: 23px;
-    }
-    .underDeskDiv {
-        padding: 1% 23%;
-    }
-    .underDeskDiv p {
-        font-size: 18px;
-    }
+@media only screen and (min-width: 1500px) {
+  .footerLogoDesk img {
+    width: 85%;
+  }
+  .footerTitle {
+    font-size: 23px;
+  }
+  .pagsDiv a {
+    font-size: 17px;
+    margin: 16.9px 0px;
+  }
+  .teInteresa {
+    font-size: 21px;
+  }
+  .escribenos {
+    font-size: 21px;
+  }
+  .underDeskDiv p {
+    font-size: 18px;
+  }
 }
-@font-face {
-    font-family: "B Bold";
-    src: url("../../static/fonts/Branding\ Bold.otf");
-}
-@font-face {
-    font-family: "B SemiBold";
-    src: url("../../static/fonts/Branding\ Semibold.otf");
-}
-@font-face {
-    font-family: "B Medium";
-    src: url("../../static/fonts/Branding\ Medium.otf");
+@media only screen and (min-width: 2000px) {
+  .footerLogoDesk img {
+    width: 95%;
+  }
+  .footerTitle {
+    font-size: 27px;
+  }
+  .pagsDiv a {
+    font-size: 19px;
+    margin: 14.5px 0px;
+  }
+  .paisesRow {
+    margin-top: 3%;
+  }
+  .teInteresa {
+    font-size: 23px;
+  }
+  .escribenos {
+    font-size: 23px;
+  }
+  .underDeskDiv {
+    padding: 1% 23%;
+  }
+  .underDeskDiv p {
+    font-size: 18px;
+  }
 }
 @font-face {
-    font-family: "B SemiLight";
-    src: url("../../static/fonts/Branding\ Semilight.otf");
+  font-family: "B Bold";
+  src: url("../../static/fonts/Branding\ Bold.otf");
+}
+@font-face {
+  font-family: "B SemiBold";
+  src: url("../../static/fonts/Branding\ Semibold.otf");
+}
+@font-face {
+  font-family: "B Medium";
+  src: url("../../static/fonts/Branding\ Medium.otf");
+}
+@font-face {
+  font-family: "B SemiLight";
+  src: url("../../static/fonts/Branding\ Semilight.otf");
 }
