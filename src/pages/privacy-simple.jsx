@@ -2,12 +2,12 @@ import React from "react";
 import Layout from "../components/layout";
 import AvisoPrivacidad from "../components/aviso-privacidad";
 
-const PageAvisoPrivacidad = () => {
+const Index = () => {
   return (
     <Layout>
-      <AvisoPrivacidad />
+      <AvisoPrivacidad isSimple={true} />
     </Layout>
   );
 };
 
-export default PageAvisoPrivacidad;
+export default Index;

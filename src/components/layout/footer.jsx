@@ -103,7 +103,7 @@ const Footer = () => {
               <p>{t("todoslos")}</p>
             </div>
             <p>
-              <Link to="/aviso-privacidad">{t("Aviso")}</Link>
+              <Link to="/privacy">{t("Aviso")}</Link>
             </p>
           </div>
         </>
@@ -171,7 +171,7 @@ const Footer = () => {
             </div>
             <div>
               <p>
-                <Link to="/aviso-privacidad">{t("Aviso")}</Link>
+                <Link to="/privacy">{t("Aviso")}</Link>
               </p>
             </div>
           </div>
