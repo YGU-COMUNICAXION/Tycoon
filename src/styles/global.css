@@ -1,7 +1,11 @@
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0 !important;
-    padding: 0 ;
-    overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.images_per_row > a:not([href]) {
+  cursor: default;
 }

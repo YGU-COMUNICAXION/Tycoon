@@ -3,48 +3,49 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 import "./styles_marcas.css";
 import { useTranslation } from "gatsby-plugin-react-i18next";
-import Acer from "../../images/brands_desktop/acer_desktop.png"
-import Fifa from "../../images/brands_desktop/fifa_desktop.png"
-import MasterChef from "../../images/brands_desktop/masterchef_desktop.png"
-import Pepsico from "../../images/brands_desktop/pepsico_desktop.png"
-import Among from "../../images/brands_desktop/among_desktop.png"
-import Bluey from "../../images/brands_desktop/bluey_desktop.png"
-import FallGuys from "../../images/brands_desktop/fall_guys_desktop.png"
-import Kodak from "../../images/brands_desktop/kodak_desktop.png"
-import Mgm from "../../images/brands_desktop/mgm_desktop.png"
-import Microsoft from "../../images/brands_desktop/microsoft_desktop.png"
-import Moonbug from "../../images/brands_desktop/moonbug_desktop.png"
-import Pusheen from "../../images/brands_desktop/pusheen_desktop.png"
-import Samri from "../../images/brands_desktop/samri_desktop.png"
-import Sony from "../../images/brands_desktop/sony_desktop.png"
-import Viz from "../../images/brands_desktop/viz_desktop.png"
-import Wb from "../../images/brands_desktop/wb_desktop.png"
-import Abg1 from "../../images/brands_desktop/abg1_desktop.png"
-import Barcelona from "../../images/brands_desktop/barcelona_desktop.png"
-import Paris from "../../images/brands_desktop/paris_desktop.png"
-import ChupaChups from "../../images/brands_desktop/chupachups_desktop.png"
-import Crayola from "../../images/brands_desktop/crayola_desktop.png"
-import Hersheys from "../../images/brands_desktop/hersheys_desktop.png"
-import Kellogs from "../../images/brands_desktop/kellogs_desktop.png"
-import Playmobil from "../../images/brands_desktop/playmobil_desktop.png"
-import AnaEmilia from "../../images/brands_desktop/ana_emilia_desktop.png"
-import Bt21 from "../../images/brands_desktop/bt21_desktop.png"
-import CareBears from "../../images/brands_desktop/care_bears_desktop.png"
-import DinoRanch from "../../images/brands_desktop/dinoranch_desktop.png"
-import Gears from "../../images/brands_desktop/gears_desktop.png"
-import KingFeatures from "../../images/brands_desktop/king_features_desktop.png"
-import FreeFire from "../../images/brands_desktop/free_fire_desktop.png"
-import Activision from "../../images/brands_desktop/activision_desktop.png"
-import AthenticGames from "../../images/brands_desktop/authentic_games_desktop.png"
-import Hasbro from "../../images/brands_desktop/hasbro_desktop.png"
-import Mundobita from "../../images/brands_desktop/mundobita_desktop.png"
-import Pkxd from "../../images/brands_desktop/pkxd_desktop.png"
-import Pubg from "../../images/brands_desktop/pubg_desktop.png"
-import Apex from "../../images/brands_desktop/apex_desktop.png"
-import Frida from "../../images/brands_desktop/frida_desktop.png"
-import Head from "../../images/brands_desktop/head_desktop.png"
-import Panam from "../../images/brands_desktop/panam_desktop.png"
-import Universal from "../../images/brands_desktop/universal_desktop.png"
+import Acer from "../../images/brands_desktop/acer_desktop.png";
+import Fifa from "../../images/brands_desktop/fifa_desktop.png";
+import MasterChef from "../../images/brands_desktop/masterchef_desktop.png";
+import Pepsico from "../../images/brands_desktop/pepsico_desktop.png";
+import Among from "../../images/brands_desktop/among_desktop.png";
+import Bluey from "../../images/brands_desktop/bluey_desktop.png";
+import FallGuys from "../../images/brands_desktop/fall_guys_desktop.png";
+import Kodak from "../../images/brands_desktop/kodak_desktop.png";
+import Mgm from "../../images/brands_desktop/mgm_desktop.png";
+import Microsoft from "../../images/brands_desktop/microsoft_desktop.png";
+import Moonbug from "../../images/brands_desktop/moonbug_desktop.png";
+import Pusheen from "../../images/brands_desktop/pusheen_desktop.png";
+import Samri from "../../images/brands_desktop/samri_desktop.png";
+import Sony from "../../images/brands_desktop/sony_desktop.png";
+import Viz from "../../images/brands_desktop/viz_desktop.png";
+import Wb from "../../images/brands_desktop/wb_desktop.png";
+import Abg1 from "../../images/brands_desktop/abg1_desktop.png";
+import Abg1Open from "../../images/brands_desktop/abg1_desktopOpen.png";
+import Barcelona from "../../images/brands_desktop/barcelona_desktop.png";
+import Paris from "../../images/brands_desktop/paris_desktop.png";
+import ChupaChups from "../../images/brands_desktop/chupachups_desktop.png";
+import Crayola from "../../images/brands_desktop/crayola_desktop.png";
+import Hersheys from "../../images/brands_desktop/hersheys_desktop.png";
+import Kellogs from "../../images/brands_desktop/kellogs_desktop.png";
+import Playmobil from "../../images/brands_desktop/playmobil_desktop.png";
+import AnaEmilia from "../../images/brands_desktop/ana_emilia_desktop.png";
+import Bt21 from "../../images/brands_desktop/bt21_desktop.png";
+import CareBears from "../../images/brands_desktop/care_bears_desktop.png";
+import DinoRanch from "../../images/brands_desktop/dinoranch_desktop.png";
+import Gears from "../../images/brands_desktop/gears_desktop.png";
+import KingFeatures from "../../images/brands_desktop/king_features_desktop.png";
+import FreeFire from "../../images/brands_desktop/free_fire_desktop.png";
+import Activision from "../../images/brands_desktop/activision_desktop.png";
+import AthenticGames from "../../images/brands_desktop/authentic_games_desktop.png";
+import Hasbro from "../../images/brands_desktop/hasbro_desktop.png";
+import Mundobita from "../../images/brands_desktop/mundobita_desktop.png";
+import Pkxd from "../../images/brands_desktop/pkxd_desktop.png";
+import Pubg from "../../images/brands_desktop/pubg_desktop.png";
+import Apex from "../../images/brands_desktop/apex_desktop.png";
+import Frida from "../../images/brands_desktop/frida_desktop.png";
+import Head from "../../images/brands_desktop/head_desktop.png";
+import Panam from "../../images/brands_desktop/panam_desktop.png";
+import Universal from "../../images/brands_desktop/universal_desktop.png";
 import useGeo from "../../hooks/useGeo";
 
 const StyledNavMarcas = styled.div`
@@ -138,6 +139,9 @@ const StyledNavMarcas = styled.div`
         justify-content: center;
         align-items: center;
       }
+      a:not([href]) {
+        cursor: default;
+      }
     }
   }
   .select_category {
@@ -153,7 +157,7 @@ const StyledNavMarcas = styled.div`
       height: 20px;
       border: 0.5px solid black;
     }
-    p{
+    p {
       cursor: pointer;
     }
   }
@@ -167,13 +171,13 @@ const StyledNavMarcas = styled.div`
       max-width: 500px;
     }
   }
-  @media only screen and (min-width: 370px){
+  @media only screen and (min-width: 370px) {
     .button {
       font-size: 12px;
     }
   }
   @media (min-width: 752px) {
-    .wrapper__buttons{
+    .wrapper__buttons {
       margin-top: 45px;
     }
     .select_category {
@@ -197,8 +201,8 @@ const StyledNavMarcas = styled.div`
     .wrapper__buttons {
       display: flex;
       flex-direction: row;
-     min-width: 90%;
-     max-width: 90%;
+      min-width: 90%;
+      max-width: 90%;
       .level_one {
         display: flex;
         align-items: center;
@@ -248,7 +252,7 @@ const StyledNavMarcas = styled.div`
 
   @media (min-width: 1400px) {
     .wrapper__buttons {
-      margin-top: 100px
+      margin-top: 100px;
     }
     .select_category {
       font-size: 22px;
@@ -274,7 +278,7 @@ const StyledNavMarcas = styled.div`
   }
   @media (min-width: 2000px) {
     .wrapper__buttons {
-      margin-top: 115px
+      margin-top: 115px;
     }
     .select_category {
       margin-top: 115px;
@@ -289,32 +293,45 @@ export default function NavMarcas() {
   const { t } = useTranslation("brands");
   const [show, setShow] = useState(4);
   const [info, setInfo] = useState("all");
-  const geo = useGeo();  
+  const geo = useGeo();
 
   return (
     <StyledNavMarcas>
+      {/* Selector country */}
       <div className="wrapper__buttons">
         <div className="level_one">
           <button
-            style={{ background: show === 4 ? "#0081C3" : "white" , color: show === 4 ? "white" : "black"}}
+            style={{
+              background: show === 4 ? "#0081C3" : "white",
+              color: show === 4 ? "white" : "black",
+            }}
             onClick={() => setShow(4)}
           >
             {t("arg")}
           </button>
           <button
-            style={{ background: show === 8 ? "#0093d7" : "white" , color: show === 8 ? "white" : "black" }}
+            style={{
+              background: show === 8 ? "#0093d7" : "white",
+              color: show === 8 ? "white" : "black",
+            }}
             onClick={() => setShow(8)}
           >
             {t("bra")}
           </button>
           <button
-            style={{ background: show === 7 ? "#0093d7" : "white" , color: show === 7 ? "white" : "black"}}
+            style={{
+              background: show === 7 ? "#0093d7" : "white",
+              color: show === 7 ? "white" : "black",
+            }}
             onClick={() => setShow(7)}
           >
             {t("centro")}
           </button>
           <button
-            style={{ background: show === 5 ? "#0093d7" : "white" , color: show === 5 ? "white" : "black" }}
+            style={{
+              background: show === 5 ? "#0093d7" : "white",
+              color: show === 5 ? "white" : "black",
+            }}
             onClick={() => setShow(5)}
           >
             {t("chi")}
@@ -322,31 +339,44 @@ export default function NavMarcas() {
         </div>
         <div className="level_two">
           <button
-            style={{ background: show === 2 ? "#0093d7" : "white" , color: show === 2 ? "white" : "black"}}
+            style={{
+              background: show === 2 ? "#0093d7" : "white",
+              color: show === 2 ? "white" : "black",
+            }}
             onClick={() => setShow(2)}
           >
             {t("col")}
           </button>
           <button
-            style={{ background: show === 3 ? "#0093d7" : "white" , color: show === 3 ? "white" : "black"}}
+            style={{
+              background: show === 3 ? "#0093d7" : "white",
+              color: show === 3 ? "white" : "black",
+            }}
             onClick={() => setShow(3)}
           >
             {t("ecu")}
           </button>
           <button
-            style={{ background: show === 1 ? "#0093d7" : "white" , color: show === 1 ? "white" : "black"}}
+            style={{
+              background: show === 1 ? "#0093d7" : "white",
+              color: show === 1 ? "white" : "black",
+            }}
             onClick={() => setShow(1)}
           >
             {t("mex")}
           </button>
           <button
-            style={{ background: show === 6 ? "#0093d7" : "white" , color: show === 6 ? "white" : "black"}}
+            style={{
+              background: show === 6 ? "#0093d7" : "white",
+              color: show === 6 ? "white" : "black",
+            }}
             onClick={() => setShow(6)}
           >
             {t("peru")}
           </button>
         </div>
       </div>
+      {/* Selector category */}
       <div className="select_category">
         <p
           style={{ color: info === "all" ? "#0081C3" : "black" }}
@@ -393,19 +423,19 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link to="/brands/fifa-Arg">
-              <img src={Fifa} alt=""/> 
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
           </div>
         ) : show === 4 && info === "entretenimiento" ? (
@@ -414,40 +444,40 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/> 
+              <img src={FallGuys} alt="" />
             </Link>
             <Link to="/brands/mgm-Arg">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sanrio-Arg">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Arg">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Arg">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
             <Link to="/brands/warner-Arg">
-              <img src={Wb} alt=""/>
+              <img src={Wb} alt="" />
             </Link>
           </div>
         ) : show === 4 && info === "estilo" ? (
@@ -456,7 +486,7 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/ABG-Arg">
-              <img src={Abg1} alt=""/>
+              <img src={Abg1Open} alt="" />
             </Link>
           </div>
         ) : show === 4 && info === "deportivas" ? (
@@ -465,13 +495,13 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/fifa-Arg">
-              <img src={Fifa} alt=""/> 
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
           </div>
         ) : show === 4 && info === "all" ? (
@@ -480,64 +510,64 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/ABG-Arg">
-              <img src={Abg1} alt=""/>
+              <img src={Abg1Open} alt="" />
             </Link>
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link to="/brands/fifa-Arg">
-              <img src={Fifa} alt=""/> 
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link>
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-Arg">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link>
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sanrio-Arg">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Arg">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Arg">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
             <Link to="/brands/warner-Arg">
-              <img src={Wb} alt=""/>
+              <img src={Wb} alt="" />
             </Link>
           </div>
         ) : null}
@@ -550,31 +580,31 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
-            <Link >
-              <img src={ChupaChups} alt=""/>
+            <Link>
+              <img src={ChupaChups} alt="" />
             </Link>
-            <Link >
-              <img src={Crayola} alt=""/>
+            <Link>
+              <img src={Crayola} alt="" />
             </Link>
             <Link to="/brands/fifa-Mx">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link to="/brands/hersheys-Mx">
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link to="/brands/kelloggs-Mx">
-              <img src={Kellogs} alt=""/>
+              <img src={Kellogs} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
           </div>
         ) : show === 1 && info === "entretenimiento" ? (
@@ -583,52 +613,52 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={AnaEmilia} alt=""/>
+              <img src={AnaEmilia} alt="" />
             </Link>
             <Link>
-              <img src={Bt21} alt=""/>
+              <img src={Bt21} alt="" />
             </Link>
             <Link>
-              <img src={CareBears} alt=""/>
+              <img src={CareBears} alt="" />
             </Link>
             <Link>
-              <img src={DinoRanch} alt=""/>
+              <img src={DinoRanch} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={FreeFire} alt=""/>
+              <img src={FreeFire} alt="" />
             </Link>
             <Link>
-              <img src={Gears} alt=""/>
+              <img src={Gears} alt="" />
             </Link>
             <Link to="/brands/king-Features-Mx">
-              <img src={KingFeatures} alt=""/>
+              <img src={KingFeatures} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Mx">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link>
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link to="/brands/sanrio-Mx">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Mx">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Mx">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
           </div>
         ) : show === 1 && info === "estilo" ? (
@@ -636,20 +666,20 @@ export default function NavMarcas() {
             {/* {Catalogo[1].mexico.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link>
-              <img src={Abg1} alt=""/>
+            <Link to="/brands/ABG-Mx">
+              <img src={Abg1Open} alt="" />
             </Link>
             <Link to="/brands/apex-Mx">
-              <img src={Apex} alt=""/>
+              <img src={Apex} alt="" />
             </Link>
-            <Link >
-              <img src={Frida} alt=""/>
+            <Link>
+              <img src={Frida} alt="" />
             </Link>
-            <Link >
-              <img src={Head} alt=""/>
+            <Link>
+              <img src={Head} alt="" />
             </Link>
-            <Link >
-              <img src={Panam} alt=""/>
+            <Link>
+              <img src={Panam} alt="" />
             </Link>
           </div>
         ) : show === 1 && info === "deportivas" ? (
@@ -658,16 +688,16 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/fifa-Mx">
-              <img src={Fifa} alt=""/>
-            </Link>  
-            <Link >
-              <img src={Barcelona} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
-            <Link >
-              <img src={Head} alt=""/>
+            <Link>
+              <img src={Barcelona} alt="" />
             </Link>
-            <Link >
-              <img src={Paris} alt=""/>
+            <Link>
+              <img src={Head} alt="" />
+            </Link>
+            <Link>
+              <img src={Paris} alt="" />
             </Link>
           </div>
         ) : show === 1 && info === "all" ? (
@@ -675,95 +705,95 @@ export default function NavMarcas() {
             {/* {Catalogo[1].mexico.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link >
-              <img src={Abg1} alt=""/>
+            <Link to="/brands/ABG-Mx">
+              <img src={Abg1Open} alt="" />
             </Link>
-            <Link >
-              <img src={Acer} alt=""/>
+            <Link>
+              <img src={Acer} alt="" />
             </Link>
-            <Link >
-              <img src={Among} alt=""/>
+            <Link>
+              <img src={Among} alt="" />
             </Link>
-            <Link >
-              <img src={AnaEmilia} alt=""/>
+            <Link>
+              <img src={AnaEmilia} alt="" />
             </Link>
             <Link to="/brands/apex-Mx">
-              <img src={Apex} alt=""/>
+              <img src={Apex} alt="" />
             </Link>
-            <Link >
-              <img src={Bt21} alt=""/>
+            <Link>
+              <img src={Bt21} alt="" />
             </Link>
-            <Link >
-              <img src={CareBears} alt=""/>
+            <Link>
+              <img src={CareBears} alt="" />
             </Link>
-            <Link >
-              <img src={ChupaChups} alt=""/>
+            <Link>
+              <img src={ChupaChups} alt="" />
             </Link>
-            <Link >
-              <img src={Crayola} alt=""/>
+            <Link>
+              <img src={Crayola} alt="" />
             </Link>
-            <Link >
-              <img src={DinoRanch} alt=""/>
+            <Link>
+              <img src={DinoRanch} alt="" />
             </Link>
-            <Link >
-              <img src={FallGuys} alt=""/>
+            <Link>
+              <img src={FallGuys} alt="" />
             </Link>
-            <Link >
-              <img src={Barcelona} alt=""/>
+            <Link>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link to="/brands/fifa-Mx">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
-            <Link >
-              <img src={FreeFire} alt=""/>
+            <Link>
+              <img src={FreeFire} alt="" />
             </Link>
-            <Link >
-              <img src={Frida} alt=""/>
+            <Link>
+              <img src={Frida} alt="" />
             </Link>
-            <Link >
-              <img src={Gears} alt=""/>
+            <Link>
+              <img src={Gears} alt="" />
             </Link>
-            <Link >
-              <img src={Head} alt=""/>
+            <Link>
+              <img src={Head} alt="" />
             </Link>
             <Link to="/brands">
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link to="/brands/kelloggs-Mx">
-              <img src={Kellogs} alt=""/>
+              <img src={Kellogs} alt="" />
             </Link>
             <Link to="/brands">
-              <img src={KingFeatures} alt=""/>
+              <img src={KingFeatures} alt="" />
             </Link>
-            <Link >
-              <img src={MasterChef} alt=""/>
+            <Link>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link to="/brands/mgm-MX">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
-            <Link >
-              <img src={Panam} alt=""/>
+            <Link>
+              <img src={Panam} alt="" />
             </Link>
-            <Link >
-              <img src={Playmobil} alt=""/>
+            <Link>
+              <img src={Playmobil} alt="" />
             </Link>
             <Link to="/brands/sanrio-Mx">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Mx">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Mx">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
           </div>
         ) : null}
@@ -775,17 +805,17 @@ export default function NavMarcas() {
             {/* {Catalogo[2].brasil.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link >
-              <img src={Acer} alt=""/>
+            <Link>
+              <img src={Acer} alt="" />
             </Link>
             <Link to="/brands/fifa-Bz">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
-            <Link >
-              <img src={Hersheys} alt=""/>
+            <Link>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
           </div>
         ) : show === 8 && info === "entretenimiento" ? (
@@ -794,40 +824,40 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/activision-Bz">
-              <img src={Activision} alt=""/>
+              <img src={Activision} alt="" />
             </Link>
-            <Link >
-              <img src={Among} alt=""/>
+            <Link>
+              <img src={Among} alt="" />
             </Link>
-            <Link >
-              <img src={AthenticGames} alt=""/>
+            <Link>
+              <img src={AthenticGames} alt="" />
             </Link>
-            <Link >
-              <img src={DinoRanch} alt=""/>
+            <Link>
+              <img src={DinoRanch} alt="" />
             </Link>
-            <Link >
-              <img src={FallGuys} alt=""/>
+            <Link>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link to="/brands/hasbro-Bz">
-              <img src={Hasbro} alt=""/>
+              <img src={Hasbro} alt="" />
             </Link>
-            <Link >
-              <img src={Kodak} alt=""/>
+            <Link>
+              <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Bz">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
-            <Link >
-              <img src={Mundobita} alt=""/>
+            <Link>
+              <img src={Mundobita} alt="" />
             </Link>
-            <Link >
-              <img src={Pkxd} alt=""/>
+            <Link>
+              <img src={Pkxd} alt="" />
             </Link>
-            <Link >
-              <img src={Pubg} alt=""/>
+            <Link>
+              <img src={Pubg} alt="" />
             </Link>
-            <Link >
-              <img src={Pusheen} alt=""/>
+            <Link>
+              <img src={Pusheen} alt="" />
             </Link>
           </div>
         ) : show === 8 && info === "estilo" ? (
@@ -835,8 +865,8 @@ export default function NavMarcas() {
             {/* {Catalogo[2].brasil.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link >
-              <img src={Abg1} alt=""/>
+            <Link>
+              <img src={Abg1} alt="" />
             </Link>
           </div>
         ) : show === 8 && info === "deportivas" ? (
@@ -845,7 +875,7 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/fifa-Bz">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
           </div>
         ) : show === 8 && info === "all" ? (
@@ -853,56 +883,56 @@ export default function NavMarcas() {
             {/* {Catalogo[2].brasil.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link >
-              <img src={Abg1} alt=""/>
+            <Link>
+              <img src={Abg1} alt="" />
             </Link>
-            <Link >
-              <img src={Acer} alt=""/>
+            <Link>
+              <img src={Acer} alt="" />
             </Link>
             <Link to="/brands/activision-Bz">
-              <img src={Activision} alt=""/>
+              <img src={Activision} alt="" />
             </Link>
-            <Link >
-              <img src={Among} alt=""/>
+            <Link>
+              <img src={Among} alt="" />
             </Link>
-            <Link >
-              <img src={AthenticGames} alt=""/>
+            <Link>
+              <img src={AthenticGames} alt="" />
             </Link>
-            <Link >
-              <img src={DinoRanch} alt=""/>
+            <Link>
+              <img src={DinoRanch} alt="" />
             </Link>
-            <Link >
-              <img src={FallGuys} alt=""/>
+            <Link>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link to="/brands/fifa-Bz">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link to="/brands/hasbro-Bz">
-              <img src={Hasbro} alt=""/>
+              <img src={Hasbro} alt="" />
             </Link>
             <Link>
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Bz">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link>
-              <img src={Mundobita} alt=""/>
+              <img src={Mundobita} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Pkxd} alt=""/>
+              <img src={Pkxd} alt="" />
             </Link>
             <Link>
-              <img src={Pubg} alt=""/>
+              <img src={Pubg} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
           </div>
         ) : null}
@@ -915,22 +945,22 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
           </div>
         ) : show === 5 && info === "entretenimiento" ? (
@@ -939,46 +969,46 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={Bt21} alt=""/>
+              <img src={Bt21} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Ch">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sanrio-Ch">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Ch">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/universal-Ch">
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Ch">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
             <Link to="/brands/universal-Ch">
-              <img src={Wb} alt=""/>
+              <img src={Wb} alt="" />
             </Link>
           </div>
         ) : show === 5 && info === "estilo" ? (
@@ -987,7 +1017,7 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/ABG-Ch">
-              <img src={Abg1} alt=""/>
+              <img src={Abg1Open} alt="" />
             </Link>
           </div>
         ) : show === 5 && info === "deportivas" ? (
@@ -996,13 +1026,13 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
           </div>
         ) : show === 5 && info === "all" ? (
@@ -1011,76 +1041,76 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/ABG-Ch">
-              <img src={Abg1} alt=""/>
+              <img src={Abg1Open} alt="" />
             </Link>
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={Bt21} alt=""/>
+              <img src={Bt21} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link>
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-Ch">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sanrio-Ch">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Ch">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/universal-Ch">
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Ch">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
             <Link to="/brands/warner-Ch">
-              <img src={Wb} alt=""/>
+              <img src={Wb} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
           </div>
         ) : null}
@@ -1094,22 +1124,22 @@ export default function NavMarcas() {
             })} */}
 
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
           </div>
         ) : show === 6 && info === "entretenimiento" ? (
@@ -1118,43 +1148,43 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={Bt21} alt=""/>
+              <img src={Bt21} alt="" />
             </Link>
             <Link>
-              <img src={CareBears} alt=""/>
+              <img src={CareBears} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Pe">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sony-Pe">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Pe">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
             <Link>
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
           </div>
         ) : show === 6 && info === "estilo" ? (
@@ -1163,7 +1193,7 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/ABG-Pe">
-              <img src={Abg1} alt=""/>
+              <img src={Abg1Open} alt="" />
             </Link>
           </div>
         ) : show === 6 && info === "deportivas" ? (
@@ -1172,13 +1202,13 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
           </div>
         ) : show === 6 && info === "all" ? (
@@ -1187,67 +1217,67 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/ABG-Pe">
-              <img src={Abg1} alt=""/>
+              <img src={Abg1Open} alt="" />
             </Link>
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={Bt21} alt=""/>
+              <img src={Bt21} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link>
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-Per">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sony-Pe">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link>
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Pe">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
           </div>
         ) : null}
@@ -1260,28 +1290,28 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={ChupaChups} alt=""/>
+              <img src={ChupaChups} alt="" />
             </Link>
             <Link>
-              <img src={Crayola} alt=""/>
+              <img src={Crayola} alt="" />
             </Link>
             <Link to="/brands/fifa-CAM">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link to="/brands/hersheys-CAM">
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
           </div>
         ) : show === 7 && info === "entretenimiento" ? (
@@ -1290,49 +1320,49 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={CareBears} alt=""/>
+              <img src={CareBears} alt="" />
             </Link>
             <Link>
-              <img src={DinoRanch} alt=""/>
+              <img src={DinoRanch} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link to="/brands/king-Features-CAM">
-              <img src={KingFeatures} alt=""/>
+              <img src={KingFeatures} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-CAM">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sanrio-CAM">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-CAM">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/universal-CAM">
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
             <Link to="/brands/vizmedia-CAM">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
           </div>
         ) : show === 7 && info === "estilo" ? (
@@ -1340,8 +1370,8 @@ export default function NavMarcas() {
             {/* {Catalogo[5].centroAmerica.estilo.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link>
-              <img src={Abg1} alt=""/>
+            <Link to="/brands/ABG-CAM">
+              <img src={Abg1Open} alt="" />
             </Link>
           </div>
         ) : show === 7 && info === "deportivas" ? (
@@ -1350,13 +1380,13 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/fifa-CAM">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
           </div>
         ) : show === 7 && info === "all" ? (
@@ -1364,116 +1394,116 @@ export default function NavMarcas() {
             {/* {Catalogo[5].centroAmerica.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link>
-              <img src={Abg1} alt=""/>
+            <Link to="/brands/ABG-CAM">
+              <img src={Abg1Open} alt="" />
             </Link>
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={CareBears} alt=""/>
+              <img src={CareBears} alt="" />
             </Link>
             <Link>
-              <img src={ChupaChups} alt=""/>
+              <img src={ChupaChups} alt="" />
             </Link>
             <Link>
-              <img src={Crayola} alt=""/>
+              <img src={Crayola} alt="" />
             </Link>
             <Link>
-              <img src={DinoRanch} alt=""/>
+              <img src={DinoRanch} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link to="/brands/fifa-CAM">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link to="/brands/hersheys-CAM">
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link to="/brands/king-Features-CAM">
-              <img src={KingFeatures} alt=""/>
+              <img src={KingFeatures} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-CAM">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sanrio-CAM">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-CAM">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/universal-CAM">
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
             <Link to="/brands/vizmedia-CAM">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
           </div>
         ) : null}
-        {/* COLOMBIA SECTIONS */}
 
+        {/* COLOMBIA SECTIONS */}
         {show === 2 && info === "corporativas" ? (
           <div className="images_per_row">
             {/* {Catalogo[6].colombia.corporativas.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={ChupaChups} alt=""/>
+              <img src={ChupaChups} alt="" />
             </Link>
             <Link>
-              <img src={Crayola} alt=""/>
+              <img src={Crayola} alt="" />
             </Link>
             <Link to="/brands/fifa-Col">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link to="/brands/hersheys-Col">
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
           </div>
         ) : show === 2 && info === "entretenimiento" ? (
@@ -1482,49 +1512,49 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={CareBears} alt=""/>
+              <img src={CareBears} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={FreeFire} alt=""/>
+              <img src={FreeFire} alt="" />
             </Link>
             <Link to="/brands/king-Features-Col">
-              <img src={KingFeatures} alt=""/>
+              <img src={KingFeatures} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Col">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sanrio-Col">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Col">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/universal-Col">
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Col">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
           </div>
         ) : show === 2 && info === "estilo" ? (
@@ -1533,7 +1563,7 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Abg1} alt=""/>
+              <img src={Abg1} alt="" />
             </Link>
           </div>
         ) : show === 2 && info === "deportivas" ? (
@@ -1542,13 +1572,13 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/fifa-Col">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
           </div>
         ) : show === 2 && info === "all" ? (
@@ -1557,82 +1587,82 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Abg1} alt=""/>
+              <img src={Abg1} alt="" />
             </Link>
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={CareBears} alt=""/>
+              <img src={CareBears} alt="" />
             </Link>
             <Link>
-              <img src={ChupaChups} alt=""/>
+              <img src={ChupaChups} alt="" />
             </Link>
             <Link>
-              <img src={Crayola} alt=""/>
+              <img src={Crayola} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link to="/brands/fifa-Col">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={FreeFire}/>
+              <img src={FreeFire} />
             </Link>
             <Link to="/brands/hersheys-Col">
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link to="/brands/king-Features-Col">
-              <img src={KingFeatures} alt=""/>
+              <img src={KingFeatures} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-Col">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonBug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
             <Link>
-              <img src={Pusheen} alt=""/>
+              <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sonrio-Col">
-              <img src={Samri} alt=""/>
+              <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Col">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/universal-Col">
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Col">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
           </div>
         ) : null}
@@ -1645,25 +1675,25 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={Crayola} alt=""/>
+              <img src={Crayola} alt="" />
             </Link>
             <Link to="/brands/fifa-Ec">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link to="/brands/hersheys-Ec">
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
           </div>
         ) : show === 3 && info === "entretenimiento" ? (
@@ -1672,43 +1702,43 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={CareBears} alt=""/>
+              <img src={CareBears} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={FreeFire} alt=""/>
+              <img src={FreeFire} alt="" />
             </Link>
             <Link to="/brands/king-features-Ec">
-              <img src={KingFeatures} alt=""/>
+              <img src={KingFeatures} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Ec">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link to="/brands/sony-Ec">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/universal-Ec">
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Ec">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
           </div>
         ) : show === 3 && info === "estilo" ? (
@@ -1717,7 +1747,7 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Abg1} alt=""/>
+              <img src={Abg1} alt="" />
             </Link>
           </div>
         ) : show === 3 && info === "deportivas" ? (
@@ -1726,13 +1756,13 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link to="/brands/fifa-Ec">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
           </div>
         ) : show === 3 && info === "all" ? (
@@ -1741,73 +1771,73 @@ export default function NavMarcas() {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
             <Link>
-              <img src={Abg1} alt=""/>
+              <img src={Abg1} alt="" />
             </Link>
             <Link>
-              <img src={Acer} alt=""/>
+              <img src={Acer} alt="" />
             </Link>
             <Link>
-              <img src={Among} alt=""/>
+              <img src={Among} alt="" />
             </Link>
             <Link>
-              <img src={Bluey} alt=""/>
+              <img src={Bluey} alt="" />
             </Link>
             <Link>
-              <img src={CareBears} alt=""/>
+              <img src={CareBears} alt="" />
             </Link>
             <Link>
-              <img src={Crayola} alt=""/>
+              <img src={Crayola} alt="" />
             </Link>
             <Link>
-              <img src={FallGuys} alt=""/>
+              <img src={FallGuys} alt="" />
             </Link>
             <Link>
-              <img src={Barcelona} alt=""/>
+              <img src={Barcelona} alt="" />
             </Link>
             <Link to="/brands/fifa-Ec">
-              <img src={Fifa} alt=""/>
+              <img src={Fifa} alt="" />
             </Link>
             <Link>
-              <img src={FreeFire}/>
+              <img src={FreeFire} />
             </Link>
             <Link to="/brands/hersheys-Ec">
-              <img src={Hersheys} alt=""/>
+              <img src={Hersheys} alt="" />
             </Link>
             <Link to="/brands/king-Features-Ec">
-              <img src={KingFeatures} alt=""/>
+              <img src={KingFeatures} alt="" />
             </Link>
             <Link>
-              <img src={Kodak} alt=""/>
+              <img src={Kodak} alt="" />
             </Link>
             <Link>
-              <img src={MasterChef} alt=""/>
+              <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-Ec">
-              <img src={Mgm} alt=""/>
+              <img src={Mgm} alt="" />
             </Link>
             <Link to="/brands/microsoft">
-              <img src={Microsoft} alt=""/>
+              <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt=""/>
+              <img src={Moonbug} alt="" />
             </Link>
             <Link>
-              <img src={Paris} alt=""/>
+              <img src={Paris} alt="" />
             </Link>
             <Link to="/brands/pepsico">
-              <img src={Pepsico} alt=""/>
+              <img src={Pepsico} alt="" />
             </Link>
             <Link>
-              <img src={Playmobil} alt=""/>
+              <img src={Playmobil} alt="" />
             </Link>
             <Link to="/brands/sony-Ec">
-              <img src={Sony} alt=""/>
+              <img src={Sony} alt="" />
             </Link>
             <Link to="/brands/universal-Ec">
-              <img src={Universal} alt=""/>
+              <img src={Universal} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Ec">
-              <img src={Viz} alt=""/>
+              <img src={Viz} alt="" />
             </Link>
           </div>
         ) : null}
