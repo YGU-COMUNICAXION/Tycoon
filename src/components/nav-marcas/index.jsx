@@ -50,6 +50,9 @@ import Head from "../../images/brands_desktop/head_desktop.png";
 import Panam from "../../images/brands_desktop/panam_desktop.png";
 import Universal from "../../images/brands_desktop/universal_desktop.png";
 import SpinMasterOpen from "../../images/brands_desktop/spin-master.png";
+import Cinabbon from "../../images/brands_desktop/Cinabbon.jpg";
+import Molang from "../../images/brands_desktop/Molang.png";
+import Realmadrid from "../../images/brands_desktop/Realmadrid.jpg";
 import useGeo from "../../hooks/useGeo";
 
 const StyledNavMarcas = styled.div`
@@ -510,6 +513,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Paris} alt="" />
             </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
+            </Link>
           </div>
         ) : show === 4 && info === "all" ? (
           <div className="images_per_row">
@@ -564,6 +570,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Pusheen} alt="" />
             </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
+            </Link>
             <Link to="/brands/sanrio-Arg">
               <img src={Samri} alt="" />
             </Link>
@@ -594,6 +603,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={ChupaChups} alt="" />
+            </Link>
+            <Link>
+              <img src={Cinabbon} alt="" />
             </Link>
             <Link>
               <img src={Crayola} alt="" />
@@ -658,6 +670,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Microsoft} alt="" />
             </Link>
+            <Link>
+              <img src={Molang} alt="" />
+            </Link>
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
             </Link>
@@ -712,6 +727,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Paris} alt="" />
             </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
+            </Link>
           </div>
         ) : show === 1 && info === "all" ? (
           <div className="images_per_row">
@@ -741,6 +759,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={ChupaChups} alt="" />
+            </Link>
+            <Link>
+              <img src={Cinabbon} alt="" />
             </Link>
             <Link>
               <img src={Crayola} alt="" />
@@ -781,14 +802,14 @@ export default function NavMarcas() {
             <Link>
               <img src={MasterChef} alt="" />
             </Link>
-            <Link to="/brands/pepsico">
-              <img src={Pepsico} alt="" />
-            </Link>
             <Link to="/brands/mgm-Mx">
               <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
+            </Link>
+            <Link>
+              <img src={Molang} alt="" />
             </Link>
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
@@ -796,8 +817,14 @@ export default function NavMarcas() {
             <Link>
               <img src={Panam} alt="" />
             </Link>
+            <Link to="/brands/pepsico">
+              <img src={Pepsico} alt="" />
+            </Link>
             <Link>
               <img src={Playmobil} alt="" />
+            </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
             </Link>
             <Link to="/brands/sanrio-Mx">
               <img src={Samri} alt="" />
@@ -1053,6 +1080,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Paris} alt="" />
             </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
+            </Link>
           </div>
         ) : show === 5 && info === "all" ? (
           <div className="images_per_row">
@@ -1112,6 +1142,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
+            </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
             </Link>
             <Link to="/brands/sanrio-Ch">
               <img src={Samri} alt="" />
@@ -1235,6 +1268,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Paris} alt="" />
             </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
+            </Link>
           </div>
         ) : show === 6 && info === "all" ? (
           <div className="images_per_row">
@@ -1294,6 +1330,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
+            </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
             </Link>
             <Link to="/brands/sony-Pe">
               <img src={SonyOpen} alt="" />
@@ -1418,6 +1457,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Paris} alt="" />
             </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
+            </Link>
           </div>
         ) : show === 7 && info === "all" ? (
           <div className="images_per_row">
@@ -1489,6 +1531,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
+            </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
             </Link>
             <Link to="/brands/sanrio-CAM">
               <img src={Samri} alt="" />
@@ -1616,6 +1661,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Paris} alt="" />
             </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
+            </Link>
           </div>
         ) : show === 2 && info === "all" ? (
           <div className="images_per_row">
@@ -1687,6 +1735,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
+            </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
             </Link>
             <Link to="/brands/sonrio-Col">
               <img src={Samri} alt="" />
@@ -1806,6 +1857,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Paris} alt="" />
             </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
+            </Link>
           </div>
         ) : show === 3 && info === "all" ? (
           <div className="images_per_row">
@@ -1871,6 +1925,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Playmobil} alt="" />
+            </Link>
+            <Link>
+              <img src={Realmadrid} alt="" />
             </Link>
             <Link to="/brands/sony-Ec">
               <img src={SonyOpen} alt="" />
