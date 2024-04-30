@@ -38,10 +38,7 @@ const UniversalPage = () => {
   return (
     <Layout>
       <MarcaPage backgroundImage={UniversaBanner}>
-        <img src={Minions}/>
-        <img src={JurasicW}/>
         <img src={BabyDream}/>
-        <img src={Kou}/>
         <img src={Back2}/>
         <img src={Casper}/>
         <img src={Curious}/>
@@ -49,10 +46,16 @@ const UniversalPage = () => {
         <img src={Et}/>
         <img src={Fast}/>
         <img src={Felix}/>
-        <img src={Jaws}/>
         <img src={GabbysDoll}/>
+        <img src={Jaws}/>
+        <img src={Jurassic}/>
+        <img src={JurasicW}/>
+        <img src={Kou}/>
+        <img src={LaCasa}/>
         <img src={LittleLulu}/>
         <img src={Madagascar}/>
+        <img src={Minions}/>
+        <img src={Monsters}/>
         <img src={Olivia}/>
         <img src={Pets}/>
         <img src={Puss}/>
