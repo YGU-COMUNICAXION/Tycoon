@@ -14,7 +14,7 @@ import BleachSpinOff from "../images/desktop/noticias/2023/Bleach.jpg";
 import FallGuysTycoon from "../images/desktop/noticias/2022/FallGuys.jpg";
 import useGeo from "../hooks/useGeo";
 import esBackground from "../images/mobile/home/bannerHomeEsp.webp";
-import enBackground from "../images/mobile/home/PORTADA-HOME-INGLES-MOBILE.png";
+import enBackground from "../images/mobile/home/bannerHomeEn.webp";
 import esBackgroundDesk from "../images/desktop/home/bannerHomeEsp.webp";
 import enBackgroundDesk from "../images/desktop/home/PORTADA-HOME-INGLES-DESKTOP.webp";
 import Instagram from "../images/mobile/noticiasCard/icon-instagram.png";
