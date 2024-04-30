@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
-import mgmEcPage from "./mgmEcPage";
+import MgmEcPage from "./mgmEcPage";
 
 const Index = () => {
-  return <mgmEcPage/>;
+  return <MgmEcPage />;
 };
 
 export default Index;

@@ -5,7 +5,3 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-
-.images_per_row > a:not([href]) {
-  cursor: default;
-}

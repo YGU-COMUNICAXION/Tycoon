@@ -12,8 +12,8 @@ const MoonbugPage = () => {
   return (
     <Layout>
       <MarcaPage backgroundImage={MoonbugBanner}>
-        <img src={Coocomelon}/>
         <img src={Blippi}/>
+        <img src={Coocomelon}/>
       </MarcaPage>
     </Layout>
   )

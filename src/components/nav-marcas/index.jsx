@@ -12,11 +12,14 @@ import Bluey from "../../images/brands_desktop/bluey_desktop.png";
 import FallGuys from "../../images/brands_desktop/fall_guys_desktop.png";
 import Kodak from "../../images/brands_desktop/kodak_desktop.png";
 import Mgm from "../../images/brands_desktop/mgm_desktop.png";
+import MgmOpen from "../../images/brands_desktop/mgmOpen.png";
 import Microsoft from "../../images/brands_desktop/microsoft_desktop.png";
-import Moonbug from "../../images/brands_desktop/moonbug_desktop.png";
+// import Moonbug from "../../images/brands_desktop/moonbug_desktop.png";
+import MoonbugOpen from "../../images/brands_desktop/moonbugOpen.png";
 import Pusheen from "../../images/brands_desktop/pusheen_desktop.png";
 import Samri from "../../images/brands_desktop/samri_desktop.png";
 import Sony from "../../images/brands_desktop/sony_desktop.png";
+import SonyOpen from "../../images/brands_desktop/sonyOpen.png";
 import Viz from "../../images/brands_desktop/viz_desktop.png";
 import Wb from "../../images/brands_desktop/wb_desktop.png";
 import Abg1 from "../../images/brands_desktop/abg1_desktop.png";
@@ -46,6 +49,7 @@ import Frida from "../../images/brands_desktop/frida_desktop.png";
 import Head from "../../images/brands_desktop/head_desktop.png";
 import Panam from "../../images/brands_desktop/panam_desktop.png";
 import Universal from "../../images/brands_desktop/universal_desktop.png";
+import SpinMasterOpen from "../../images/brands_desktop/spin-master.png";
 import useGeo from "../../hooks/useGeo";
 
 const StyledNavMarcas = styled.div`
@@ -456,13 +460,13 @@ export default function NavMarcas() {
               <img src={FallGuys} alt="" />
             </Link>
             <Link to="/brands/mgm-Arg">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
@@ -471,7 +475,10 @@ export default function NavMarcas() {
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Arg">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Arg">
               <img src={Viz} alt="" />
@@ -540,13 +547,13 @@ export default function NavMarcas() {
               <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-Arg">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
-            <Link>
-              <img src={Moonbug} alt="" />
+            <Link to="/brands/moonbug">
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -561,7 +568,10 @@ export default function NavMarcas() {
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Arg">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Arg">
               <img src={Viz} alt="" />
@@ -643,19 +653,22 @@ export default function NavMarcas() {
               <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Mx">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link>
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link to="/brands/sanrio-Mx">
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Mx">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Mx">
               <img src={Viz} alt="" />
@@ -771,14 +784,14 @@ export default function NavMarcas() {
             <Link to="/brands/pepsico">
               <img src={Pepsico} alt="" />
             </Link>
-            <Link to="/brands/mgm-MX">
-              <img src={Mgm} alt="" />
+            <Link to="/brands/mgm-Mx">
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Panam} alt="" />
@@ -790,7 +803,10 @@ export default function NavMarcas() {
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Mx">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Mx">
               <img src={Viz} alt="" />
@@ -984,13 +1000,13 @@ export default function NavMarcas() {
               <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Ch">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
@@ -999,7 +1015,10 @@ export default function NavMarcas() {
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Ch">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/universal-Ch">
               <img src={Universal} alt="" />
@@ -1074,13 +1093,13 @@ export default function NavMarcas() {
               <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-Ch">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -1098,7 +1117,10 @@ export default function NavMarcas() {
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Ch">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/universal-Ch">
               <img src={Universal} alt="" />
@@ -1166,19 +1188,22 @@ export default function NavMarcas() {
               <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Pe">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sony-Pe">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/vizmedia-Pe">
               <img src={Viz} alt="" />
@@ -1249,14 +1274,14 @@ export default function NavMarcas() {
             <Link>
               <img src={MasterChef} alt="" />
             </Link>
-            <Link to="/brands/mgm-Per">
-              <img src={Mgm} alt="" />
+            <Link to="/brands/mgm-Pe">
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -1271,7 +1296,10 @@ export default function NavMarcas() {
               <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sony-Pe">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link>
               <img src={Universal} alt="" />
@@ -1283,7 +1311,6 @@ export default function NavMarcas() {
         ) : null}
 
         {/* Centroamerica SECTIONS */}
-
         {show === 7 && info === "corporativas" ? (
           <div className="images_per_row">
             {/* {Catalogo[5].centroAmerica.corporativas.map((e, idx) => {
@@ -1341,13 +1368,13 @@ export default function NavMarcas() {
               <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-CAM">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
@@ -1356,7 +1383,10 @@ export default function NavMarcas() {
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-CAM">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster-CAM">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/universal-CAM">
               <img src={Universal} alt="" />
@@ -1440,13 +1470,13 @@ export default function NavMarcas() {
               <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-CAM">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -1464,7 +1494,10 @@ export default function NavMarcas() {
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-CAM">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster-CAM">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/universal-CAM">
               <img src={Universal} alt="" />
@@ -1533,13 +1566,13 @@ export default function NavMarcas() {
               <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Col">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
@@ -1548,7 +1581,10 @@ export default function NavMarcas() {
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Col">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/universal-Col">
               <img src={Universal} alt="" />
@@ -1632,13 +1668,13 @@ export default function NavMarcas() {
               <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-Col">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
-            <Link to="/brands/moonBug">
-              <img src={Moonbug} alt="" />
+            <Link to="/brands/moonbug">
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -1656,7 +1692,10 @@ export default function NavMarcas() {
               <img src={Samri} alt="" />
             </Link>
             <Link to="/brands/sony-Col">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/universal-Col">
               <img src={Universal} alt="" />
@@ -1723,16 +1762,19 @@ export default function NavMarcas() {
               <img src={Kodak} alt="" />
             </Link>
             <Link to="/brands/mgm-Ec">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link to="/brands/sony-Ec">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/universal-Ec">
               <img src={Universal} alt="" />
@@ -1813,13 +1855,13 @@ export default function NavMarcas() {
               <img src={MasterChef} alt="" />
             </Link>
             <Link to="/brands/mgm-Ec">
-              <img src={Mgm} alt="" />
+              <img src={MgmOpen} alt="" />
             </Link>
             <Link to="/brands/microsoft">
               <img src={Microsoft} alt="" />
             </Link>
             <Link to="/brands/moonbug">
-              <img src={Moonbug} alt="" />
+              <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -1831,7 +1873,10 @@ export default function NavMarcas() {
               <img src={Playmobil} alt="" />
             </Link>
             <Link to="/brands/sony-Ec">
-              <img src={Sony} alt="" />
+              <img src={SonyOpen} alt="" />
+            </Link>
+            <Link to="/brands/spinmaster">
+              <img src={SpinMasterOpen} alt="" />
             </Link>
             <Link to="/brands/universal-Ec">
               <img src={Universal} alt="" />

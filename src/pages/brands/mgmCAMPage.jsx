@@ -12,7 +12,7 @@ import PinkBlack from "../../images/desktop/marcas/mgm/pinkblack.png"
 import PinkLight from "../../images/desktop/marcas/mgm/pinklight.png"
 import PinkDark from "../../images/desktop/marcas/mgm/addams.png"
 import Rocky2 from "../../images/desktop/marcas/mgm/addams.png"
-import Wednesday from "../../images/desktop/marcas/mgm/addams.png"
+import Wednesday from "../../images/desktop/marcas/mgm/wednesday.png"
 import Addams2 from "../../images/desktop/marcas/mgm/addams.png"
 import MgmDark from "../../images/desktop/marcas/mgm/addams.png"
 import useGeo from '../../hooks/useGeo'
@@ -23,11 +23,13 @@ const MgmPage = () => {
   return (
     <Layout>
       <MarcaPage backgroundImage={MgmBanner}>
-        <img src={PinkLight}/>
-        <img src={Rocky2}/>
-        <img src={Creed}/>
-        <img src={Addams}/>
-        <img src={Vikings}/>
+      <img src={Creed} />
+        <img src={Legally} />
+        <img src={Pink} />
+        <img src={Rocky} />
+        <img src={Vikings} />
+        <img src={Addams} />
+        <img src={Wednesday} />
       </MarcaPage>
     </Layout>
   )
