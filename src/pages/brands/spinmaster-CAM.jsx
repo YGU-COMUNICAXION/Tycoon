@@ -20,6 +20,8 @@ const SpinMaster = () => {
 
 export default SpinMaster;
 
+export const Head = () => <title>Tycoon - Spin master</title>;
+
 export const query = graphql`
   query ($language: String!) {
     locales: allLocale(filter: { language: { eq: $language } }) {

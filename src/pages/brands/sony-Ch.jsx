@@ -7,6 +7,7 @@ const Index = () => {
 };
 
 export default Index;
+export const Head = () => <title>Tycoon - Sony</title>;
 
 export const query = graphql`
   query ($language: String!) {
