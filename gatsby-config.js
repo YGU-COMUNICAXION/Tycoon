@@ -1,7 +1,11 @@
+require("dotenv").config({
+  path: `.env`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `tycoon`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
     {
@@ -15,7 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-react-i18next`,
       options: {
         localeJsonSourceName: `locale`, // name given to `gatsby-source-filesystem` plugin.
-        languages: [`es`,`en`],
+        languages: [`es`, `en`],
         defaultLanguage: `es`,
         // if you are using Helmet, you must include siteUrl, and make sure you add http:https
         siteUrl: `https://www.yourdomain.tld`,
@@ -43,14 +47,14 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: "gatsby-plugin-manifest",
       options: {
-        "icon": "src/images/favicon.png"
-      }
+        icon: "src/images/favicon.png",
+      },
     },
-    'gatsby-plugin-netlify',
+    "gatsby-plugin-netlify",
 
     // `gatsby-plugin-smoothscroll`
-    `gatsby-plugin-anchor-links`
+    `gatsby-plugin-anchor-links`,
   ],
 };
