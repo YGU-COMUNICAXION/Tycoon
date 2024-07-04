@@ -47,7 +47,7 @@ const NewsPage = () => {
     const fetchData = async () => {
       const url = `https://graph.instagram.com/me/media?fields=media_url,caption,permalink,timestamp&access_token=${process.env.GATSBY_INSTAGRAM_TOKEN}`;
       const postsInstagram = await fetchInstagramData(url);
-      const last3 = postsInstagram.data.slice(0, 3);
+      const last3 = postsInstagram.data.slice(0, 4);
       setLastInstaPost(last3);
     };
 
