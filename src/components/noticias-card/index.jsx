@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-const NoticiasCard = ({ image, title, date, children }) => {
+const NoticiasCard = ({ image, title, date, children, loader }) => {
   return (
     <div className="noticiaMainDiv">
       <div className="noticiaUpperDiv">
@@ -18,11 +18,14 @@ const NoticiasCard = ({ image, title, date, children }) => {
       </div>
       <div className="noticiaUnderDiv">
         <p className="noticiaDate">{date}</p>
-        <div className="noticiaIconsRow">
-          {/* <img src={Mas} className="mas"/> */}
-          {children}
-        </div>
+        <div className="noticiaIconsRow">{children}</div>
       </div>
+
+      {loader && (
+        <div className="loader-card">
+          <div className="custom-loader"></div>
+        </div>
+      )}
     </div>
   );
 };

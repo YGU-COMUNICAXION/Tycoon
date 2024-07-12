@@ -248,12 +248,7 @@ const NewsPage = () => {
         <h2 className="sectionTitle">{t("newstitle")}</h2>
 
         <div className="newsSection">
-          {loading ? (
-            <div className="loaderContainer">
-              <div className="custom-loader"></div>
-            </div>
-          ) : (
-            allInstaPost &&
+          {allInstaPost &&
             allInstaPost.data.map((e, index) => {
               return (
                 <NoticiasCard
@@ -261,23 +256,25 @@ const NewsPage = () => {
                   image={e.media_url}
                   title={processCaption(e.caption)}
                   date={processTimestamp(e.timestamp)}
+                  loader={loading}
                 >
                   <a href={e.permalink} target="_blank" rel="noreferrer">
                     <img alt="mas" src={Instagram} className="mas" />
                   </a>
                 </NoticiasCard>
               );
-            })
-          )}
+            })}
         </div>
 
         {allInstaPost && (
           <div className="pagingBtns">
             {allInstaPost.paging.previous && (
               <button
-                onClick={() => {
-                  getInstagramPostPage(allInstaPost.paging.previous);
+                onClick={async () => {
                   newsSection.current.scrollIntoView({ behavior: "smooth" });
+                  setLoading(true);
+                  await getInstagramPostPage(allInstaPost.paging.previous);
+                  setLoading(false);
                 }}
               >
                 Atrás
@@ -288,7 +285,9 @@ const NewsPage = () => {
               <button
                 onClick={async () => {
                   newsSection.current.scrollIntoView({ behavior: "smooth" });
+                  setLoading(true);
                   await getInstagramPostPage(allInstaPost.paging.next);
+                  setLoading(false);
                 }}
               >
                 Siguiente
