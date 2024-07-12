@@ -16,28 +16,27 @@ import Onepunch from "../../images/desktop/marcas/viz/onepunch.png";
 import NarutoShi from "../../images/desktop/marcas/viz/narutoship.png";
 import Naruto from "../../images/desktop/marcas/viz/naruto.png";
 import Death from "../../images/desktop/marcas/viz/death.png";
-import useGeo from "../../hooks/useGeo";
 
 const VizPage = () => {
-  const geo = useGeo();
+
 
   return (
     <Layout>
       <MarcaPage backgroundImage={VizBanner}>
-        <img src={Bleach} />
-        <img src={Boruto} />
-        <img src={capitantsubasa} />
-        <img src={Death} />
-        <img src={hunter} />
-        <img src={inuyasha} />
-        <img src={jojos} />
-        <img src={komi} />
-        <img src={NarutoShi} />
-        <img src={Naruto} />
-        <img src={Onepunch} />
-        <img src={uzumaki} />
-        <img src={yashahime} />
-        <img src={zom100} />
+        <img alt="marca" src={Bleach} />
+        <img alt="marca" src={Boruto} />
+        <img alt="marca" src={capitantsubasa} />
+        <img alt="marca" src={Death} />
+        <img alt="marca" src={hunter} />
+        <img alt="marca" src={inuyasha} />
+        <img alt="marca" src={jojos} />
+        <img alt="marca" src={komi} />
+        <img alt="marca" src={NarutoShi} />
+        <img alt="marca" src={Naruto} />
+        <img alt="marca" src={Onepunch} />
+        <img alt="marca" src={uzumaki} />
+        <img alt="marca" src={yashahime} />
+        <img alt="marca" src={zom100} />
       </MarcaPage>
     </Layout>
   );

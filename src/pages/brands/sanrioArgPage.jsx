@@ -6,18 +6,16 @@ import AggRetsuko from "../../images/desktop/marcas/sanrio/aggretsuko.png"
 import Gudetama from "../../images/desktop/marcas/sanrio/gudetama.png"
 import HelloFriends from "../../images/desktop/marcas/sanrio/hellofriends.png"
 import Hello from "../../images/desktop/marcas/sanrio/hellokitty.png"
-import useGeo from '../../hooks/useGeo'
 
 const SanrioPage = () => {
-  const geo = useGeo();  
 
   return (
     <Layout>
       <MarcaPage backgroundImage={SanrioBanner}>
-        <img src={Hello}/>
-        <img src={HelloFriends}/>
-        <img src={Gudetama}/>
-        <img src={AggRetsuko}/>
+        <img alt="marca" src={Hello}/>
+        <img alt="marca" src={HelloFriends}/>
+        <img alt="marca" src={Gudetama}/>
+        <img alt="marca" src={AggRetsuko}/>
       </MarcaPage>
     </Layout>
   )

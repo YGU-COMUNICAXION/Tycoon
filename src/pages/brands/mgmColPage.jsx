@@ -8,28 +8,19 @@ import Pink from "../../images/desktop/marcas/mgm/pink.png";
 import Vikings from "../../images/desktop/marcas/mgm/vikings.png";
 import Addams from "../../images/desktop/marcas/mgm/addams.png";
 import Creed from "../../images/desktop/marcas/mgm/creed.png";
-import PinkBlack from "../../images/desktop/marcas/mgm/pinkblack.png";
-import PinkLight from "../../images/desktop/marcas/mgm/pinklight.png";
-import PinkDark from "../../images/desktop/marcas/mgm/addams.png";
-import Rocky2 from "../../images/desktop/marcas/mgm/addams.png";
 import Wednesday from "../../images/desktop/marcas/mgm/wednesday.png";
-import Addams2 from "../../images/desktop/marcas/mgm/addams.png";
-import MgmDark from "../../images/desktop/marcas/mgm/mgm.png";
-import useGeo from "../../hooks/useGeo";
 
 const MgmPage = () => {
-  const geo = useGeo();
-
   return (
     <Layout>
       <MarcaPage backgroundImage={MgmBanner}>
-        <img src={Creed} />
-        <img src={Legally} />
-        <img src={Pink} />
-        <img src={Rocky} />
-        <img src={Vikings} />
-        <img src={Addams} />
-        <img src={Wednesday} />
+        <img alt="marca" src={Creed} />
+        <img alt="marca" src={Legally} />
+        <img alt="marca" src={Pink} />
+        <img alt="marca" src={Rocky} />
+        <img alt="marca" src={Vikings} />
+        <img alt="marca" src={Addams} />
+        <img alt="marca" src={Wednesday} />
       </MarcaPage>
     </Layout>
   );

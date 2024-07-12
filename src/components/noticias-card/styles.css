@@ -2,14 +2,15 @@
   display: flex;
   flex-direction: column;
   min-width: 150px;
-  margin: 1%;
-  /* max-width: 450px; */
-  /* width: 50%; */
-  width: 28%;
+  max-width: 500px;
 }
+
 .noticiaUpperDiv img {
   width: 100%;
+  aspect-ratio: 4 / 5;
+  margin-bottom: 0.5rem;
 }
+
 .noticiaTitle {
   font-family: "B Medium";
   color: #051c2c;
@@ -19,11 +20,15 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: normal;
-  margin: 0.5rem 0 1rem;
+  margin: 0rem 0 1rem;
+  line-height: 1.3rem;
+  height: 2.6rem;
 }
+
 .noticiaUpperDiv {
   margin-bottom: 0rem;
 }
+
 .noticiaDate {
   font-family: "B SemiBold";
   color: #0081c3;
@@ -35,84 +40,17 @@
   width: 100%;
 }
 .noticiaIconsRow a {
-  width: 23%;
+  width: 1.5rem;
+  height: 1.5rem;
   margin: 0 0 1rem;
 }
 .mas {
-  /* width: 23%; */
   width: 100%;
 }
 
-@media only screen and (min-width: 752px) {
-  .noticiaMainDiv {
-    /* width: 33%; */
-    /* width: 224px; */
-    margin: 1% 3% 0% 3%;
-    height: 397px;
-  }
-  .noticiaTitle {
-    font-family: "B SemiBold";
-    font-size: 13px;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-    line-height: 23px;
-  }
-  .noticiaUpperDiv {
-    margin-bottom: 0%;
-  }
-  .noticiaDate {
-    font-family: "B SemiBold";
-    font-size: 13px;
-  }
-  .noticiaIconsRow a {
-    width: 13%;
-  }
-  .mas {
-    width: 100%;
-  }
-}
 @media only screen and (min-width: 1000px) {
-  .noticiaMainDiv {
-    height: 533px;
-    /* width: 264px; */
-    margin: 1% 1% 5% 1%;
-  }
-  .noticiaTitle {
-    font-size: 18px;
-    line-height: 25px;
-  }
-  .noticiaDate {
-    font-size: 16px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .noticiaMainDiv {
-    height: 603px;
-  }
-}
-@media only screen and (min-width: 1300px) {
-  .noticiaMainDiv {
-    height: 703px;
-    /* width: 354px; */
-    margin: 1% 1% 5% 1%;
-  }
-  .noticiaTitle {
-    font-size: 23px;
-    line-height: 35px;
-  }
-  .noticiaDate {
-    font-size: 20px;
-  }
-}
-@media only screen and (min-width: 1500px) {
-  .noticiaMainDiv {
-    height: 773px;
-    /* width: 366px; */
-  }
-  .noticiaTitle {
-    font-size: 28px;
-  }
-  .noticiaDate {
-    font-size: 25px;
+  .noticiaIconsRow a {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }

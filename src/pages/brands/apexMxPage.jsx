@@ -6,18 +6,15 @@ import Hitech from "../../images/desktop/marcas/apex/hitec.png"
 import PointCove from "../../images/desktop/marcas/apex/point.png"
 import Hawwk from "../../images/desktop/marcas/apex/tonyhawk.png"
 import Everyday from "../../images/desktop/marcas/apex/everyday.png"
-import useGeo from '../../hooks/useGeo'
 
 const ApexPage = () => {
-  const geo = useGeo();  
-
   return (
     <Layout>
       <MarcaPage backgroundImage={ApexBanner}>
-        <img src={Everyday}/>
-        <img src={Hawwk}/>
-        <img src={PointCove}/>
-        <img src={Hitech}/>
+        <img alt="marca" src={Everyday}/>
+        <img alt="marca" src={Hawwk}/>
+        <img alt="marca" src={PointCove}/>
+        <img alt="marca" src={Hitech}/>
       </MarcaPage>
     </Layout>
   )

@@ -17,7 +17,7 @@ const MarcaPage = ({backgroundImage, children}) => {
             <div className='marcaPFirstDiv'>
                 <Link to="/brands">
                     <div className='backbutton'>
-                        <img src={Back}/>
+                        <img alt="arrow" src={Back}/>
                         <p>{t("goback")}</p>
                     </div>
                 </Link>
@@ -32,7 +32,7 @@ const MarcaPage = ({backgroundImage, children}) => {
             <div className='marcaPFirstDivDesk'>
                 <Link to="/brands">
                     <div className='backbutton'>
-                        <img src={Back}/>
+                        <img alt="arrow" src={Back}/>
                         <p>{t("goback")}</p>
                     </div>
                 </Link>

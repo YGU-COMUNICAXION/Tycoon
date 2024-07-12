@@ -9,7 +9,7 @@ const PaisCard = ({pais, image, children}) => {
             <h3 className='paisContactName'>{pais}</h3>
             {children}
         </div>
-        <img src={image}/>
+        <img alt="" src={image}/>
     </div>
   )
 }

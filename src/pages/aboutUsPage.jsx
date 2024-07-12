@@ -54,7 +54,7 @@ const AboutUsPage = () => {
                 <div className="aboutThirdSection">
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutWhat"))}</h2>
                     <p className="regularP">{renderStringHMTLtoJSX(t("aboutFifthP"))}</p>
-                    <img src={Que} className="como"/>
+                    <img alt="question" src={Que} className="como"/>
                 </div>
                 <div className="aboutFourthSection">
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutHow"))}</h2>
@@ -62,15 +62,15 @@ const AboutUsPage = () => {
                     <p className="regularP">{t("aboutSeventhP")}</p>
                     <p className="regularP">{t("aboutEighthP")}</p>
                     <p className="regularP">{t("aboutNinethP")}</p>
-                    <img src={Como} className="como"/>
+                    <img alt="question" src={Como} className="como"/>
                 </div>
                 <div className="aboutFifhtSection">
-                    <img src={Like} className="LikeMobile"/>
+                    <img alt="question" src={Like} className="LikeMobile"/>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutDoYou"))}</h2>
                     <p className="regularP">{t("aboutTenthP")}</p>
                     <p className="smallP">{renderStringHMTLtoJSX(t("aboutEleventhP"))}</p>
                     <p className="smallP">{renderStringHMTLtoJSX(t("aboutTwelfthP"))}</p>
-                    <img src={Okey} className="OkeyMobile"/>
+                    <img alt="question" src={Okey} className="OkeyMobile"/>
                 </div>
                 <div className="aboutSixthSection">
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutAcknowledgments"))}</h2>
@@ -99,7 +99,7 @@ const AboutUsPage = () => {
                     </div>
                 </div>
                 <div className="aboutSeventhSection">
-                    <img src={Responsabilidad}/>
+                    <img alt="resposabilidad" src={Responsabilidad}/>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutResposability"))}</h2>
                     <InstitucionesCard image={Museo} institucionName={t("museoName")} info={t("museoInfo")}/>
                     <InstitucionesCard image={Cadena} institucionName={t("cadenaName")} info={t("cadenaInfo")}/>
@@ -125,12 +125,12 @@ const AboutUsPage = () => {
                         <p className="regularP">{renderStringHMTLtoJSX(t("aboutFifthP"))}</p>
                     </div>
                     <div className="aboutRightDiv">
-                        <img src={QueDesk} className="queDesk"/>
+                        <img alt="question" src={QueDesk} className="queDesk"/>
                     </div>
                 </div>
                 <div className="aboutSectionDesk">
                     <div className="aboutLeftDiv">
-                        <img src={ComoDesk} className="queDesk"/>
+                        <img alt="img" src={ComoDesk} className="queDesk"/>
                     </div>
                     <div className="aboutRightDiv">
                         <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutHow"))}</h2>
@@ -141,11 +141,11 @@ const AboutUsPage = () => {
                     </div>
                 </div>
                 <div className="aboutFifhtSectionDesk">
-                    <img src={Like} className="likeDesk"/>
+                    <img alt="img" src={Like} className="likeDesk"/>
                     <div className="aboutLeftDiv">
                         <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutDoYou"))}</h2>
                         <p className="regularP">{t("aboutTenthP")}</p>
-                        <img src={Okey} className="okeydesk"/>
+                        <img alt="img" src={Okey} className="okeydesk"/>
                     </div>
                     <div className="aboutRightDiv">
                         <p className="smallP">{renderStringHMTLtoJSX(t("aboutEleventhP"))}</p>
@@ -175,7 +175,7 @@ const AboutUsPage = () => {
                     </div>
                 </div>
                 <div className="aboutSeventhSectionDesk">
-                    <img src={Responsabilidad}/>
+                    <img alt="img" src={Responsabilidad}/>
                     <h2 className="sectionTitle">{renderStringHMTLtoJSX(t("aboutResposability"))}</h2>
                     <div className="institucionesDivDesk">
                         <InstitucionesCard image={Museo} institucionName={t("museoName")} info={t("museoInfo")}/>

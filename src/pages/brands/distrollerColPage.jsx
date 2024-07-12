@@ -6,17 +6,15 @@ import Neonato from "../../images/desktop/marcas/distroller/neonato.png"
 import Virgencita from "../../images/desktop/marcas/distroller/virgencita.png"
 import Chamoy from "../../images/desktop/marcas/distroller/chamoy.png"
 
-import useGeo from '../../hooks/useGeo'
 
 const DistrollerPage = () => {
-  const geo = useGeo();  
 
   return (
     <Layout>
       <MarcaPage backgroundImage={DistrollerBanner}>
-        <img src={Neonato}/>
-        <img src={Virgencita}/>
-        <img src={Chamoy}/>
+        <img alt="marca" src={Neonato}/>
+        <img alt="marca" src={Virgencita}/>
+        <img alt="marca" src={Chamoy}/>
       </MarcaPage>
     </Layout>
   )

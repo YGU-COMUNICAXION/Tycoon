@@ -13,13 +13,13 @@ const VacanteNoDispo = () => {
     <>
     {windowSize < 752 ? (
         <div className='vacanteNoDispoMainDiv'>
-            <img className='blueFace' src={BlueFace}/>
+            <img alt="blueFace" className='blueFace' src={BlueFace}/>
             <p className='smallP'>{t("noVacanteFirstP")}</p>
             <p className='smallP'>{t("noVacanteSecondP")}</p>
         </div>
     ):(
         <div className='vacanteNoDispoMainDivDesk'>
-            <img className='blueFace' src={BlueFace}/>
+            <img alt="blueFace" className='blueFace' src={BlueFace}/>
             <div className='nodispoRightDiv'>
                 <p className='smallP'>{t("noVacanteFirstP")}</p>
                 <p className='smallP'>{t("noVacanteSecondP")}</p>

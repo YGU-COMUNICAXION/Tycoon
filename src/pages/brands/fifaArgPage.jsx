@@ -6,19 +6,16 @@ import FifaBanner from "../../images/desktop/marcas/fifa/fifaBanner.webp"
 import FifaWomen from "../../images/desktop/marcas/fifa/fifawomen.png"
 import FifaUnder from "../../images/desktop/marcas/fifa/fifaunder.png"
 import Qtar from "../../images/desktop/marcas/fifa/qatar.png"
-import Fifasimple from "../../images/desktop/marcas/fifa/fifasimple.png"
-import FifaRight from "../../images/desktop/marcas/fifa/fifaRight.png"
-import useGeo from '../../hooks/useGeo'
 
 const FifaPage = () => {
-  const geo = useGeo();  
+
 
   return (
     <Layout>
       <MarcaPage backgroundImage={FifaBanner}>
-        <img src={FifaUnder}/>
-        <img src={Qtar}/>
-        <img src={FifaWomen}/>
+        <img alt="marca" src={FifaUnder}/>
+        <img alt="marca" src={Qtar}/>
+        <img alt="marca" src={FifaWomen}/>
       </MarcaPage>
     </Layout>
   )

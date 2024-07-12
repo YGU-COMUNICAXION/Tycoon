@@ -3,16 +3,12 @@ import Layout from '../../components/layout'
 import MarcaPage from '../../components/marcaPage'
 import UniversaBanner from "../../images/desktop/marcas/universal/universalBanner.png"
 import JurasicW from "../../images/desktop/marcas/universal/jurasica-w.png"
-import TrollsLight from "../../images/desktop/marcas/universal/trolls.png"
 import TrollsDark from "../../images/desktop/marcas/universal/trollsblack.png"
 import BabyDream from "../../images/desktop/marcas/universal/babydream.png"
 import Kou from "../../images/desktop/marcas/universal/kou.png"
 import Back2 from "../../images/desktop/marcas/universal/back2.png"
 import Et from "../../images/desktop/marcas/universal/et.png"
-import LaCasa from "../../images/desktop/marcas/universal/lacasade.png"
-import Monsters from "../../images/desktop/marcas/universal/monsters.png"
 import Waldo from "../../images/desktop/marcas/universal/waldo.png"
-import Jurassic from "../../images/desktop/marcas/universal/jurassic.png"
 import Jaws from "../../images/desktop/marcas/universal/jaws.png"
 import Woody from "../../images/desktop/marcas/universal/woody.png"
 import LittleLulu from "../../images/desktop/marcas/universal/littlelulu.png"
@@ -41,58 +37,58 @@ const UniversalPage = () => {
     {geo === "MX" && (<></>)}
     {geo === "CL" && (<>
       <MarcaPage backgroundImage={UniversaBanner}>
-        <img src={Minions}/>
-        <img src={JurasicW}/>
-        <img src={BabyDream}/>
-        <img src={Kou}/>
-        <img src={Back2}/>
-        <img src={Casper}/>
-        <img src={Curious}/>
-        <img src={Dragons}/>
-        <img src={Et}/>
-        <img src={Fast}/>
-        <img src={Felix}/>
-        <img src={Jaws}/>
-        <img src={GabbysDoll}/>
-        <img src={LittleLulu}/>
-        <img src={Madagascar}/>
-        <img src={Olivia}/>
-        <img src={Pets}/>
-        <img src={Puss}/>
-        <img src={Sherk}/>
-        <img src={Sing}/>
-        <img src={Spirit}/>
-        <img src={TrollsDark}/>
-        <img src={Waldo}/>
-        <img src={Woody}/>
+        <img alt="marca" src={Minions}/>
+        <img alt="marca" src={JurasicW}/>
+        <img alt="marca" src={BabyDream}/>
+        <img alt="marca" src={Kou}/>
+        <img alt="marca" src={Back2}/>
+        <img alt="marca" src={Casper}/>
+        <img alt="marca" src={Curious}/>
+        <img alt="marca" src={Dragons}/>
+        <img alt="marca" src={Et}/>
+        <img alt="marca" src={Fast}/>
+        <img alt="marca" src={Felix}/>
+        <img alt="marca" src={Jaws}/>
+        <img alt="marca" src={GabbysDoll}/>
+        <img alt="marca" src={LittleLulu}/>
+        <img alt="marca" src={Madagascar}/>
+        <img alt="marca" src={Olivia}/>
+        <img alt="marca" src={Pets}/>
+        <img alt="marca" src={Puss}/>
+        <img alt="marca" src={Sherk}/>
+        <img alt="marca" src={Sing}/>
+        <img alt="marca" src={Spirit}/>
+        <img alt="marca" src={TrollsDark}/>
+        <img alt="marca" src={Waldo}/>
+        <img alt="marca" src={Woody}/>
       </MarcaPage>
     </>)}
     {(geo === "CO" || geo === "EC" || geo === "GT" || geo === "BZ" || geo === "HN" || geo === "NI" || geo === "CR" || geo === "PA") && (<>
       <MarcaPage backgroundImage={UniversaBanner}>
-        <img src={Minions}/>
-        <img src={JurasicW}/>
-        <img src={BabyDream}/>
-        <img src={Kou}/>
-        <img src={Back2}/>
-        <img src={Casper}/>
-        <img src={Curious}/>
-        <img src={Dragons}/>
-        <img src={Et}/>
-        <img src={Fast}/>
-        <img src={Felix}/>
-        <img src={Jaws}/>
-        <img src={GabbysDoll}/>
-        <img src={LittleLulu}/>
-        <img src={Madagascar}/>
-        <img src={Olivia}/>
-        <img src={Pets}/>
-        <img src={Puss}/>
-        <img src={Sherk}/>
-        <img src={Sing}/>
-        <img src={Spirit}/>
-        <img src={TrollsDark}/>
-        <img src={Waldo}/>
-        <img src={Woody}/>
+        <img alt="marca" src={Minions}/>
+        <img alt="marca" src={JurasicW}/>
+        <img alt="marca" src={BabyDream}/>
+        <img alt="marca" src={Kou}/>
+        <img alt="marca" src={Back2}/>
+        <img alt="marca" src={Casper}/>
+        <img alt="marca" src={Curious}/>
+        <img alt="marca" src={Dragons}/>
+        <img alt="marca" src={Et}/>
+        <img alt="marca" src={Fast}/>
+        <img alt="marca" src={Felix}/>
+        <img alt="marca" src={Jaws}/>
+        <img alt="marca" src={GabbysDoll}/>
+        <img alt="marca" src={LittleLulu}/>
+        <img alt="marca" src={Madagascar}/>
+        <img alt="marca" src={Olivia}/>
+        <img alt="marca" src={Pets}/>
+        <img alt="marca" src={Puss}/>
+        <img alt="marca" src={Sherk}/>
+        <img alt="marca" src={Sing}/>
+        <img alt="marca" src={Spirit}/>
+        <img alt="marca" src={TrollsDark}/>
+        <img alt="marca" src={Waldo}/>
+        <img alt="marca" src={Woody}/>
       </MarcaPage>
     </>)}
     {geo === "BR" && (<></>)}

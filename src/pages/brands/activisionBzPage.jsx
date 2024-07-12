@@ -5,17 +5,16 @@ import ActivisionBanner from "../../images/desktop/marcas/activision/activisionB
 import Spyro from "../../images/desktop/marcas/activision/spyro.png"
 import Crash from "../../images/desktop/marcas/activision/crash.png"
 import Call from "../../images/desktop/marcas/activision/callodduty.png"
-import useGeo from '../../hooks/useGeo'
 
 const MgmPage = () => {
-  const geo = useGeo();  
+
 
   return (
     <Layout>
       <MarcaPage backgroundImage={ActivisionBanner}>
-        <img src={Spyro}/>
-        <img src={Crash}/>
-        <img src={Call}/>
+        <img alt="marca" src={Spyro}/>
+        <img alt="marca" src={Crash}/>
+        <img alt="marca" src={Call}/>
       </MarcaPage>
     </Layout>
   )

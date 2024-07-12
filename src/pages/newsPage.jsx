@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "gatsby-plugin-react-i18next";
-import { Link } from "gatsby";
 import renderStringHMTLtoJSX from "../utils/renderStringHTMLtoJSX";
 import Layout from "../components/layout";
 import "../css/news.css";
 import NoticiasRecientes from "../components/noticias-recientes";
-import NoticiasNav from "../components/nav-noticias";
 import useWindowSize from "../hooks/useWindowSize";
 import NoticiasCard from "../components/noticias-card";
 import esBackground from "../images/mobile/noticias/bannerNoticiasEsp.png";
@@ -26,6 +24,7 @@ const NewsPage = () => {
   const { i18n } = useTranslation();
 
   const [lastInstaPost, setLastInstaPost] = useState([]);
+  const [allInstaPost, setAllInstaPost] = useState();
 
   useEffect(() => {
     const fetchInstagramData = async (url) => {
@@ -47,8 +46,10 @@ const NewsPage = () => {
     const fetchData = async () => {
       const url = `https://graph.instagram.com/me/media?fields=media_url,caption,permalink,timestamp&access_token=${process.env.GATSBY_INSTAGRAM_TOKEN}`;
       const postsInstagram = await fetchInstagramData(url);
-      const last3 = postsInstagram.data.slice(0, 4);
+      const last3 = postsInstagram.data.slice(0, 3);
       setLastInstaPost(last3);
+      setAllInstaPost(postsInstagram);
+      console.log(allInstaPost);
     };
 
     fetchData();
@@ -94,8 +95,8 @@ const NewsPage = () => {
                         title={processCaption(e.caption)}
                         date={processTimestamp(e.timestamp)}
                       >
-                        <a href={e.permalink} target="_blank">
-                          <img src={Instagram} className="mas" />
+                        <a href={e.permalink} target="_blank" rel="noreferrer">
+                          <img alt="mas" src={Instagram} className="mas" />
                         </a>
                       </NoticiasCard>
                     );
@@ -111,8 +112,9 @@ const NewsPage = () => {
                     <a
                       href="https://www.instagram.com/p/CiIM85IDQX0/?igshid=YmMyMTA2M2Y="
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="mas" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                   <NoticiasCard
@@ -123,8 +125,9 @@ const NewsPage = () => {
                     <a
                       href="https://www.instagram.com/p/CosowM4rij9/"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="mas" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                   <NoticiasCard
@@ -135,17 +138,14 @@ const NewsPage = () => {
                     <a
                       href="https://www.instagram.com/p/Cmc31sVNpE8/"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="mas" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                 </>
               )}
             </NoticiasRecientes>
-          </div>
-          <div className="newsThirdSection">
-            <h2 className="sectionTitle">{t("newstitle")}</h2>
-            <NoticiasNav />
           </div>
         </div>
       ) : (
@@ -169,8 +169,8 @@ const NewsPage = () => {
                         title={processCaption(e.caption)}
                         date={processTimestamp(e.timestamp)}
                       >
-                        <a href={e.permalink} target="_blank">
-                          <img src={Instagram} className="mas" />
+                        <a href={e.permalink} target="_blank" rel="noreferrer">
+                          <img alt="mas" src={Instagram} className="mas" />
                         </a>
                       </NoticiasCard>
                     );
@@ -186,8 +186,9 @@ const NewsPage = () => {
                     <a
                       href="https://www.instagram.com/p/CiIM85IDQX0/?igshid=YmMyMTA2M2Y="
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="mas" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                   <NoticiasCard
@@ -198,8 +199,9 @@ const NewsPage = () => {
                     <a
                       href="https://www.instagram.com/p/CosowM4rij9/"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="mas" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                   <NoticiasCard
@@ -210,20 +212,39 @@ const NewsPage = () => {
                     <a
                       href="https://www.instagram.com/p/Cmc31sVNpE8/"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="mas" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                 </>
               )}
             </NoticiasRecientes>
           </div>
-          <div className="newsThirdSection">
-            <h2 className="sectionTitle">{t("newstitle")}</h2>
-            <NoticiasNav />
-          </div>
         </div>
       )}
+
+      <div className="newsThirdSection">
+        <h2 className="sectionTitle">{t("newstitle")}</h2>
+
+        <section className="newsSection">
+          {allInstaPost &&
+            allInstaPost.data.map((e, index) => {
+              return (
+                <NoticiasCard
+                  key={index}
+                  image={e.media_url}
+                  title={processCaption(e.caption)}
+                  date={processTimestamp(e.timestamp)}
+                >
+                  <a href={e.permalink} target="_blank" rel="noreferrer">
+                    <img alt="mas" src={Instagram} className="mas" />
+                  </a>
+                </NoticiasCard>
+              );
+            })}
+        </section>
+      </div>
     </Layout>
   );
 };

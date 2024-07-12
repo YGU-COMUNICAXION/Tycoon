@@ -112,7 +112,7 @@ const Footer = () => {
           <div className="upperDeskDiv">
             <div className="upperMainDesk">
               <div className="footerLogoDesk">
-                <img src={Logo} />
+                <img src={Logo} alt="" />
               </div>
               <div className="pagsDiv">
                 <h2 className="footerTitle">{t("footerTitle")}</h2>
@@ -158,7 +158,11 @@ const Footer = () => {
             </div>
             <div className="upperContact">
               <h2 className="teInteresa">{t("footerThirdTitle")}</h2>
-              <a href="mailto:contacto@tycoon.mx" target="_blank">
+              <a
+                href="mailto:contacto@tycoon.mx"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <p className="escribenos">
                   {renderStringHMTLtoJSX(t("textus"))}
                 </p>

@@ -33,13 +33,13 @@ const Header = () => {
       </div>
       <div className="deskRightDiv">
         <a href="https://www.facebook.com/TycoonEnterprises/" target={"_blank"}>
-          <img src={Facebook}/>
+          <img alt="redsocial" src={Facebook}/>
         </a>
         <a href="https://www.instagram.com/tycoon.enterprises/" target={"_blank"}>
-          <img src={Instagram}/>
+          <img alt="redsocial" src={Instagram}/>
         </a>
         <a href="https://www.linkedin.com/company/tycoon-enterprises/" target={"_blank"}>
-          <img src={LinkedIn}/>
+          <img alt="redsocial" src={LinkedIn}/>
         </a>
         <SwitchLeng />
       </div>
@@ -48,7 +48,7 @@ const Header = () => {
     <div>
       <div className="HeaderTag">
         <div className="headerMenu">
-          <img src={Menu} nav={nav} onClick={() => setNav(!nav)} />
+          <img alt="Menu" src={Menu} nav={nav} onClick={() => setNav(!nav)} />
         </div>
         <div className="headerLogo">
           <Link to="/">

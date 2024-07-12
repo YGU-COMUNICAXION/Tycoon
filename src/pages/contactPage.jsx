@@ -4,7 +4,6 @@ import Layout from "../components/layout";
 import "../css/contact.css";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import renderStringHMTLtoJSX from "../utils/renderStringHTMLtoJSX";
-import Enviar from "../components/button";
 import Tycoon360 from "../images/mobile/contacto/tycoon360.png";
 import PaisContacto from "../components/pais-contacto";
 import Argentina from "../images/mobile/layout/footer/paises/argentina.png";
@@ -17,7 +16,6 @@ import Mexico from "../images/mobile/layout/footer/paises/mexico.png";
 import Peru from "../images/mobile/layout/footer/paises/peru.png";
 import useWindowSize from "../hooks/useWindowSize";
 import Buscando from "../images/desktop/contacto/teEstamosbuscando.png";
-import styled from "styled-components";
 import esBackground from "../images/mobile/contacto/bannerContactoEsp.png";
 import enBackground from "../images/desktop/contacto/PORTADA-CONTACT-eng.webp";
 import esBackgroundDesk from "../images/desktop/contacto/banerContactoDeskEsp.webp";
@@ -25,8 +23,6 @@ import enBackgroundDesk from "../images/desktop/contacto/PORTADA-CONTACT-eng.web
 
 const imgMap = { en: enBackground, es: esBackground };
 const imgMapDesk = { en: enBackgroundDesk, es: esBackgroundDesk };
-
-const formLeftDeskDiv = styled.div``;
 
 const ContactPage = () => {
   const { t } = useTranslation("contact");
@@ -43,7 +39,7 @@ const ContactPage = () => {
           ></div>
           <div className="contactSecondSection">
             <Link to="/vacantes" className="vacantesLink">
-              <img src={Buscando} className="buscandote" />
+              <img alt="" src={Buscando} className="buscandote" />
             </Link>
             <h2 className="blueTitle">{t("contactTitle")}</h2>
             <div className="contactInfoDiv">
@@ -154,6 +150,7 @@ const ContactPage = () => {
                       href="/privacy-simple"
                       style={{ fontFamily: "B SemiLight", color: "#0081c3" }}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       {t("Data Privacy Policy")}
                     </a>
@@ -171,7 +168,7 @@ const ContactPage = () => {
               <p className="smallP">{t("interestBZ")}</p>
             </div>
             <a href="http://www.tycoon360.com.br/" className="tycoon360Link">
-              <img src={Tycoon360} className="tycoon360" />
+              <img alt="" src={Tycoon360} className="tycoon360" />
             </a>{" "}
           </div>
           <div className="contactThirdSection">
@@ -276,7 +273,7 @@ const ContactPage = () => {
           />
           <div className="contactSecondSection">
             <Link to="/vacantes">
-              <img src={Buscando} className="buscandote" />
+              <img alt="" src={Buscando} className="buscandote" />
             </Link>
             <h2 className="blueTitle">{t("contactTitle")}</h2>
             <div className="contactInfoDiv">
@@ -407,6 +404,7 @@ const ContactPage = () => {
                       href="/privacy-simple"
                       style={{ fontFamily: "B SemiLight", color: "#0081c3" }}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       {t("Data Privacy Policy")}
                     </a>
@@ -424,7 +422,7 @@ const ContactPage = () => {
               <p className="regularP">{t("interestBZ")}</p>
             </div>
             <a href="http://www.tycoon360.com.br/" className="tycoon360Link">
-              <img src={Tycoon360} className="tycoon360" />
+              <img alt="" src={Tycoon360} className="tycoon360" />
             </a>
           </div>
           <div className="contactThirdSectiondesk" id="contArg">

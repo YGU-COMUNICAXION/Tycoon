@@ -5,16 +5,13 @@ import MarcaPage from "../../components/marcaPage";
 import Banner from "../../images/desktop/marcas/spinmaster/spinmasterBanner.png";
 import Rubik from "../../images/desktop/marcas/spinmaster/rubiks.png";
 import Unicorn from "../../images/desktop/marcas/spinmaster/unicorn.png";
-import useGeo from "../../hooks/useGeo";
-
 const SpinMaster = () => {
-  const geo = useGeo();
 
   return (
     <Layout>
       <MarcaPage backgroundImage={Banner}>
-        <img src={Rubik} />
-        <img src={Unicorn} />
+        <img alt="marca" src={Rubik} />
+        <img alt="marca" src={Unicorn} />
       </MarcaPage>
     </Layout>
   );

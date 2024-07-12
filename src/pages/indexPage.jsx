@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "gatsby";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import renderStringHMTLtoJSX from "../utils/renderStringHTMLtoJSX";
 import Layout from "../components/layout";
@@ -12,7 +11,6 @@ import NoticiasCard from "../components/noticias-card";
 import HelloCateau from "../images/desktop/noticias/HK.png";
 import BleachSpinOff from "../images/desktop/noticias/2023/Bleach.jpg";
 import FallGuysTycoon from "../images/desktop/noticias/2022/FallGuys.jpg";
-import useGeo from "../hooks/useGeo";
 import esBackground from "../images/mobile/home/bannerHomeEsp.webp";
 import enBackground from "../images/mobile/home/bannerHomeEn.webp";
 import esBackgroundDesk from "../images/desktop/home/bannerHomeEsp.webp";
@@ -25,9 +23,7 @@ const imgMapDesk = { en: enBackgroundDesk, es: esBackgroundDesk };
 const IndexPage = () => {
   const { t } = useTranslation("home");
   const { i18n } = useTranslation();
-  const currentLanguage = i18n.language;
   const windowSize = useWindowSize();
-  const geo = useGeo();
 
   const [lastInstaPost, setLastInstaPost] = useState([]);
 
@@ -98,8 +94,12 @@ const IndexPage = () => {
                         title={processCaption(e.caption)}
                         date={processTimestamp(e.timestamp)}
                       >
-                        <a href={e.permalink} target="_blank">
-                          <img src={Instagram} className="mas" />
+                        <a href={e.permalink} target="_blank" rel="noreferrer">
+                          <img
+                            alt="instagram"
+                            src={Instagram}
+                            className="mas"
+                          />
                         </a>
                       </NoticiasCard>
                     );
@@ -115,8 +115,9 @@ const IndexPage = () => {
                     <a
                       href="https://www.instagram.com/p/CiIM85IDQX0/?igshid=YmMyMTA2M2Y="
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="instagram" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                   <NoticiasCard
@@ -127,8 +128,9 @@ const IndexPage = () => {
                     <a
                       href="https://www.instagram.com/p/CosowM4rij9/"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="instagram" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                   <NoticiasCard
@@ -139,8 +141,9 @@ const IndexPage = () => {
                     <a
                       href="https://www.instagram.com/p/Cmc31sVNpE8/"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="instagram" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                 </>
@@ -184,8 +187,12 @@ const IndexPage = () => {
                         title={processCaption(e.caption)}
                         date={processTimestamp(e.timestamp)}
                       >
-                        <a href={e.permalink} target="_blank">
-                          <img src={Instagram} className="mas" />
+                        <a href={e.permalink} target="_blank" rel="noreferrer">
+                          <img
+                            alt="instagram"
+                            src={Instagram}
+                            className="mas"
+                          />
                         </a>
                       </NoticiasCard>
                     );
@@ -201,8 +208,9 @@ const IndexPage = () => {
                     <a
                       href="https://www.instagram.com/p/CiIM85IDQX0/?igshid=YmMyMTA2M2Y="
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="instagram" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                   <NoticiasCard
@@ -213,8 +221,9 @@ const IndexPage = () => {
                     <a
                       href="https://www.instagram.com/p/CosowM4rij9/"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="instagram" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                   <NoticiasCard
@@ -225,8 +234,9 @@ const IndexPage = () => {
                     <a
                       href="https://www.instagram.com/p/Cmc31sVNpE8/"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <img src={Instagram} className="mas" />
+                      <img alt="instagram" src={Instagram} className="mas" />
                     </a>
                   </NoticiasCard>
                 </>
@@ -248,7 +258,7 @@ const IndexPage = () => {
                 <Button buttonText={t("contact")} href={"/contact"} />
               </div>
             </div>
-            <img src={Oficinadesk} className="oficinaDesk" />
+            <img alt="Oficinadesk" src={Oficinadesk} className="oficinaDesk" />
           </div>
         </div>
       )}

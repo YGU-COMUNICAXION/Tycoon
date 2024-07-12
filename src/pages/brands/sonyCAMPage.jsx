@@ -8,20 +8,19 @@ import Paddington from "../../images/desktop/marcas/sony/paddingto.png";
 import Ghost from "../../images/desktop/marcas/sony/ghost.png";
 import Boys from "../../images/desktop/marcas/sony/theboys.png";
 import Karatekid from "../../images/desktop/marcas/sony/karatekid.png";
-import useGeo from "../../hooks/useGeo";
 
 const SonyPage = () => {
-  const geo = useGeo();
+
 
   return (
     <Layout>
       <MarcaPage backgroundImage={SonnyBanner}>
-        <img src={Braking} />
-        <img src={Cobra} />
-        <img src={Ghost} />
-        <img src={Paddington} />
-        <img src={Boys} />
-        <img src={Karatekid} />
+        <img alt="marca" src={Braking} />
+        <img alt="marca" src={Cobra} />
+        <img alt="marca" src={Ghost} />
+        <img alt="marca" src={Paddington} />
+        <img alt="marca" src={Boys} />
+        <img alt="marca" src={Karatekid} />
       </MarcaPage>
     </Layout>
   );

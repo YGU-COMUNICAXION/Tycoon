@@ -5,21 +5,18 @@ import HersheysBanner from "../../images/desktop/marcas/hersheys/hersheysBanner.
 import Reeses from "../../images/desktop/marcas/hersheys/reeses.png"
 import Kisses from "../../images/desktop/marcas/hersheys/kisses.png"
 import Joly from "../../images/desktop/marcas/hersheys/joly.png"
-import Pelon from "../../images/desktop/marcas/hersheys/pelon.png"
 import HersheysW from "../../images/desktop/marcas/hersheys/hersheys.png"
 
-import useGeo from '../../hooks/useGeo'
 
 const HersheysPage = () => {
-  const geo = useGeo();  
 
   return (
     <Layout>
       <MarcaPage backgroundImage={HersheysBanner}>
-        <img src={HersheysW}/>
-        <img src={Joly}/>
-        <img src={Kisses}/>
-        <img src={Reeses}/>
+        <img alt="marca" src={HersheysW}/>
+        <img alt="marca" src={Joly}/>
+        <img alt="marca" src={Kisses}/>
+        <img alt="marca" src={Reeses}/>
       </MarcaPage>
     </Layout>
   )

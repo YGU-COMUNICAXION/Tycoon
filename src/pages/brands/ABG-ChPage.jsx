@@ -22,34 +22,32 @@ import Sports from "../../images/desktop/marcas/abgfashion/sports.png"
 import Tapout from "../../images/desktop/marcas/abgfashion/tapout.png"
 import Vision from "../../images/desktop/marcas/abgfashion/visionstreet.png"
 import Nautica from "../../images/desktop/marcas/abgfashion/nautica.png"
-import useGeo from '../../hooks/useGeo'
 
 const AbgCePage = () => {
-  const geo = useGeo();  
 
   return (
     <Layout>
       <MarcaPage backgroundImage={AbgCelebsBanner}>
-        <img src={Thalia}/>
-        <img src={Muhhamad}/>
-        <img src={Elvis}/>
-        <img src={Marilyn}/>
-        <img src={Shaq}/>
-        <img src={Nautica}/>
-        <img src={Nine}/>
-        <img src={Aereopostal}/>
-        <img src={Juicy}/>
-        <img src={Jones}/>
-        <img src={Airwalk}/>
-        <img src={Spyder}/>
-        <img src={Tapout}/>
-        <img src={Prince}/>
-        <img src={Eddie}/>
-        <img src={Lucky}/>
-        <img src={Vision}/>
-        <img src={Izod}/>
-        <img src={Rebook}/>
-        <img src={Sports}/>
+        <img alt="marca" src={Thalia}/>
+        <img alt="marca" src={Muhhamad}/>
+        <img alt="marca" src={Elvis}/>
+        <img alt="marca" src={Marilyn}/>
+        <img alt="marca" src={Shaq}/>
+        <img alt="marca" src={Nautica}/>
+        <img alt="marca" src={Nine}/>
+        <img alt="marca" src={Aereopostal}/>
+        <img alt="marca" src={Juicy}/>
+        <img alt="marca" src={Jones}/>
+        <img alt="marca" src={Airwalk}/>
+        <img alt="marca" src={Spyder}/>
+        <img alt="marca" src={Tapout}/>
+        <img alt="marca" src={Prince}/>
+        <img alt="marca" src={Eddie}/>
+        <img alt="marca" src={Lucky}/>
+        <img alt="marca" src={Vision}/>
+        <img alt="marca" src={Izod}/>
+        <img alt="marca" src={Rebook}/>
+        <img alt="marca" src={Sports}/>
       </MarcaPage>
     </Layout>
   )
