@@ -270,6 +270,7 @@ const NewsPage = () => {
           <div className="pagingBtns">
             {allInstaPost.paging.previous && (
               <button
+                style={{ justifyContent: "center" }}
                 onClick={async () => {
                   newsSection.current.scrollIntoView({ behavior: "smooth" });
                   setLoading(true);
@@ -283,6 +284,7 @@ const NewsPage = () => {
 
             {allInstaPost.paging.next && (
               <button
+                style={{ justifyContent: "center" }}
                 onClick={async () => {
                   newsSection.current.scrollIntoView({ behavior: "smooth" });
                   setLoading(true);
