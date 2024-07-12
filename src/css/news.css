@@ -45,6 +45,7 @@
     border: none;
     padding: 1rem 1.5rem;
     min-width: 8rem;
+    text-align: center;
   }
 
   button:hover {
