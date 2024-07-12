@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import renderStringHMTLtoJSX from "../utils/renderStringHTMLtoJSX";
 import Layout from "../components/layout";
@@ -25,8 +25,11 @@ const NewsPage = () => {
 
   const [lastInstaPost, setLastInstaPost] = useState([]);
   const [allInstaPost, setAllInstaPost] = useState();
+  const [loading, setLoading] = useState(false);
+  const newsSection = useRef();
 
   useEffect(() => {
+    setLoading(true);
     const fetchInstagramData = async (url) => {
       try {
         let response = await fetch(url);
@@ -49,7 +52,7 @@ const NewsPage = () => {
       const last3 = postsInstagram.data.slice(0, 3);
       setLastInstaPost(last3);
       setAllInstaPost(postsInstagram);
-      console.log(allInstaPost);
+      setLoading(false);
     };
 
     fetchData();
@@ -70,6 +73,23 @@ const NewsPage = () => {
     const month = (date.getMonth() + 1).toString().padStart(2, "0"); // Months are zero-based
     const year = date.getFullYear();
     return `${day}/${month}/${year}`;
+  };
+
+  const getInstagramPostPage = async (url) => {
+    try {
+      let response = await fetch(url);
+      if (!response.ok) {
+        throw new Error("Network response was not ok " + response.statusText);
+      }
+      let data = await response.json();
+      setAllInstaPost(data);
+      return true;
+    } catch (error) {
+      console.error(
+        "There has been a problem with your fetch operation:",
+        error
+      );
+    }
   };
 
   return (
@@ -224,11 +244,16 @@ const NewsPage = () => {
         </div>
       )}
 
-      <div className="newsThirdSection">
+      <section ref={newsSection} className="newsThirdSection">
         <h2 className="sectionTitle">{t("newstitle")}</h2>
 
-        <section className="newsSection">
-          {allInstaPost &&
+        <div className="newsSection">
+          {loading ? (
+            <div className="loaderContainer">
+              <div className="custom-loader"></div>
+            </div>
+          ) : (
+            allInstaPost &&
             allInstaPost.data.map((e, index) => {
               return (
                 <NoticiasCard
@@ -242,9 +267,36 @@ const NewsPage = () => {
                   </a>
                 </NoticiasCard>
               );
-            })}
-        </section>
-      </div>
+            })
+          )}
+        </div>
+
+        {allInstaPost && (
+          <div className="pagingBtns">
+            {allInstaPost.paging.previous && (
+              <button
+                onClick={() => {
+                  getInstagramPostPage(allInstaPost.paging.previous);
+                  newsSection.current.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Atrás
+              </button>
+            )}
+
+            {allInstaPost.paging.next && (
+              <button
+                onClick={async () => {
+                  newsSection.current.scrollIntoView({ behavior: "smooth" });
+                  await getInstagramPostPage(allInstaPost.paging.next);
+                }}
+              >
+                Siguiente
+              </button>
+            )}
+          </div>
+        )}
+      </section>
     </Layout>
   );
 };
