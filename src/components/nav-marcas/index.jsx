@@ -27,10 +27,9 @@ import Abg1Open from "../../images/brands_desktop/abg1_desktopOpen.png";
 import Barcelona from "../../images/brands_desktop/barcelona_desktop.png";
 import Paris from "../../images/brands_desktop/paris_desktop.png";
 import ChupaChups from "../../images/brands_desktop/chupachups_desktop.png";
-import Crayola from "../../images/brands_desktop/crayola_desktop.png";
+import Crayola from "../../images/brands_desktop/crayola.jpg";
 import Hersheys from "../../images/brands_desktop/hersheys_desktop.png";
 import HersheysOpen from "../../images/brands_desktop/hersheysOpen.png";
-import Kellogs from "../../images/brands_desktop/kellogs_desktop.png";
 import Playmobil from "../../images/brands_desktop/playmobil_desktop.png";
 import AnaEmilia from "../../images/brands_desktop/ana_emilia_desktop.png";
 import Bt21 from "../../images/brands_desktop/bt21_desktop.png";
@@ -48,10 +47,8 @@ import Pubg from "../../images/brands_desktop/pubg_desktop.png";
 import Apex from "../../images/brands_desktop/apex_desktop.png";
 import Frida from "../../images/brands_desktop/frida_desktop.png";
 import Head from "../../images/brands_desktop/head_desktop.png";
-import Panam from "../../images/brands_desktop/panam_desktop.png";
 import Universal from "../../images/brands_desktop/universal_desktop.png";
 import SpinMasterOpen from "../../images/brands_desktop/spin-master.png";
-import Cinabbon from "../../images/brands_desktop/Cinabbon.jpg";
 import Molang from "../../images/brands_desktop/Molang.png";
 import Realmadrid from "../../images/brands_desktop/Realmadrid.jpg";
 import useGeo from "../../hooks/useGeo";
@@ -599,9 +596,6 @@ export default function NavMarcas() {
               <img src={ChupaChups} alt="" />
             </Link>
             <Link>
-              <img src={Cinabbon} alt="" />
-            </Link>
-            <Link>
               <img src={Crayola} alt="" />
             </Link>
             <Link to="/brands/hersheys-Mx">
@@ -685,9 +679,6 @@ export default function NavMarcas() {
             <Link>
               <img src={Frida} alt="" />
             </Link>
-            <Link>
-              <img src={Head} alt="" />
-            </Link>
           </div>
         ) : show === 1 && info === "deportivas" ? (
           <div className="images_per_row">
@@ -732,9 +723,6 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={ChupaChups} alt="" />
-            </Link>
-            <Link>
-              <img src={Cinabbon} alt="" />
             </Link>
             <Link>
               <img src={Crayola} alt="" />
