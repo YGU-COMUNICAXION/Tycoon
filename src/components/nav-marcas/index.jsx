@@ -51,6 +51,7 @@ import Universal from "../../images/brands_desktop/universal_desktop.png";
 import SpinMasterOpen from "../../images/brands_desktop/spin-master.png";
 import Molang from "../../images/brands_desktop/Molang.png";
 import Realmadrid from "../../images/brands_desktop/Realmadrid.jpg";
+import imgParamountOpen from "../../images/brands_desktop/paramount.jpg";
 import useGeo from "../../hooks/useGeo";
 
 const StyledNavMarcas = styled.div`
@@ -467,6 +468,9 @@ export default function NavMarcas() {
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
             </Link>
+            <Link to="/brands/paramount">
+              <img src={imgParamountOpen} alt="" />
+            </Link>
             <Link>
               <img src={Pusheen} alt="" />
             </Link>
@@ -551,6 +555,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
+            </Link>
+            <Link to="/brands/paramount">
+              <img src={imgParamountOpen} alt="" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -733,7 +740,7 @@ export default function NavMarcas() {
             <Link>
               <img src={Barcelona} alt="" />
             </Link>
-  
+
             <Link>
               <img src={FreeFire} alt="" />
             </Link>
@@ -979,6 +986,9 @@ export default function NavMarcas() {
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
             </Link>
+            <Link to="/brands/paramount">
+              <img src={imgParamountOpen} alt="" />
+            </Link>
             <Link>
               <img src={Pusheen} alt="" />
             </Link>
@@ -1071,6 +1081,9 @@ export default function NavMarcas() {
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
             </Link>
+            <Link to="/brands/paramount">
+              <img src={imgParamountOpen} alt="" />
+            </Link>
             <Link>
               <img src={Paris} alt="" />
             </Link>
@@ -1123,6 +1136,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={MasterChef} alt="" />
+            </Link>
+            <Link to="/brands/paramount">
+              <img src={imgParamountOpen} alt="" />
             </Link>
             <Link to="/brands/pepsico">
               <img src={Pepsico} alt="" />
@@ -1247,6 +1263,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
+            </Link>
+            <Link to="/brands/paramount">
+              <img src={imgParamountOpen} alt="" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
