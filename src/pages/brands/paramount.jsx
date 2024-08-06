@@ -34,7 +34,7 @@ import imgGrease from "../../images/desktop/marcas/paramount/grease.png";
 import imgBreakFast from "../../images/desktop/marcas/paramount/breakfast.jpg";
 import imgPadrino from "../../images/desktop/marcas/paramount/padrino.png";
 import imgTopGun from "../../images/desktop/marcas/paramount/topgun.jpg";
-import imgMissionImposible from "../../images/desktop/marcas/paramount/mision.jpg";
+import imgMissionImposible from "../../images/desktop/marcas/paramount/imposible.jpg";
 
 const Index = () => {
   return (
