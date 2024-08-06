@@ -1265,7 +1265,7 @@ export default function NavMarcas() {
               <img src={MoonbugOpen} alt="" />
             </Link>
             <Link to="/brands/paramount">
-              <img src={imgParamountOpen} alt="" />
+              <img src={imgParamountOpen} alt="pARAMOUNT" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
