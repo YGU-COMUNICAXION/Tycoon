@@ -44,7 +44,6 @@ import Hasbro from "../../images/brands_desktop/hasbro_desktop.png";
 import Mundobita from "../../images/brands_desktop/mundobita_desktop.png";
 import Pkxd from "../../images/brands_desktop/pkxd_desktop.png";
 import Pubg from "../../images/brands_desktop/pubg_desktop.png";
-import Apex from "../../images/brands_desktop/apex_desktop.png";
 import Frida from "../../images/brands_desktop/frida_desktop.png";
 import Head from "../../images/brands_desktop/head_desktop.png";
 import Universal from "../../images/brands_desktop/universal_desktop.png";
@@ -52,6 +51,7 @@ import SpinMasterOpen from "../../images/brands_desktop/spin-master.png";
 import Molang from "../../images/brands_desktop/Molang.png";
 import Realmadrid from "../../images/brands_desktop/Realmadrid.jpg";
 import imgParamountOpen from "../../images/brands_desktop/paramount.jpg";
+import imgKingsLeague from "../../images/brands_desktop/kings_league.jpg";
 import useGeo from "../../hooks/useGeo";
 
 const StyledNavMarcas = styled.div`
@@ -501,12 +501,11 @@ export default function NavMarcas() {
           </div>
         ) : show === 4 && info === "deportivas" ? (
           <div className="images_per_row">
-            {/* {Catalogo[0].argentina.deportivas.map((e, idx) => {
-              return <img key={idx} src={e.image.default} alt="image_icon" />;
-            })} */}
-
             <Link>
               <img src={Barcelona} alt="" />
+            </Link>
+            <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -540,6 +539,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Hersheys} alt="" />
+            </Link>
+            <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
             </Link>
             <Link>
               <img src={Kodak} alt="" />
@@ -1022,12 +1024,11 @@ export default function NavMarcas() {
           </div>
         ) : show === 5 && info === "deportivas" ? (
           <div className="images_per_row">
-            {/* {Catalogo[3].chile.deportivas.map((e, idx) => {
-              return <img key={idx} src={e.image.default} alt="image_icon" />;
-            })} */}
-
             <Link>
               <img src={Barcelona} alt="" />
+            </Link>
+            <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -1065,6 +1066,9 @@ export default function NavMarcas() {
 
             <Link>
               <img src={Hersheys} alt="" />
+            </Link>
+            <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
             </Link>
             <Link>
               <img src={Kodak} alt="" />
@@ -1124,10 +1128,6 @@ export default function NavMarcas() {
 
         {show === 6 && info === "corporativas" ? (
           <div className="images_per_row">
-            {/* {Catalogo[4].peru.corporativas.map((e, idx) => {
-              return <img key={idx} src={e.image.default} alt="image_icon" />;
-            })} */}
-
             <Link>
               <img src={Acer} alt="" />
             </Link>
@@ -1206,12 +1206,11 @@ export default function NavMarcas() {
           </div>
         ) : show === 6 && info === "deportivas" ? (
           <div className="images_per_row">
-            {/* {Catalogo[4].peru.deportivas.map((e, idx) => {
-              return <img key={idx} src={e.image.default} alt="image_icon" />;
-            })} */}
-
             <Link>
               <img src={Barcelona} alt="" />
+            </Link>
+            <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
             </Link>
             <Link>
               <img src={Paris} alt="" />
@@ -1222,9 +1221,6 @@ export default function NavMarcas() {
           </div>
         ) : show === 6 && info === "all" ? (
           <div className="images_per_row">
-            {/* {Catalogo[4].peru.all.map((e, idx) => {
-              return <img key={idx} src={e.image.default} alt="image_icon" />;
-            })} */}
             <Link to="/brands/ABG-Pe">
               <img src={Abg1Open} alt="" />
             </Link>
@@ -1248,6 +1244,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Hersheys} alt="" />
+            </Link>
+            <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
             </Link>
             <Link>
               <img src={Kodak} alt="" />
@@ -1397,6 +1396,9 @@ export default function NavMarcas() {
               <img src={Barcelona} alt="" />
             </Link>
             <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
+            </Link>
+            <Link>
               <img src={Paris} alt="" />
             </Link>
             <Link>
@@ -1443,6 +1445,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/king-Features-CAM">
               <img src={KingFeatures} alt="" />
+            </Link>
+            <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
             </Link>
             <Link>
               <img src={Kodak} alt="" />
@@ -1592,6 +1597,9 @@ export default function NavMarcas() {
               <img src={Barcelona} alt="" />
             </Link>
             <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
+            </Link>
+            <Link>
               <img src={Paris} alt="" />
             </Link>
             <Link>
@@ -1638,6 +1646,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/king-Features-Col">
               <img src={KingFeatures} alt="" />
+            </Link>
+            <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
             </Link>
             <Link>
               <img src={Kodak} alt="" />
@@ -1779,6 +1790,9 @@ export default function NavMarcas() {
               <img src={Barcelona} alt="" />
             </Link>
             <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
+            </Link>
+            <Link>
               <img src={Paris} alt="" />
             </Link>
             <Link>
@@ -1822,6 +1836,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/king-Features-Ec">
               <img src={KingFeatures} alt="" />
+            </Link>
+            <Link>
+              <img src={imgKingsLeague} alt="Kings League" />
             </Link>
             <Link>
               <img src={Kodak} alt="" />
