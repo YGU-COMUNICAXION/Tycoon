@@ -697,9 +697,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Barcelona} alt="" />
             </Link>
-            <Link>
+            {/* <Link>
               <img src={Head} alt="" />
-            </Link>
+            </Link> */}
             <Link>
               <img src={Paris} alt="" />
             </Link>
@@ -752,9 +752,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Gears} alt="" />
             </Link>
-            <Link>
+            {/* <Link>
               <img src={Head} alt="" />
-            </Link>
+            </Link> */}
             <Link to="/brands/hersheys-Mx">
               <img src={HersheysOpen} alt="" />
             </Link>
