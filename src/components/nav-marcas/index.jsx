@@ -519,8 +519,8 @@ export default function NavMarcas() {
             {/* {Catalogo[0].argentina.all.map((e, idx) => {
               return <img key={idx} src={e.image.default} alt="image_icon" />;
             })} */}
-            <Link to="/brands/ABG-Arg">
-              <img src={Abg1Open} alt="" />
+            <Link>
+              <img src={Abg1} alt="" />
             </Link>
             <Link>
               <img src={Acer} alt="" />

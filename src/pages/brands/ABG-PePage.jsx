@@ -27,16 +27,16 @@ const AbgCePage = () => {
   return (
     <Layout>
       <MarcaPage backgroundImage={AbgCelebsBanner}>
-        <img alt="marca" src={Thalia} />
-        <img alt="marca" src={Muhhamad} />
-        <img alt="marca" src={Elvis} />
-        <img alt="marca" src={Marilyn} />
-        <img alt="marca" src={Shaq} />
-        <img alt="marca" src={Nautica} />
-        <img alt="marca" src={Nine} />
-        <img alt="marca" src={Aereopostal} />
-        <img alt="marca" src={Juicy} />
-        <img alt="marca" src={Jones} />
+        {/*<img alt="marca" src={Thalia} />*/}
+        {/*<img alt="marca" src={Muhhamad} />*/}
+        {/*<img alt="marca" src={Elvis} />*/}
+        {/*<img alt="marca" src={Marilyn} />*/}
+        {/*<img alt="marca" src={Shaq} />*/}
+        {/*<img alt="marca" src={Nautica} />*/}
+        {/*<img alt="marca" src={Nine} />*/}
+        {/*<img alt="marca" src={Aereopostal} />*/}
+        {/*<img alt="marca" src={Juicy} />*/}
+        {/*<img alt="marca" src={Jones} />*/}
         <img alt="marca" src={Airwalk} />
         <img alt="marca" src={Spyder} />
         <img alt="marca" src={Tapout} />

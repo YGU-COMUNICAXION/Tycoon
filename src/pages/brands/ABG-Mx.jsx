@@ -29,25 +29,25 @@ const Index = () => {
   return (
     <Layout>
       <MarcaPage backgroundImage={AbgCelebsBanner}>
-        <img src={Aereopostal} alt="marca-img" />
+        {/* <img src={Aereopostal} alt="marca-img" /> */}
         <img src={Airwalk} alt="marca-img" />
         <img src={Eddiebauer} alt="marca-img" />
-        <img src={Elvis} alt="marca-img" />
+        {/* <img src={Elvis} alt="marca-img" /> */}
         <img src={izod} alt="marca-img" />
-        <img src={Jones} alt="marca-img" />
-        <img src={Juicy} alt="marca-img" />
+        {/* <img src={Jones} alt="marca-img" /> */}
+        {/* <img src={Juicy} alt="marca-img" /> */}
         <img src={luckybrand} alt="marca-img" />
-        <img src={Marilyn} alt="marca-img" />
-        <img src={Muhhamad} alt="marca-img" />
-        <img src={Nautica} alt="marca-img" />
-        <img src={Nine} alt="marca-img" />
+        {/* <img src={Marilyn} alt="marca-img" /> */}
+        {/* <img src={Muhhamad} alt="marca-img" /> */}
+        {/* <img src={Nautica} alt="marca-img" /> */}
+        {/* <img src={Nine} alt="marca-img" /> */}
         <img src={princepadel} alt="marca-img" />
         <img src={reebok} alt="marca-img" />
-        <img src={Shaq} alt="marca-img" />
+        {/* <img src={Shaq} alt="marca-img" /> */}
         <img src={spider} alt="marca-img" />
         <img src={sportsillustrated} alt="marca-img" />
         <img src={tapout} alt="marca-img" />
-        <img src={Thalia} alt="marca-img" />
+        {/* <img src={Thalia} alt="marca-img" /> */}
         <img src={visionstreetwear} alt="marca-img" />
       </MarcaPage>
     </Layout>
