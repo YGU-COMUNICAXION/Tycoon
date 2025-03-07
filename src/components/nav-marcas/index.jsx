@@ -54,6 +54,10 @@ import imgParamountOpen from "../../images/brands_desktop/paramount.jpg";
 import imgKingsLeague from "../../images/brands_desktop/kings_league.jpg";
 import useGeo from "../../hooks/useGeo";
 
+import imgPoppy from "../../images/brands_desktop/poppy.png";
+import imgSmiley from "../../images/brands_desktop/smiley.png";
+import imgTelefunken from "../../images/brands_desktop/telefunken.png";
+
 const StyledNavMarcas = styled.div`
   .nav {
     width: 100% !important;
@@ -441,6 +445,9 @@ export default function NavMarcas() {
             <Link to="/brands/pepsico">
               <img src={Pepsico} alt="" />
             </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
+            </Link>
           </div>
         ) : show === 4 && info === "entretenimiento" ? (
           <div className="images_per_row">
@@ -470,6 +477,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/paramount">
               <img src={imgParamountOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
@@ -568,6 +578,9 @@ export default function NavMarcas() {
               <img src={Pepsico} alt="" />
             </Link>
             <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
+            <Link>
               <img src={Pusheen} alt="" />
             </Link>
             <Link>
@@ -581,6 +594,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
             <Link to="/brands/vizmedia-Arg">
               <img src={Viz} alt="" />
@@ -618,6 +634,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Playmobil} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
           </div>
         ) : show === 1 && info === "entretenimiento" ? (
@@ -663,6 +682,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
             </Link>
             <Link to="/brands/sanrio-Mx">
               <img src={Samri} alt="" />
@@ -788,6 +810,9 @@ export default function NavMarcas() {
             <Link>
               <img src={Realmadrid} alt="" />
             </Link>
+            <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
             <Link to="/brands/sanrio-Mx">
               <img src={Samri} alt="" />
             </Link>
@@ -796,6 +821,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
             <Link to="/brands/vizmedia-Mx">
               <img src={Viz} alt="" />
@@ -813,12 +841,14 @@ export default function NavMarcas() {
             <Link>
               <img src={Acer} alt="" />
             </Link>
-
             <Link>
               <img src={Hersheys} alt="" />
             </Link>
             <Link to="/brands/pepsico">
               <img src={Pepsico} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
           </div>
         ) : show === 8 && info === "entretenimiento" ? (
@@ -855,6 +885,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Pkxd} alt="" />
+            </Link>
+            <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
             </Link>
             <Link>
               <img src={Pubg} alt="" />
@@ -927,10 +960,16 @@ export default function NavMarcas() {
               <img src={Pkxd} alt="" />
             </Link>
             <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
+            <Link>
               <img src={Pubg} alt="" />
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
           </div>
         ) : null}
@@ -957,6 +996,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Playmobil} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
           </div>
         ) : show === 5 && info === "entretenimiento" ? (
@@ -990,6 +1032,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/paramount">
               <img src={imgParamountOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
@@ -1098,6 +1143,9 @@ export default function NavMarcas() {
               <img src={Playmobil} alt="" />
             </Link>
             <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
+            <Link>
               <img src={Pusheen} alt="" />
             </Link>
             <Link>
@@ -1117,6 +1165,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/vizmedia-Ch">
               <img src={Viz} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
             <Link to="/brands/warner-Ch">
               <img src={Wb} alt="" />
@@ -1145,6 +1196,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Playmobil} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
           </div>
         ) : show === 6 && info === "entretenimiento" ? (
@@ -1178,6 +1232,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
             </Link>
             <Link>
               <img src={Pusheen} alt="" />
@@ -1276,6 +1333,9 @@ export default function NavMarcas() {
               <img src={Playmobil} alt="" />
             </Link>
             <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
+            <Link>
               <img src={Pusheen} alt="" />
             </Link>
             <Link>
@@ -1286,6 +1346,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
             <Link to="/brands/universal-Pe">
               <img src={Universal} alt="" />
@@ -1322,6 +1385,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Playmobil} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
           </div>
         ) : show === 7 && info === "entretenimiento" ? (
@@ -1360,6 +1426,9 @@ export default function NavMarcas() {
               <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
+            <Link>
               <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sanrio-CAM">
@@ -1386,6 +1455,9 @@ export default function NavMarcas() {
             {/* <Link to="/brands/ABG-CAM">
               <img src={Abg1Open} alt="" />
             </Link> */}
+            <Link>
+              <img src={imgSmiley} alt="Smiley" />
+            </Link>
           </div>
         ) : show === 7 && info === "deportivas" ? (
           <div className="images_per_row">
@@ -1474,6 +1546,9 @@ export default function NavMarcas() {
               <img src={Playmobil} alt="" />
             </Link>
             <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
+            <Link>
               <img src={Pusheen} alt="" />
             </Link>
             <Link>
@@ -1485,8 +1560,14 @@ export default function NavMarcas() {
             <Link to="/brands/sony-CAM">
               <img src={SonyOpen} alt="" />
             </Link>
+            <Link>
+              <img src={imgSmiley} alt="Smiley" />
+            </Link>
             <Link to="/brands/spinmaster-CAM">
               <img src={SpinMasterOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
             <Link to="/brands/universal-CAM">
               <img src={Universal} alt="" />
@@ -1523,6 +1604,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Playmobil} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
           </div>
         ) : show === 2 && info === "entretenimiento" ? (
@@ -1561,6 +1645,9 @@ export default function NavMarcas() {
               <img src={MoonbugOpen} alt="" />
             </Link>
             <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
+            <Link>
               <img src={Pusheen} alt="" />
             </Link>
             <Link to="/brands/sanrio-Col">
@@ -1587,6 +1674,9 @@ export default function NavMarcas() {
             {/* <Link>
               <img src={Abg1} alt="" />
             </Link> */}
+            <Link>
+              <img src={imgSmiley} alt="Smiley" />
+            </Link>
           </div>
         ) : show === 2 && info === "deportivas" ? (
           <div className="images_per_row">
@@ -1675,6 +1765,9 @@ export default function NavMarcas() {
               <img src={Playmobil} alt="" />
             </Link>
             <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
+            <Link>
               <img src={Pusheen} alt="" />
             </Link>
             <Link>
@@ -1688,6 +1781,12 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgSmiley} alt="Smiley" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
             <Link to="/brands/universal-Col">
               <img src={Universal} alt="" />
@@ -1722,6 +1821,9 @@ export default function NavMarcas() {
             </Link>
             <Link>
               <img src={Playmobil} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
           </div>
         ) : show === 3 && info === "entretenimiento" ? (
@@ -1759,6 +1861,9 @@ export default function NavMarcas() {
             <Link to="/brands/moonbug">
               <img src={MoonbugOpen} alt="" />
             </Link>
+            <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
             <Link to="/brands/sony-Ec">
               <img src={SonyOpen} alt="" />
             </Link>
@@ -1780,6 +1885,9 @@ export default function NavMarcas() {
             {/* <Link>
               <img src={Abg1} alt="" />
             </Link> */}
+                <Link>
+              <img src={imgSmiley} alt="Smiley" />
+            </Link>
           </div>
         ) : show === 3 && info === "deportivas" ? (
           <div className="images_per_row">
@@ -1865,13 +1973,22 @@ export default function NavMarcas() {
               <img src={Playmobil} alt="" />
             </Link>
             <Link>
+              <img src={imgPoppy} alt="Poppy playtime" />
+            </Link>
+            <Link>
               <img src={Realmadrid} alt="" />
             </Link>
             <Link to="/brands/sony-Ec">
               <img src={SonyOpen} alt="" />
             </Link>
+            <Link>
+              <img src={imgSmiley} alt="Smiley" />
+            </Link>
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgTelefunken} alt="Telefunken" />
             </Link>
             <Link to="/brands/universal-Ec">
               <img src={Universal} alt="" />
