@@ -57,6 +57,7 @@ import useGeo from "../../hooks/useGeo";
 import imgPoppy from "../../images/brands_desktop/poppy.png";
 import imgSmiley from "../../images/brands_desktop/smiley.png";
 import imgTelefunken from "../../images/brands_desktop/telefunken.png";
+import imgStumbleGuys from "../../images/brands_desktop/stumbleGuys.jpg";
 
 const StyledNavMarcas = styled.div`
   .nav {
@@ -695,6 +696,9 @@ export default function NavMarcas() {
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
             </Link>
+            <Link>
+              <img src={imgStumbleGuys} alt="" />
+            </Link>
             <Link to="/brands/vizmedia-Mx">
               <img src={Viz} alt="" />
             </Link>
@@ -821,6 +825,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgStumbleGuys} alt="" />
             </Link>
             <Link>
               <img src={imgTelefunken} alt="Telefunken" />
@@ -1245,6 +1252,9 @@ export default function NavMarcas() {
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
             </Link>
+            <Link>
+              <img src={imgStumbleGuys} alt="" />
+            </Link>
             <Link to="/brands/vizmedia-Pe">
               <img src={Viz} alt="" />
             </Link>
@@ -1346,6 +1356,9 @@ export default function NavMarcas() {
             </Link>
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
+            </Link>
+            <Link>
+              <img src={imgStumbleGuys} alt="" />
             </Link>
             <Link>
               <img src={imgTelefunken} alt="Telefunken" />
@@ -1885,7 +1898,7 @@ export default function NavMarcas() {
             {/* <Link>
               <img src={Abg1} alt="" />
             </Link> */}
-                <Link>
+            <Link>
               <img src={imgSmiley} alt="Smiley" />
             </Link>
           </div>
