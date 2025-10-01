@@ -696,9 +696,9 @@ export default function NavMarcas() {
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
             </Link>
-            <Link>
+            {/* <Link>
               <img src={imgStumbleGuys} alt="" />
-            </Link>
+            </Link> */}
             <Link to="/brands/vizmedia-Mx">
               <img src={Viz} alt="" />
             </Link>
@@ -826,9 +826,9 @@ export default function NavMarcas() {
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
             </Link>
-            <Link>
+            {/* <Link>
               <img src={imgStumbleGuys} alt="" />
-            </Link>
+            </Link> */}
             <Link>
               <img src={imgTelefunken} alt="Telefunken" />
             </Link>
@@ -1252,9 +1252,9 @@ export default function NavMarcas() {
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
             </Link>
-            <Link>
+            {/* <Link>
               <img src={imgStumbleGuys} alt="" />
-            </Link>
+            </Link> */}
             <Link to="/brands/vizmedia-Pe">
               <img src={Viz} alt="" />
             </Link>
@@ -1357,9 +1357,9 @@ export default function NavMarcas() {
             <Link to="/brands/spinmaster">
               <img src={SpinMasterOpen} alt="" />
             </Link>
-            <Link>
+            {/* <Link>
               <img src={imgStumbleGuys} alt="" />
-            </Link>
+            </Link> */}
             <Link>
               <img src={imgTelefunken} alt="Telefunken" />
             </Link>
